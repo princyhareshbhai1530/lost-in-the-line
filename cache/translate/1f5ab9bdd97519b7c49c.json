@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "警方說，屍體看起來已擺在那裡一天左右。",
+ "english": "Police said the body looked like it had been lying there for about a day.",
+ "clip": "yue_hant_hk_1656",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 110
+}

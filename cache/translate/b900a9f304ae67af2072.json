@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "当米勒被要求发表评论时，他表示：“默克在听证会上说了很多，我那时正在做准备，所以其实没听到他说了什么。”",
+ "english": "When Miller was asked to comment, he stated: \"Merck said a lot at the hearing, I was preparing at that time, so I actually didn't hear what he said.\"",
+ "clip": "yue_hant_hk_1644",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 42
+}

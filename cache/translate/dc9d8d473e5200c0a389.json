@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "一些报道称官方宣布的死亡人数为 8 人，而据官方报道证实，有多达 30 人受伤；但是最终的数字尚未确定。",
+ "english": "Some reports state that the officially announced death toll is 8, and official reports confirm that as many as 30 people were injured; however, the final figures have not yet been determined.",
+ "clip": "cmn_hans_cn_1629",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

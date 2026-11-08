@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "No adro da igreja, há interessantes esculturas em mármore de pombas sobre tumbas de pessoas.",
+ "english": "In the churchyard, there are interesting marble sculptures of doves on people's tombs.",
+ "clip": "pt_br_1555",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

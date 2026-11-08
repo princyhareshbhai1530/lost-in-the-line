@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "તમે તેને અનુભવો છો કે નહીં તેની મને ખબર  નથી, પરંતુ સેન્ટ્રલ અમેરિકામાંથી મોટા ભાગનો સામાન આ દેશમાં કર મુક્ત આવ્યો હતો.",
+ "english": "I don't know whether you feel it or not, but most of the goods from Central America came duty-free into this country.",
+ "clip": "gu_in_1654",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

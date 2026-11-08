@@ -1,0 +1,1471 @@
+{
+ "hint_languages": [
+  "Cantonese",
+  "Punjabi",
+  "Urdu"
+ ],
+ "hint_selection": "the 3 languages with the most wrong-language or wrong-script transcripts in the auto-detect run (all others had none)",
+ "per_language": [
+  {
+   "language": "Cantonese",
+   "n_clips": 40,
+   "n_with_facts": 23,
+   "cer_auto": {
+    "est": 0.246,
+    "lo": 0.1887,
+    "hi": 0.3047,
+    "n": 40,
+    "n_clusters": 40
+   },
+   "cer_hint": {
+    "est": 0.2144,
+    "lo": 0.1568,
+    "hi": 0.2727,
+    "n": 40,
+    "n_clusters": 40
+   },
+   "delta_cer": {
+    "est": -0.0315,
+    "lo": -0.0675,
+    "hi": -0.004,
+    "n": 40,
+    "n_clusters": 40
+   },
+   "detect_ok_auto": {
+    "est": 0.4,
+    "lo": 0.25,
+    "hi": 0.55,
+    "n": 40,
+    "n_clusters": 40
+   },
+   "detect_ok_hint": {
+    "est": 0.525,
+    "lo": 0.375,
+    "hi": 0.675,
+    "n": 40,
+    "n_clusters": 40
+   },
+   "delta_detect_ok": {
+    "est": 0.125,
+    "lo": 0.025,
+    "hi": 0.225,
+    "n": 40,
+    "n_clusters": 40
+   },
+   "fact_survival_auto": {
+    "est": 0.9762,
+    "lo": 0.925,
+    "hi": 1.0,
+    "n": 23,
+    "n_clusters": 23
+   },
+   "fact_survival_hint": {
+    "est": 0.9524,
+    "lo": 0.8864,
+    "hi": 1.0,
+    "n": 23,
+    "n_clusters": 23
+   },
+   "delta_fact_survival": {
+    "est": -0.0238,
+    "lo": -0.0789,
+    "hi": 0.0,
+    "n": 23,
+    "n_clusters": 23
+   },
+   "facts_ok_auto": 22,
+   "facts_ok_hint": 21,
+   "sem_pass_auto": {
+    "est": 0.9,
+    "lo": 0.8,
+    "hi": 0.975,
+    "n": 40,
+    "n_clusters": 40
+   },
+   "sem_pass_hint": {
+    "est": 0.9,
+    "lo": 0.8,
+    "hi": 0.975,
+    "n": 40,
+    "n_clusters": 40
+   }
+  },
+  {
+   "language": "Punjabi",
+   "n_clips": 40,
+   "n_with_facts": 23,
+   "cer_auto": {
+    "est": 0.0892,
+    "lo": 0.0347,
+    "hi": 0.1676,
+    "n": 40,
+    "n_clusters": 40
+   },
+   "cer_hint": {
+    "est": 0.0763,
+    "lo": 0.035,
+    "hi": 0.1445,
+    "n": 40,
+    "n_clusters": 40
+   },
+   "delta_cer": {
+    "est": -0.0129,
+    "lo": -0.0475,
+    "hi": 0.0067,
+    "n": 40,
+    "n_clusters": 40
+   },
+   "detect_ok_auto": {
+    "est": 0.95,
+    "lo": 0.875,
+    "hi": 1.0,
+    "n": 40,
+    "n_clusters": 40
+   },
+   "detect_ok_hint": {
+    "est": 0.975,
+    "lo": 0.925,
+    "hi": 1.0,
+    "n": 40,
+    "n_clusters": 40
+   },
+   "delta_detect_ok": {
+    "est": 0.025,
+    "lo": 0.0,
+    "hi": 0.075,
+    "n": 40,
+    "n_clusters": 40
+   },
+   "fact_survival_auto": {
+    "est": 0.9762,
+    "lo": 0.925,
+    "hi": 1.0,
+    "n": 23,
+    "n_clusters": 23
+   },
+   "fact_survival_hint": {
+    "est": 0.9762,
+    "lo": 0.925,
+    "hi": 1.0,
+    "n": 23,
+    "n_clusters": 23
+   },
+   "delta_fact_survival": {
+    "est": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 23,
+    "n_clusters": 23
+   },
+   "facts_ok_auto": 22,
+   "facts_ok_hint": 22,
+   "sem_pass_auto": {
+    "est": 0.725,
+    "lo": 0.575,
+    "hi": 0.85,
+    "n": 40,
+    "n_clusters": 40
+   },
+   "sem_pass_hint": {
+    "est": 0.725,
+    "lo": 0.575,
+    "hi": 0.85,
+    "n": 40,
+    "n_clusters": 40
+   }
+  },
+  {
+   "language": "Urdu",
+   "n_clips": 40,
+   "n_with_facts": 23,
+   "cer_auto": {
+    "est": 0.215,
+    "lo": 0.1111,
+    "hi": 0.3398,
+    "n": 40,
+    "n_clusters": 40
+   },
+   "cer_hint": {
+    "est": 0.0364,
+    "lo": 0.0234,
+    "hi": 0.0512,
+    "n": 40,
+    "n_clusters": 40
+   },
+   "delta_cer": {
+    "est": -0.1787,
+    "lo": -0.3051,
+    "hi": -0.0763,
+    "n": 40,
+    "n_clusters": 40
+   },
+   "detect_ok_auto": {
+    "est": 0.825,
+    "lo": 0.7,
+    "hi": 0.925,
+    "n": 40,
+    "n_clusters": 40
+   },
+   "detect_ok_hint": {
+    "est": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 40,
+    "n_clusters": 40
+   },
+   "delta_detect_ok": {
+    "est": 0.175,
+    "lo": 0.075,
+    "hi": 0.3,
+    "n": 40,
+    "n_clusters": 40
+   },
+   "fact_survival_auto": {
+    "est": 0.9762,
+    "lo": 0.9333,
+    "hi": 1.0,
+    "n": 23,
+    "n_clusters": 23
+   },
+   "fact_survival_hint": {
+    "est": 0.9524,
+    "lo": 0.8913,
+    "hi": 1.0,
+    "n": 23,
+    "n_clusters": 23
+   },
+   "delta_fact_survival": {
+    "est": -0.0238,
+    "lo": -0.079,
+    "hi": 0.0,
+    "n": 23,
+    "n_clusters": 23
+   },
+   "facts_ok_auto": 22,
+   "facts_ok_hint": 21,
+   "sem_pass_auto": {
+    "est": 0.8,
+    "lo": 0.675,
+    "hi": 0.925,
+    "n": 40,
+    "n_clusters": 40
+   },
+   "sem_pass_hint": {
+    "est": 0.8,
+    "lo": 0.675,
+    "hi": 0.925,
+    "n": 40,
+    "n_clusters": 40
+   }
+  }
+ ],
+ "examples": [
+  {
+   "clip_id": "yue_hant_hk_1514",
+   "language": "Cantonese",
+   "audio_path": "audio/yue_hant_hk/yue_hant_hk_1514.flac",
+   "source_text": "傷員送往醫院後，打鬥停止，這時剩下的囚犯中約有 40 人留在庭院中，拒絕回去自己的牢房。",
+   "english_ref": "When the fighting ceased after the wounded were transported to the hospital, about 40 of the other remaining inmates stayed in the yard and refused to return to their cells.",
+   "auto": {
+    "detected": "zho",
+    "detect_ok": false,
+    "text": "伤员送往医院后，打斗停止。这时剩下的囚犯中约有 40 人留在庭院中，拒绝回去自己的牢房。",
+    "english": "After the injured were taken to the hospital, the fighting stopped. At this point, about 40 of the remaining prisoners stayed in the courtyard, refusing to return to their cells.",
+    "cer": 0.2368,
+    "judge": "same",
+    "facts": [
+     {
+      "type": "number",
+      "text": "40",
+      "ok": true
+     }
+    ]
+   },
+   "hint": {
+    "detected": "yue",
+    "detect_ok": false,
+    "text": "伤员送往医院后，打斗停止。这时剩下的囚犯中约有 40 人留在庭院中，拒绝回去自己的牢房。",
+    "english": "After the injured were taken to the hospital, the fighting stopped. At this point, about 40 of the remaining prisoners stayed in the courtyard, refusing to return to their cells.",
+    "cer": 0.2368,
+    "judge": "same",
+    "facts": [
+     {
+      "type": "number",
+      "text": "40",
+      "ok": true
+     }
+    ]
+   },
+   "readback_would_fire": true,
+   "readback_line": "I heard 40. Is that correct?"
+  },
+  {
+   "clip_id": "yue_hant_hk_1521",
+   "language": "Cantonese",
+   "audio_path": "audio/yue_hant_hk/yue_hant_hk_1521.flac",
+   "source_text": "太空中的人造衛星接收到訊號，並在瞬間將訊號反射回地球。",
+   "english_ref": "The satellite in space gets the call and then reflects it back down, almost instantly.",
+   "auto": {
+    "detected": "zho",
+    "detect_ok": false,
+    "text": "太空中的人造卫星接收到讯号，并在瞬间将讯号反射回地球。",
+    "english": "Artificial satellites in space receive the signal and reflect it back to Earth in an instant.",
+    "cer": 0.32,
+    "judge": "same",
+    "facts": []
+   },
+   "hint": {
+    "detected": "yue",
+    "detect_ok": false,
+    "text": "太空中的人造卫星接收到讯号，并在瞬间将讯号反射回地球。",
+    "english": "Artificial satellites in space receive the signal and reflect it back to Earth in an instant.",
+    "cer": 0.32,
+    "judge": "same",
+    "facts": []
+   },
+   "readback_would_fire": true,
+   "readback_line": "I heard Earth. Is that correct?"
+  },
+  {
+   "clip_id": "yue_hant_hk_1528",
+   "language": "Cantonese",
+   "audio_path": "audio/yue_hant_hk/yue_hant_hk_1528.flac",
+   "source_text": "針對有幼童的家庭，有些節慶會場會安排專屬的露營區域。",
+   "english_ref": "Some festivals have special camping areas for families with young children.",
+   "auto": {
+    "detected": "zho",
+    "detect_ok": false,
+    "text": "针对幼幼同啲家庭，有些节庆会场，游会场会安排专属的露营区域。",
+    "english": "For families with young children, some festival venues, festival venues will arrange dedicated camping areas.",
+    "cer": 0.7083,
+    "judge": "minor",
+    "facts": []
+   },
+   "hint": {
+    "detected": "yue",
+    "detect_ok": false,
+    "text": "针对幼幼同啲家庭，有些节庆会场，游会场会安排专属的露营区域。",
+    "english": "For families with young children, some festival venues, festival venues will arrange dedicated camping areas.",
+    "cer": 0.7083,
+    "judge": "minor",
+    "facts": []
+   },
+   "readback_would_fire": false,
+   "readback_line": ""
+  },
+  {
+   "clip_id": "yue_hant_hk_1533",
+   "language": "Cantonese",
+   "audio_path": "audio/yue_hant_hk/yue_hant_hk_1533.flac",
+   "source_text": "許多常見格式（比方 APS 先進攝影系統格式）都等同或接近這個長寬比。",
+   "english_ref": "Many common formats (APS family of formats, for example) are equal to or closely approximate this aspect ratio.",
+   "auto": {
+    "detected": "zho",
+    "detect_ok": false,
+    "text": "许多常见格式（比方 APS 先进摄影系统格式）都等同或接近这个长宽比。",
+    "english": "Many common formats (such as the APS Advanced Photo System format) are equivalent or close to this aspect ratio.",
+    "cer": 0.3,
+    "judge": "same",
+    "facts": [
+     {
+      "type": "name_place",
+      "text": "APS",
+      "ok": true
+     }
+    ]
+   },
+   "hint": {
+    "detected": "yue",
+    "detect_ok": false,
+    "text": "许多常见格式，比方 APS 先进摄影系统格式，都等同或接近这个长宽比。",
+    "english": "Many common formats, such as the APS Advanced Photo System format, are equal or close to this aspect ratio.",
+    "cer": 0.3,
+    "judge": "same",
+    "facts": [
+     {
+      "type": "name_place",
+      "text": "APS",
+      "ok": true
+     }
+    ]
+   },
+   "readback_would_fire": true,
+   "readback_line": "I heard APS Advanced Photo System. Is that correct?"
+  },
+  {
+   "clip_id": "yue_hant_hk_1551",
+   "language": "Cantonese",
+   "audio_path": "audio/yue_hant_hk/yue_hant_hk_1551.flac",
+   "source_text": "他們仍在試著判斷撞擊的規模以及對地球的影響。",
+   "english_ref": "They are still trying to determine just how large the crash was and how the Earth will be affected.",
+   "auto": {
+    "detected": "zho",
+    "detect_ok": false,
+    "text": "他们仍在试着判断撞击的规模以及对地球的影响。",
+    "english": "They are still trying to determine the scale of the impact and its effects on the Earth.",
+    "cer": 0.381,
+    "judge": "same",
+    "facts": [
+     {
+      "type": "name_place",
+      "text": "Earth",
+      "ok": true
+     }
+    ]
+   },
+   "hint": {
+    "detected": "yue",
+    "detect_ok": true,
+    "text": "他們仍在試著判斷撞擊的規模以及對地球的影響。",
+    "english": "They are still trying to determine the scale of the impact and its effects on the Earth.",
+    "cer": 0.0,
+    "judge": "same",
+    "facts": [
+     {
+      "type": "name_place",
+      "text": "Earth",
+      "ok": true
+     }
+    ]
+   },
+   "readback_would_fire": true,
+   "readback_line": "I heard Earth. Is that correct?"
+  },
+  {
+   "clip_id": "yue_hant_hk_1560",
+   "language": "Cantonese",
+   "audio_path": "audio/yue_hant_hk/yue_hant_hk_1560.flac",
+   "source_text": "一旦您脫離了洋流，游回岸並不比平時困難。",
+   "english_ref": "As soon as you get out of the current, swimming back is no more difficult than normally.",
+   "auto": {
+    "detected": "jpn",
+    "detect_ok": false,
+    "text": "一旦你脫離了弱流，游回岸並不比平時困難。",
+    "english": "Once you break free from the weak current, swimming back to shore is no more difficult than usual.",
+    "cer": 0.1111,
+    "judge": "changed",
+    "facts": [
+     {
+      "type": "negation",
+      "text": "no",
+      "ok": true
+     }
+    ]
+   },
+   "hint": {
+    "detected": "yue",
+    "detect_ok": true,
+    "text": "一旦你脫離了弱流，游回岸並不比平時困難。",
+    "english": "Once you break free from the weak current, swimming back to shore is no more difficult than usual.",
+    "cer": 0.1111,
+    "judge": "changed",
+    "facts": [
+     {
+      "type": "negation",
+      "text": "no",
+      "ok": true
+     }
+    ]
+   },
+   "readback_would_fire": true,
+   "readback_line": "I heard that it was NOT so. Is that correct?"
+  },
+  {
+   "clip_id": "yue_hant_hk_1566",
+   "language": "Cantonese",
+   "audio_path": "audio/yue_hant_hk/yue_hant_hk_1566.flac",
+   "source_text": "但我們有 80% 的商品被中美洲國家徵稅。我們對待你。",
+   "english_ref": "Yet eighty percent of our goods were taxed through tariffs in Central American countries. we treat you.",
+   "auto": {
+    "detected": "zho",
+    "detect_ok": false,
+    "text": "但我们有百分之八十的商品被中美洲国家征税。我们对代理。",
+    "english": "But eighty percent of our goods are taxed by Central American countries. We toward agency.",
+    "cer": 0.5909,
+    "judge": "changed",
+    "facts": [
+     {
+      "type": "number",
+      "text": "eighty",
+      "ok": true
+     },
+     {
+      "type": "name_place",
+      "text": "Central American",
+      "ok": true
+     }
+    ]
+   },
+   "hint": {
+    "detected": "yue",
+    "detect_ok": false,
+    "text": "但我们有八分之一的商品被中美洲国家征税。我们对代理。",
+    "english": "But one-eighth of our goods are taxed by Central American countries. We to the agents.",
+    "cer": 0.5455,
+    "judge": "changed",
+    "facts": [
+     {
+      "type": "number",
+      "text": "eighty",
+      "ok": false
+     },
+     {
+      "type": "name_place",
+      "text": "Central American",
+      "ok": true
+     }
+    ]
+   },
+   "readback_would_fire": true,
+   "readback_line": "I heard eighty. Is that correct?"
+  },
+  {
+   "clip_id": "yue_hant_hk_1569",
+   "language": "Cantonese",
+   "audio_path": "audio/yue_hant_hk/yue_hant_hk_1569.flac",
+   "source_text": "此報告開頭先請求美國針對中東政策進行公開辯論並形成共識。",
+   "english_ref": "The Report opens with plea for open debate and the formation of a consensus in the United States about the policy towards the Middle East.",
+   "auto": {
+    "detected": "zho",
+    "detect_ok": false,
+    "text": "此报告开头先请求美国针对中东政策进行公开辩论并形成共识。",
+    "english": "This report begins by requesting the United States to conduct an open debate and form a consensus on Middle East policy.",
+    "cer": 0.5185,
+    "judge": "minor",
+    "facts": [
+     {
+      "type": "name_place",
+      "text": "Report",
+      "ok": true
+     },
+     {
+      "type": "name_place",
+      "text": "United States",
+      "ok": true
+     },
+     {
+      "type": "name_place",
+      "text": "Middle East",
+      "ok": true
+     }
+    ]
+   },
+   "hint": {
+    "detected": "yue",
+    "detect_ok": true,
+    "text": "此報告開頭先請求美國針對中東政策進行公開辯論，並形成共識。",
+    "english": "This report begins by requesting that the United States conduct an open debate on Middle East policy and form a consensus.",
+    "cer": 0.0,
+    "judge": "same",
+    "facts": [
+     {
+      "type": "name_place",
+      "text": "Report",
+      "ok": true
+     },
+     {
+      "type": "name_place",
+      "text": "United States",
+      "ok": true
+     },
+     {
+      "type": "name_place",
+      "text": "Middle East",
+      "ok": true
+     }
+    ]
+   },
+   "readback_would_fire": true,
+   "readback_line": "I heard United States. Is that correct?"
+  },
+  {
+   "clip_id": "yue_hant_hk_1574",
+   "language": "Cantonese",
+   "audio_path": "audio/yue_hant_hk/yue_hant_hk_1574.flac",
+   "source_text": "那裡的冬天寒意有時會騙人，因為氣溫很少低於零下，但風加上濕度，讓人感覺比溫度計上顯示的冷多了。",
+   "english_ref": "The winter can be deceptively chilly: temperatures rarely go below freezing, but the wind and humidity combine to make it feel colder than what the thermometer says.",
+   "auto": {
+    "detected": "zho",
+    "detect_ok": false,
+    "text": "那里的冬天寒意有时会骗人，因为气温很少低于零下，但风加上湿度让人感觉比温度计上显示的冷多了。",
+    "english": "The chill of winter there can sometimes be deceptive, because temperatures are rarely below freezing, but the wind plus humidity makes it feel much colder than what is shown on the thermometer.",
+    "cer": 0.3488,
+    "judge": "minor",
+    "facts": []
+   },
+   "hint": {
+    "detected": "yue",
+    "detect_ok": false,
+    "text": "那里的冬天寒意有时会骗人，因为气温很少低于零下，但风加上湿度让人感觉比温度计上显示的冷多了。",
+    "english": "The chill of winter there can sometimes be deceptive, because temperatures are rarely below freezing, but the wind plus humidity makes it feel much colder than what is shown on the thermometer.",
+    "cer": 0.3488,
+    "judge": "minor",
+    "facts": []
+   },
+   "readback_would_fire": false,
+   "readback_line": ""
+  },
+  {
+   "clip_id": "yue_hant_hk_1577",
+   "language": "Cantonese",
+   "audio_path": "audio/yue_hant_hk/yue_hant_hk_1577.flac",
+   "source_text": "對我來說這似乎不合理；這肯定不公平。",
+   "english_ref": "That didn't seem to make sense to me; it certainly wasn't fair.",
+   "auto": {
+    "detected": "zho",
+    "detect_ok": false,
+    "text": "对我来说，这似乎不合理，这肯定不公平。",
+    "english": "To me, this doesn't seem reasonable, it's definitely not fair.",
+    "cer": 0.3125,
+    "judge": "same",
+    "facts": [
+     {
+      "type": "negation",
+      "text": "didn't, wasn't",
+      "ok": true
+     }
+    ]
+   },
+   "hint": {
+    "detected": "yue",
+    "detect_ok": false,
+    "text": "对我来说，这似乎不合理，这肯定不公平。",
+    "english": "To me, this doesn't seem reasonable, it's definitely not fair.",
+    "cer": 0.3125,
+    "judge": "same",
+    "facts": [
+     {
+      "type": "negation",
+      "text": "didn't, wasn't",
+      "ok": true
+     }
+    ]
+   },
+   "readback_would_fire": true,
+   "readback_line": "I heard that it was NOT so. Is that correct?"
+  },
+  {
+   "clip_id": "yue_hant_hk_1585",
+   "language": "Cantonese",
+   "audio_path": "audio/yue_hant_hk/yue_hant_hk_1585.flac",
+   "source_text": "隨著時間過去，新生人口開始適應新環境，他們的外表便與其他人越來越不同。",
+   "english_ref": "Over time, as the new population begins to adapt to their new environment, they start to look less and less like the other population.",
+   "auto": {
+    "detected": "zho",
+    "detect_ok": false,
+    "text": "随着时间过去，新生人口开始适应新环境，他们的外表便与其他人越来越不同。",
+    "english": "As time passed and the new population began to adapt to the new environment, their appearance became increasingly different from others.",
+    "cer": 0.375,
+    "judge": "minor",
+    "facts": []
+   },
+   "hint": {
+    "detected": "yue",
+    "detect_ok": false,
+    "text": "随着时间过去，新生人口开始适应新环境，他们的外表便与其他人越来越不同。",
+    "english": "As time passed and the new population began to adapt to the new environment, their appearance became increasingly different from others.",
+    "cer": 0.375,
+    "judge": "minor",
+    "facts": []
+   },
+   "readback_would_fire": false,
+   "readback_line": ""
+  },
+  {
+   "clip_id": "yue_hant_hk_1594",
+   "language": "Cantonese",
+   "audio_path": "audio/yue_hant_hk/yue_hant_hk_1594.flac",
+   "source_text": "大象和長頸鹿這些動物往往會接近車子，因此標準裝備能讓你看得更清楚。",
+   "english_ref": "Some animals, such as elephants and giraffes, tend to approach closely to cars and standard equipment will allow good viewing.",
+   "auto": {
+    "detected": "zho",
+    "detect_ok": false,
+    "text": "大象和长颈鹿这些动物往往会接近车子，因此标准装备能让你看得更清楚。",
+    "english": "Animals such as elephants and giraffes tend to approach vehicles, so standard gear allows you to see more clearly.",
+    "cer": 0.3548,
+    "judge": "same",
+    "facts": []
+   },
+   "hint": {
+    "detected": "yue",
+    "detect_ok": false,
+    "text": "大象和长颈鹿这些动物往往会接近车子，因此标准装备能让你看得更清楚。",
+    "english": "Animals such as elephants and giraffes tend to approach vehicles, so standard gear allows you to see more clearly.",
+    "cer": 0.3548,
+    "judge": "same",
+    "facts": []
+   },
+   "readback_would_fire": false,
+   "readback_line": ""
+  },
+  {
+   "clip_id": "yue_hant_hk_1600",
+   "language": "Cantonese",
+   "audio_path": "audio/yue_hant_hk/yue_hant_hk_1600.flac",
+   "source_text": "現場活動的例子包含打獵、釣魚、攝影、賞鳥，以及造訪公園與研習生態系統的相關資訊。",
+   "english_ref": "Examples of on-site activities include hunting, fishing, photography, bird watching, and visiting parks and studying information about the ecosystem.",
+   "auto": {
+    "detected": "zho",
+    "detect_ok": false,
+    "text": "现场活动的例子包括打猎、钓鱼、摄影、赏鸟，以及造访公园与研习生态系统的相关资讯。",
+    "english": "Examples of on-site activities include hunting, fishing, photography, birdwatching, as well as visiting parks and studying information related to ecosystems.",
+    "cer": 0.5429,
+    "judge": "same",
+    "facts": []
+   },
+   "hint": {
+    "detected": "yue",
+    "detect_ok": false,
+    "text": "现场活动的例子包括打猎、钓鱼、摄影、赏鸟，以及造访公园与研习生态系统的相关资讯。",
+    "english": "Examples of on-site activities include hunting, fishing, photography, birdwatching, as well as visiting parks and studying information related to ecosystems.",
+    "cer": 0.5429,
+    "judge": "same",
+    "facts": []
+   },
+   "readback_would_fire": false,
+   "readback_line": ""
+  },
+  {
+   "clip_id": "yue_hant_hk_1605",
+   "language": "Cantonese",
+   "audio_path": "audio/yue_hant_hk/yue_hant_hk_1605.flac",
+   "source_text": "由於與大陸距離遙遠，哺乳類動物無法橫渡過海，使得巨型陸龜成為加拉巴哥群島的主要食草動物。",
+   "english_ref": "Due to the long distance from the continent mammals were unable to make the journey making the giant tortoise the primary grazing animal in the Galapagos.",
+   "auto": {
+    "detected": "zho",
+    "detect_ok": false,
+    "text": "由于与大陆距离遥远，哺乳类动物没法划渡过海，使得巨型陆龟成为加拉巴哥群岛的主要食草动物。",
+    "english": "Due to the great distance from the mainland, mammals were unable to paddle across the ocean, making giant tortoises the primary herbivores of the Galapagos Islands.",
+    "cer": 0.3902,
+    "judge": "minor",
+    "facts": [
+     {
+      "type": "name_place",
+      "text": "Galapagos",
+      "ok": true
+     }
+    ]
+   },
+   "hint": {
+    "detected": "yue",
+    "detect_ok": false,
+    "text": "由于与大陆距离遥远，哺乳类动物没法划渡过海，使得巨型陆龟成加拉巴哥群岛的主要食草动物。",
+    "english": "Due to the long distance from the mainland, mammals were unable to paddle across the sea, making giant tortoises the main herbivores of the Galapagos Islands.",
+    "cer": 0.3902,
+    "judge": "minor",
+    "facts": [
+     {
+      "type": "name_place",
+      "text": "Galapagos",
+      "ok": true
+     }
+    ]
+   },
+   "readback_would_fire": true,
+   "readback_line": "I heard Galapagos Islands. Is that correct?"
+  },
+  {
+   "clip_id": "yue_hant_hk_1608",
+   "language": "Cantonese",
+   "audio_path": "audio/yue_hant_hk/yue_hant_hk_1608.flac",
+   "source_text": "我失去了我的姊妹和她的朋友，而我在逃跑途中，有兩名坐輪椅的身障人士，大家直接跳過他們和推擠他們。」阿曼．維薩切 (Armand Versace) 說。",
+   "english_ref": "I lost my sister and her friend, and on my way there were two disabled people in wheelchairs, people just jumping over and pushing them,\" Armand Versace said.",
+   "auto": {
+    "detected": "zho",
+    "detect_ok": false,
+    "text": "我失去了我的姐妹和她的朋友，而我在逃跑途中，有两名坐轮椅的身障人士，大家直接跳过他们和推挤他们，阿曼·维萨切 Aman Vesat 说。",
+    "english": "I lost my sister and her friend, and while I was escaping, there were two people with disabilities in wheelchairs, and people just jumped over them and pushed them, said Armand Versace Aman Vesat.",
+    "cer": 0.2381,
+    "judge": "minor",
+    "facts": [
+     {
+      "type": "number",
+      "text": "two",
+      "ok": true
+     },
+     {
+      "type": "name_place",
+      "text": "Armand Versace",
+      "ok": true
+     }
+    ]
+   },
+   "hint": {
+    "detected": "yue",
+    "detect_ok": true,
+    "text": "「我失去了我的姊妹和她的朋友，而我在逃跑途中，有兩名坐輪椅的身障人士，大家直接跳過他們和推擠他們。」阿曼·維薩切 Aman Vesat 說。",
+    "english": "\"I lost my sister and her friend, and while I was escaping, there were two disabled people in wheelchairs; everyone just jumped over them and pushed them,\" said Armand Versacce Aman Vesat.",
+    "cer": 0.0794,
+    "judge": "minor",
+    "facts": [
+     {
+      "type": "number",
+      "text": "two",
+      "ok": true
+     },
+     {
+      "type": "name_place",
+      "text": "Armand Versace",
+      "ok": true
+     }
+    ]
+   },
+   "readback_would_fire": true,
+   "readback_line": "I heard two. Is that correct?"
+  },
+  {
+   "clip_id": "yue_hant_hk_1622",
+   "language": "Cantonese",
+   "audio_path": "audio/yue_hant_hk/yue_hant_hk_1622.flac",
+   "source_text": "美國總統喬治·Ｗ·布希對此宣告事項表示支持。",
+   "english_ref": "U.S. President George W. Bush welcomed the announcement.",
+   "auto": {
+    "detected": "zho",
+    "detect_ok": false,
+    "text": "美国总统乔治·布希对此宣告时行表示支持。",
+    "english": "U.S. President George Bush expressed support for this declaration time line.",
+    "cer": 0.4211,
+    "judge": "minor",
+    "facts": [
+     {
+      "type": "name_place",
+      "text": "US President George Bush",
+      "ok": true
+     }
+    ]
+   },
+   "hint": {
+    "detected": "yue",
+    "detect_ok": false,
+    "text": "美国总统乔治·W·布希对此宣告事項表示支持。",
+    "english": "U.S. President George W. Bush expressed support for this declaration matter.",
+    "cer": 0.2632,
+    "judge": "same",
+    "facts": [
+     {
+      "type": "name_place",
+      "text": "US President George Bush",
+      "ok": true
+     }
+    ]
+   },
+   "readback_would_fire": true,
+   "readback_line": "I heard US President George Bush. Is that correct?"
+  },
+  {
+   "clip_id": "yue_hant_hk_1632",
+   "language": "Cantonese",
+   "audio_path": "audio/yue_hant_hk/yue_hant_hk_1632.flac",
+   "source_text": "女性朋友也應該明白，文化差異可能會導致某些她們視為騷擾的情況，被人跟蹤、手臂被人抓住等狀況並不少見。",
+   "english_ref": "Women should realize that cultural differences may result in what they would consider harassment and it is not uncommon to be followed, grabbed by the arm, etc.",
+   "auto": {
+    "detected": "zho",
+    "detect_ok": false,
+    "text": "女性朋友也应该明白，文化差异可能会导致某些她们视为骚扰的情况。被人跟踪、手臂被人抓住等状况并不少见。",
+    "english": "Female friends should also understand that cultural differences may lead to certain situations that they regard as harassment. Situations such as being followed or having one's arm grabbed are not uncommon.",
+    "cer": 0.3478,
+    "judge": "same",
+    "facts": []
+   },
+   "hint": {
+    "detected": "yue",
+    "detect_ok": false,
+    "text": "女性朋友也应该明白，文化差异可能会导致某些她们视为骚扰的情况。被人跟踪、手臂被人抓住等状况并不少见。",
+    "english": "Female friends should also understand that cultural differences may lead to certain situations that they regard as harassment. Situations such as being followed or having one's arm grabbed are not uncommon.",
+    "cer": 0.3478,
+    "judge": "same",
+    "facts": []
+   },
+   "readback_would_fire": false,
+   "readback_line": ""
+  },
+  {
+   "clip_id": "yue_hant_hk_1635",
+   "language": "Cantonese",
+   "audio_path": "audio/yue_hant_hk/yue_hant_hk_1635.flac",
+   "source_text": "我們可以開始過對環境更友善的生活，我們可以投身環保運動，甚至可以成為社運人士，以盡量減少未來的痛苦。",
+   "english_ref": "We can start living more friendly to the environment, we can join to the environmental movement, and we can even be activists in order to reduce the future suffering in some degree.",
+   "auto": {
+    "detected": "zho",
+    "detect_ok": false,
+    "text": "我们可以开始过对环境更友善的生活，我们可以投身环保运动，甚至可以成为社运人士，以尽量减少未来的痛苦。",
+    "english": "We can start living a more environmentally friendly life, we can throw ourselves into the environmental movement, and we can even become social activists to minimize future suffering as much as possible.",
+    "cer": 0.3043,
+    "judge": "same",
+    "facts": []
+   },
+   "hint": {
+    "detected": "yue",
+    "detect_ok": false,
+    "text": "我们可以开始过对环境更友善的生活，我们可以投身环保运动，甚至可以成为社运人士，以尽量减少未来的痛苦。",
+    "english": "We can start living a more environmentally friendly life, we can throw ourselves into the environmental movement, and we can even become social activists to minimize future suffering as much as possible.",
+    "cer": 0.3043,
+    "judge": "same",
+    "facts": []
+   },
+   "readback_would_fire": false,
+   "readback_line": ""
+  },
+  {
+   "clip_id": "yue_hant_hk_1638",
+   "language": "Cantonese",
+   "audio_path": "audio/yue_hant_hk/yue_hant_hk_1638.flac",
+   "source_text": "獵遊可說是非洲最吸引人的觀光元素，也是許多訪客旅程中的重點。",
+   "english_ref": "Safaris are perhaps the greatest tourism draw in Africa and the highlight for many visitors.",
+   "auto": {
+    "detected": "zho",
+    "detect_ok": false,
+    "text": "猎游可说是非洲最吸引人的观光元素，也是许多访客旅程中的重点。",
+    "english": "Safari can be said to be the most attractive tourism element in Africa, and it is also the highlight of many visitors' trips.",
+    "cer": 0.25,
+    "judge": "same",
+    "facts": [
+     {
+      "type": "name_place",
+      "text": "Africa",
+      "ok": true
+     }
+    ]
+   },
+   "hint": {
+    "detected": "yue",
+    "detect_ok": false,
+    "text": "猎游可说是非洲最吸引人的观光元素，也是许多访客旅程中的重点。",
+    "english": "Safari can be said to be the most attractive tourism element in Africa, and it is also the highlight of many visitors' trips.",
+    "cer": 0.25,
+    "judge": "same",
+    "facts": [
+     {
+      "type": "name_place",
+      "text": "Africa",
+      "ok": true
+     }
+    ]
+   },
+   "readback_would_fire": true,
+   "readback_line": "I heard Africa. Is that correct?"
+  },
+  {
+   "clip_id": "yue_hant_hk_1641",
+   "language": "Cantonese",
+   "audio_path": "audio/yue_hant_hk/yue_hant_hk_1641.flac",
+   "source_text": "這片森林不是只有紅樹林沼澤，也包含一部分曾遍及恆河平原、如今所剩無幾的巨大叢林。",
+   "english_ref": "The forests aren't just mangrove swamps though — they include some of the last remaining stands of the mighty jungles which once covered the Gangetic plain.",
+   "auto": {
+    "detected": "zho",
+    "detect_ok": false,
+    "text": "这片森林不是只有红树林沼泽，也包含一部分曾遍及恒河平原、如今所剩无几的巨大丛林。",
+    "english": "This forest contains not only mangrove swamps, but also part of the vast jungles that once covered the Gangetic plain and now have little left.",
+    "cer": 0.2162,
+    "judge": "same",
+    "facts": [
+     {
+      "type": "negation",
+      "text": "aren't",
+      "ok": true
+     },
+     {
+      "type": "name_place",
+      "text": "Gangetic",
+      "ok": true
+     }
+    ]
+   },
+   "hint": {
+    "detected": "yue",
+    "detect_ok": false,
+    "text": "这片森林不是只有红树林沼泽，也包含一部分曾遍及恒河平原、如今所剩无几的巨大丛林。",
+    "english": "This forest contains not only mangrove swamps, but also part of the vast jungles that once covered the Gangetic plain and now have little left.",
+    "cer": 0.2162,
+    "judge": "same",
+    "facts": [
+     {
+      "type": "negation",
+      "text": "aren't",
+      "ok": true
+     },
+     {
+      "type": "name_place",
+      "text": "Gangetic",
+      "ok": true
+     }
+    ]
+   },
+   "readback_would_fire": true,
+   "readback_line": "I heard that it was NOT so. Is that correct?"
+  },
+  {
+   "clip_id": "yue_hant_hk_1644",
+   "language": "Cantonese",
+   "audio_path": "audio/yue_hant_hk/yue_hant_hk_1644.flac",
+   "source_text": "當米勒被要求發表評論時，他表示：「麥克在聽證會上說了很多……我那時正在做準備，所以其實沒聽到他說了什麼。」",
+   "english_ref": "When asked for comment, Miller said, \"Mike talks a lot during the hearing...I was getting ready so I wasn't really hearing what he was saying.\"",
+   "auto": {
+    "detected": "zho",
+    "detect_ok": false,
+    "text": "当米勒被要求发表评论时，他表示：“默克在听证会上说了很多，我那时正在做准备，所以其实没听到他说了什么。",
+    "english": "When Miller was asked to comment, he stated: \"Merck said a lot at the hearing, I was preparing at the time, so I didn't actually hear what he said.",
+    "cer": 0.4,
+    "judge": "changed",
+    "facts": [
+     {
+      "type": "negation",
+      "text": "wasn't",
+      "ok": true
+     },
+     {
+      "type": "name_place",
+      "text": "Miller",
+      "ok": true
+     },
+     {
+      "type": "name_place",
+      "text": "Mike",
+      "ok": false
+     }
+    ]
+   },
+   "hint": {
+    "detected": "yue",
+    "detect_ok": false,
+    "text": "当米勒被要求发表评论时，他表示：“默克在听证会上说了很多，我那时正在做准备，所以其实没听到他说了什么。”",
+    "english": "When Miller was asked to comment, he stated: \"Merck said a lot at the hearing, I was preparing at that time, so I actually didn't hear what he said.\"",
+    "cer": 0.4,
+    "judge": "changed",
+    "facts": [
+     {
+      "type": "negation",
+      "text": "wasn't",
+      "ok": true
+     },
+     {
+      "type": "name_place",
+      "text": "Miller",
+      "ok": true
+     },
+     {
+      "type": "name_place",
+      "text": "Mike",
+      "ok": false
+     }
+    ]
+   },
+   "readback_would_fire": true,
+   "readback_line": "I heard Merck. Is that correct?"
+  },
+  {
+   "clip_id": "yue_hant_hk_1647",
+   "language": "Cantonese",
+   "audio_path": "audio/yue_hant_hk/yue_hant_hk_1647.flac",
+   "source_text": "與其他地方能取得的詳細資訊相比，他們所提供的觀點常較粗略、籠統且過於簡化。",
+   "english_ref": "The views presented are often cursory, general and oversimplified compared to the more detailed information available elsewhere.",
+   "auto": {
+    "detected": "zho",
+    "detect_ok": false,
+    "text": "与其他地方能取得的详细资讯相比，它们所提供的观点常较粗略、笼统，且过于简化。",
+    "english": "Compared with the detailed information available elsewhere, the viewpoints they provide are often rougher, generalized, and oversimplified.",
+    "cer": 0.4412,
+    "judge": "same",
+    "facts": []
+   },
+   "hint": {
+    "detected": "yue",
+    "detect_ok": false,
+    "text": "与其他地方能取得的详细资讯相比，它们所提供的观点常较粗略、笼统，且过于简化。",
+    "english": "Compared with the detailed information available elsewhere, the viewpoints they provide are often rougher, generalized, and oversimplified.",
+    "cer": 0.4412,
+    "judge": "same",
+    "facts": []
+   },
+   "readback_would_fire": false,
+   "readback_line": ""
+  },
+  {
+   "clip_id": "yue_hant_hk_1651",
+   "language": "Cantonese",
+   "audio_path": "audio/yue_hant_hk/yue_hant_hk_1651.flac",
+   "source_text": "對於那些規劃空檔年的人，越來越熱門的選擇是去旅行和學習。",
+   "english_ref": "An increasingly more popular option for those planning a gap-year is to travel and learn.",
+   "auto": {
+    "detected": "zho",
+    "detect_ok": false,
+    "text": "对于那些规划空档年的人，越来越热门的选择是去旅行和学习。",
+    "english": "For those planning a gap year, an increasingly popular option is to travel and study.",
+    "cer": 0.4615,
+    "judge": "same",
+    "facts": []
+   },
+   "hint": {
+    "detected": "yue",
+    "detect_ok": false,
+    "text": "对于那些规划空档年的人，越来越热门的选择是去旅行和学习。",
+    "english": "For those planning a gap year, an increasingly popular option is to travel and study.",
+    "cer": 0.4615,
+    "judge": "same",
+    "facts": []
+   },
+   "readback_would_fire": false,
+   "readback_line": ""
+  },
+  {
+   "clip_id": "yue_hant_hk_1656",
+   "language": "Cantonese",
+   "audio_path": "audio/yue_hant_hk/yue_hant_hk_1656.flac",
+   "source_text": "警方說，屍體看起來已擺在那裡 1 天左右。",
+   "english_ref": "Police said that the body appeared to have been there for about a day.",
+   "auto": {
+    "detected": "jpn",
+    "detect_ok": false,
+    "text": "警方說，屍體看起來已擺在那裡一天左右。",
+    "english": "Police said the body looked like it had been lying there for about a day.",
+    "cer": 0.0588,
+    "judge": "same",
+    "facts": []
+   },
+   "hint": {
+    "detected": "yue",
+    "detect_ok": true,
+    "text": "警方說，屍體看起來已擺在那裡一天左右。",
+    "english": "Police said the body looked like it had been lying there for about a day.",
+    "cer": 0.0588,
+    "judge": "same",
+    "facts": []
+   },
+   "readback_would_fire": false,
+   "readback_line": ""
+  }
+ ],
+ "readback": {
+  "clips_with_facts": 322,
+  "fires": 320,
+  "clips_with_wrong_fact": 28,
+  "potential_silent_failures_surfaced": 24,
+  "label": "Potential silent failures surfaced for confirmation",
+  "examples": [
+   {
+    "clip_id": "pt_br_1581",
+    "language": "Portuguese",
+    "audio_path": "audio/pt_br/pt_br_1581.flac",
+    "english_ref": "The Amazon is also the widest river on Earth, at times six miles wide.",
+    "t2_text": "The Amazon is also the widest river on Earth, sometimes nearly ten kilometers wide.",
+    "fires": true,
+    "shown": [
+     {
+      "type": "number",
+      "text": "ten"
+     },
+     {
+      "type": "name_place",
+      "text": "Amazon"
+     },
+     {
+      "type": "name_place",
+      "text": "Earth"
+     }
+    ],
+    "lost": [
+     {
+      "type": "number",
+      "text": "six",
+      "kind": "changed"
+     }
+    ],
+    "surfaced": true,
+    "line": "I heard ten. Is that correct?"
+   },
+   {
+    "clip_id": "ta_in_1566",
+    "language": "Tamil",
+    "audio_path": "audio/ta_in/ta_in_1566.flac",
+    "english_ref": "Yet eighty percent of our goods were taxed through tariffs in Central American countries. we treat you.",
+    "t2_text": "Nine percent of our goods were taxed with tariffs in Central American countries. We give you that.",
+    "fires": true,
+    "shown": [
+     {
+      "type": "number",
+      "text": "Nine"
+     },
+     {
+      "type": "name_place",
+      "text": "Central American"
+     }
+    ],
+    "lost": [
+     {
+      "type": "number",
+      "text": "eighty",
+      "kind": "changed"
+     }
+    ],
+    "surfaced": true,
+    "line": "I heard Nine. Is that correct?"
+   },
+   {
+    "clip_id": "ar_eg_1533",
+    "language": "Arabic",
+    "audio_path": "audio/ar_eg/ar_eg_1533.flac",
+    "english_ref": "Many common formats (APS family of formats, for example) are equal to or closely approximate this aspect ratio.",
+    "t2_text": "Many common formats, the Advanced Photo System format group, for example, equal or approximate this aspect ratio.",
+    "fires": true,
+    "shown": [
+     {
+      "type": "name_place",
+      "text": "Advanced Photo System"
+     }
+    ],
+    "lost": [
+     {
+      "type": "name_place",
+      "text": "APS",
+      "kind": "missing"
+     }
+    ],
+    "surfaced": true,
+    "line": "I heard Advanced Photo System. Is that correct?"
+   },
+   {
+    "clip_id": "ar_eg_1553",
+    "language": "Arabic",
+    "audio_path": "audio/ar_eg/ar_eg_1553.flac",
+    "english_ref": "Christmas is one of the most important holidays of Christianity, and is celebrated as the birthday of Jesus.",
+    "t2_text": "Christmas is one of the most important holidays of Christianity, and it is celebrated as the birth of Christ.",
+    "fires": true,
+    "shown": [
+     {
+      "type": "name_place",
+      "text": "Christianity"
+     },
+     {
+      "type": "name_place",
+      "text": "Christ"
+     }
+    ],
+    "lost": [
+     {
+      "type": "name_place",
+      "text": "Jesus",
+      "kind": "missing"
+     }
+    ],
+    "surfaced": true,
+    "line": "I heard Christ. Is that correct?"
+   },
+   {
+    "clip_id": "ar_eg_1641",
+    "language": "Arabic",
+    "audio_path": "audio/ar_eg/ar_eg_1641.flac",
+    "english_ref": "The forests aren't just mangrove swamps though — they include some of the last remaining stands of the mighty jungles which once covered the Gangetic plain.",
+    "t2_text": "But the forests are not just mangrove swamps, they contain some of the last surviving evidence of the dense jungles that once covered the Ganges plain.",
+    "fires": true,
+    "shown": [
+     {
+      "type": "negation",
+      "text": "not"
+     },
+     {
+      "type": "name_place",
+      "text": "Ganges"
+     }
+    ],
+    "lost": [
+     {
+      "type": "name_place",
+      "text": "Gangetic",
+      "kind": "missing"
+     }
+    ],
+    "surfaced": true,
+    "line": "I heard Ganges. Is that correct?"
+   },
+   {
+    "clip_id": "yue_hant_hk_1644",
+    "language": "Cantonese",
+    "audio_path": "audio/yue_hant_hk/yue_hant_hk_1644.flac",
+    "english_ref": "When asked for comment, Miller said, \"Mike talks a lot during the hearing...I was getting ready so I wasn't really hearing what he was saying.\"",
+    "t2_text": "When Miller was asked to comment, he stated: \"Merck said a lot at the hearing, I was preparing at the time, so I didn't actually hear what he said.",
+    "fires": true,
+    "shown": [
+     {
+      "type": "negation",
+      "text": "didn't"
+     },
+     {
+      "type": "name_place",
+      "text": "Miller"
+     },
+     {
+      "type": "name_place",
+      "text": "Merck"
+     }
+    ],
+    "lost": [
+     {
+      "type": "name_place",
+      "text": "Mike",
+      "kind": "missing"
+     }
+    ],
+    "surfaced": true,
+    "line": "I heard Merck. Is that correct?"
+   },
+   {
+    "clip_id": "gu_in_1569",
+    "language": "Gujarati",
+    "audio_path": "audio/gu_in/gu_in_1569.flac",
+    "english_ref": "The Report opens with plea for open debate and the formation of a consensus in the United States about the policy towards the Middle East.",
+    "t2_text": "The report opens with a proposal for public debate and consensus to formulate US policies with Middle Eastern countries.",
+    "fires": true,
+    "shown": [
+     {
+      "type": "name_place",
+      "text": "US"
+     },
+     {
+      "type": "name_place",
+      "text": "Middle Eastern"
+     }
+    ],
+    "lost": [
+     {
+      "type": "name_place",
+      "text": "United States",
+      "kind": "missing"
+     }
+    ],
+    "surfaced": true,
+    "line": "I heard US. Is that correct?"
+   },
+   {
+    "clip_id": "gu_in_1608",
+    "language": "Gujarati",
+    "audio_path": "audio/gu_in/gu_in_1608.flac",
+    "english_ref": "I lost my sister and her friend, and on my way there were two disabled people in wheelchairs, people just jumping over and pushing them,\" Armand Versace said.",
+    "t2_text": "\"I lost my sister and her friend and in my path two disabled persons were sitting in wheel chairs. People were jumping over and pushing them,\" A Mand Varchasi said.",
+    "fires": true,
+    "shown": [
+     {
+      "type": "number",
+      "text": "two"
+     },
+     {
+      "type": "name_place",
+      "text": "Mand Varchasi"
+     }
+    ],
+    "lost": [
+     {
+      "type": "name_place",
+      "text": "Armand Versace",
+      "kind": "missing"
+     }
+    ],
+    "surfaced": true,
+    "line": "I heard Mand Varchasi. Is that correct?"
+   },
+   {
+    "clip_id": "hi_in_1608",
+    "language": "Hindi",
+    "audio_path": "audio/hi_in/hi_in_1608.flac",
+    "english_ref": "I lost my sister and her friend, and on my way there were two disabled people in wheelchairs, people just jumping over and pushing them,\" Armand Versace said.",
+    "t2_text": "Armed Versus said I lost my sister and their friend and on the way there were two disabled people in wheelchairs and people were jumping over them and pushing them.",
+    "fires": true,
+    "shown": [
+     {
+      "type": "number",
+      "text": "two"
+     },
+     {
+      "type": "name_place",
+      "text": "Versus"
+     }
+    ],
+    "lost": [
+     {
+      "type": "name_place",
+      "text": "Armand Versace",
+      "kind": "missing"
+     }
+    ],
+    "surfaced": true,
+    "line": "I heard Versus. Is that correct?"
+   },
+   {
+    "clip_id": "hi_in_1641",
+    "language": "Hindi",
+    "audio_path": "audio/hi_in/hi_in_1641.flac",
+    "english_ref": "The forests aren't just mangrove swamps though — they include some of the last remaining stands of the mighty jungles which once covered the Gangetic plain.",
+    "t2_text": "However jungle does not mean only mangrove swamps. They are among some of the last mighty forests that once covered the Ganges plateau.",
+    "fires": true,
+    "shown": [
+     {
+      "type": "negation",
+      "text": "not"
+     },
+     {
+      "type": "name_place",
+      "text": "Ganges"
+     }
+    ],
+    "lost": [
+     {
+      "type": "name_place",
+      "text": "Gangetic",
+      "kind": "missing"
+     }
+    ],
+    "surfaced": true,
+    "line": "I heard Ganges. Is that correct?"
+   },
+   {
+    "clip_id": "cmn_hans_cn_1553",
+    "language": "Mandarin Chinese",
+    "audio_path": "audio/cmn_hans_cn/cmn_hans_cn_1553.flac",
+    "english_ref": "Christmas is one of the most important holidays of Christianity, and is celebrated as the birthday of Jesus.",
+    "t2_text": "Christmas is one of the most important holidays in Christianity, established to celebrate the birth of Christ.",
+    "fires": true,
+    "shown": [
+     {
+      "type": "name_place",
+      "text": "Christianity"
+     },
+     {
+      "type": "name_place",
+      "text": "Christ"
+     }
+    ],
+    "lost": [
+     {
+      "type": "name_place",
+      "text": "Jesus",
+      "kind": "missing"
+     }
+    ],
+    "surfaced": true,
+    "line": "I heard Christ. Is that correct?"
+   },
+   {
+    "clip_id": "cmn_hans_cn_1622",
+    "language": "Mandarin Chinese",
+    "audio_path": "audio/cmn_hans_cn/cmn_hans_cn_1622.flac",
+    "english_ref": "U.S. President George W. Bush welcomed the announcement.",
+    "t2_text": "US President George Walker Bush expressed support for this announcement.",
+    "fires": true,
+    "shown": [
+     {
+      "type": "name_place",
+      "text": "US President George Walker Bush"
+     }
+    ],
+    "lost": [
+     {
+      "type": "name_place",
+      "text": "US President George Bush",
+      "kind": "missing"
+     }
+    ],
+    "surfaced": true,
+    "line": "I heard US President George Walker Bush. Is that correct?"
+   }
+  ]
+ }
+}

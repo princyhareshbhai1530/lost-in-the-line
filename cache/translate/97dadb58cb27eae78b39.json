@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "因为远离大陆，哺乳动物无法长途跋涉而来，使得巨龟成为科隆群岛主要的食草动物。",
+ "english": "Because they were far from the mainland, mammals could not make the long trek, making the giant tortoise the main herbivore in the Galápagos Islands.",
+ "clip": "cmn_hans_cn_1605",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

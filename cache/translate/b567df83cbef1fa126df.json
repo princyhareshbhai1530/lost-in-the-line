@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "針對有幼童的家庭，有些節慶會場會安排專屬的露營區域。",
+ "english": "For families with young children, some festival venues will arrange dedicated camping areas.",
+ "clip": "yue_hant_hk_1528",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

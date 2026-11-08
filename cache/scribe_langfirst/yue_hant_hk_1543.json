@@ -1,0 +1,9 @@
+{
+ "language_code": "yue",
+ "language_probability": 1.0,
+ "text": "病人曾到過奈及利亞，當地有幾起伊波拉病毒案例。",
+ "transcription_id": "hLeJxGcbbM3ngoJTBA0P",
+ "audio_duration_secs": 10.32,
+ "model": "scribe_v2",
+ "language_given": "yue"
+}

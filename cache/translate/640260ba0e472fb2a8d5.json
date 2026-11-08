@@ -1,0 +1,9 @@
+{
+ "model": "gemini-2.5-flash",
+ "language": "Urdu",
+ "source_text": "مریض نائجریا میں رہ چکے تھا، جہاں ایبولا وائرس کے کچھ معاملے سامنے آئے تھے۔",
+ "english": "The patient had lived in Nigeria, where some cases of Ebola virus had been reported.",
+ "clip": "ur_pk_1543",
+ "source": "true",
+ "batched": true
+}

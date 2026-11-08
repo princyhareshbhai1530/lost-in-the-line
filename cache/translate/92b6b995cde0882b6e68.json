@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "ہم ماحول کے ساتھ زیادہ دوستانہ زندگی گزار سکتے ہیں۔ ہم ماحولیاتی تحریک میں شامل ہو سکتے ہیں اور ہم سرگرم رکن بن سکتے ہیں تاکہ کسی حد تک مستقبل کی تکالیف کو کم کیا جا سکے",
+ "english": "We can live more environmentally friendly lives. We can join the environmental movement and we can become active members so that future suffering can be reduced to some extent.",
+ "clip": "ur_pk_1635",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 42
+}

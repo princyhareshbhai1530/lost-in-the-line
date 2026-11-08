@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "你给远在千里之外的人打电话，就会用到卫星。",
+ "english": "When you call someone thousands of miles away, you will use satellites.",
+ "clip": "cmn_hans_cn_1548",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

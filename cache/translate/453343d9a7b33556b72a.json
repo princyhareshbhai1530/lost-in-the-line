@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Możesz obejrzeć piramidy po zmroku i w ciszy, zanim rozpocznie się pokaz.",
+ "english": "You can see the pyramids after dark and in silence before the show begins.",
+ "clip": "pl_pl_1537",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,9 @@
+{
+ "model": "gemini-2.5-flash",
+ "language": "Urdu",
+ "source_text": "اس کو منگل کے دن کاٹنے کا وقت طے کیا گیا تھا، لیکن عدالت کے ہنگامی فیصلہ کے بعد یہ بچ گیا۔",
+ "english": "It was scheduled to be cut on Tuesday, but it was saved after the court's emergency decision.",
+ "clip": "ur_pk_1530",
+ "source": "true",
+ "batched": true
+}

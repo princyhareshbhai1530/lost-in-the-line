@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "अमेजन सतह जमीन पर सबसे चौड़ा दरिया भी है। कहीं-कहीं इसकी चौड़ाई छह मील है।",
+ "english": "The Amazon is also the widest river on the surface of the Earth. In some places its width is six miles.",
+ "clip": "ur_pk_1581",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

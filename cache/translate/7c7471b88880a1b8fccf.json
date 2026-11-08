@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "سائنس آج یہ نشاندہی کرتی ہے کہ اس جسم کاربن معیشت نے کرہ حیات کو اپنے مستحکم کیفیات میں سے ایک کو اپنی جگہ سے ہٹا دیا ہے، جس نے گزشتہ دو ملین سالوں تک انسانی ارتقاء کی معاونت کی ہے۔",
+ "english": "Science today points out that this carbon economy has displaced the biosphere from one of its stable states, which supported human evolution for the past two million years.",
+ "clip": "ur_pk_1616",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 42
+}

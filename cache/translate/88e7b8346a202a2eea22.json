@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Mặc dù có ba người ở trong nhà khi chiếc xe đâm vào nhưng không ai bị thương.",
+ "english": "Although there were three people inside the house when the car crashed into it, no one was injured.",
+ "clip": "vi_vn_1598",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

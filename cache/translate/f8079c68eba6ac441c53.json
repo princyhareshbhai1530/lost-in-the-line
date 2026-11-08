@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Maraming mga karaniwang format, pamilyang APS ng mga format halimbawa, ay humigit kumulang o katumbas ng aspect ratio na ito.",
+ "english": "Many common formats, APS family of formats for example, are approximately or equal to this aspect ratio.",
+ "clip": "fil_ph_1533",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

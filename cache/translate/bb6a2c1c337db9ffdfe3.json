@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "તે મને સમજાતું નહોતું; તે અચૂકપણે વાજબી નહોતું.",
+ "english": "I did not understand it; it was certainly not fair.",
+ "clip": "gu_in_1577",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

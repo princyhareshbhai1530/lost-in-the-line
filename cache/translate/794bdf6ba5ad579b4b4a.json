@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Z czasem, gdy nowa populacja dostosowuje się do nowego środowiska, coraz mniej przypominają inne populacje.",
+ "english": "Over time, as the new population adapts to the new environment, they resemble other populations less and less.",
+ "clip": "pl_pl_1585",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

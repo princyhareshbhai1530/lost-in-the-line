@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "એમેઝોન પૃથ્વી પરની સૌથી પહોળી નદી પણ છે, કેટલીકવાર છ માઇલ પહોળી છે.",
+ "english": "The Amazon is also the widest river on Earth, sometimes six miles wide.",
+ "clip": "gu_in_1581",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

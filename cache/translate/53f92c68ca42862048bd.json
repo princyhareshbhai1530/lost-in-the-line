@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "Apesar de três pessoas estarem dentro da casa quando ela foi atingida pelo carro, nenhuma delas ficou ferida.",
+ "english": "Although three people were inside the house when it was hit by the car, none of them was injured.",
+ "clip": "pt_br_1598",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

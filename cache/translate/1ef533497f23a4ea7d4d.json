@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Niektóre raporty donoszą, że było osiem ofiar śmiertelnych, natomiast oficjalne raporty mówią o maksymalnie 30 rannych; wciąż nie mamy ostatecznie potwierdzonych informacji.",
+ "english": "Some reports state that there were eight fatalities, while official reports speak of a maximum of 30 injured; we still do not have finally confirmed information.",
+ "clip": "pl_pl_1629",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "கிறிஸ்துமஸ் என்பது கிறிஸ்துவமார்களின் மிக முக்கிய விடுமுறை நாளாகும். இது ஏசுநாதரின் பிறந்த நாளாக கொண்டாடப்படுகிறது.",
+ "english": "Christmas is the most important holiday for Christians. It is celebrated as the birthday of Jesus Christ.",
+ "clip": "ta_in_1553",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "George W. Bush, presidente de los Estados Unidos, recibió con gusto el anuncio.",
+ "english": "George W. Bush, president of the United States, welcomed the announcement.",
+ "clip": "es_419_1622",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

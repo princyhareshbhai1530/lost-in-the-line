@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Trong nhiều trường hợp, tham gia vào khóa học trong thời gian một năm nghỉ phép ở nước ngoài thực sự có thể nâng cao cơ hội của bạn đi tới việc giáo dục cấp cao hơn ở đất nước quê nhà của bạn.",
+ "english": "In many cases, participating in a course during a gap year abroad can actually enhance your chances of going on to higher education in your home country.",
+ "clip": "vi_vn_1519",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

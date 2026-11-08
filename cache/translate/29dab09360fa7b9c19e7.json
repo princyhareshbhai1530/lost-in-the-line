@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "O relatório é iniciado com um apelo por um debate aberto e pela formação de um consenso no Estados Unidos sobre a política relacionada ao Oriente Médio.",
+ "english": "The report begins with an appeal for an open debate and for building a consensus in the United States on policy related to the Middle East.",
+ "clip": "pt_br_1569",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "很多情况下，在国外参加间隔年课程可以实质上提升你回国升学的机会。",
+ "english": "In many cases, participating in a gap year program abroad can substantially improve your chances of higher education upon returning home.",
+ "clip": "cmn_hans_cn_1519",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

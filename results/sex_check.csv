@@ -1,0 +1,23 @@
+lang_config,language,gender,n,total_loss,total_lo,total_hi,cer,cer_lo,cer_hi,single_sex_language
+ar_eg,Arabic,female,40,0.085,0.0437,0.1325,0.0246,0.0154,0.035,True
+cmn_hans_cn,Mandarin Chinese,female,15,0.11,0.0333,0.2067,0.0314,0.0112,0.0545,False
+cmn_hans_cn,Mandarin Chinese,male,25,0.066,0.01,0.134,0.0236,0.0101,0.0416,False
+en_us,English,female,26,0.025,0.0,0.075,0.0101,0.0,0.024,False
+en_us,English,male,14,0.0643,0.0,0.175,0.0055,0.0,0.0129,False
+es_419,Spanish,female,10,0.165,0.05,0.305,0.0028,0.0,0.0085,False
+es_419,Spanish,male,30,0.025,0.0,0.0583,0.0066,0.0023,0.0116,False
+fil_ph,Tagalog,male,40,0.115,0.0537,0.1825,0.0151,0.0079,0.0249,True
+gu_in,Gujarati,female,13,0.2462,0.1154,0.3769,0.0294,0.0158,0.0492,False
+gu_in,Gujarati,male,27,0.0981,0.0463,0.1648,0.0206,0.0122,0.0296,False
+hi_in,Hindi,female,15,0.11,0.0333,0.2133,0.0379,0.0147,0.0726,False
+hi_in,Hindi,male,25,0.164,0.076,0.262,0.0518,0.027,0.0815,False
+pa_in,Punjabi,female,40,0.2587,0.1712,0.355,0.0892,0.034,0.165,True
+pl_pl,Polish,female,7,0.0357,0.0,0.1071,0.0114,0.0,0.0314,False
+pl_pl,Polish,male,33,0.0727,0.0303,0.1258,0.0101,0.0025,0.0194,False
+pt_br,Portuguese,male,40,0.1038,0.0563,0.155,0.0153,0.0045,0.0296,True
+ta_in,Tamil,female,18,0.2278,0.1194,0.3444,0.026,0.0122,0.0456,False
+ta_in,Tamil,male,22,0.1909,0.1091,0.2819,0.0467,0.0246,0.0765,False
+ur_pk,Urdu,female,40,0.18,0.1025,0.2612,0.215,0.1101,0.338,True
+vi_vn,Vietnamese,male,40,0.0475,0.0125,0.09,0.0059,0.0015,0.0111,True
+yue_hant_hk,Cantonese,female,24,0.1167,0.0521,0.198,0.3014,0.2335,0.3657,False
+yue_hant_hk,Cantonese,male,16,0.1437,0.0469,0.2562,0.1628,0.0743,0.2681,False

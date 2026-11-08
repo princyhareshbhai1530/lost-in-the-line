@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "虽然车撞到房子时，房子里面有三个人，但最后并没有人受伤。",
+ "english": "Although there were three people inside the house when the car crashed into it, in the end no one was hurt.",
+ "clip": "cmn_hans_cn_1598",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

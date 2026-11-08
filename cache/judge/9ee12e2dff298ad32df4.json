@@ -1,0 +1,7 @@
+{
+ "label": "same",
+ "score": 100,
+ "reason": "Wording differs, but core meaning is identical.",
+ "model": "gemini-2.5-flash",
+ "batched": true
+}

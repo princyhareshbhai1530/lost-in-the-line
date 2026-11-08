@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Niektóre festiwale oferują miejsca biwakowe przeznaczone dla rodzin z małymi dziećmi.",
+ "english": "Some festivals offer campsites intended for families with small children.",
+ "clip": "pl_pl_1528",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

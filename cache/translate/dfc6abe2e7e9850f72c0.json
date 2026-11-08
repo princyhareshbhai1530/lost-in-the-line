@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "તમે પ્રવાહમાંથી બહાર આવો પછી, પાછા તરવું એ સામાન્ય રીતે હોય તેના કરતાં વધારે મુશ્કેલ નથી.",
+ "english": "After you come out of the current, swimming back is not more difficult than it normally is.",
+ "clip": "gu_in_1560",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

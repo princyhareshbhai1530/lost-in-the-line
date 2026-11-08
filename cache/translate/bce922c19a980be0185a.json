@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "اس رپورٹ کا آغاز مشرق وسطی کے تئیں پالیسی کے بارے میں ریاستہائے متحدہ میں کھلی بحث اور اتفاق رائے کے قیام کی اپیل کے ساتھ ہوا ہے۔",
+ "english": "This report begins with an appeal for open debate and consensus-building in the United States regarding policy toward the Middle East.",
+ "clip": "ur_pk_1569",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

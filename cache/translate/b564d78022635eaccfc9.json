@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Ang pasyente ay nagpunta sa Nigeria kung saan nagkaroon na ng ilang kaso ng virus na Ebola.",
+ "english": "The patient went to Nigeria where there have already been several cases of the Ebola virus.",
+ "clip": "fil_ph_1543",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

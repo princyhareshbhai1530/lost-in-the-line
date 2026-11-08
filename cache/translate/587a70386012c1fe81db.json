@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "وہ لوگ اب بھی اس بات کا تعین کرنے کی کوشش کر رہے ہیں یہ ٹکر کتنی تیز تھی اور اس کے زمین پر کس طرح اثر ہوگا۔",
+ "english": "They are still trying to determine how strong this collision was and how it will impact the Earth.",
+ "clip": "ur_pk_1551",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

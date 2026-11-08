@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਕੁਝ ਰਿਪੋਰਟਾਂ ਮੁਤਾਬਕ ਅਧਿਕਾਰਤ ਤੌਰ 'ਤੇ ਅੱਠ ਮੌਤਾਂ ਹੋਈਆਂ ਹਨ ਅਤੇ ਅਧਿਕਾਰਤ ਰਿਪੋਰਟਾਂ ਨੇ 30 ਲੋਕਾਂ ਦੇ ਜ਼ਖ਼ਮੀਆਂ ਦੀ ਪੁਸ਼ਟੀ ਕੀਤੀ ਹੈ ਪਰ ਅਸਲ ਸੰਖਿਆਵਾਂ ਹਾਲੇ ਗਿਆਤ ਨਹੀਂ ਹਨ।",
+ "english": "According to some reports, there are officially eight deaths and official reports have confirmed 30 people injured, but the actual numbers are not yet known.",
+ "clip": "pa_in_1629",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

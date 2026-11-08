@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "يستقبل القمر الصناعي بالفضاء المكالمة ثم يعكسها في نفس اللحظة تقريباً.",
+ "english": "The satellite in space receives the call and then reflects it back almost instantaneously.",
+ "clip": "ar_eg_1521",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

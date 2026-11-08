@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "有些音乐节会为带小孩子的家庭设立特别的露营区。",
+ "english": "Some music festivals set up special camping areas for families with small children.",
+ "clip": "cmn_hans_cn_1528",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "Logo, policiais preparados com equipamento antimotim entraram no pátio e encurralaram os detentos com gás lacrimogêneo.",
+ "english": "Soon, police officers prepared with riot gear entered the yard and cornered the inmates with tear gas.",
+ "clip": "pt_br_1511",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

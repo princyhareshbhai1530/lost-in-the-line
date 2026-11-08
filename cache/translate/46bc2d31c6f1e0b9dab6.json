@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Safari jest na pewnie i największą atrakcją turystyczną w Afryce i najważniejszym wydarzeniem dla wielu zwiedzających.",
+ "english": "Safari is surely the biggest tourist attraction in Africa and the most important event for many visitors.",
+ "clip": "pl_pl_1638",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

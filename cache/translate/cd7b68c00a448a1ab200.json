@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "O Amazonas também é o rio mais largo da Terra, às vezes com quase 10 km de largura.",
+ "english": "The Amazon is also the widest river on Earth, sometimes nearly 10 km wide.",
+ "clip": "pt_br_1581",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Cảnh sát cho biết thi thể nạn nhân đã ở đó được khoảng một ngày.",
+ "english": "Police said the victim's body had been there for about a day.",
+ "clip": "vi_vn_1656",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 110
+}

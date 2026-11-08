@@ -1,0 +1,10 @@
+{
+ "label": "same",
+ "score": 100,
+ "reason": "Accurately conveys three people unhurt when car crashed.",
+ "model": "gemini-3.8-flash",
+ "prompt_version": 2,
+ "settings": "tlminimal",
+ "batched": true,
+ "batch_size": 250
+}

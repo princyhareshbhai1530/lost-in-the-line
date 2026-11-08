@@ -1,0 +1,9 @@
+{
+ "model": "gemini-2.5-flash",
+ "language": "Arabic",
+ "source_text": "سرعان ما دخل ضباط مجهزون بعدة الشغب الساحة وحاصروا النزلاء بالغاز المسيل للدموع.",
+ "english": "Riot gear-equipped officers quickly entered the square and surrounded the inmates with tear gas.",
+ "clip": "ar_eg_1511",
+ "source": "true",
+ "batched": true
+}

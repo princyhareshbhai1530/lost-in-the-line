@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "رُبما يكون الشتاء بارداً بشكل مخادع: نادراً ما تنخفض درجات الحرارة إلى ما دون درجة التجمد، لكن الرياح والرطوبة تجتمعان لتجعل الجو أكثر برودة مما يُشير مقياس الحرارة.",
+ "english": "Winter can be deceptively cold: temperatures rarely drop below freezing, but the wind and humidity combine to make it feel colder than what the thermometer indicates.",
+ "clip": "ar_eg_1574",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

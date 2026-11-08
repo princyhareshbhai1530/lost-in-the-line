@@ -1,0 +1,8 @@
+{
+ "label": "changed",
+ "score": 35,
+ "reason": "Date replaced by location; 'cut down' vs 'cut off' changes action.",
+ "model": "gemini-2.5-flash",
+ "prompt_version": 2,
+ "batched": true
+}

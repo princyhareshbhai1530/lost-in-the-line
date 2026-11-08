@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "कुछ रिपोर्ट आधिकारिक मृत्यु दर आठ बताती हैं, और आधिकारिक रिपोर्टों से पुष्टि होती है कि 30 तक घायल हुए हैं; लेकिन अंतिम संख्या अभी तक ज्ञात नहीं हैं।",
+ "english": "Some reports put the official death toll at eight, and official reports confirm that up to 30 were injured; but the final numbers are not yet known.",
+ "clip": "hi_in_1629",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

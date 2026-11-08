@@ -1,0 +1,9 @@
+{
+ "model": "gemini-2.5-flash",
+ "language": "Tagalog",
+ "source_text": "Mamamasdan mo ang mga piramide sa dilim at mamamasdan mo sila nang tahimik bago mag-umpisa ang palabas.",
+ "english": "You will observe the pyramids in the dark and you will observe them quietly before the show starts.",
+ "clip": "fil_ph_1537",
+ "source": "true",
+ "batched": true
+}

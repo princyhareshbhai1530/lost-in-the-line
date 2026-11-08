@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਜੰਗਲ ਸਿਰਫ ਉਸ਼ਣ ਕਟਿਬੰਧ ਦੇ ਦਰਖਤਾਂ ਦੀ ਦਲਦਲ ਹੀ ਨਹੀਂ ਹਨ, ਸਗੋਂ ਇਹਨਾਂ ਵਿੱਚ ਸ਼ਕਤੀਸ਼ਾਲੀ ਜੰਗਲਾਂ ਦੇ ਕੁਝ ਬਾਕੀ ਬਚੇ ਦਰਖਤ ਸ਼ਾਮਲ ਹਨ ਜੋ ਇੱਕ ਵਾਰ ਗੰਗਾ ਦੇ ਮੈਦਾਨ ਨੂੰ ਕਵਰ ਕਰਦੇ ਹਨ।",
+ "english": "The jungles are not just tropical tree swamps, rather they include some remaining trees of the mighty forests that once covered the Gangetic plain.",
+ "clip": "pa_in_1641",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "அந்தக் காடுகள் வெறும் சதுப்பு நிலக் காடுகள் மட்டுமல்ல, அவற்றில் ஒரு காலத்தில் கங்கை நதி சமவெளியில் இருந்த அடர்ந்த காடுகளின் ஒரு இறுதியாக நிற்கும் ஒரு பகுதியும் உள்ளது.",
+ "english": "Those forests are not just mangrove swamps, they also contain a final standing part of the dense forests that once existed on the Ganges River plain.",
+ "clip": "ta_in_1641",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

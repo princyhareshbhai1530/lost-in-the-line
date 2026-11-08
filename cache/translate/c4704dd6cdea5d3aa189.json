@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "پیش کئے گئے خیالات اکثرسرسری، عمومی اور بہت زیادہ سادہ ہیں بہ نسبت ان تفصیلی معلومات کے جو دوسری جگہوں پر ملتی ہیں۔",
+ "english": "The views presented are often superficial, general, and overly simple compared to the detailed information available elsewhere.",
+ "clip": "ur_pk_1647",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "太空中的人造卫星接收到讯号，并在瞬间将讯号反射回地球。",
+ "english": "Artificial satellites in space receive the signal and reflect it back to Earth in an instant.",
+ "clip": "yue_hant_hk_1521",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 110
+}

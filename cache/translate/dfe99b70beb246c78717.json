@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "પ્રાચીન રોમન ભોજનમાં અમેરિકાથી યુરોપ આવતા ખોરાકનો સમાવેશ ન થયો હોય અથવા પછીની સદીઓમાં એશિયાથી.",
+ "english": "Ancient Roman cuisine may not have included food coming to Europe from America or from Asia in later centuries.",
+ "clip": "gu_in_1627",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

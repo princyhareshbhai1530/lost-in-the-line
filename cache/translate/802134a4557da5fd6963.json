@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "हाथी और जिराफ जैसे कुछ जानवर कारों और के बहुत करीब चले जाते हैं और मानक उपकरणों से अच्छा नजारा दिखाई देगा।",
+ "english": "Some animals like elephants and giraffes go very close to cars and, and standard equipment will give a good view.",
+ "clip": "hi_in_1594",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

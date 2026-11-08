@@ -1,0 +1,9 @@
+{
+ "language_code": "eng",
+ "language_probability": 0.9861094951629639,
+ "text": "Some reports put the official death toll at eight, and official reports confirm that up to thirty were injured, but final numbers are not yet known.",
+ "transcription_id": "2JPeVc272c5rgeZ49xDk",
+ "audio_duration_secs": 8.16,
+ "model": "scribe_v2",
+ "language_given": null
+}

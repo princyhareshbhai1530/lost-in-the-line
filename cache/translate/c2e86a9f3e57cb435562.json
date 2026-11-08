@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "Los primeros casos de la enfermedad durante esta temporada se registraron hacia fines de julio.",
+ "english": "The first cases of the disease during this season were recorded towards late July.",
+ "clip": "es_419_1587",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

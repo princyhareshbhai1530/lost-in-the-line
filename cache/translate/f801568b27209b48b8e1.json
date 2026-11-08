@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਸੰਯੁਕਤ ਰਾਜ ਰਾਸ਼ਟਰਪਤੀ ਜਾਰਜ ਡਬਲਯੂ ਬੁਸ਼ ਨੇ ਘੋਸ਼ਣਾ ਦਾ ਸਵਾਗਤ ਕੀਤਾ।",
+ "english": "United States President George W. Bush welcomed the announcement.",
+ "clip": "pa_in_1622",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

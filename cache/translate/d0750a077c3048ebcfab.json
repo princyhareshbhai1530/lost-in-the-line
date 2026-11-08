@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "અહેવાલ જાહેર ચર્ચા અને યુએસની મધ્ય પૂર્વીય દેશો સાથેની નીતિઓ રચવા માટે સર્વસંમતિની દરખાસ્ત સાથે ખુલે છે.",
+ "english": "The report opens with a proposal for public debate and consensus to formulate US policies with Middle Eastern countries.",
+ "clip": "gu_in_1569",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

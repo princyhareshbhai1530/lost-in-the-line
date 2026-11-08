@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "这片森林不是只有红树林沼泽，也包含一部分曾遍及恒河平原、如今所剩无几的巨大丛林。",
+ "english": "This forest contains not only mangrove swamps, but also part of the vast jungles that once covered the Gangetic plain and now have little left.",
+ "clip": "yue_hant_hk_1641",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 110
+}

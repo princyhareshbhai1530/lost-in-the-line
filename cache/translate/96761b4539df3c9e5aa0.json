@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "தேவாலயத்தில், சில கல்லறைகளுக்கு மேலே புறாக்களின் கவர்ச்சிகரமான பளிங்கு சிற்பங்கள் உள்ளன.",
+ "english": "In the church, there are attractive marble sculptures of doves above some tombs.",
+ "clip": "ta_in_1555",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

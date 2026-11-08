@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Kahit na tatlong tao ang nasa loob ng bahay nang mabangga ito ng kotse, wala namang nasaktan sa kanila.",
+ "english": "Even though three people were inside the house when it was hit by the car, none of them were hurt.",
+ "clip": "fil_ph_1598",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "یہ مجھے معقول نہیں لگا؛ یہ یقینا مناسب نہیں تھا۔",
+ "english": "That didn't make sense to me; it certainly wasn't fair.",
+ "clip": "ur_pk_1577",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

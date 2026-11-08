@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "कई सामान्य प्रारूप (उदाहरण के लिए, प्रारूप का APS परिवार) इस अभिमुखता अनुपात के लगभग बराबर या उसके आस-पास हैं.",
+ "english": "Many common formats (for example, the APS family of formats) are approximately equal to or around this aspect ratio.",
+ "clip": "hi_in_1533",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

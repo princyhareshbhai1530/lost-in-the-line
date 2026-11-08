@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "குளிர்காலம் ஏமாற்றும் விதமாகக் கடுங்குளிராக இருக்கும். தட்பவெப்பநிலை உறைநிலைக்குக் கீழ் எப்போதாவதுதான் போகும், ஆனால் காற்று மற்றும் ஈரப்பதம் இணைந்து வெப்பமானி காண்பிப்பதை விடக் குளிராக இருப்பது போல் உணர வைக்கும்.",
+ "english": "Winter can be deceptively freezing. The temperature rarely drops below freezing, but the wind and humidity combined make it feel colder than what the thermometer shows.",
+ "clip": "ta_in_1574",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

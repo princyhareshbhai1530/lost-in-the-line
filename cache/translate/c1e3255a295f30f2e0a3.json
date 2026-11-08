@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "दिखाए गए दृष्टिकोण हर कहीं उपलब्ध ज़्यादा विस्तृत जानकारी की तुलना में अक्सर सतही, सामान्य और अति-साधारण होते हैं.",
+ "english": "The viewpoints shown are often superficial, generic, and over-simplistic compared to the more detailed information available everywhere.",
+ "clip": "hi_in_1647",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

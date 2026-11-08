@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Pinakamalawak na ilog din sa Mundo ang Amazon, na kung minsan ay anim na milya ang lawak.",
+ "english": "The Amazon is also the widest river in the World, which is sometimes six miles wide.",
+ "clip": "fil_ph_1581",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

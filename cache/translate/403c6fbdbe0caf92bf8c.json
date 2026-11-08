@@ -1,0 +1,9 @@
+{
+ "model": "gemini-2.5-flash",
+ "language": "Arabic",
+ "source_text": "تضم البعض من المهرجانات مناطق تخييمٍ خاصةٍ للعائلات التي معها أولاد صغار.",
+ "english": "Some festivals include special camping areas for families with young children.",
+ "clip": "ar_eg_1528",
+ "source": "true",
+ "batched": true
+}

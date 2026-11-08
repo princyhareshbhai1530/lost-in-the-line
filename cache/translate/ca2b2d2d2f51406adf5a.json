@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਰੋਗੀ ਨਾਈਜੀਰੀਆ ਗਿਆ ਸੀ, ਜਿੱਥੇ ਈਬੋਲਾ ਵਾਇਰਸ ਦੇ ਕੁਝ ਮਾਮਲੇ ਸਾਹਮਣੇ ਆਏ ਹਨ।",
+ "english": "The patient had gone to Nigeria, where some cases of the Ebola virus have come to light.",
+ "clip": "pa_in_1543",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

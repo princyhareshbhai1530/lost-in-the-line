@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "Exemplos de atividades locais incluem a pescaria, tirar fotografias, ver pássaros, visitar os parques e estudar sobre o ecossistema",
+ "english": "Examples of local activities include fishing, taking photos, bird watching, visiting parks, and studying the ecosystem",
+ "clip": "pt_br_1600",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

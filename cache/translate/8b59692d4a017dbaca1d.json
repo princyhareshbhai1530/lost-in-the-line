@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Zima może być bardziej mroźna, niż się wydaje: temperatura rzadko spada poniżej zera, ale w połączeniu z wiatrem i wilgocią odczucie chłodu jest większe, niż pokazuje termometr.",
+ "english": "Winter can be colder than it seems: the temperature rarely drops below zero, but in combination with wind and humidity, the feeling of cold is greater than what the thermometer shows.",
+ "clip": "pl_pl_1574",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

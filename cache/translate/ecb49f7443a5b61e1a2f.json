@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "\"હું મારી બહેન અને તેની સખીને ગુમાવી બેઠો અને મારા રસ્તામાં બે અપંગ વ્યક્તિઓ wheel chair માં બેઠેલી હતી. લોકો કૂદીને જતા હતા અને એમને ધક્કો મારતા હતા,\" આ મંડ વર્ચાસીએ કહ્યું.",
+ "english": "\"I lost my sister and her friend and in my path two disabled persons were sitting in wheel chairs. People were jumping over and pushing them,\" A Mand Varchasi said.",
+ "clip": "gu_in_1608",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

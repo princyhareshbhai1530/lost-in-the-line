@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Dahil sa malayo ang distansya mula sa kontinente hindi nakapaglakbay ang mga mamal kaya naging pangunahing nanggagalingang hayop ang malalaking tortoise sa Galapagos.",
+ "english": "Because of the long distance from the continent mammals were unable to travel, so giant tortoises became the primary grazing animals in the Galapagos.",
+ "clip": "fil_ph_1605",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

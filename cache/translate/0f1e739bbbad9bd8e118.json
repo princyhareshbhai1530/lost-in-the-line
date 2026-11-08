@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Ngày nay, khoa học cho rằng nền kinh tế carbon khổng lồ này đã đẩy sinh quyển ra khỏi trạng thái ổn định vốn đã giúp loài người tiến hóa trong hai triệu năm qua.",
+ "english": "Today, science suggests that this massive carbon economy has pushed the biosphere out of the stable state that had enabled humanity to evolve over the past two million years.",
+ "clip": "vi_vn_1616",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 110
+}

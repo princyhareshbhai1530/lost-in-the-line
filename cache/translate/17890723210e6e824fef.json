@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "بہت سے مشترک فارمیٹس (مثال کے طور پر، اے پی ایس فیملی آف فارمیٹس) اس تناسبِ نظر کے برابر یا تقریباً قریب تر ہیں۔",
+ "english": "Many common formats (for example, the APS family of formats) are equal to or almost close to this aspect ratio.",
+ "clip": "ur_pk_1533",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

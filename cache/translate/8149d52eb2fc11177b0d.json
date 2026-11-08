@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "O inverno pode ser decepcionantemente frio: as temperaturas raramente ficam abaixo do congelante, mas o vento e a umidade combinadas tornam a sensação mais fria que o que o termômetro mostra.",
+ "english": "Winter can be deceptively cold: temperatures rarely stay below freezing, but wind and humidity combined make the sensation colder than what the thermometer shows.",
+ "clip": "pt_br_1574",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

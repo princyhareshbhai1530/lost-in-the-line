@@ -1,0 +1,10 @@
+{
+ "label": "changed",
+ "score": 35,
+ "reason": "Changes 'Ancient Roman' to 'ancient Greece'.",
+ "model": "gemini-3.8-flash",
+ "prompt_version": 2,
+ "settings": "tlminimal",
+ "batched": true,
+ "batch_size": 40
+}

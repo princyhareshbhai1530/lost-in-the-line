@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "Combinar viaje y aprendizaje se ha vuelto una opción muy popular entre aquellos que planean tomarse un año sabático.",
+ "english": "Combining travel and learning has become a very popular option among those planning to take a gap year.",
+ "clip": "es_419_1651",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "يمكننا أن نبدأ في العيش بشكل أكثر تناسباً مع البيئة، ويمكننا الانضمام إلى الحركة البيئية، ويمكننا حتى أن نكون نشطاء من أجل تقليل المعاناة المستقبلية بدرجة ما.",
+ "english": "We can begin to live more sustainably with the environment, we can join the environmental movement, and we can even be activists to reduce future suffering to some degree.",
+ "clip": "ar_eg_1635",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

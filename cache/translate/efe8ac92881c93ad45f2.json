@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਮੈਨੂੰ ਨਹੀਂ ਪਤਾ ਕਿ ਤੁਹਾਨੂੰ ਇਸ ਗੱਲ ਦਾ ਅਹਿਸਾਸ ਹੈ ਜਾਂ ਨਹੀਂ, ਪਰ ਕੇਂਦਰੀ ਅਮਰੀਕਾ ਤੋਂ ਇਸ ਦੇਸ਼ ਵਿੱਚ ਆਉਣ ਵਾਲਾ ਜ਼ਿਆਦਾਤਰ ਸਮਾਨ ਡਿਊਟੀ ਮੁਕਤ ਹੁੰਦਾ ਸੀ।",
+ "english": "I don't know whether you realize this or not, but most goods coming into this country from Central America used to be duty-free.",
+ "clip": "pa_in_1654",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "然而，我们80%的商品在中美洲国家被征收关税。我们对待你",
+ "english": "However, 80% of our goods are taxed with tariffs in Central American countries. We treat you",
+ "clip": "cmn_hans_cn_1566",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

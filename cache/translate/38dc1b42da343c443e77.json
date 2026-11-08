@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "摆脱湍急水流之后，游回来就没有那么困难了。",
+ "english": "After escaping the rapid current, swimming back is not that difficult.",
+ "clip": "cmn_hans_cn_1560",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

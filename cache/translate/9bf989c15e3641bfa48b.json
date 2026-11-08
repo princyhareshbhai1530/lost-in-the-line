@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "ચર્ચયાર્ડમાં કેટલીક કબરો પર કબૂતરોની આરસપહાણની રસપ્રદ મૂર્તિઓ છે.",
+ "english": "In the churchyard, there are interesting marble statues of pigeons on some graves.",
+ "clip": "gu_in_1555",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

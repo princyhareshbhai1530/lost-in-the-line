@@ -1,0 +1,9 @@
+{
+ "language_code": "zho",
+ "language_probability": 0.9999347925186157,
+ "text": "当米勒被要求发表评论时，他表示：“默克在听证会上说了很多，我那时正在做准备，所以其实没听到他说了什么。",
+ "transcription_id": "Vh29U5n0JnpKpgfOgVS0",
+ "audio_duration_secs": 13.26,
+ "model": "scribe_v2",
+ "language_given": null
+}

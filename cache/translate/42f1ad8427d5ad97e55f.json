@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "யு.எஸ். ஜனாதிபதி ஜார்ஜ். டபிள்யூ. புஷ் இந்த அறிவிப்பை வரவேற்றுள்ளார்.",
+ "english": "U.S. President George W. Bush has welcomed this announcement.",
+ "clip": "ta_in_1622",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "நீரோட்டத்திலிருந்து வெளியே வந்தவுடன், மீண்டும் நீந்துவது சாதாரணமானதைக் காட்டிலும் அவ்வளவு கடினமானது அல்ல.",
+ "english": "Once you get out of the current, swimming back is not that much harder than normal.",
+ "clip": "ta_in_1560",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

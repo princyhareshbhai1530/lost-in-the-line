@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "તેઓ હજી સુધી એ નક્કી કરી રહ્યાં છે કે ક્રૅશ કેટલો મોટો હતો અને પૃથ્વીને કઈ રીતે અસર થશે.",
+ "english": "They are still determining how big the crash was and how the Earth will be affected.",
+ "clip": "gu_in_1551",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਕੁਝ ਜਾਨਵਰਾਂ, ਜਿਵੇਂ ਕਿ ਹਾਥੀ ਅਤੇ ਜਿਰਾਫ ਵਿੱਚ ਕਾਰਾਂ ਦੇ ਨਜ਼ਦੀਕ ਆਉਣ ਦੀ ਪਰਿਵਰਤੀ ਹੁੰਦੀ ਹੈ ਅਤੇ ਸਟੈਂਡਰਡ ਉਪਕਰਣ ਨਾਲ ਦ੍ਰਿਸ਼ ਨੂੰ ਚੰਗੀ ਤਰ੍ਹਾਂ ਦੇਖਿਆ ਜਾਵੇਗਾ।",
+ "english": "Some animals, such as elephants and giraffes, tend to approach cars, and with standard equipment, the view will be seen well.",
+ "clip": "pa_in_1594",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 42
+}

@@ -1,0 +1,9 @@
+{
+ "model": "gemini-2.5-flash",
+ "language": "Arabic",
+ "source_text": "في الكثير من الأحيان، يمكن أن يحسّن التسجيل في دورة تدريبية لمدة عام خارج البلاد فرصك في الالتحاق بالتعليم العالي في بلدك الأم عند عودتك.",
+ "english": "Often, enrolling in a one-year training course abroad can improve your chances of enrolling in higher education in your home country upon your return.",
+ "clip": "ar_eg_1519",
+ "source": "true",
+ "batched": true
+}

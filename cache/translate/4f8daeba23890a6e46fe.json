@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "અવકાશમાં ઉપગ્રહને કોલ આવે છે અને તે પછી તરત જ તેને નીચે મોકલે છે.",
+ "english": "A call comes to the satellite in space and then immediately sends it down.",
+ "clip": "gu_in_1521",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

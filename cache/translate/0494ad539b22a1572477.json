@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਜਿਵੇਂ ਹੀ ਤੁਸੀਂ ਧਾਰਾ ਵਿਚੋਂ ਬਾਹਰ ਆਉਂਦੇ ਹੋ, ਦੁਬਾਰਾ ਤੈਰਨਾ ਆਮ ਨਾਲੋਂ ਜ਼ਿਆਦਾ ਔਖਾ ਨਹੀਂ ਹੁੰਦਾ ਹੈ।",
+ "english": "As soon as you come out of the current, swimming again is not harder than usual.",
+ "clip": "pa_in_1560",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "رحب الرئيس الأمريكي جورج دبليو بوش بالإعلان.",
+ "english": "US President George W. Bush welcomed the announcement.",
+ "clip": "ar_eg_1622",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

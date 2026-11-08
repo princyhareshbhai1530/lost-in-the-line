@@ -1,0 +1,9 @@
+{
+ "language_code": "pol",
+ "language_probability": 0.9968526363372803,
+ "text": "Zima może być bardziej mroźna, niż się wydaje. Temperatura rzadko spada poniżej zera, ale w połączeniu z wiatrem i wilgocią odczucie chłodu jest większe, niż pokazuje termometr.",
+ "transcription_id": "HhLIQ8D2BIV7ac1CzzHI",
+ "audio_duration_secs": 10.2,
+ "model": "scribe_v2",
+ "language_given": null
+}

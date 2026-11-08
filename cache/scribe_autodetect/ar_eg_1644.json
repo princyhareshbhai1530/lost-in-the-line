@@ -1,0 +1,9 @@
+{
+ "language_code": "ara",
+ "language_probability": 0.9834784865379333,
+ "text": "قال ميلر عندما طلب منه إبداء رأيه: \"يتحدث مايك كثيرًا أثناء جلسة الاستماع، كنت أستعد ولذا لم أسمع حقًا ما كان يقوله\".",
+ "transcription_id": "RT4z8GHisO07HitSqSMj",
+ "audio_duration_secs": 11.28,
+ "model": "scribe_v2",
+ "language_given": null
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "आप पिरामिड को शो शुरू होने से पहले अंधेरे में शांति से देख सकते हैं.",
+ "english": "You can view the pyramid quietly in the dark before the show begins.",
+ "clip": "hi_in_1537",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

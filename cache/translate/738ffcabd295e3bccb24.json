@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Wciąż próbuje się ustalić, jak duża była katastrofa i jaki będzie jej wpływ na Ziemię.",
+ "english": "Attempts are still being made to determine how large the catastrophe was and what its impact on Earth will be.",
+ "clip": "pl_pl_1551",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

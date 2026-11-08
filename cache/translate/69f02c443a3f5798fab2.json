@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "कुछ फ़ेस्टिवल में छोटे बच्चों के साथ आने वाले परिवारों के लिए कैंप लगाने के ख़ास इलाके होते हैं.",
+ "english": "Some festivals have special areas to set up camps for families coming with small children.",
+ "clip": "hi_in_1528",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

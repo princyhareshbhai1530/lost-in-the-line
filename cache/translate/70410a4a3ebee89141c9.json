@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "O Natal é um dos feriados mais importantes do cristianismo e é celebrado como o aniversário de Jesus.",
+ "english": "Christmas is one of the most important holidays in Christianity and is celebrated as the birthday of Jesus.",
+ "clip": "pt_br_1553",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

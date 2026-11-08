@@ -1,0 +1,9 @@
+{
+ "language_code": "eng",
+ "language_probability": 0.9908474683761597,
+ "text": "The patient had been to Nigeria where some cases of the Ebola virus have occurred.",
+ "transcription_id": "Bh8AWNbMUyDIccDAV36x",
+ "audio_duration_secs": 7.7,
+ "model": "scribe_v2",
+ "language_given": null
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Tymczasem osiemdziesiąt procent naszych towarów podlegało stawkom podatkowym obowiązującym w krajach Ameryki Środkowej. My traktujemy was",
+ "english": "Meanwhile, eighty percent of our goods were subject to the tax rates in force in Central American countries. We treat you",
+ "clip": "pl_pl_1566",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

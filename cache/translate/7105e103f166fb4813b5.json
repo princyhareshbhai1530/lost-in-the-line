@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Safari có lẽ là địa điểm thu hút du khách nhất ở Châu Phi và là điểm nổi bật đối với nhiều du khách.",
+ "english": "Safari is probably the most attractive tourist feature in Africa and a highlight for many visitors.",
+ "clip": "vi_vn_1638",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "जब टिप्पणी के लिए कहा गया तो मिलर ने कहा माइक सुनते समय बहुत सारी बातें करता है। मैं तैयार हो रहा था इसलिए वह जो कह रहा था मैं वास्तव में उसे सुन नहीं रहा था।",
+ "english": "When asked for comment Miller said Mike talks a lot while listening. I was getting ready so I wasn't really listening to what he was saying.",
+ "clip": "hi_in_1644",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

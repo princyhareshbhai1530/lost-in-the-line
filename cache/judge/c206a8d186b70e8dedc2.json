@@ -1,0 +1,8 @@
+{
+ "label": "changed",
+ "score": 35,
+ "reason": "'Thousands of miles' was changed to 'a thousand miles', altering distance.",
+ "model": "gemini-2.5-flash",
+ "prompt_version": 2,
+ "batched": true
+}

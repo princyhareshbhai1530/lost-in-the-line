@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "இதை நீங்கள் உணர்கிறீர்களோ இல்லையோ என்பது எனக்குத் தெரியாது, ஆனால் மத்திய அமெரிக்காவில் இருந்து பெரும்பாலான பொருட்கள் இந்த நாட்டுக்கு வரி விதிப்பிக்கப்படாமல் வந்து சேர்ந்தன.",
+ "english": "I don't know whether you realize this or not, but most goods from Central America arrived in this country without being taxed.",
+ "clip": "ta_in_1654",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Maaari tayong magsimulang mamuhay nang mas hindi nakakasira sa ating kapaligiran, maaari tayong sumali sa kilusang pangkapaligiran, at maaari pa nga tayong maging mga aktibista upang mabawasan ang pagdurusa sa hinaharap kahit paano.",
+ "english": "We can begin to live less destructively to our environment, we can join the environmental movement, and we can even become activists to reduce future suffering somewhat.",
+ "clip": "fil_ph_1635",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

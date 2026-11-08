@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਹਾਲਾਂਕਿ ਜਦੋਂ ਕਾਰ ਨੇ ਘਰ ਵਿੱਚ ਟੱਕਰ ਮਾਰੀ, ਉਸ ਸਮੇਂ ਤਿੰਨ ਲੋਕ ਘਰ ਦੇ ਅੰਦਰ ਸਨ, ਪਰ ਕਿਸੀ ਨੂੰ ਵੀ ਕੋਈ ਚੋਟ ਨਹੀਂ ਪਹੁੰਚੀ।",
+ "english": "Although three people were inside the house when the car hit it, no one was injured.",
+ "clip": "pa_in_1598",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

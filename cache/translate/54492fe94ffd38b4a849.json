@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "En cuanto logre escapar de la corriente, nadar de regreso no será más complejo de lo habitual.",
+ "english": "As soon as you manage to escape the current, swimming back will not be more complicated than usual.",
+ "clip": "es_419_1560",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

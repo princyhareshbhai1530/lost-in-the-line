@@ -1,0 +1,9 @@
+{
+ "model": "gemini-2.5-flash",
+ "language": "Punjabi",
+ "source_text": "ਮੰਗਲਵਾਰ ਨੂੰ ਇਸਦਾ ਕੱਟੇ ਜਾਣਾ ਨਿਰਧਾਰਿਤ ਕੀਤਾ ਗਿਆ ਸੀ, ਪਰ ਇੱਕ ਸੰਕਟਕਾਲੀਨ ਅਦਾਲਤ ਦੇ ਫੈਸਲੇ ਤੋਂ ਬਾਅਦ ਇਸਨੂੰ ਬਚਾ ਲਿਆ ਗਿਆ।",
+ "english": "It was scheduled to be cut on Tuesday, but it was saved after an emergency court decision.",
+ "clip": "pa_in_1530",
+ "source": "heard",
+ "batched": true
+}

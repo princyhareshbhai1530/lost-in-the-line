@@ -1,0 +1,7 @@
+{
+ "label": "changed",
+ "score": 35,
+ "reason": "Action changed from 'cornered' to 'dispersed'; 'riot gear' to 'protective gear'.",
+ "model": "gemini-2.5-flash",
+ "batched": true
+}

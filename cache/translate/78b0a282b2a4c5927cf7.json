@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Ang Pasko ay isa sa mga pinakamahalagang kapistahang Kristiyano, at ipinagdiriwang bilang kaarawan ni Hesus.",
+ "english": "Christmas is one of the most important Christian holidays, and is celebrated as the birthday of Jesus.",
+ "clip": "fil_ph_1553",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

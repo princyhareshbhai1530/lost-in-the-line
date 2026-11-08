@@ -1,0 +1,7 @@
+{
+ "label": "minor",
+ "score": 75,
+ "reason": "'Reflects' changed to 'sends', losing some technical specificity.",
+ "model": "gemini-2.5-flash",
+ "batched": true
+}

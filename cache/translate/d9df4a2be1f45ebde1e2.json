@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "獵遊可說是非洲最吸引人的觀光元素，也是許多訪客旅程中的重點。",
+ "english": "Safari can be said to be the most attractive tourism element in Africa, and it is also the highlight of many visitors' trips.",
+ "clip": "yue_hant_hk_1638",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

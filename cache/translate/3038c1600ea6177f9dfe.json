@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "विज्ञान अब यह संकेत देता है कि इस विशाल कार्बन अर्थव्यवस्था ने जीवमंडल को उसकी स्थिर स्थितियों में से एक से हटा दिया है जिसने पिछले बीस लाख सालों में मानव विकास में सहायता की है.",
+ "english": "Science now indicates that this huge carbon economy has dislodged the biosphere from one of its stable states that has aided human development over the past two million years.",
+ "clip": "hi_in_1616",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

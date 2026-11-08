@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "O presidente norte-americano George W. Bush recebeu bem o anúncio",
+ "english": "U.S. President George W. Bush welcomed the announcement",
+ "clip": "pt_br_1622",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

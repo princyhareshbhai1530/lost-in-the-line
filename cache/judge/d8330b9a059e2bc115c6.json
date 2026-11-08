@@ -1,0 +1,7 @@
+{
+ "label": "same",
+ "score": 100,
+ "reason": "Synonyms used, number written out, meaning is identical.",
+ "model": "gemini-2.5-flash",
+ "batched": true
+}

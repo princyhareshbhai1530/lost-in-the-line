@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "Para la religión cristiana, la Navidad es una de sus festividades más importantes, en la que se celebra el nacimiento de Jesucristo.",
+ "english": "For the Christian religion, Christmas is one of its most important holidays, in which the birth of Jesus Christ is celebrated.",
+ "clip": "es_419_1553",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

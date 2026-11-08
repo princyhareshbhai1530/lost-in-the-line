@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "સફારી એ આફ્રિકામાં પ્રવાસનું કદાચ સૌથી મોટું આકર્ષણ અને ઘણાં મુલાકાતીઓ માટે મુખ્ય મુસાફરી છે.",
+ "english": "Safari is probably the biggest attraction of travel in Africa and the main journey for many visitors.",
+ "clip": "gu_in_1638",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

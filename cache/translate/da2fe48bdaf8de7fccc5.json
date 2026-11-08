@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "क्रिसमस ईसाई धर्म का एक सबसे महत्वपूर्ण अवकाश है और इसे यीशू के जन्मदिन के रूप में मनाया जाता है.",
+ "english": "Christmas is one of the most important holidays of Christianity and is celebrated as the birthday of Jesus.",
+ "clip": "hi_in_1553",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

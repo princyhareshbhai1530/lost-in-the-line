@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "ولكن الغابات ليست مجرد مستنقعات لأشجار المانجروف؛ فبها بعضٌ من آخر الشواهد القائمة على الأدغال الكثيفة التي غطت في يومٍ ما سهل نهر الغانج.",
+ "english": "But the forests are not just mangrove swamps; they contain some of the last surviving evidence of the dense jungles that once covered the Ganges plain.",
+ "clip": "ar_eg_1641",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

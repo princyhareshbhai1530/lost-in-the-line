@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "Debido a que se encuentran muy alejadas del continente, los mamíferos no lograban llegar hasta allí, lo que hizo que la tortuga gigante se volviera la principal criatura de pastoreo en las Galápagos.",
+ "english": "Because they are located very far from the continent, mammals failed to reach there, which made the giant tortoise become the main grazing creature in the Galapagos.",
+ "clip": "es_419_1605",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

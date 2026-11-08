@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "પોલીસે કહ્યું કે શરીર લગભગ એક દિવસથી ત્યાં પડી રહ્યું હોવાનું દેખાય છે.",
+ "english": "The police said that the body appears to have been lying there for about a day.",
+ "clip": "gu_in_1656",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

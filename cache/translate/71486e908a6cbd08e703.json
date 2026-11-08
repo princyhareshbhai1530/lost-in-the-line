@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "जबकी हमारे माल के अस्सी प्रतिशत पर केंद्रीय अमेरिकन देशों द्वारा कर लगाया गया। फिर भी हम आपका इलाज करते हैं।",
+ "english": "While eighty percent of our goods were taxed by Central American countries. Still we treat you.",
+ "clip": "hi_in_1566",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

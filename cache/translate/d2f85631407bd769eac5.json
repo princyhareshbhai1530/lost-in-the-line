@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "如今科學指出，這樣大規模的碳經濟活動已讓生物圈脫離過去兩百萬年來支持著人類演進的穩定狀態。",
+ "english": "Today, science indicates that such large-scale carbon economic activities have caused the biosphere to depart from the stable state that has supported human evolution over the past two million years.",
+ "clip": "yue_hant_hk_1616",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 110
+}

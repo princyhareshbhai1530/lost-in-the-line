@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਸ਼ਾਇਦ ਸਫਾਰੀ ਅਫਰੀਕਾ ਵਿੱਚ ਟੂਰਿਜ਼ਮ ਲਈ ਸਭ ਤੋਂ ਵੱਡੀ ਥਾਂ ਹੈ ਅਤੇ ਬਹੁਤ ਸਾਰੇ ਸੈਲਾਨੀਆਂ ਲਈ ਆਕਰਸ਼ਨ ਦਾ ਕੇਂਦਰ ਹੈ।",
+ "english": "Perhaps safari is the biggest place for tourism in Africa and is a center of attraction for many tourists.",
+ "clip": "pa_in_1638",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

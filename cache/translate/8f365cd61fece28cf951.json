@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Phụ nữ nên hiểu rằng sự khác biệt về văn hóa có thể dẫn đến một tình huống mà họ coi là quấy rối và việc đi theo, nắm cánh tay, v.v. là chuyện rất bình thường.",
+ "english": "Women should understand that cultural differences can lead to a situation that they consider harassment, and being followed, having their arm grabbed, etc., is very common.",
+ "clip": "vi_vn_1632",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

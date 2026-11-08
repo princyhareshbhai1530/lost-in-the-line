@@ -1,0 +1,8 @@
+{
+ "label": "same",
+ "score": 100,
+ "reason": "Core meaning of satellite receiving and sending signal is preserved.",
+ "model": "gemini-2.5-flash",
+ "prompt_version": 2,
+ "batched": true
+}

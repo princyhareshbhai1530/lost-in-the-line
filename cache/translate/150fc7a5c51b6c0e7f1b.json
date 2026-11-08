@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "کلیسا کے صحن میں کچھ مقبروں پر سنگ مرمر سے بنے فاختاؤں دلچسپ مجسمے ہیں۔",
+ "english": "In the church courtyard, there are interesting statues of doves made of marble on some tombs.",
+ "clip": "ur_pk_1555",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

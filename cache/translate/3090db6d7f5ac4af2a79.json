@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Cechy wyróżniające subkulturę w jej odrębności mogą mieć charakter językowy, estetyczny, religijny, polityczny, seksualny, geograficzny albo mogą stanowić połączenie różnych czynników.",
+ "english": "The traits distinguishing a subculture in its distinctness can be linguistic, aesthetic, religious, political, sexual, geographic, or can constitute a combination of various factors.",
+ "clip": "pl_pl_1589",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

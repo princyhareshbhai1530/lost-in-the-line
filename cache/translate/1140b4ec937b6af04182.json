@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Według mnie to nie miało sensu i na pewno nie było sprawiedliwe",
+ "english": "In my opinion that made no sense and certainly wasn't fair",
+ "clip": "pl_pl_1577",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

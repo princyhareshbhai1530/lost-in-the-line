@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "与其他地方提供的更详细的信息相比，这里所提供的建议往往较为粗略、笼统且过于简单。",
+ "english": "Compared to the more detailed information available elsewhere, the suggestions provided here tend to be relatively sketchy, generalized, and overly simplistic.",
+ "clip": "cmn_hans_cn_1647",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

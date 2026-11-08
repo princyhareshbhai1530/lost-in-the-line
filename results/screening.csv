@@ -1,0 +1,40 @@
+name,population,exposure_index,exposure_per_1000,coverage_pct,tested_speakers,unmeasured_bengali,top_languages,rank
+DT Cooksville,9575,0.017357,17.36,30.7,2935,70,Arabic; Tamil; Tagalog,1
+Fairview,7215,0.015444,15.44,31.1,2245,30,Tagalog; Mandarin Chinese; Polish,2
+Churchill Meadows,48745,0.015074,15.07,28.7,13980,225,Arabic; Mandarin Chinese; Urdu,3
+DT Fairview,16570,0.014994,14.99,24.7,4090,210,Arabic; Tagalog; Spanish,4
+DT Hospital,12305,0.014957,14.96,24.1,2970,110,Tagalog; Arabic; Polish,5
+DT Core,34425,0.014632,14.63,24.9,8570,285,Arabic; Mandarin Chinese; Tamil,6
+Creditview,10070,0.014222,14.22,27.3,2745,0,Mandarin Chinese; Arabic; Tagalog,7
+Central Erin Mills MN,6040,0.013955,13.95,23.3,1410,35,Arabic; Mandarin Chinese; Tamil,8
+East Credit,63320,0.013356,13.36,28.1,17820,180,Mandarin Chinese; Arabic; Tagalog,9
+Central Erin Mills,30250,0.012987,12.99,24.3,7355,50,Mandarin Chinese; Arabic; Cantonese,10
+Cooksville (West),14665,0.01294,12.94,23.4,3425,25,Polish; Arabic; Tagalog,11
+Hurontario,49755,0.012918,12.92,26.6,13225,170,Mandarin Chinese; Tamil; Tagalog,12
+Uptown MN,10660,0.012005,12.01,23.5,2500,70,Arabic; Mandarin Chinese; Tagalog,13
+Erindale,22025,0.011632,11.63,22.4,4925,65,Mandarin Chinese; Tagalog; Polish,14
+Mississauga Valleys,12595,0.01121,11.21,20.1,2530,25,Polish; Tagalog; Spanish,15
+Sheridan CN,3265,0.01072,10.72,23.7,775,0,Arabic; Urdu; Tagalog,16
+Meadowvale Village,31240,0.010586,10.59,24.1,7525,55,Tamil; Tagalog; Spanish,17
+South Common CN,4880,0.010148,10.15,16.1,785,0,Tagalog; Arabic; Mandarin Chinese,18
+Malton,35250,0.010054,10.05,31.1,10950,210,Punjabi; Hindi; Gujarati,19
+Applewood,35490,0.009748,9.75,19.4,6900,155,Polish; Tagalog; Arabic,20
+Rathwood-Applewood CN,3350,0.009595,9.59,18.2,610,45,Spanish; Polish; Arabic,21
+Meadowvale CN,2855,0.009132,9.13,14.0,400,0,Tamil; Arabic; Spanish,22
+Rathwood,24865,0.008886,8.89,16.8,4165,15,Polish; Spanish; Mandarin Chinese,23
+Lisgar,31565,0.008855,8.86,17.2,5430,95,Arabic; Tagalog; Mandarin Chinese,24
+Meadowvale,35910,0.007864,7.86,13.9,4980,115,Spanish; Arabic; Tagalog,25
+Erin Mills,38320,0.007434,7.43,14.2,5430,105,Mandarin Chinese; Arabic; Polish,26
+Malton CN,2670,0.007401,7.4,13.7,365,0,Tagalog; Arabic; Polish,27
+Sheridan,12210,0.007332,7.33,13.2,1615,25,Mandarin Chinese; Tagalog; Arabic,28
+Streetsville,10610,0.006979,6.98,12.9,1370,0,Mandarin Chinese; Spanish; Portuguese,29
+Clarkson - Lorne Park,36350,0.006209,6.21,10.9,3965,35,Mandarin Chinese; Tagalog; Polish,30
+Cooksville (East),8405,0.005807,5.81,12.0,1005,50,Polish; Portuguese; Tagalog,31
+Streetsville CN,1320,0.005592,5.59,11.0,145,0,Arabic; Spanish; Polish,32
+Mineola,9845,0.005163,5.16,9.5,935,0,Polish; Mandarin Chinese; Spanish,33
+Port Credit CN,4945,0.005152,5.15,8.3,410,0,Spanish; Polish; Tagalog,34
+Lakeview,21960,0.004478,4.48,8.7,1905,45,Polish; Portuguese; Mandarin Chinese,35
+Dixie EA,945,0.004409,4.41,10.6,100,0,Spanish; Polish; Cantonese,36
+Port Credit (West),3300,0.004221,4.22,7.4,245,0,Polish; Spanish; Hindi,37
+Clarkson Village CN,2350,0.003901,3.9,6.0,140,15,Arabic; Spanish; Mandarin Chinese,38
+Port Credit (East),2420,0.002509,2.51,3.7,90,0,Mandarin Chinese; Spanish; Tagalog,39

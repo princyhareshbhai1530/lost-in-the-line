@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Mga halimbawa ng mga aktwal na aktibidad ay kabilang ang pangangaso, pangingisda, pagkuha ng larawan, pagmamasid sa mga ibon, at pagdalaw sa mga parke at pag-aaral sa impormasyong tungkol sa kapaligiran.",
+ "english": "Examples of actual activities include hunting, fishing, taking pictures, bird watching, and visiting parks and studying information about the environment.",
+ "clip": "fil_ph_1600",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

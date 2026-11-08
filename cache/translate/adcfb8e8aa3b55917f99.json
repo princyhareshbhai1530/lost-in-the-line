@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "मौसम में सरमा हैरतअंगेज तौर पर ठंड ठंडा हो सकता है। दर्ज हरारत कभी कभार मुंजवित पॉइंट से नीचे जाती है, लेकिन हवा और नमी थर्मामीटर पर नज़र आने वाली ठंड से मौसम को कहीं ज़्यादा सर्द बना देती है।",
+ "english": "Winter can be surprisingly cold cold. The temperature rarely drops below freezing point, but the wind and humidity make the weather much colder than the cold visible on the thermometer.",
+ "clip": "ur_pk_1574",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

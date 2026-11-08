@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Raport rozpoczyna się apelem o otwartą debatę i konsensus w kwestii polityki Stanów Zjednoczonych w stosunku do Bliskiego Wschodu.",
+ "english": "The report begins with an appeal for open debate and consensus regarding the United States' policy towards the Middle East.",
+ "clip": "pl_pl_1569",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

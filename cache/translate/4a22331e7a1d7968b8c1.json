@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "Algunos ejemplos de posibles actividades en el lugar son: caza, pesca, fotografía, avistamiento de aves y visita a parques y estudio de información del ecosistema",
+ "english": "Some examples of possible activities on site are: hunting, fishing, photography, birdwatching, and visiting parks and studying ecosystem information",
+ "clip": "es_419_1600",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

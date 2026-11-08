@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Gayunman, ang mga gubat ay hindi lamang mga latian ng bakawan. Kabilang dito ang ilan sa huling natitirang pag-asa ng mga makapangyarihang kagubatan na minsan tinakpan ang kapatagan ng Ganga.",
+ "english": "However, the forests are not just mangrove swamps. They include some of the last remaining hopes of the mighty forests that once covered the Gangetic plain.",
+ "clip": "fil_ph_1641",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

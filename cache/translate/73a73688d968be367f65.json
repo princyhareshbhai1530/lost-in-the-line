@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "कुछ फेस्टिवल में family वालों और छोटे बच्चों के क़ायम की ख़ास जगह होती हैं।",
+ "english": "Some festivals have special accommodation areas for family people and small children.",
+ "clip": "ur_pk_1528",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

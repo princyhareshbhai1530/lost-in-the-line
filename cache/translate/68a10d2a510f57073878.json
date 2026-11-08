@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "நான் எனது சகோதரி மற்றும் அவளது நண்பரைத் தொலைத்து விட்டேன் மற்றும் நான் வரும் வழியில் சக்கர நாற்காலியில் அமர்ந்திருந்த மூனமுற்ற இரண்டு சிறுவரின் மீது மக்கள் குதித்து வாறும் அவர்களைத் தள்ளி வயரும் இருந்தனர் என Armand Versace கூறினார்.",
+ "english": "\"I lost my sister and her friend and on my way people were jumping on and pushing two disabled boys who were in wheelchairs,\" Armand Versace said.",
+ "clip": "ta_in_1608",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

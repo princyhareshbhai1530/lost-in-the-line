@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "El frío invernal puede ser engañoso: si bien es muy raro que las temperaturas sean inferiores al punto de congelación, el viento y la humedad interactúan para hacer que se perciba más frío del que señala el termómetro.",
+ "english": "Winter cold can be deceptive: although it is very rare for temperatures to be below freezing, the wind and humidity interact to make it feel colder than what the thermometer indicates.",
+ "clip": "es_419_1574",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "ઘણા કિસ્સાઓમાં, વિદેશોમાં ગેપ-યર કોર્સમાં પ્રવેશ કરવાથી તમારા દેશમાં ઉચ્ચ શિક્ષણમાં પાછા ફરવાની શક્યતા વધી શકે છે.",
+ "english": "In many cases, enrolling in a gap-year course abroad can increase the likelihood of returning to higher education in your country.",
+ "clip": "gu_in_1519",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

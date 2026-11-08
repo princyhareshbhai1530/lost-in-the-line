@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "几个世界后，从美国、从美洲或亚洲传入欧洲的食物不可能出现在古罗马人的饮食当中。",
+ "english": "Several worlds later, foods introduced to Europe from the United States, from the Americas or Asia could not have appeared in the diet of the ancient Romans.",
+ "clip": "cmn_hans_cn_1627",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

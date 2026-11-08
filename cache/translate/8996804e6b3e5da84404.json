@@ -1,0 +1,9 @@
+{
+ "model": "gemini-2.5-flash",
+ "language": "Arabic",
+ "source_text": "عندما توقف القتال بعد نقل الجرحى إلى المستشفى، بقي حوالي 40 من السجناء الباقين في الفناء ورفضوا العودة إلى زنازينهم.",
+ "english": "When the fighting stopped after the wounded were transferred to the hospital, about 40 of the remaining prisoners stayed in the yard and refused to return to their cells.",
+ "clip": "ar_eg_1514",
+ "source": "true",
+ "batched": true
+}

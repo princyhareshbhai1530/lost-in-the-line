@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Poproszony o komentarz Miller powiedział: „Podczas przesłuchania Mike dużo mówił. Tak naprawdę nie słyszałem, co mówił, bo się przygotowywałem",
+ "english": "Asked for comment, Miller said: “During the questioning Mike talked a lot. I didn't really hear what he was saying because I was getting ready",
+ "clip": "pl_pl_1644",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

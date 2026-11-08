@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Ang mga katangian tumutukoy sa isang subkultura bilang natatangi ay maaaring lingguwistika, estetiko, relihiyoso, politikal, sekswal, heograpikal o kombinasyon ng mga salik na ito.",
+ "english": "The traits that define a subculture as distinct can be linguistic, aesthetic, religious, political, sexual, geographical, or a combination of these factors.",
+ "clip": "fil_ph_1589",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

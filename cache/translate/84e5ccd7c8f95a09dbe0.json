@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "O satélite no espaço recebe a chamada e depois a redireciona de volta, quase instantaneamente.",
+ "english": "The satellite in space receives the call and then redirects it back, almost instantly.",
+ "clip": "pt_br_1521",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

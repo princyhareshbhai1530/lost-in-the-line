@@ -1,0 +1,9 @@
+{
+ "language_code": "spa",
+ "language_probability": 0.9490286707878113,
+ "text": "Al pedirle un comentario, Miller dijo: «Mike habla mucho durante la audiencia. Estaba preparándome, así que en verdad no pude escuchar lo que decía».",
+ "transcription_id": "cjX9LiziSSnKUGcXZ9fk",
+ "audio_duration_secs": 11.58,
+ "model": "scribe_v2",
+ "language_given": null
+}

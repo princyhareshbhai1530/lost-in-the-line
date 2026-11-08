@@ -1,0 +1,8 @@
+{
+ "label": "same",
+ "score": 100,
+ "reason": "Meaning is preserved; 'transferring to' is a valid synonym.",
+ "model": "gemini-2.5-flash",
+ "prompt_version": 2,
+ "batched": true
+}

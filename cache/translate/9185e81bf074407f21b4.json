@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "अमेरिकी राष्ट्रपति जॉर्ज डब्ल्यू बुश ने घोषणा का स्वागत किया",
+ "english": "US President George W. Bush welcomed the announcement",
+ "clip": "hi_in_1622",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

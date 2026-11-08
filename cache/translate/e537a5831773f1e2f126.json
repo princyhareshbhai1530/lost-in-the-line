@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "ઘણા સામાન્ય માળખાઓ (માળખાઓનો APS પરિવાર, ઉદાહરણ તરીકે) સરખા અથવા આ આકાર પ્રમાણનાં લગભગ એકદમ નજીક હોય છે.",
+ "english": "Many common formats (the APS family of formats, for example) are identical or very close to this aspect ratio.",
+ "clip": "gu_in_1533",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

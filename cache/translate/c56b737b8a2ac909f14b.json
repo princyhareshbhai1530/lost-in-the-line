@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Mimo że w domu przebywały trzy osoby, gdy uderzył w niego samochód, żadna z nich nie odniosła obrażeń.",
+ "english": "Even though three people were in the house when the car crashed into it, none of them sustained injuries.",
+ "clip": "pl_pl_1598",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

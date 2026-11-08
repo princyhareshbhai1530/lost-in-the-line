@@ -1,0 +1,10 @@
+{
+ "label": "changed",
+ "score": 35,
+ "reason": "'Several worlds later' and 'United States' distort time and geography.",
+ "model": "gemini-3.8-flash",
+ "prompt_version": 2,
+ "settings": "tlminimal",
+ "batched": true,
+ "batch_size": 250
+}

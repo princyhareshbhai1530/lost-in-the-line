@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "આ ખંડથી લાંબા અંતરને કારણે સસ્તન પ્રાણીઓ મુસાફરી કરી શક્યા નહોતા. આ મહાકાય કાચબો ગાલાપાગોસમાં પ્રાથમિક ચરવવા માટેનું પ્રાણી છે.",
+ "english": "Due to the long distance from this continent mammals were unable to travel. This giant tortoise is the primary grazing animal in Galapagos.",
+ "clip": "gu_in_1605",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

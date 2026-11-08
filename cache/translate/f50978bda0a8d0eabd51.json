@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "我们可以开始更环保地生活，加入环保运动，甚至可以成为环保积极分子，在一定程度上减少将来的灾难。",
+ "english": "We can start living a greener life, join the environmental protection movement, and even become environmental activists to reduce future disasters to some extent.",
+ "clip": "cmn_hans_cn_1635",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Những trường hợp mắc bệnh đầu tiên mùa này được cho là xuất hiện vào cuối tháng Bảy.",
+ "english": "The first cases of the disease this season were said to have appeared in late July.",
+ "clip": "vi_vn_1587",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

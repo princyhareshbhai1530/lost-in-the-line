@@ -1,0 +1,7 @@
+{
+ "label": "minor",
+ "score": 75,
+ "reason": "Nuance of 'cornered with tear gas' is lost.",
+ "model": "gemini-2.5-flash",
+ "batched": true
+}

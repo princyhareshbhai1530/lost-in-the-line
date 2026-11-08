@@ -1,0 +1,8 @@
+{
+ "label": "changed",
+ "score": 35,
+ "reason": "'Been to' changed to 'lived in', altering patient's exposure context.",
+ "model": "gemini-2.5-flash",
+ "prompt_version": 2,
+ "batched": true
+}

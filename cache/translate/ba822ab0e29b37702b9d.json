@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਸਾਈਟ 'ਤੇ ਕੀਤੀਆਂ ਜਾਣ ਵਾਲੀਆਂ ਗਤੀਵਿਧੀਆਂ ਦੀਆਂ ਉਦਾਹਰਨਾਂ ਵਿੱਚ ਸ਼ਿਕਾਰ ਕਰਨਾ, ਮੱਛੀ ਫੜਨਾ, ਫੋਟੋਗ੍ਰਾਫ਼ੀ, ਪੰਛੀ ਦੇਖਣਾ, ਅਤੇ ਪਾਰਕਾਂ ਵਿੱਚ ਜਾਣਾ, ਅਤੇ ਵਾਤਾਵਰਨ ਪ੍ਰਣਾਲੀ ਦੀ ਜਾਣਕਾਰੀ ਬਾਰੇ ਅਧਿਐਨ ਕਰਨਾ ਸ਼ਾਮਲ ਹੈ।",
+ "english": "Examples of activities done on site include hunting, fishing, photography, bird watching, and visiting parks, and studying ecosystem information.",
+ "clip": "pa_in_1600",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

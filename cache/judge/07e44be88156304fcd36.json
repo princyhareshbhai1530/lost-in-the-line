@@ -1,0 +1,7 @@
+{
+ "label": "changed",
+ "score": 35,
+ "reason": "'In the dark' changed to 'in history' alters the visual experience significantly.",
+ "model": "gemini-2.5-flash",
+ "batched": true
+}

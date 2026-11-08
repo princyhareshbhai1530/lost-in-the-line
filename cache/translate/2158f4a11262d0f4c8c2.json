@@ -1,0 +1,9 @@
+{
+ "model": "gemini-2.5-flash",
+ "language": "Arabic",
+ "source_text": "كان من المقرر إعدامها يوم الثلاثاء، ولكن أنقذها حكم مستعجل من المحكمة.",
+ "english": "She was scheduled to be executed on Tuesday, but an urgent court ruling saved her.",
+ "clip": "ar_eg_1530",
+ "source": "true",
+ "batched": true
+}

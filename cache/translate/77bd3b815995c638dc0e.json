@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "耶誕節是基督教最重要的節日之一，慶祝的是耶穌的誕生。",
+ "english": "Christmas is one of the most important Christian holidays, celebrating the birth of Jesus.",
+ "clip": "yue_hant_hk_1553",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

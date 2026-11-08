@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "Muchos formatos típicos, verbigracia, el grupo de formatos APS, son iguales o se asemejan mucho a esta relación de aspecto.",
+ "english": "Many typical formats, for example, the APS format group, are identical or closely resemble this aspect ratio.",
+ "clip": "es_419_1533",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

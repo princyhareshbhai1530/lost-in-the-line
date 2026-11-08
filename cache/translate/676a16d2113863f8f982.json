@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "Eles ainda estão tentando determinar o tamanho do acidente e como a terra será afetada.",
+ "english": "They are still trying to determine the size of the accident and how the land will be affected.",
+ "clip": "pt_br_1551",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

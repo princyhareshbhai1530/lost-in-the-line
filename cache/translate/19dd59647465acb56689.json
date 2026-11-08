@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "चर्च के परिसर में, कुछ कब्रों पर कबूतरों की संगमरमर से बनाई गयी दिलचस्प मूर्तियां हैं।",
+ "english": "In the church premises, there are interesting statues made of marble of pigeons on some graves.",
+ "clip": "hi_in_1555",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "وبالرغم من ذلك، تُفرض ضرائب على ثمانين في المئة من صادرتنا من البضائع عبر تعريفات جمركية في دول أمريكا الوسطى، كما نعاملكم.",
+ "english": "Even so, eighty percent of our exports of goods are taxed via tariffs in Central American countries, as we treat you.",
+ "clip": "ar_eg_1566",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

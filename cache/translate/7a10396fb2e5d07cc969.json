@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "No sé si se han percatado de ello o no, pero la mayor parte de los productos provenientes de Centroamérica llegaban a este país libres de impuestos",
+ "english": "I don't know whether you have noticed it or not, but most of the products coming from Central America used to arrive in this country duty-free",
+ "clip": "es_419_1654",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

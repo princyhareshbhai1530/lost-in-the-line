@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "जल्द ही दंगा संबंधी उपकरणों से लैस अधिकारियों ने अहाते में प्रवेश किया और कैदियों को आंसू गैस की मदद से काबू में कर लिया।",
+ "english": "Soon officers equipped with riot gear entered the compound and brought the prisoners under control with the help of tear gas.",
+ "clip": "hi_in_1511",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

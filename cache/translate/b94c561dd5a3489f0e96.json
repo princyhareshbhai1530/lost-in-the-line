@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "游猎活动也许是非洲最吸引人的旅游活动，也是许多游客行程中的亮点。",
+ "english": "Safari is perhaps the most attractive tourist activity in Africa and a highlight of many tourists' itineraries.",
+ "clip": "cmn_hans_cn_1638",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

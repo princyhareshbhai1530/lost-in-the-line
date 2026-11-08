@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "现场活动包括打猎、钓鱼、摄影、观鸟、参观公园和研究生态系统。",
+ "english": "On-site activities include hunting, fishing, photography, bird watching, visiting parks, and studying the ecosystem.",
+ "clip": "cmn_hans_cn_1600",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

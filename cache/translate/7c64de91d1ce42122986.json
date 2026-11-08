@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "பல சமயங்களில் அயல்நாட்டு கேக் ஈயர் வகுப்புகளில் பதிவு செய்து கொள்வது சொந்த நாட்டிலேயே மேற்படிப்பைத் தொடர்வதற்கான வாய்ப்புகளை அதிகரிக்கின்றது",
+ "english": "In many cases enrolling in cake year classes abroad increases the chances of pursuing higher education in one's home country",
+ "clip": "ta_in_1519",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

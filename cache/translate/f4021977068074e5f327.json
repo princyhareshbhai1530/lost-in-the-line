@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Sa paglipas ng panahon, habang ang bagong populasyon ay nagsisimulang umangkop sa kanilang bagong kapaligiran, nagsisimulang umiba nang umiba ang kanilang hitsura kaysa sa isa pang populasyon.",
+ "english": "Over time, as the new population begins to adapt to their new environment, their appearance begins to look more and more different than the other population.",
+ "clip": "fil_ph_1585",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

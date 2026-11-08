@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "இருட்டில் நீங்கள் பிரமிட்களைப் பார்க்கலாம், மேலும், காட்சி துவங்குவதற்கு முன் நீங்கள் அதனை அமைதியாகக் காணலாம்.",
+ "english": "You can see the pyramids in the dark, and you can also view them in tranquility before the show begins.",
+ "clip": "ta_in_1537",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

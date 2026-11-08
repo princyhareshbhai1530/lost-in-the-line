@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Ang agham ngayon ay nagpapahiwatig na itong malawakang ekonomiya ng karbon ay nagtanggal sa sistema ng ekolohiya, biosphere, mula sa isa nitong matatag na estado na sumuporta sa ebolusyon ng tao sa nakalipas na dalawang milyong taon.",
+ "english": "Science now suggests that this vast carbon economy has removed the ecological system, biosphere, from one of its stable states that supported human evolution over the past two million years.",
+ "clip": "fil_ph_1616",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

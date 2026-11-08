@@ -1,0 +1,7 @@
+{
+ "label": "minor",
+ "score": 75,
+ "reason": "Tense change from past perfect to simple past is a minor nuance loss.",
+ "model": "gemini-2.5-flash",
+ "batched": true
+}

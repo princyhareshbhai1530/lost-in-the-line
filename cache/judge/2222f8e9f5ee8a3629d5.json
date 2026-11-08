@@ -1,0 +1,7 @@
+{
+ "label": "same",
+ "score": 100,
+ "reason": "Synonymous phrasing; 'closely approximate' vs 'very close to' is same meaning.",
+ "model": "gemini-2.5-flash",
+ "batched": true
+}

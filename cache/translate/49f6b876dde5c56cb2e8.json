@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Các quan điểm thường được trình bày khó hiểu, chung chung và quá đơn giản so với những thông tin chi tiết hơn có thể tìm thấy ở nơi khác.",
+ "english": "Views are often presented in a confusing, broad, and oversimplified manner compared to the more detailed information that can be found elsewhere.",
+ "clip": "vi_vn_1647",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

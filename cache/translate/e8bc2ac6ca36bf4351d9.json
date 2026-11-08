@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "आर्मंड वर्सास ने कहा, मैंने अपनी बहन और उसकी दोस्त को खो दिया, और रास्ते में व्हीलचेयर में दो दिव्यांग लोग थे, और लोग उनपर उछल रहे थे और उन्हें धक्का दे रहे थे”।",
+ "english": "Armand Versace said, \"I lost my sister and her friend, and on the way there were two disabled people in wheelchairs, and people were jumping over them and pushing them\".",
+ "clip": "hi_in_1608",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

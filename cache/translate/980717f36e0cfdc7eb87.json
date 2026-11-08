@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "તે મંગળવારે કપાવવાનું નક્કી થયું હતું, પણ કોર્ટના ઇમર્જન્સી નિર્ણયના કારણે સાચવણી થઈ ગઈ.",
+ "english": "It was decided to be cut on Tuesday, but was preserved due to an emergency court decision.",
+ "clip": "gu_in_1530",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

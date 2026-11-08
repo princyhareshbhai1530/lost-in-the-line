@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "غالباً ما تكون الآراء المقدمة سريعة وعامة ومبسطة مقارنة بالمعلومات الأكثر تفصيلاً المتوفرة في أماكن أخرى.",
+ "english": "Opinions provided are often quick, general, and simplified compared to the more detailed information available elsewhere.",
+ "clip": "ar_eg_1647",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

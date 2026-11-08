@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਮੰਗਲਵਾਰ ਨੂੰ ਇਸਦਾ ਕੱਟਿਆ ਜਾਣਾ ਨਿਯਤ ਕੀਤਾ ਗਿਆ ਸੀ, ਪਰ ਇੱਕ ਸੰਕਟਕਾਲੀਨ ਅਦਾਲਤ ਦੇ ਫੈਸਲੇ ਤੋਂ ਬਾਅਦ ਇਸਨੂੰ ਬਚਾ ਲਿਆ ਗਿਆ।",
+ "english": "It was scheduled to be cut down on Tuesday, but was saved after an emergency court decision.",
+ "clip": "pa_in_1530",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

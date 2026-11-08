@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "Aun así, los países de América Central gravaron con aranceles el ochenta por ciento de los productos que nosotros elaboramos. los tratamos a ustedes.",
+ "english": "Even so, Central American countries levied tariffs on eighty percent of the products that we manufacture. we treat you.",
+ "clip": "es_419_1566",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

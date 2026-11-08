@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਵਿਗਿਆਨ ਹੁਣ ਇਹ ਦਸਾਉਂਦਾ ਹੈ ਕਿ ਇਸ ਵਿਸ਼ਾਲ ਕਾਰਬਨ ਆਰਥਿਕਤਾ ਨੇ ਆਪਣੇ ਇੱਕ ਸਥਾਈ ਰਾਜ ਤੋਂ ਜੀਵ-ਮੰਡਲ ਨੂੰ ਹਟਾ ਦਿੱਤਾ ਹੈ ਜਿਸਨੇ ਪਿਛਲੇ 2 ਮਿਲੀਅਨ ਸਾਲਾਂ ਤੋਂ ਮਨੁੱਖੀ ਵਿਕਾਸ ਵਿੱਚ ਮਦਦ ਕੀਤੀ ਹੈ।",
+ "english": "Science now shows that this vast carbon economy has removed the biosphere from one of its stable states that has helped human evolution over the past 2 million years.",
+ "clip": "pa_in_1616",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

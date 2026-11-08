@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "许多常见格式，例如 APS 格式系列，都与这个长宽比相同或相当接近。",
+ "english": "Many common formats, such as the APS format series, are identical or quite close to this aspect ratio.",
+ "clip": "cmn_hans_cn_1533",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

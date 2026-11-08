@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "जैसे ही आप धारा से निकल आते हैं, पीछे की ओर तैरने में कोई खास मुश्किल नहीं होती है।",
+ "english": "As soon as you come out of the current, there is no particular difficulty in swimming backward.",
+ "clip": "hi_in_1560",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

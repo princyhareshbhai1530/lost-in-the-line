@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "我失去了我的姊妹和她的朋友，而我在逃跑途中，有兩名坐輪椅的身障人士，大家直接跳過他們和推擠他們。」阿曼．維薩切 (Armand Versace) 說。",
+ "english": "I lost my sister and her friend, and while I was escaping, there were two people with disabilities in wheelchairs, and people just jumped over them and pushed them,\" said Armand Versace.",
+ "clip": "yue_hant_hk_1608",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

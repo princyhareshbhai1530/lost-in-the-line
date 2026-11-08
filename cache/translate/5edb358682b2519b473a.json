@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Nawalan ako ng kapatid at kaibigan at habang ako'y nasa daan ay may dalawang taong may kapansanan na nasa mga silyang may gulong, wheelchair. Ang mga tao ay tumatakbo at tumutulak sa kanila,\" ani Armand Versace.",
+ "english": "\"I lost a sibling and a friend and while I was on the road there were two disabled people who were in chairs with wheels, wheelchair. People were running and pushing them,\" said Armand Versace.",
+ "clip": "fil_ph_1608",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

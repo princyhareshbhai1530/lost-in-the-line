@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "如今科学表明，这种大规模的碳经济再也无法让过去两百万年来支持人类进化发展的生物圈保持稳定状态。",
+ "english": "Today science shows that this large-scale carbon economy can no longer keep the biosphere, which has supported human evolution and development over the past two million years, in a stable state.",
+ "clip": "cmn_hans_cn_1616",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

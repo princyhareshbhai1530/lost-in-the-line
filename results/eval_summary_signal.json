@@ -1,0 +1,58 @@
+{
+  "data_status": "REAL",
+  "n_clips": 40,
+  "models": {
+    "scribe": "scribe_v2",
+    "gemini": "gemini-2.5-flash",
+    "embedding": "gemini-embedding-001",
+    "temperature": 0
+  },
+  "bootstrap_reps": 2000,
+  "seed": 2026,
+  "evaluator": {
+    "n_translations": 70,
+    "judge_vs_embedding_pearson": 0.53,
+    "judge_vs_embedding_spearman": 0.4684,
+    "judge_vs_facts_spearman": 0.3474,
+    "n_translations_with_facts": 28,
+    "embedding_vs_facts_spearman": 0.3218
+  },
+  "sex_effect": {
+    "female_minus_male_cer": -0.0014,
+    "ci": [
+      -0.0014,
+      -0.0014
+    ],
+    "n_mixed_languages": 1,
+    "per_language": {
+      "en_us": {
+        "diff": -0.0014,
+        "n_female": 4,
+        "n_male": 6
+      }
+    }
+  },
+  "gate": {
+    "languages_differ_total_loss_ci_separated": true,
+    "dominant_break_differs": true,
+    "fact_survival_spread_ge_15pts": true,
+    "dominant_break_by_language": {
+      "en_us": "translator",
+      "fil_ph": "translator",
+      "pa_in": "ear",
+      "ur_pk": "translator"
+    },
+    "ear_language_or_script_flips_ge_10pct": [
+      "ur_pk"
+    ],
+    "judge_embedding_spearman": 0.4684,
+    "measures_broadly_agree": false,
+    "decision": "GO on objective signal; judge agreement weak - check hand-check before trusting judge-only numbers"
+  },
+  "worst_languages": [
+    "ur_pk",
+    "pa_in",
+    "fil_ph"
+  ],
+  "fix_target_rule": "highest language/script flip rate, then highest total loss"
+}

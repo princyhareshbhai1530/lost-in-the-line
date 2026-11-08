@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Chúng ta có thể bắt đầu sống thân thiện hơn với môi trường, chúng ta có thể tham gia vào phong trào môi trường, và chúng ta còn có thể trở thành nhà hoạt động vì môi trường để giảm bớt gánh nặng cho tương lai ở mức độ nào đó.",
+ "english": "We can start living more environmentally friendly lives, we can join the environmental movement, and we can even become environmental activists to reduce the burden on the future to some extent.",
+ "clip": "vi_vn_1635",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

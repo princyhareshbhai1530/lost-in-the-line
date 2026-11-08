@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "கார் மோதிய போது வீட்டினுள் மூன்று பேர்கள் இருந்தபோதிலும் யாருக்கும் காயம் ஏற்படவில்லை.",
+ "english": "When the car crashed even though there were three people inside the house no one was injured.",
+ "clip": "ta_in_1598",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "يشير العلم الآن إلى أن هذا الاقتصاد الضخم المعتمد على الكربون قد أزاح المحيط الحيوي من إحدى حالاته المستقرة التي دعمت التطور البشري على مدى المليوني سنة الماضية.",
+ "english": "Science now indicates that this huge carbon-based economy has dislodged the biosphere from one of its stable states that supported human evolution over the past two million years.",
+ "clip": "ar_eg_1616",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

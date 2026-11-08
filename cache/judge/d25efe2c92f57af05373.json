@@ -1,0 +1,7 @@
+{
+ "label": "minor",
+ "score": 75,
+ "reason": "'Silence' vs 'calm' is a slight nuance, but overall meaning is preserved.",
+ "model": "gemini-2.5-flash",
+ "batched": true
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Ngay sau đó các cảnh sát được trang bị công cụ chống bạo động tiến vào sân và dồn tù nhân vào góc bằng hơi cay.",
+ "english": "Right after that, police equipped with riot gear entered the yard and cornered prisoners with tear gas.",
+ "clip": "vi_vn_1511",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

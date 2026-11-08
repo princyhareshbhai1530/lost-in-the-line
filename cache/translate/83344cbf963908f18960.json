@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਮੇਰੀ ਭੈਣ ਅਤੇ ਉਸਦਾ ਦੋਸਤ ਗੁੰਮ ਹੋ ਗਏ ਅਤੇ ਮੇਰੇ ਵਾਪਸ ਆਉਂਦੇ ਸਮੇਂ ਰਸਤੇ ਚ ਦੋ ਅਯੋਗ ਵਿਅਕਤੀ wheel chair 'ਤੇ ਸਵਾਰ ਸਨ। ਲੋਕ ਬਸ ਇਧਰ-ਉਧਰ ਉੱਛਲ ਰਹੇ ਸਨ ਅਤੇ ਉਹਨਾਂ ਨੂੰ ਮੁ-ਧੱਕਾ ਮਾਰ ਰਹੇ ਸਨ। ਅਰਮਾਂਡ ਵਰਸੇਸ ਨੇ ਕਿਹਾ",
+ "english": "My sister and her friend got lost and on my way back two disabled people were riding wheel chairs. People were just jumping around and shoving them. Armand Versace said",
+ "clip": "pa_in_1608",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "ونظراً لبعد المسافة عن القارة، لم تتمكن الثدييات من القيام بالرحلة، مما جعل السلحفاة العملاقة حيوان الرعي الأساسي في جزر جالاباغوس.",
+ "english": "Due to the distance from the continent, mammals were unable to make the journey, making the giant tortoise the primary grazing animal in the Galapagos Islands.",
+ "clip": "ar_eg_1605",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

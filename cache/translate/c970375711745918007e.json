@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Na cmentarzu przy kościele nad niektórymi nagrobkami są interesujące marmurowe rzeźby gołębi.",
+ "english": "In the cemetery by the church, above some tombstones, there are interesting marble sculptures of doves.",
+ "clip": "pl_pl_1555",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

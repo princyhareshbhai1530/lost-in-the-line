@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Điều đó dường như không hợp lý đối với tôi. Điều đó chắc chắn không công bằng",
+ "english": "That does not seem reasonable to me. That is certainly not fair",
+ "clip": "vi_vn_1577",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 110
+}

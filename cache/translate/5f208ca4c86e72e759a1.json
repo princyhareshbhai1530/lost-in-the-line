@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "對我來說這似乎不合理；這肯定不公平。",
+ "english": "To me, this doesn't seem reasonable; it's definitely not fair.",
+ "clip": "yue_hant_hk_1577",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

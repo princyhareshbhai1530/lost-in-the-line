@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "As qualidades que determinam uma subcultura como distinta podem ser linguísticas, estéticas, religiosas, políticas, sexuais, geográficas ou uma combinação de fatores.",
+ "english": "The qualities that determine a subculture as distinct can be linguistic, aesthetic, religious, political, sexual, geographic, or a combination of factors.",
+ "clip": "pt_br_1589",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

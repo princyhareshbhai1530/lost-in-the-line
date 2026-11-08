@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "Alguns animais, como os elefantes e as girafas, têm a tendência de se aproximarem dos carros e o equipamento básico possibilita uma boa visualização.",
+ "english": "Some animals, such as elephants and giraffes, tend to approach cars, and basic equipment allows for good viewing.",
+ "clip": "pt_br_1594",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

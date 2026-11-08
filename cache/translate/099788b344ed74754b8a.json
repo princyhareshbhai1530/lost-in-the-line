@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "一旦你脫離了弱流，游回岸並不比平時困難。",
+ "english": "Once you break free from the weak current, swimming back to shore is no more difficult than usual.",
+ "clip": "yue_hant_hk_1560",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 110
+}

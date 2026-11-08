@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "一些动物（例如大象和长颈鹿）往往喜欢挨近汽车，而标准的设备可以让人更好地欣赏。",
+ "english": "Some animals (such as elephants and giraffes) often like to get close to cars, and standard equipment allows people to appreciate them better.",
+ "clip": "cmn_hans_cn_1594",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

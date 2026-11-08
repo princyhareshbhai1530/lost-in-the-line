@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "અમેરિકાના રાષ્ટ્રપતિ જ્યોર્જ ડબલ્યુ બુશે આ જાહેરાતને આવકારી હતી.",
+ "english": "US President George W. Bush welcomed this announcement.",
+ "clip": "gu_in_1622",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

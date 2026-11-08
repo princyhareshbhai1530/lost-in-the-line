@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Ang ulat ay nagsimula na may pakiusap para sa pangmadlang debate at pagtatatag ng kasunduan sa Estados Unidos tungkol sa polisiya para sa Gitnang Silangan.",
+ "english": "The report began with a plea for public debate and consensus building in the United States regarding policy for the Middle East.",
+ "clip": "fil_ph_1569",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

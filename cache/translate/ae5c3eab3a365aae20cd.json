@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Một số loài động vật như voi và hươu cao cổ thường hay lại gần xe và chỉ với các dụng cụ bình thường, chúng ta cũng sẽ quan sát một cách dễ dàng.",
+ "english": "Some animals such as elephants and giraffes often approach vehicles, and with just standard gear, we will also easily observe them.",
+ "clip": "vi_vn_1594",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 110
+}

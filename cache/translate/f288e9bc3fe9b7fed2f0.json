@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "我不知道你是否認知到這點，但中美洲的商品多是以免稅的待遇進入這個國家。",
+ "english": "I don't know if you realize this, but most goods from Central America enter this country with duty-free treatment.",
+ "clip": "yue_hant_hk_1654",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

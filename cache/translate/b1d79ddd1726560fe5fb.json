@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "美国总统乔治·布希对此宣告时行表示支持。",
+ "english": "U.S. President George Bush expressed support for this declaration time line.",
+ "clip": "yue_hant_hk_1622",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 110
+}

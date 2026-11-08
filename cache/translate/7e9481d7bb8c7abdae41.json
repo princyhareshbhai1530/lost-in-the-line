@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Các bữa ăn thời La Mã cổ đại không xuất hiện các loại thực phẩm đến châu Âu từ Mỹ hoặc từ châu Á trong các thế kỷ sau.",
+ "english": "Ancient Roman meals did not feature foods that arrived in Europe from the Americas or from Asia in later centuries.",
+ "clip": "vi_vn_1627",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

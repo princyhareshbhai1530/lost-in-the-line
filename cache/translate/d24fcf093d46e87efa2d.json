@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Theo thời gian, khi nhóm cư dân mới bắt đầu thích nghi với môi trường mới, họ bắt đầu trông ngày càng ít giống những nhóm dân cư khác.",
+ "english": "Over time, as the new population began to adapt to the new environment, they started to look less and less like other populations.",
+ "clip": "vi_vn_1585",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

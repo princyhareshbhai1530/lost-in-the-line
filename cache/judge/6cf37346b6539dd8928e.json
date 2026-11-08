@@ -1,0 +1,7 @@
+{
+ "label": "changed",
+ "score": 35,
+ "reason": "'Cut down' vs 'cut off' changes the action significantly.",
+ "model": "gemini-2.5-flash",
+ "batched": true
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "கருத்துக் கேட்டபோது, விசாரணையின் போது மைக் அதிக அளவு பேசுகிறார். நான் விசாரணைக்காக தயாராகிக் கொண்டிருந்ததால் அவர் கூறியதை நான் கேட்கவில்லை என்று மில்லர் கூறினார்.",
+ "english": "When asked for comment, Mike talks a lot during the hearing. Since I was preparing for the hearing, I didn't listen to what he said, Miller said.",
+ "clip": "ta_in_1644",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

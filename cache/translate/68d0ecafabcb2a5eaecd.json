@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "El paciente había estado en Nigeria, donde hubo algunos casos de ébola",
+ "english": "The patient had been to Nigeria, where there were some cases of Ebola",
+ "clip": "es_419_1543",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

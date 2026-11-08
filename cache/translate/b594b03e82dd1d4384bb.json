@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "O corte estava agendado para terça-feira, mas foi suspenso após uma decisão judicial de emergência.",
+ "english": "The felling was scheduled for Tuesday, but was suspended following an emergency court decision.",
+ "clip": "pt_br_1530",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

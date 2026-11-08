@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "\"Tôi bị lạc em gái và bạn của cô ấy và khi đang trên đường, có hai người khuyết tật ngồi xe lăn, mọi người cứ chồm lên và xô đẩy họ,\" Armand Versace nói.",
+ "english": "\"I lost my sister and her friend, and while on the way, there were two people with disabilities in wheelchairs, people kept leaping over and shoving them,\" Armand Versace said.",
+ "clip": "vi_vn_1608",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 110
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Niektóre zwierzęta, np. słonie i żyrafy, często podchodzą blisko samochodów, a standardowe wyposażenie umożliwi odpowiednie oglądanie.",
+ "english": "Some animals, e.g. elephants and giraffes, often approach cars closely, and standard equipment will allow proper viewing.",
+ "clip": "pl_pl_1594",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

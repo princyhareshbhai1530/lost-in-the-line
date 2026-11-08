@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "當米勒被要求發表評論時，他表示：「麥克在聽證會上說了很多……我那時正在做準備，所以其實沒聽到他說了什麼。」",
+ "english": "When Miller was asked to comment, he stated: \"Mike said a lot at the hearing... I was preparing at the time, so I didn't actually hear what he said.\"",
+ "clip": "yue_hant_hk_1644",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

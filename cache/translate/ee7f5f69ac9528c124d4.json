@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "காலப்போக்கில், புதிய மக்கள் தொகை வேறுபட்ட புதிய சுற்றுச்சூழலுக்கு ஏற்றாற்போல் மாற்றம் அடைகிறது. எனவே அவர்கள் ஏனைய மக்களை விட வேறுபட்டவர்களாக காட்சியளிக்கின்றனர்",
+ "english": "Over time, the new population adapts to the different new environment. Therefore they look different from the other people",
+ "clip": "ta_in_1585",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "கண்டத்திலிருந்து நீண்ட தூரம் காரணமாக பால் ஊட்டிகளால் பெரிய ஆமைகளை மேய்ச்சல் விலங்காக மாற்றும் பயணத்தை கேலாபோகஸில் மேற்கொள்ள முடியவில்லை",
+ "english": "Due to the long distance from the continent, mammals could not make the journey to make the giant tortoises the grazing animals in Galapagos",
+ "clip": "ta_in_1605",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

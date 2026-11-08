@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਖ਼ੂਬੀਆਂ ਜੋ ਨਿਖੜਵੇਂ ਤੌਰ 'ਤੇ ਉਪਸਭਿਆਚਾਰ ਨੂੰ ਨਿਰਧਾਰਿਤ ਕਰਦੀਆਂ ਹਨ, ਭਾਸ਼ਾਈ, ਸੁਹਜਵਾਦੀ, ਧਾਰਮਿਕ, ਰਾਜਨੀਤਕ, ਜਿਨਸੀ, ਭੂਗੋਲਿਕ, ਜਾਂ ਕਾਰਕਾਂ ਦਾ ਇਕ ਸੁਮੇਲ ਹੋ ਸਕਦੀਆਂ ਹਨ।",
+ "english": "Traits that distinctly define a subculture can be linguistic, aesthetic, religious, political, sexual, geographic, or a combination of factors.",
+ "clip": "pa_in_1589",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

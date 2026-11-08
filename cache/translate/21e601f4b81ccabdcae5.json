@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "اس موسم میں بیماری کے اولین کیس جولائی کے اواخر میں رپورٹ ہوئے۔",
+ "english": "The first case of the disease this season was reported in late July.",
+ "clip": "ur_pk_1587",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

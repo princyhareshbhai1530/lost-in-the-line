@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Ang taglamig ay maaaring may mapanlinlang na ginaw: ang mga temperatura ay bihirang bumaba kaysa sa pagkakaroon ng yelo, pero ang hangin at kahalumigmigan ay nagsama upang maramdaman itong mas maginaw kaysa sa kung ano ang sinasabi ng termometro.",
+ "english": "Winter can be deceptively cold: temperatures rarely drop below freezing, but the wind and humidity combine to make it feel colder than what the thermometer says.",
+ "clip": "fil_ph_1574",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

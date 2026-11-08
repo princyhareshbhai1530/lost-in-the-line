@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "يجب أن تدرك النساء أن الاختلافات الثقافية قد تؤدي إلى ما قد يعتبرونه تحرشًا، وأنه من المعتاد ترصدهم والإمساك بهم من خلال الذراع إلى آخره.",
+ "english": "Women should be aware that cultural differences may lead to what they might consider harassment, and that it is common to be stalked and grabbed by the arm, et cetera.",
+ "clip": "ar_eg_1632",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

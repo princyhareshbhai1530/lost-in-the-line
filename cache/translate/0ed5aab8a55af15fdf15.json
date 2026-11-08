@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "En el camposanto, hay interesantes esculturas de mármol con forma de paloma sobre algunas tumbas.",
+ "english": "In the graveyard, there are interesting dove-shaped marble sculptures on some graves.",
+ "clip": "es_419_1555",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

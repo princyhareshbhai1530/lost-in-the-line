@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਕ੍ਰਿਸਮਸ ਇਸਾਈ ਮੱਤ ਦੀਆਂ ਸਭ ਤੋਂ ਮਹੱਤਵਪੂਰਨ ਛੁੱਟੀਆਂ ਵਿੱਚੋਂ ਇੱਕ ਹੈ ਅਤੇ ਇਸਨੂੰ ਈਸਾ ਮਸੀਹ ਦੇ ਜਨਮ ਦਿਨ ਦੇ ਰੂਪ ਵਿੱਚ ਮਨਾਇਆ ਜਾਂਦਾ ਹੈ।",
+ "english": "Christmas is one of the most important holidays in Christianity and is celebrated as the birthday of Jesus Christ.",
+ "clip": "pa_in_1553",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 42
+}

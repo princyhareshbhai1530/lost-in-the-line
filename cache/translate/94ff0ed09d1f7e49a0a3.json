@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "इसे मंगलवार को काटना तय किया गया था, लेकिन एक आपातकालीन अदालत के फ़ैसले के बाद इसे बचा लिया गया था",
+ "english": "It was decided to cut it on Tuesday, but it was saved after an emergency court decision",
+ "clip": "hi_in_1530",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

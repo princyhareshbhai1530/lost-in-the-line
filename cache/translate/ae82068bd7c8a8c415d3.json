@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "تم الإعلان عن أول حالات المرض هذا الموسم في نهاية شهر تموز.",
+ "english": "The first cases of the disease this season were announced at the end of July.",
+ "clip": "ar_eg_1587",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

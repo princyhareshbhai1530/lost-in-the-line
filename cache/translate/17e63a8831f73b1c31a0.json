@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "Devido à longa distância desde o continente, os mamíferos não podem fazer a jornada, e que tornou a tartaruga gigante a principal animal do pasto nos Galápagos.",
+ "english": "Due to the long distance from the mainland, mammals cannot make the journey, and that made the giant tortoise the primary grazing animal in the Galapagos.",
+ "clip": "pt_br_1605",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

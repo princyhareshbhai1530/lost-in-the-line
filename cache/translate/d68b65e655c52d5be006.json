@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "那里的冬天寒意有时会骗人，因为气温很少低于零下，但风加上湿度让人感觉比温度计上显示的冷多了。",
+ "english": "The chill of winter there can sometimes be deceptive, because temperatures are rarely below freezing, but the wind plus humidity makes it feel much colder than what is shown on the thermometer.",
+ "clip": "yue_hant_hk_1574",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 110
+}

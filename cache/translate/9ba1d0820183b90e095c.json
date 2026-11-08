@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "Com o passar do tempo, conforme a nova população começa a se adaptar ao seu novo ambiente, ela vai ficando menos e menos parecida com a outra população.",
+ "english": "With the passage of time, as the new population begins to adapt to its new environment, it becomes less and less similar to the other population.",
+ "clip": "pt_br_1585",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

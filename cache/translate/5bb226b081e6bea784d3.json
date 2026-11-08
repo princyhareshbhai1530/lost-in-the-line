@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "Algunos animales, como los elefantes y las jirafas, suelen aproximarse a los vehículos y el equipo estándar hará posible una buena visión.",
+ "english": "Some animals, such as elephants and giraffes, usually approach vehicles and standard equipment will make a good view possible.",
+ "clip": "es_419_1594",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

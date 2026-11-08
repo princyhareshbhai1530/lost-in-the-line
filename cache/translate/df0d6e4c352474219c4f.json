@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Họ vẫn đang cố gắng xác định vụ va chạm sẽ lớn cỡ nào và Trái Đất sẽ bị ảnh hưởng thế nào.",
+ "english": "They are still trying to determine how big the collision will be and how the Earth will be affected.",
+ "clip": "vi_vn_1551",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

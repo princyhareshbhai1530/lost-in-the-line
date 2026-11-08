@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "Rápidamente, agentes munidos con equipos antidisturbios ingresaron al patio y abatieron a los presidiarios con gases lacrimógenos.",
+ "english": "Quickly, officers equipped with riot gear entered the yard and subdued the inmates with tear gas.",
+ "clip": "es_419_1511",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "نهر الأمازون هو أيضاً أعرض نهر على الأرض، يصل عرضه في أوقات إلى 6 أميال.",
+ "english": "The Amazon River is also the widest river on Earth, reaching up to 6 miles wide at times.",
+ "clip": "ar_eg_1581",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

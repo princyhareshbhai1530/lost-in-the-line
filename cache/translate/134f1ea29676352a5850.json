@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "O paciente esteve na Nigéria, onde alguns casos do vírus Ebola ocorreram.",
+ "english": "The patient had been to Nigeria, where some cases of the Ebola virus occurred.",
+ "clip": "pt_br_1543",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

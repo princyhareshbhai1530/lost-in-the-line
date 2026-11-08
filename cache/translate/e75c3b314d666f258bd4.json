@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "இந்த பருவத்தின் முதல் நோய் பற்றிய தகவல் ஜூலை இறுதியில் பதிவு செய்யப்பட்டது.",
+ "english": "The first report of illness of this season was recorded in late July.",
+ "clip": "ta_in_1587",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

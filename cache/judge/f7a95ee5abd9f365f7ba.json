@@ -1,0 +1,7 @@
+{
+ "label": "minor",
+ "score": 75,
+ "reason": "'down' is missing from 'cut down', slight loss of specificity.",
+ "model": "gemini-2.5-flash",
+ "batched": true
+}

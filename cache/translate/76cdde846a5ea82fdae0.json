@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "महिलाओं को यह बात समझ लेनी चाहिए कि सांस्कृतिक मतभेदों के कारण उन्हें उत्पीड़न का सामना करना पड़ सकता है और ऐसा हो सकता है कि उनका पीछा हो या फिर कोई उनकी बाँह ज़बरदस्ती पकड़ ले, इत्यादि।",
+ "english": "Women should understand that due to cultural differences they may face harassment and it may happen that they are followed or someone forcibly grabs their arm, etc.",
+ "clip": "hi_in_1632",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

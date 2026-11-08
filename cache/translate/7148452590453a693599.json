@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "Al pedirle un comentario, Miller dijo: «Mike habla mucho durante la audiencia… Estaba preparándome, así que en verdad no pude escuchar lo que decía».",
+ "english": "When asked for a comment, Miller said: “Mike talks a lot during the hearing… I was preparing, so I really couldn't hear what he was saying.”",
+ "clip": "es_419_1644",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

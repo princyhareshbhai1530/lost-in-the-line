@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Często udział w rocznym kursie za granicą może w istotny sposób poprawić szanse na zdobycie wyższego wykształcenia w kraju ojczystym.",
+ "english": "Often, participation in a year-long course abroad can significantly improve the chances of obtaining higher education in one's home country.",
+ "clip": "pl_pl_1519",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

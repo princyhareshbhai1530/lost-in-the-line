@@ -1,0 +1,9 @@
+{
+ "model": "gemini-2.5-flash",
+ "language": "Arabic",
+ "source_text": "بإمكانك أن ترى الأهرام في الظلام وفي صمت قبل أن يبدأ العرض.",
+ "english": "You can see the pyramids in darkness and in silence before the show begins.",
+ "clip": "ar_eg_1537",
+ "source": "true",
+ "batched": true
+}

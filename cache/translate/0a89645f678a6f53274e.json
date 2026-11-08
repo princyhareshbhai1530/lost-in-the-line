@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "खुली बहस और मध्य पूर्व की ओर नीति के बारे में संयुक्त राज्य अमेरिका में आम सहमति बनाने के लिए रिपोर्ट एक याचिका के साथ खुलती है.",
+ "english": "The report opens with a petition to hold open debate and build a consensus in the United States regarding policy toward the Middle East.",
+ "clip": "hi_in_1569",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

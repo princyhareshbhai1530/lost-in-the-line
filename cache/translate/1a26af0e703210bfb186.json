@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "亞馬遜河也是地球上最寬的河流，有些河段能達到六英里寬。",
+ "english": "The Amazon River is also the widest river on Earth, with some stretches reaching six miles wide.",
+ "clip": "yue_hant_hk_1581",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

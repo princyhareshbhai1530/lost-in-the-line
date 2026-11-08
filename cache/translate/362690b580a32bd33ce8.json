@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "प्राचीन रोमन भोजन में बाद की शताब्दियों में अमेरिका या एशिया से यूरोप आए खाद्य पदार्थ शामिल नहीं हो सकते थे.",
+ "english": "Ancient Roman food could not include foodstuffs that came to Europe from the Americas or Asia in later centuries.",
+ "clip": "hi_in_1627",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

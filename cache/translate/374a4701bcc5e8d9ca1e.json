@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "اگرچہ تین افراد گھر کے اندر تھے جب کار اس سے ٹکرائی لیکن کوئی بھی زخمی نہیں ہوا",
+ "english": "Although three people were inside the house when the car hit it but no one was injured",
+ "clip": "ur_pk_1598",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

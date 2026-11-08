@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "وقت گزرنے کے ساتھ ساتھ، جیسا کہ نئی آبادی اپنے نئے ماحول میں ڈھلتی ہے، وہ آہستہ آہستہ دیگر آبادی کی طرح کم دکھنے لگتے ہیں۔",
+ "english": "Over time, as the new population adapts to its new environment, they slowly begin to look less like other populations.",
+ "clip": "ur_pk_1585",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

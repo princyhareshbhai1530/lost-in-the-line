@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "但我们有百分之八十的商品被中美洲国家征税。我们对代理。",
+ "english": "But eighty percent of our goods are taxed by Central American countries. We toward agency.",
+ "clip": "yue_hant_hk_1566",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 110
+}

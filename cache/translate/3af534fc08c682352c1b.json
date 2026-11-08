@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "لقد زار المريض نيجيريا حيث سُجلت بعض حالات الإصابة بفيروس إيبولا.",
+ "english": "The patient had visited Nigeria, where some cases of Ebola virus infection were recorded.",
+ "clip": "ar_eg_1543",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

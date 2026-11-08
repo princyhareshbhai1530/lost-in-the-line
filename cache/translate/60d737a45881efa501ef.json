@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Jednak lasy to nie tylko namorzynowe trzęsawiska. To także ostatnie pozostałości po ogromnych dżunglach, które kiedyś pokrywały Nizinę Hindustańską.",
+ "english": "However, the forests are not only mangrove swamps. They are also the last remnants of the vast jungles that once covered the Indo-Gangetic Plain.",
+ "clip": "pl_pl_1641",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

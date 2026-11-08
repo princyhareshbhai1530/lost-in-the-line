@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "موقع پر ہونے والی سرگرمیوں کے مثالوں میں شکار کرنا، ماہی گیری، فوٹوگرافی، پرندوں کو دیکھنا اور پارکوں کی سیر کرنا نیز ماحولیاتی نظام کے بارے میں معلومات کا مطالعہ کرنا شامل ہے۔",
+ "english": "Among examples of on-site activities, hunting, fishing, photography, birdwatching, and visiting parks, as well as studying information about the ecosystem are included.",
+ "clip": "ur_pk_1600",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

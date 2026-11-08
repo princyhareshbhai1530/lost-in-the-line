@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "Si bien existen informes que señalan que el número oficial de muertos es ocho y las autoridades han confirmado que cerca de 30 personas resultaron herida, aún se desconocen las cifras oficiales.",
+ "english": "Although there are reports indicating that the official death toll is eight and authorities have confirmed that about 30 people were injured, the official figures are still unknown.",
+ "clip": "es_419_1629",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

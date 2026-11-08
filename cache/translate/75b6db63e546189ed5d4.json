@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Nang hingan ng komento, sinabi ni Miller na, \"Parating nagsasalita si Mike sa panahon ng pagdinig... Naghahanda na ako kaya hindi ko gaanong narinig ang kanyang sinabi.\"",
+ "english": "When asked for comment, Miller said, \"Mike is always talking during the hearing... I was getting ready so I didn't really hear what he said.\"",
+ "clip": "fil_ph_1644",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Ngay sau khi bạn thoát khỏi dòng nước xoáy, việc bơi trở lại không còn khó khăn hơn bình thường.",
+ "english": "As soon as you escape the rip current, swimming back is no harder than normal.",
+ "clip": "vi_vn_1560",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "மோதல் எவ்வளவு பெரியதாக இருந்தது மற்றும் அதனால் பூமி எவ்வாறு பாதிக்கப்படும் என்பதை இன்னமும் அவர்கள் கண்டுபிடிக்க முயற்சிக்கிறார்கள்",
+ "english": "They are still trying to figure out how big the collision was and how the Earth will be affected by it",
+ "clip": "ta_in_1551",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

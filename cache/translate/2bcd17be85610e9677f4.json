@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "警方说，尸体看上去在那里放了一天左右。",
+ "english": "Police said the body appeared to have been lying there for about a day.",
+ "clip": "cmn_hans_cn_1656",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

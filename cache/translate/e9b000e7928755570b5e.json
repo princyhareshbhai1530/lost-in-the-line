@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "Você pode ver as pirâmides no escuro e também no silêncio antes de o show começar.",
+ "english": "You can see the pyramids in the dark and also in the silence before the show begins.",
+ "clip": "pt_br_1537",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

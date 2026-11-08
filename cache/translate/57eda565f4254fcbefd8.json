@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Tôi không biết bạn có nhận ra hay không, nhưng hầu hết hàng hóa từ Trung Mỹ nhập khẩu vào nước này đều được miễn thuế.",
+ "english": "I don't know whether you realize it or not, but most goods from Central America imported into this country are duty-free.",
+ "clip": "vi_vn_1654",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

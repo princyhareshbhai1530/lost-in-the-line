@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "இந்த அறிக்கை திறந்த விவாதத்திற்கான வேண்டுகோளுடனும், மத்திய கிழக்கிற்கான கொள்கை குறித்து அமெரிக்காவில் ஒருமித்த கருத்தை உருவாக்குகிறது.",
+ "english": "This report, along with a call for open debate, builds a consensus in the United States regarding policy for the Middle East.",
+ "clip": "ta_in_1569",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

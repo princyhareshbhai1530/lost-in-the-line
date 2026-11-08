@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "Cuando uno se comunica con alguien que está a miles de millas de distancia, se está haciendo uso de un satélite.",
+ "english": "When one communicates with someone who is thousands of miles away, one is making use of a satellite.",
+ "clip": "es_419_1548",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

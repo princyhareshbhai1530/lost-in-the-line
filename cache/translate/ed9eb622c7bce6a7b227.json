@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "சில அதிகாரப்பூர்வ அறிக்கைகள் உயிரிழந்தவர்களின் எண்ணிக்கையை எட்டு என அறிவித்தன மற்றும் அதிகாரப்பூர்வ அறிக்கைகள் சுமார் முப்பது நபர்கள் காயமடைந்துள்ளனர் என்பதை உறுதிப்படுத்தப்படுகின்றன. ஆனால் முடிவான எண்ணிக்கை இன்னும் தெரியவில்லை.",
+ "english": "Some official reports announced the death toll as eight and official reports confirm that about thirty people were injured. But the final count is not yet known.",
+ "clip": "ta_in_1629",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

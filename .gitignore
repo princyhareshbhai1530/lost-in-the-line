@@ -1,0 +1,10 @@
+.env
+*.key
+__pycache__/
+cache_mock/
+results_mock/
+app/audio_mock/
+app/game_data.mock.json
+app/game_data.mock.js
+handcheck_*.csv.bak
+dist/

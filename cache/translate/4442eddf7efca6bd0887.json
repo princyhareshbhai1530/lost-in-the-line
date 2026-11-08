@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "«Perdí a mi hermana y a su amiga, y de regreso vi a dos personas en silla de ruedas y los demás les saltaban por encima y las empujaban», relató Armand Versace.",
+ "english": "“I lost my sister and her friend, and on the way back I saw two people in wheelchairs and the others were jumping over them and pushing them,” Armand Versace recounted.",
+ "clip": "es_419_1608",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

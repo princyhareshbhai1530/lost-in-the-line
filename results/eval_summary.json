@@ -1,0 +1,150 @@
+{
+  "data_status": "REAL",
+  "n_clips": 560,
+  "models": {
+    "scribe": "scribe_v2",
+    "gemini": "gemini-3.8-flash",
+    "embedding": "gemini-embedding-001",
+    "temperature": 0
+  },
+  "bootstrap_reps": 2000,
+  "seed": 2026,
+  "evaluator": {
+    "n_translations": 1080,
+    "judge_vs_embedding_pearson": 0.5173,
+    "judge_vs_embedding_spearman": 0.4534,
+    "judge_vs_facts_spearman": 0.0966,
+    "n_translations_with_facts": 567,
+    "embedding_vs_facts_spearman": 0.2336
+  },
+  "sex_effect": {
+    "female_minus_male_cer": 0.0153,
+    "ci": [
+      -0.008,
+      0.0515
+    ],
+    "n_mixed_languages": 8,
+    "per_language": {
+      "es_419": {
+        "diff": -0.0038,
+        "n_female": 10,
+        "n_male": 30
+      },
+      "gu_in": {
+        "diff": 0.0087,
+        "n_female": 13,
+        "n_male": 27
+      },
+      "cmn_hans_cn": {
+        "diff": 0.0078,
+        "n_female": 15,
+        "n_male": 25
+      },
+      "ta_in": {
+        "diff": -0.0206,
+        "n_female": 18,
+        "n_male": 22
+      },
+      "en_us": {
+        "diff": 0.0046,
+        "n_female": 26,
+        "n_male": 14
+      },
+      "hi_in": {
+        "diff": -0.0139,
+        "n_female": 15,
+        "n_male": 25
+      },
+      "pl_pl": {
+        "diff": 0.0013,
+        "n_female": 7,
+        "n_male": 33
+      },
+      "yue_hant_hk": {
+        "diff": 0.1386,
+        "n_female": 24,
+        "n_male": 16
+      }
+    }
+  },
+  "gate": {
+    "languages_differ_total_loss_ci_separated": true,
+    "dominant_break_differs": true,
+    "fact_survival_spread_ge_15pts": true,
+    "dominant_break_by_language": {
+      "ar_eg": "translator",
+      "cmn_hans_cn": "translator",
+      "en_us": "ear",
+      "es_419": "translator",
+      "fil_ph": "ear",
+      "gu_in": "translator",
+      "hi_in": "translator",
+      "pa_in": "translator",
+      "pl_pl": "translator",
+      "pt_br": "translator",
+      "ta_in": "translator",
+      "ur_pk": "translator",
+      "vi_vn": "translator",
+      "yue_hant_hk": "ear"
+    },
+    "ear_language_or_script_flips_ge_10pct": [
+      "yue_hant_hk",
+      "ur_pk"
+    ],
+    "judge_embedding_spearman": 0.4534,
+    "measures_broadly_agree": false,
+    "decision": "GO on objective signal; judge agreement weak - check hand-check before trusting judge-only numbers"
+  },
+  "fix": [
+    {
+      "lang_config": "pa_in",
+      "n_clips": 40,
+      "total_loss_before": 0.2587,
+      "fixed_total_loss": 0.24,
+      "drop": 0.0187,
+      "drop_lo": 0.0,
+      "drop_hi": 0.0437
+    },
+    {
+      "lang_config": "ur_pk",
+      "n_clips": 40,
+      "total_loss_before": 0.18,
+      "fixed_total_loss": 0.1675,
+      "drop": 0.0125,
+      "drop_lo": -0.03,
+      "drop_hi": 0.0638
+    },
+    {
+      "lang_config": "yue_hant_hk",
+      "n_clips": 40,
+      "total_loss_before": 0.1275,
+      "fixed_total_loss": 0.115,
+      "drop": 0.0125,
+      "drop_lo": 0.0,
+      "drop_hi": 0.0312
+    }
+  ],
+  "worst_languages": [
+    "yue_hant_hk",
+    "ur_pk",
+    "pa_in"
+  ],
+  "fix_target_rule": "highest language/script flip rate, then highest total loss",
+  "handcheck": {
+    "n": 20,
+    "raters": 1,
+    "judge_human_agreement": "12/20",
+    "human_human_agreement": "not measured (single rater)",
+    "disagreements_with_judge": [
+      "1",
+      "2",
+      "8",
+      "9",
+      "11",
+      "13",
+      "14",
+      "20"
+    ],
+    "status": "complete (single rater)"
+  }
+}

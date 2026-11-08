@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "காயமுற்றவர்கள் மருத்துவமனைக்கு கொண்டு செல்லப்பட்ட பின்னர், சண்டை நின்றபோது எஞ்சியிருந்த மற்ற கைதிகளில் சுமார் நாற்பது பேர் முற்றத்தில் தங்கித் தங்கள் சிறைக்குத் திரும்ப மறுத்துவிட்டனர்.",
+ "english": "When the fighting stopped after the injured were taken to the hospital, about forty of the other remaining inmates stayed in the courtyard and refused to return to their prison.",
+ "clip": "ta_in_1514",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

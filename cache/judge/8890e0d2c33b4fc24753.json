@@ -1,0 +1,7 @@
+{
+ "label": "minor",
+ "score": 75,
+ "reason": "Grammatical error: 'on moving' instead of 'of moving'.",
+ "model": "gemini-2.5-flash",
+ "batched": true
+}

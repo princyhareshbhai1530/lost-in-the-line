@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "جنگلات صرف مینگروو کے دلدلی علاقے نہیں — اُن میں عظیم جنگلات کی آخری باقی کُچھ پٹیاں شامل ہیں جس نے ایک بار گینجیٹک میدان کا احاطہ کیا ہُوا تھا۔",
+ "english": "The forests are not just mangrove wetlands — they include some of the last remaining strips of the great forests that once covered the Gangetic plain.",
+ "clip": "ur_pk_1641",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

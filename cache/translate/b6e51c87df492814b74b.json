@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "你可以在黑夜中看到金字塔，並能在表演開始前靜靜地觀賞。",
+ "english": "You can see the pyramids in the dark, and quietly observe them before the show begins.",
+ "clip": "yue_hant_hk_1537",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

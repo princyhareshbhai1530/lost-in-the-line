@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "யானை மற்றும் ஒட்டகச்சிவிங்கி போன்ற சில விலங்குகள் கார்களுக்கு மிக அருகில் அணுகக்கூடியவை மற்றும் சாதாரண கருவிகள் நன்கு பார்ப்பதை அனுமதிக்கும்",
+ "english": "Some animals such as elephants and giraffes are accessible very close to cars and ordinary equipment will allow good viewing",
+ "clip": "ta_in_1594",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

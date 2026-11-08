@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "我們可以開始過對環境更友善的生活，我們可以投身環保運動，甚至可以成為社運人士，以盡量減少未來的痛苦。",
+ "english": "We can start living a more environmentally friendly life, we can throw ourselves into the environmental movement, and we can even become social activists to minimize future suffering as much as possible.",
+ "clip": "yue_hant_hk_1635",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

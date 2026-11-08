@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "यह मुझे समझ में नहीं आया; यह निश्चित रूप से उचित नहीं था।",
+ "english": "I did not understand this; it was certainly not fair.",
+ "clip": "hi_in_1577",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

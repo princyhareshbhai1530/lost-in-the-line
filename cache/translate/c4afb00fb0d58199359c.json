@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Samantala walumpong porsyento ng aming mga produkto ang binuwisan sa pamamagitan ng mga taripa sa mga bansa sa Gitnang Amerika. Tinatrato namin kayo.",
+ "english": "Meanwhile eighty percent of our products were taxed through tariffs in Central American countries. We treat you.",
+ "clip": "fil_ph_1566",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

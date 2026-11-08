@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "کچھ رپورٹوں میں سرکاری اموات کی شرح آٹھ بتائی گئی ہے، اور سرکاری رپورٹ نے 30 کے زخمی ہونے کی تصدیق کی ہے؛ لیکن حتمی اعداد وشمار کا ابھی تک علم نہیں ہوا ہے۔",
+ "english": "Some reports put the official death toll at eight, and official reports have confirmed 30 injured; but the final figures are not yet known.",
+ "clip": "ur_pk_1629",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

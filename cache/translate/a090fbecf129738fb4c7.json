@@ -1,0 +1,9 @@
+{
+ "model": "gemini-2.5-flash",
+ "language": "Tagalog",
+ "source_text": "Sa maraming kaso, ang pagpapalista sa kurso para sa puwang-na-taon sa ibang bansa ay talagang maaaring mapabuti ang iyong mga tsansang makalipat sa mas mataas na edukasyon sa iyong sariling bansa.",
+ "english": "In many cases, enrolling in a gap-year course abroad can actually improve your chances of transferring to higher education in your own country.",
+ "clip": "fil_ph_1519",
+ "source": "true",
+ "batched": true
+}

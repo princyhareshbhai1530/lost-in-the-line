@@ -1,0 +1,9 @@
+{
+ "model": "gemini-2.5-flash",
+ "language": "Tagalog",
+ "source_text": "Ang ilang mga kapistahan ay may mga nakatalagang lugar sa pagka-camping para sa mga pamilyang may maliliit na bata.",
+ "english": "Some festivals have designated camping areas for families with small children.",
+ "clip": "fil_ph_1528",
+ "source": "true",
+ "batched": true
+}

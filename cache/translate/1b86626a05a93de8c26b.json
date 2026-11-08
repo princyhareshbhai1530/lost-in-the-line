@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਜਦੋਂ ਤੁਸੀਂ ਕਿਸੇ ਅਜਿਹੇ ਨੂੰ ਕਾਲ ਕਰਦੇ ਹੋ ਜੋ ਹਜ਼ਾਰਾਂ ਮੀਲ ਦੂਰ ਹੈ, ਤੁਸੀਂ ਸੈਟੇਲਾਈਟ ਵਰਤਦੇ ਹੋ।",
+ "english": "When you call someone who is thousands of miles away, you use a satellite.",
+ "clip": "pa_in_1548",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

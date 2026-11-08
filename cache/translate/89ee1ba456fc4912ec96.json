@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "لا أعلم إن كنت تدرك الأمر أم لا، لكن معظم البضائع القادمة من أمريكا الوسطى تدخل هذه البلد بدون ضرائب.",
+ "english": "I don't know if you realize it or not, but most goods coming from Central America enter this country duty-free.",
+ "clip": "ar_eg_1654",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "A polícia disse que o corpo parecia estar ali há cerca de um dia.",
+ "english": "Police said the body appeared to have been there for about a day.",
+ "clip": "pt_br_1656",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

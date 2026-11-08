@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "وہ خصوصیات جو ذیلی ثقافت جدا کرتی ہیں وہ شاید لسانیت، جمالیاتی، مذہبی، سیاسی، جنسی، جغرافیائی یا عوامل کا مجموعہ ہیں۔",
+ "english": "The characteristics that separate subcultures are perhaps linguistic, aesthetic, religious, political, sexual, geographic, or a combination of factors.",
+ "clip": "ur_pk_1589",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

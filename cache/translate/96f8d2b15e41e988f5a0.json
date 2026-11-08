@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "تميل بعض الحيوانات مثل الفيلة والزراف إلى الاقتراب بشكل وثيق من السيارات، وسوف تسمح المعدات القياسية بالمشاهدة الجيدة.",
+ "english": "Some animals such as elephants and giraffes tend to approach vehicles closely, and standard equipment will allow for good viewing.",
+ "clip": "ar_eg_1594",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

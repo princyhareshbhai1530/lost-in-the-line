@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "இதையடுத்து, கலவர தடுப்பு கவசத்துடன், அதிகாரிகள் அந்த முற்றத்திற்குள் நுழைந்து, கண்ணீர் புகை குண்டுகளை உள்ளிருப்பவர்கள் மீது வீசினர்.",
+ "english": "Following this, in riot gear, officers entered the courtyard and fired tear gas at those inside.",
+ "clip": "ta_in_1511",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

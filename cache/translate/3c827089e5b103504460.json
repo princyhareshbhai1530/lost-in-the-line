@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "Quando os combates cessaram, após os feridos serem transportados para o hospital, cerca de 40 dos outros internos restantes permaneceram no pátio e se recusaram a voltar para suas celas.",
+ "english": "When the fighting ceased, after the injured were transported to the hospital, about 40 of the other remaining inmates stayed in the yard and refused to return to their cells.",
+ "clip": "pt_br_1514",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

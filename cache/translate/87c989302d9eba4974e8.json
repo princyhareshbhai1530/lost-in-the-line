@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "病人曾到過奈及利亞，當地有幾起伊波拉病毒案例。",
+ "english": "The patient had traveled to Nigeria, where there were several cases of Ebola virus.",
+ "clip": "yue_hant_hk_1543",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

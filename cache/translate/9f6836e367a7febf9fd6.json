@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "આપણે પર્યાવરણ માટે વધુ મૈત્રીપૂર્ણ જીવન જીવવાનું શરૂ કરી શકીએ છીએ, આપણે પર્યાવરણીય ચળવળમાં સામેલ થઈ શકીએ છીએ, અને ભવિષ્યનાં તકલીફને થોડી હદ સુધી ઘટાડવા માટે કાર્યકર પણ બની શકીશું.",
+ "english": "We can start living a more eco-friendly life, we can join the environmental movement, and we will also be able to become an activist to reduce future trouble to some extent.",
+ "clip": "gu_in_1635",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

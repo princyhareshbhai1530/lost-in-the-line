@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "સમય જતાં,નવી વસ્તી તેમના નવા વાતાવરણને અનુકૂળ થવા લાગે, તેઓ અન્ય વસ્તીની જેમ ઓછા અને ઓછા દેખાશે.",
+ "english": "Over time, as the new population begins to adapt to their new environment, they will appear less and less like the other population.",
+ "clip": "gu_in_1585",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

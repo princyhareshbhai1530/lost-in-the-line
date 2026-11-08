@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "لم يكن من الممكن أن تتضمن الوجبات الرومانية القديمة الأطعمة التي جاءت إلى أوروبا من أمريكا أو من آسيا في القرون اللاحقة.",
+ "english": "Ancient Roman meals could not have included foods that came to Europe from America or from Asia in later centuries.",
+ "clip": "ar_eg_1627",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

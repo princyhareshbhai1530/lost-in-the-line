@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Một lựa chọn ngày càng phổ biến cho những người có kế hoạch nghỉ phép một năm là đi du lịch và học hỏi.",
+ "english": "An increasingly popular choice for people planning a gap year is to travel and learn.",
+ "clip": "vi_vn_1651",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

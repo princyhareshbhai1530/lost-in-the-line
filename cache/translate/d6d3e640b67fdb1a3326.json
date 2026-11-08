@@ -1,0 +1,9 @@
+{
+ "model": "gemini-2.5-flash",
+ "language": "Tagalog",
+ "source_text": "Noong tumigil ang labanan matapos madala sa ospital ang mga sugatan, mga apatnapu sa iba pang natitirang mga bilanggo ang nanatili sa bakuran at tumangging bumalik sa kanilang mga kulungan.",
+ "english": "When the fighting stopped after the wounded were taken to the hospital, about forty of the other remaining prisoners stayed in the yard and refused to return to their cells.",
+ "clip": "fil_ph_1514",
+ "source": "heard",
+ "batched": true
+}

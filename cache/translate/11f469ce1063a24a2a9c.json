@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Một số lễ hội có các khu vực cắm trại đặc biệt dành cho các gia đình có con nhỏ.",
+ "english": "Some festivals have special camping areas for families with young children.",
+ "clip": "vi_vn_1528",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

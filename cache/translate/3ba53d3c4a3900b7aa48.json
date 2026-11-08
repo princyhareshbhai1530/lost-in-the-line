@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "Los rasgos que distinguen a una subcultura pueden ser lingüísticos, estéticos, sexuales, geográficos o estar relacionados con la religión o la política, o una mezcla de factores.",
+ "english": "The traits that distinguish a subculture can be linguistic, aesthetic, sexual, geographic, or related to religion or politics, or a mix of factors.",
+ "clip": "es_419_1589",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

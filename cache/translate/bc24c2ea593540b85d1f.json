@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Gdy tylko uda ci się wydostać z nurtu, dopłynięcie z powrotem nie powinno być trudniejsze niż normalnie",
+ "english": "As soon as you manage to get out of the current, swimming back shouldn't be harder than normal",
+ "clip": "pl_pl_1560",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

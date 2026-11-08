@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "ऑन साइट गतिविधियों के उदाहरणों में शामिल है शिकार, मछली पकड़ना, फोटोग्राफी, बर्ड वॉचिंग और पार्कों का दौरा करना और पारिस्थितिकी तंत्र के बारे में जानकारी का अध्ययन करना।",
+ "english": "Examples of on-site activities include hunting, fishing, photography, bird watching, and visiting parks and studying information about the ecosystem.",
+ "clip": "hi_in_1600",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

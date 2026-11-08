@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "Ainda assim, 80% dos nossos produtos foram taxados com tarifas em países da América Central. Nós tratamos vocês",
+ "english": "Even so, 80% of our products were taxed with tariffs in Central American countries. We treat you",
+ "clip": "pt_br_1566",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

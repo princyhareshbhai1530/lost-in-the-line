@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "ગેપ-યરનું આયોજન કરનારાઓ માટે વધુને વધુ લોકપ્રિય વિકલ્પ મુસાફરી અને શીખવાનો છે.",
+ "english": "An increasingly popular option for gap-year planners is to travel and learn.",
+ "clip": "gu_in_1651",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

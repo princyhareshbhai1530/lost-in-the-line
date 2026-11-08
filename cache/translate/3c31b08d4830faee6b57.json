@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "امیزن سطح زمین پر سب سے چوڑا دریا بھی ہے۔ کہیں کہیں اس کی چوڑائی چھ میل ہے۔",
+ "english": "The Amazon is also the widest river on the surface of the Earth. In some places its width is six miles.",
+ "clip": "ur_pk_1581",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

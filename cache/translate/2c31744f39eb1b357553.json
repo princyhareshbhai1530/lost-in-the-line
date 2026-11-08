@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "अमेज़न धरती की सबसे चौड़ी नदी भी है, जो कभी-कभी छह मील जितनी चौड़ी हो जाती है.",
+ "english": "The Amazon is also the widest river on Earth, which sometimes becomes as wide as six miles.",
+ "clip": "hi_in_1581",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

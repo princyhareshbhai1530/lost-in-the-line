@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "துணைக் கலாச்சாரத்தை நிர்ணயிக்கும் இயல்புகள் மொழி, தோற்றம், மதம் , அரசியல், பாலினம், புவியமைப்பு அல்லது பல கூற்றிகளின் கலவைகளால் தனிப்படுத்தப் படுபவை.",
+ "english": "The traits that define a subculture are distinguished by language, appearance, religion, politics, gender, geography, or a combination of multiple factors.",
+ "clip": "ta_in_1589",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

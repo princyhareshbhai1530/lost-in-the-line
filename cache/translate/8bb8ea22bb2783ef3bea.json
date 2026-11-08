@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਸਾਡੇ ਅੱਸੀ ਪ੍ਰਤੀਸ਼ਤ ਉਤਪਾਦਾਂ ‘ਤੇ ਮੱਧ ਅਮਰੀਕਾ ਦੇ ਦੇਸ਼ਾਂ ਵਿੱਚ ਟੈਰਿਫਾਂ ਦੇ ਜ਼ਰੀਏ ਟੈਕਸ ਵਸੂਲਿਆ ਜਾਂਦਾ ਸੀ। ਇਸ ਦੇ ਬਾਵਜੂਦ ਵੀ ਅਸੀਂ ਤੁਹਾਡੇ ਨਾਲ ਚੰਗੀ ਤਰ੍ਹਾ ਪੇਸ਼ ਆਉਂਦੇ ਹਾਂ।",
+ "english": "Eighty percent of our products were taxed through tariffs in Central American countries. Even so, we treat you well.",
+ "clip": "pa_in_1566",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

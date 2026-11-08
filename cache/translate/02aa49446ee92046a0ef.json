@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "चर्चच्या परिसराच्या काही कव्हर होते. काही कबुतरांसाठी देवचा स्मारकांना दिलेले मूर्ती आहे.",
+ "english": "There was some cover of the church premises. Some are statues dedicated to monuments of God for pigeons.",
+ "clip": "pa_in_1555",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 42
+}

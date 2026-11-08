@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "冬天可能会比看上去显得更冷。温度很少低于零度，但当风和湿度结合在一起，会让人感觉比温度计显示的温度要冷。",
+ "english": "Winter can feel colder than it appears. Temperatures are rarely below freezing, but when wind and humidity combine, it makes people feel colder than the temperature shown on the thermometer.",
+ "clip": "cmn_hans_cn_1574",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

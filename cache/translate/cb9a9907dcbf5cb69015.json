@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Sa sandaling makaalis ka sa agos, ang paglangoy pabalik ay hindi magiging mas hirap pa kaysa normal.",
+ "english": "Once you get out of the current, swimming back will not be harder than normal.",
+ "clip": "fil_ph_1560",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

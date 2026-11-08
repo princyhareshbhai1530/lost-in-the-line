@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "जब घायलों को लड़ाई बंद होने के बाद अस्पताल ले जाया गया, तो लगभग 40 अन्य बचे हुए कैदी यार्ड में रुके और अपनी कोठरियों में लौटने से इनकार कर दिया.",
+ "english": "When the injured were taken to the hospital after the fighting stopped, about 40 other remaining prisoners stayed in the yard and refused to return to their cells.",
+ "clip": "hi_in_1514",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

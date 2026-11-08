@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "Algunos festivales cuentan con áreas especiales de acampe destinados a los grupos familiares con hijos pequeños.",
+ "english": "Some festivals have special camping areas designated for family groups with young children.",
+ "clip": "es_419_1528",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

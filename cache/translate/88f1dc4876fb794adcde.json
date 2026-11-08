@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਉਹ ਹਾਲੇ ਵੀ ਇਹ ਨਿਰਧਾਰਿਤ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਹੇ ਹਨ ਕਿ ਹਾਦਸਾ(ਕਰੈਸ਼) ਕਿੰਨਾ ਕੁ ਵੱਡਾ ਸੀ ਅਤੇ ਇਸ ਨਾਲ ਧਰਤੀ ਕਿਵੇਂ ਪ੍ਰਭਾਵਿਤ ਹੋਵੇਗੀ।",
+ "english": "They are still trying to determine how big the accident (crash) was and how the Earth will be affected by it.",
+ "clip": "pa_in_1551",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

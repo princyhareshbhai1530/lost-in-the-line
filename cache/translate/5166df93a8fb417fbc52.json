@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "તમે અંધારામાં પિરામિડ જોઈ શકો છો અને શો શરૂ થાય તે પહેલાં તમે તેમને મૌનમાં જોઈ શકો છો.",
+ "english": "You can see the pyramids in the dark and you can see them in silence before the show begins.",
+ "clip": "gu_in_1537",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Nie wiem, czy macie tego świadomość, ale większość towarów z Ameryki Środkowej trafia do tego kraju bez żadnych opłat celnych",
+ "english": "I don't know if you are aware of this, but most goods from Central America enter this country without any customs duties",
+ "clip": "pl_pl_1654",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

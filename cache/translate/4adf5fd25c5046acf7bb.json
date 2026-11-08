@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "શિયાળો ભ્રામક રીતે ઠંડો હોઈ શકે: ઉષ્ણતામાન ભાગ્યે જ અતિશય ઠંડુ થાય છે, પરંતુ પવન અને ભેજ ભેગા થવાથી થર્મોમીટર દર્શાવે એના કરતા વધુ ઠંડી લાગે છે.",
+ "english": "Winter can be deceptively cold: the temperature rarely becomes extremely cold, but wind and moisture combining make it feel colder than what the thermometer shows.",
+ "clip": "gu_in_1574",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

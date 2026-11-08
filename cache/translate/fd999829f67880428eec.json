@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "சுற்றுச்சூழலுடன் நாம் மிகவும் இணக்கமாக வாழத் தொடங்கலாம், சுற்றுச்சூழல் இயக்கத்தில் நாம் சேரலாம், எதிர்கால பாதிப்புகளை ஓரளவுக்குக் குறைப்பதற்காக நம்மால் செயல்பாட்டாளர்களாகச் செயல்படமுடியும்.",
+ "english": "We can begin to live more in harmony with the environment, we can join the environmental movement, we can act as activists to reduce future impacts to some extent.",
+ "clip": "ta_in_1635",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

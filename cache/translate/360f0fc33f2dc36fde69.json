@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "وقالت الشرطة إن الجثة بدت وكأنها كانت هناك منذ يوم تقريباً.",
+ "english": "Police said the body looked as though it had been there for about a day.",
+ "clip": "ar_eg_1656",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

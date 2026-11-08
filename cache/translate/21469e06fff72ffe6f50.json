@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "کچھ جانور، جیسے ہاتھی اور جیراف، کاروں کے قریب آجاتے ہیں اور معیاری سامان کے ذریعہ اچھی طرح سے دیکھے جائیں گے۔",
+ "english": "Some animals, such as elephants and giraffes, come close to cars and will be seen well with standard equipment.",
+ "clip": "ur_pk_1594",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "女性应该意识到文化差异可能会导致她们所认为的骚扰行为；而且被人尾随、抓胳膊等情况并不少见。",
+ "english": "Women should be aware that cultural differences may lead to behaviors they consider harassment; and situations like being followed, grabbed by the arm, etc., are not uncommon.",
+ "clip": "cmn_hans_cn_1632",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

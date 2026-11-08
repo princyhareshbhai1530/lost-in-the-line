@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "El informe comienza con un llamado a debate abierto y a formar un consenso en los Estados Unidos acerca de las políticas sobre el Oriente Medio.",
+ "english": "The report begins with a call for open debate and for building a consensus in the United States regarding Middle East policies.",
+ "clip": "es_419_1569",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "சில திருவிழாக்களில் சிறிய குழந்தைகள் கொண்ட குடும்பத்தினருக்கு விசேஷ கேம்பிங் இடம் இருக்கும்.",
+ "english": "At some festivals, there will be a special camping area for families with small children.",
+ "clip": "ta_in_1528",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

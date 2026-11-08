@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "A mí me pareció que esto no tenía sentido. Definitivamente no fue justo",
+ "english": "To me it seemed that this made no sense. It was definitely not fair",
+ "clip": "es_419_1577",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

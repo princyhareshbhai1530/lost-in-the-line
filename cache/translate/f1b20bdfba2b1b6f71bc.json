@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "隨著時間過去，新生人口開始適應新環境，他們的外表便與其他人越來越不同。",
+ "english": "As time passed and the new population began to adapt to the new environment, their appearance became increasingly different from others.",
+ "clip": "yue_hant_hk_1585",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

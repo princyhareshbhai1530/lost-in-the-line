@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਸਰਦੀਆਂ ਵਿੱਚ ਜਾਂਦੇਗਾ ਠੰਡ ਹੋ ਸਕਦੀ ਹੈ, ਬਹੁਤ ਘੱਟ ਹੀ ਅਜਿਹਾ ਹੁੰਦਾ ਹੈ ਜਦੋਂ ਤਾਪਮਾਨ ਜਮਾਵ ਬਿੰਦੂ ਤੋਂ ਹੇਠਾਂ ਜਾਂਦਾ ਹੈ, ਪਰ ਹਵਾ ਅਤੇ ਨਮੀ ਦੇ ਇਕੱਠੇ ਹੋਣ ਕਾਰਨ ਇਹ ਥਰਮੋਮੀਟਰ ਦੇ ਮਾਪ ਤੋਂ ਵੀ ਵੱਧ ਠੰਡਾ ਮਹਿਸੂਸ ਹੁੰਦਾ ਹੈ।",
+ "english": "In winter there can be deadly cold, rarely does the temperature fall below freezing point, but due to the combination of wind and humidity it feels colder than the thermometer reading.",
+ "clip": "pa_in_1574",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

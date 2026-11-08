@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Khi được yêu cầu bình luận, Miller cho biết, \"Mike nói rất nhiều trong buổi điều trần... tôi đang chuẩn bị nên tôi không thực sự nghe thấy anh ấy nói gì.\"",
+ "english": "When asked for comment, Miller said, \"Mike talked a lot during the hearing... I was preparing so I didn't really hear what he said.\"",
+ "clip": "vi_vn_1644",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 110
+}

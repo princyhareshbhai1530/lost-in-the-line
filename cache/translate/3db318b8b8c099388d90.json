@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "Alguns festivais têm áreas especiais de acampamento para famílias com crianças pequenas.",
+ "english": "Some festivals have special camping areas for families with small children.",
+ "clip": "pt_br_1528",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

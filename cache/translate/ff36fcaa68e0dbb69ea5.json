@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "ربما تكون رحلات السفاري هي أكبر عامل جذب سياحي في أفريقيا والأكثر بروزاً بالنسبة لكثير من الزوار.",
+ "english": "Safaris may be the biggest tourist attraction in Africa and the most prominent for many visitors.",
+ "clip": "ar_eg_1638",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

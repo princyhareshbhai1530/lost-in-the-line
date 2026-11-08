@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Planowano ściąć go we wtorek, ale został uratowany po nadzwyczajnym orzeczeniu sądu.",
+ "english": "It was planned to cut it down on Tuesday, but it was saved after an emergency court ruling.",
+ "clip": "pl_pl_1530",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

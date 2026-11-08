@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "ஆறு மைல்கள் அகலம் கொண்ட அமேசான் ஆறு, பூமியின் மிக அகலமான ஆறு ஆகும்.",
+ "english": "Six miles wide, the Amazon River is the widest river on Earth.",
+ "clip": "ta_in_1581",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

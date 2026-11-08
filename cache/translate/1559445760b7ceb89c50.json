@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "我觉得这毫无道理，显然不公平。",
+ "english": "I think this makes no sense, clearly unfair.",
+ "clip": "cmn_hans_cn_1577",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

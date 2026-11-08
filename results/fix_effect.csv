@@ -1,0 +1,4 @@
+lang_config,n_clips,total_loss_before,fixed_total_loss,drop,drop_lo,drop_hi
+pa_in,40,0.2587,0.24,0.0187,0.0,0.0437
+ur_pk,40,0.18,0.1675,0.0125,-0.03,0.0638
+yue_hant_hk,40,0.1275,0.115,0.0125,0.0,0.0312

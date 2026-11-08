@@ -1,0 +1,1420 @@
+{
+ "sensitivity": {
+  "n_neighbourhoods": 39,
+  "excluded_zero_population": 17,
+  "spearman_base_vs_fact_loss": 0.9874,
+  "spearman_base_vs_knows_neither_2x": 0.9996,
+  "top10_overlap_fact_loss": 9,
+  "top10_overlap_knows_neither_2x": 10,
+  "city_messages_at_risk": 19252,
+  "city_unmeasured_bengali_speakers": 2515,
+  "assumption_knows_neither": "neighbourhood knows-neither share applied equally across languages",
+  "data_status": "REAL"
+ },
+ "neighbourhoods": [
+  {
+   "name": "East Credit",
+   "residents": 63320,
+   "messages_at_risk": 2429,
+   "messages_at_risk_per_1000": 38.4,
+   "risk_fact_loss": 1480,
+   "risk_knows_neither_2x": 2525,
+   "knows_neither": 2500,
+   "pct_knows_neither": 3.95,
+   "unmeasured_bengali_speakers": 180,
+   "top_languages": [
+    "Urdu",
+    "Punjabi",
+    "Cantonese"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Urdu",
+     "speakers": 3395,
+     "messages_at_risk": 611
+    },
+    {
+     "language": "Punjabi",
+     "speakers": 1735,
+     "messages_at_risk": 449
+    },
+    {
+     "language": "Cantonese",
+     "speakers": 2225,
+     "messages_at_risk": 284
+    }
+   ],
+   "rank": 1,
+   "rank_fact_loss": 1,
+   "rank_knows_neither_2x": 1
+  },
+  {
+   "name": "Malton",
+   "residents": 35250,
+   "messages_at_risk": 2385,
+   "messages_at_risk_per_1000": 67.6,
+   "risk_fact_loss": 842,
+   "risk_knows_neither_2x": 2507,
+   "knows_neither": 1805,
+   "pct_knows_neither": 5.12,
+   "unmeasured_bengali_speakers": 210,
+   "top_languages": [
+    "Punjabi",
+    "Urdu",
+    "Hindi"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Punjabi",
+     "speakers": 7145,
+     "messages_at_risk": 1848
+    },
+    {
+     "language": "Urdu",
+     "speakers": 1000,
+     "messages_at_risk": 180
+    },
+    {
+     "language": "Hindi",
+     "speakers": 840,
+     "messages_at_risk": 121
+    }
+   ],
+   "rank": 2,
+   "rank_fact_loss": 5,
+   "rank_knows_neither_2x": 2
+  },
+  {
+   "name": "Churchill Meadows",
+   "residents": 48745,
+   "messages_at_risk": 1770,
+   "messages_at_risk_per_1000": 36.3,
+   "risk_fact_loss": 1126,
+   "risk_knows_neither_2x": 1821,
+   "knows_neither": 1390,
+   "pct_knows_neither": 2.85,
+   "unmeasured_bengali_speakers": 225,
+   "top_languages": [
+    "Urdu",
+    "Arabic",
+    "Tamil"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Urdu",
+     "speakers": 3755,
+     "messages_at_risk": 676
+    },
+    {
+     "language": "Arabic",
+     "speakers": 3930,
+     "messages_at_risk": 334
+    },
+    {
+     "language": "Tamil",
+     "speakers": 635,
+     "messages_at_risk": 132
+    }
+   ],
+   "rank": 3,
+   "rank_fact_loss": 3,
+   "rank_knows_neither_2x": 3
+  },
+  {
+   "name": "Hurontario",
+   "residents": 49755,
+   "messages_at_risk": 1647,
+   "messages_at_risk_per_1000": 33.1,
+   "risk_fact_loss": 1186,
+   "risk_knows_neither_2x": 1723,
+   "knows_neither": 2285,
+   "pct_knows_neither": 4.59,
+   "unmeasured_bengali_speakers": 170,
+   "top_languages": [
+    "Urdu",
+    "Punjabi",
+    "Cantonese"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Urdu",
+     "speakers": 1570,
+     "messages_at_risk": 283
+    },
+    {
+     "language": "Punjabi",
+     "speakers": 1065,
+     "messages_at_risk": 276
+    },
+    {
+     "language": "Cantonese",
+     "speakers": 1520,
+     "messages_at_risk": 194
+    }
+   ],
+   "rank": 4,
+   "rank_fact_loss": 2,
+   "rank_knows_neither_2x": 4
+  },
+  {
+   "name": "Meadowvale Village",
+   "residents": 31240,
+   "messages_at_risk": 1168,
+   "messages_at_risk_per_1000": 37.4,
+   "risk_fact_loss": 663,
+   "risk_knows_neither_2x": 1203,
+   "knows_neither": 935,
+   "pct_knows_neither": 2.99,
+   "unmeasured_bengali_speakers": 55,
+   "top_languages": [
+    "Punjabi",
+    "Urdu",
+    "Tamil"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Punjabi",
+     "speakers": 1315,
+     "messages_at_risk": 340
+    },
+    {
+     "language": "Urdu",
+     "speakers": 1585,
+     "messages_at_risk": 285
+    },
+    {
+     "language": "Tamil",
+     "speakers": 720,
+     "messages_at_risk": 149
+    }
+   ],
+   "rank": 5,
+   "rank_fact_loss": 7,
+   "rank_knows_neither_2x": 5
+  },
+  {
+   "name": "DT Core",
+   "residents": 34425,
+   "messages_at_risk": 1012,
+   "messages_at_risk_per_1000": 29.4,
+   "risk_fact_loss": 848,
+   "risk_knows_neither_2x": 1046,
+   "knows_neither": 1160,
+   "pct_knows_neither": 3.37,
+   "unmeasured_bengali_speakers": 285,
+   "top_languages": [
+    "Arabic",
+    "Urdu",
+    "Hindi"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Arabic",
+     "speakers": 2260,
+     "messages_at_risk": 192
+    },
+    {
+     "language": "Urdu",
+     "speakers": 815,
+     "messages_at_risk": 147
+    },
+    {
+     "language": "Hindi",
+     "speakers": 930,
+     "messages_at_risk": 134
+    }
+   ],
+   "rank": 6,
+   "rank_fact_loss": 4,
+   "rank_knows_neither_2x": 6
+  },
+  {
+   "name": "Central Erin Mills",
+   "residents": 30250,
+   "messages_at_risk": 862,
+   "messages_at_risk_per_1000": 28.5,
+   "risk_fact_loss": 600,
+   "risk_knows_neither_2x": 894,
+   "knows_neither": 1140,
+   "pct_knows_neither": 3.77,
+   "unmeasured_bengali_speakers": 50,
+   "top_languages": [
+    "Mandarin Chinese",
+    "Urdu",
+    "Cantonese"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 2480,
+     "messages_at_risk": 205
+    },
+    {
+     "language": "Urdu",
+     "speakers": 1060,
+     "messages_at_risk": 191
+    },
+    {
+     "language": "Cantonese",
+     "speakers": 1095,
+     "messages_at_risk": 140
+    }
+   ],
+   "rank": 7,
+   "rank_fact_loss": 8,
+   "rank_knows_neither_2x": 7
+  },
+  {
+   "name": "Applewood",
+   "residents": 35490,
+   "messages_at_risk": 730,
+   "messages_at_risk_per_1000": 20.6,
+   "risk_fact_loss": 704,
+   "risk_knows_neither_2x": 761,
+   "knows_neither": 1485,
+   "pct_knows_neither": 4.18,
+   "unmeasured_bengali_speakers": 155,
+   "top_languages": [
+    "Urdu",
+    "Tamil",
+    "Polish"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Urdu",
+     "speakers": 920,
+     "messages_at_risk": 166
+    },
+    {
+     "language": "Tamil",
+     "speakers": 460,
+     "messages_at_risk": 95
+    },
+    {
+     "language": "Polish",
+     "speakers": 1295,
+     "messages_at_risk": 86
+    }
+   ],
+   "rank": 8,
+   "rank_fact_loss": 6,
+   "rank_knows_neither_2x": 8
+  },
+  {
+   "name": "Lisgar",
+   "residents": 31565,
+   "messages_at_risk": 716,
+   "messages_at_risk_per_1000": 22.7,
+   "risk_fact_loss": 487,
+   "risk_knows_neither_2x": 732,
+   "knows_neither": 700,
+   "pct_knows_neither": 2.22,
+   "unmeasured_bengali_speakers": 95,
+   "top_languages": [
+    "Urdu",
+    "Punjabi",
+    "Arabic"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Urdu",
+     "speakers": 1245,
+     "messages_at_risk": 224
+    },
+    {
+     "language": "Punjabi",
+     "speakers": 450,
+     "messages_at_risk": 116
+    },
+    {
+     "language": "Arabic",
+     "speakers": 810,
+     "messages_at_risk": 69
+    }
+   ],
+   "rank": 9,
+   "rank_fact_loss": 11,
+   "rank_knows_neither_2x": 9
+  },
+  {
+   "name": "Erin Mills",
+   "residents": 38320,
+   "messages_at_risk": 620,
+   "messages_at_risk_per_1000": 16.2,
+   "risk_fact_loss": 519,
+   "risk_knows_neither_2x": 632,
+   "knows_neither": 775,
+   "pct_knows_neither": 2.02,
+   "unmeasured_bengali_speakers": 105,
+   "top_languages": [
+    "Urdu",
+    "Punjabi",
+    "Mandarin Chinese"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Urdu",
+     "speakers": 710,
+     "messages_at_risk": 128
+    },
+    {
+     "language": "Punjabi",
+     "speakers": 350,
+     "messages_at_risk": 91
+    },
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 1075,
+     "messages_at_risk": 89
+    }
+   ],
+   "rank": 10,
+   "rank_fact_loss": 9,
+   "rank_knows_neither_2x": 10
+  },
+  {
+   "name": "Meadowvale",
+   "residents": 35910,
+   "messages_at_risk": 577,
+   "messages_at_risk_per_1000": 16.1,
+   "risk_fact_loss": 517,
+   "risk_knows_neither_2x": 587,
+   "knows_neither": 590,
+   "pct_knows_neither": 1.64,
+   "unmeasured_bengali_speakers": 115,
+   "top_languages": [
+    "Urdu",
+    "Tamil",
+    "Arabic"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Urdu",
+     "speakers": 985,
+     "messages_at_risk": 177
+    },
+    {
+     "language": "Tamil",
+     "speakers": 330,
+     "messages_at_risk": 68
+    },
+    {
+     "language": "Arabic",
+     "speakers": 700,
+     "messages_at_risk": 60
+    }
+   ],
+   "rank": 11,
+   "rank_fact_loss": 10,
+   "rank_knows_neither_2x": 11
+  },
+  {
+   "name": "Erindale",
+   "residents": 22025,
+   "messages_at_risk": 544,
+   "messages_at_risk_per_1000": 24.7,
+   "risk_fact_loss": 473,
+   "risk_knows_neither_2x": 566,
+   "knows_neither": 895,
+   "pct_knows_neither": 4.06,
+   "unmeasured_bengali_speakers": 65,
+   "top_languages": [
+    "Urdu",
+    "Mandarin Chinese",
+    "Punjabi"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Urdu",
+     "speakers": 695,
+     "messages_at_risk": 125
+    },
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 1105,
+     "messages_at_risk": 91
+    },
+    {
+     "language": "Punjabi",
+     "speakers": 260,
+     "messages_at_risk": 67
+    }
+   ],
+   "rank": 12,
+   "rank_fact_loss": 13,
+   "rank_knows_neither_2x": 12
+  },
+  {
+   "name": "DT Fairview",
+   "residents": 16570,
+   "messages_at_risk": 465,
+   "messages_at_risk_per_1000": 28.1,
+   "risk_fact_loss": 429,
+   "risk_knows_neither_2x": 485,
+   "knows_neither": 715,
+   "pct_knows_neither": 4.32,
+   "unmeasured_bengali_speakers": 210,
+   "top_languages": [
+    "Arabic",
+    "Urdu",
+    "Tagalog"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Arabic",
+     "speakers": 1050,
+     "messages_at_risk": 89
+    },
+    {
+     "language": "Urdu",
+     "speakers": 490,
+     "messages_at_risk": 88
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 490,
+     "messages_at_risk": 56
+    }
+   ],
+   "rank": 13,
+   "rank_fact_loss": 15,
+   "rank_knows_neither_2x": 13
+  },
+  {
+   "name": "Clarkson - Lorne Park",
+   "residents": 36350,
+   "messages_at_risk": 420,
+   "messages_at_risk_per_1000": 11.6,
+   "risk_fact_loss": 431,
+   "risk_knows_neither_2x": 427,
+   "knows_neither": 565,
+   "pct_knows_neither": 1.55,
+   "unmeasured_bengali_speakers": 35,
+   "top_languages": [
+    "Urdu",
+    "Mandarin Chinese",
+    "Punjabi"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Urdu",
+     "speakers": 385,
+     "messages_at_risk": 69
+    },
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 810,
+     "messages_at_risk": 67
+    },
+    {
+     "language": "Punjabi",
+     "speakers": 195,
+     "messages_at_risk": 50
+    }
+   ],
+   "rank": 14,
+   "rank_fact_loss": 14,
+   "rank_knows_neither_2x": 15
+  },
+  {
+   "name": "Rathwood",
+   "residents": 24865,
+   "messages_at_risk": 418,
+   "messages_at_risk_per_1000": 16.8,
+   "risk_fact_loss": 474,
+   "risk_knows_neither_2x": 434,
+   "knows_neither": 940,
+   "pct_knows_neither": 3.78,
+   "unmeasured_bengali_speakers": 15,
+   "top_languages": [
+    "Polish",
+    "Punjabi",
+    "Portuguese"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Polish",
+     "speakers": 935,
+     "messages_at_risk": 62
+    },
+    {
+     "language": "Punjabi",
+     "speakers": 190,
+     "messages_at_risk": 49
+    },
+    {
+     "language": "Portuguese",
+     "speakers": 410,
+     "messages_at_risk": 43
+    }
+   ],
+   "rank": 15,
+   "rank_fact_loss": 12,
+   "rank_knows_neither_2x": 14
+  },
+  {
+   "name": "Cooksville (West)",
+   "residents": 14665,
+   "messages_at_risk": 366,
+   "messages_at_risk_per_1000": 25.0,
+   "risk_fact_loss": 396,
+   "risk_knows_neither_2x": 386,
+   "knows_neither": 790,
+   "pct_knows_neither": 5.39,
+   "unmeasured_bengali_speakers": 25,
+   "top_languages": [
+    "Polish",
+    "Portuguese",
+    "Arabic"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Polish",
+     "speakers": 745,
+     "messages_at_risk": 49
+    },
+    {
+     "language": "Portuguese",
+     "speakers": 445,
+     "messages_at_risk": 46
+    },
+    {
+     "language": "Arabic",
+     "speakers": 470,
+     "messages_at_risk": 40
+    }
+   ],
+   "rank": 16,
+   "rank_fact_loss": 16,
+   "rank_knows_neither_2x": 16
+  },
+  {
+   "name": "DT Cooksville",
+   "residents": 9575,
+   "messages_at_risk": 359,
+   "messages_at_risk_per_1000": 37.5,
+   "risk_fact_loss": 310,
+   "risk_knows_neither_2x": 379,
+   "knows_neither": 515,
+   "pct_knows_neither": 5.38,
+   "unmeasured_bengali_speakers": 70,
+   "top_languages": [
+    "Urdu",
+    "Tamil",
+    "Arabic"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Urdu",
+     "speakers": 485,
+     "messages_at_risk": 87
+    },
+    {
+     "language": "Tamil",
+     "speakers": 355,
+     "messages_at_risk": 74
+    },
+    {
+     "language": "Arabic",
+     "speakers": 565,
+     "messages_at_risk": 48
+    }
+   ],
+   "rank": 17,
+   "rank_fact_loss": 18,
+   "rank_knows_neither_2x": 17
+  },
+  {
+   "name": "DT Hospital",
+   "residents": 12305,
+   "messages_at_risk": 335,
+   "messages_at_risk_per_1000": 27.2,
+   "risk_fact_loss": 315,
+   "risk_knows_neither_2x": 352,
+   "knows_neither": 635,
+   "pct_knows_neither": 5.16,
+   "unmeasured_bengali_speakers": 110,
+   "top_languages": [
+    "Urdu",
+    "Tagalog",
+    "Arabic"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Urdu",
+     "speakers": 435,
+     "messages_at_risk": 78
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 655,
+     "messages_at_risk": 75
+    },
+    {
+     "language": "Arabic",
+     "speakers": 800,
+     "messages_at_risk": 68
+    }
+   ],
+   "rank": 18,
+   "rank_fact_loss": 17,
+   "rank_knows_neither_2x": 18
+  },
+  {
+   "name": "Uptown MN",
+   "residents": 10660,
+   "messages_at_risk": 302,
+   "messages_at_risk_per_1000": 28.3,
+   "risk_fact_loss": 220,
+   "risk_knows_neither_2x": 315,
+   "knows_neither": 435,
+   "pct_knows_neither": 4.08,
+   "unmeasured_bengali_speakers": 70,
+   "top_languages": [
+    "Urdu",
+    "Arabic",
+    "Hindi"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Urdu",
+     "speakers": 445,
+     "messages_at_risk": 80
+    },
+    {
+     "language": "Arabic",
+     "speakers": 550,
+     "messages_at_risk": 47
+    },
+    {
+     "language": "Hindi",
+     "speakers": 200,
+     "messages_at_risk": 29
+    }
+   ],
+   "rank": 19,
+   "rank_fact_loss": 22,
+   "rank_knows_neither_2x": 19
+  },
+  {
+   "name": "Creditview",
+   "residents": 10070,
+   "messages_at_risk": 289,
+   "messages_at_risk_per_1000": 28.7,
+   "risk_fact_loss": 240,
+   "risk_knows_neither_2x": 304,
+   "knows_neither": 525,
+   "pct_knows_neither": 5.21,
+   "unmeasured_bengali_speakers": 0,
+   "top_languages": [
+    "Mandarin Chinese",
+    "Cantonese",
+    "Punjabi"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 680,
+     "messages_at_risk": 56
+    },
+    {
+     "language": "Cantonese",
+     "speakers": 405,
+     "messages_at_risk": 52
+    },
+    {
+     "language": "Punjabi",
+     "speakers": 145,
+     "messages_at_risk": 38
+    }
+   ],
+   "rank": 20,
+   "rank_fact_loss": 20,
+   "rank_knows_neither_2x": 20
+  },
+  {
+   "name": "Fairview",
+   "residents": 7215,
+   "messages_at_risk": 269,
+   "messages_at_risk_per_1000": 37.3,
+   "risk_fact_loss": 213,
+   "risk_knows_neither_2x": 283,
+   "knows_neither": 385,
+   "pct_knows_neither": 5.34,
+   "unmeasured_bengali_speakers": 30,
+   "top_languages": [
+    "Punjabi",
+    "Cantonese",
+    "Tagalog"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Punjabi",
+     "speakers": 200,
+     "messages_at_risk": 52
+    },
+    {
+     "language": "Cantonese",
+     "speakers": 305,
+     "messages_at_risk": 39
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 275,
+     "messages_at_risk": 32
+    }
+   ],
+   "rank": 21,
+   "rank_fact_loss": 23,
+   "rank_knows_neither_2x": 21
+  },
+  {
+   "name": "Mississauga Valleys",
+   "residents": 12595,
+   "messages_at_risk": 251,
+   "messages_at_risk_per_1000": 19.9,
+   "risk_fact_loss": 294,
+   "risk_knows_neither_2x": 261,
+   "knows_neither": 500,
+   "pct_knows_neither": 3.97,
+   "unmeasured_bengali_speakers": 25,
+   "top_languages": [
+    "Urdu",
+    "Polish",
+    "Tagalog"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Urdu",
+     "speakers": 250,
+     "messages_at_risk": 45
+    },
+    {
+     "language": "Polish",
+     "speakers": 635,
+     "messages_at_risk": 42
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 285,
+     "messages_at_risk": 33
+    }
+   ],
+   "rank": 22,
+   "rank_fact_loss": 19,
+   "rank_knows_neither_2x": 22
+  },
+  {
+   "name": "Lakeview",
+   "residents": 21960,
+   "messages_at_risk": 175,
+   "messages_at_risk_per_1000": 8.0,
+   "risk_fact_loss": 224,
+   "risk_knows_neither_2x": 179,
+   "knows_neither": 465,
+   "pct_knows_neither": 2.12,
+   "unmeasured_bengali_speakers": 45,
+   "top_languages": [
+    "Portuguese",
+    "Polish",
+    "Mandarin Chinese"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Portuguese",
+     "speakers": 405,
+     "messages_at_risk": 42
+    },
+    {
+     "language": "Polish",
+     "speakers": 515,
+     "messages_at_risk": 34
+    },
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 195,
+     "messages_at_risk": 16
+    }
+   ],
+   "rank": 23,
+   "rank_fact_loss": 21,
+   "rank_knows_neither_2x": 23
+  },
+  {
+   "name": "Sheridan",
+   "residents": 12210,
+   "messages_at_risk": 172,
+   "messages_at_risk_per_1000": 14.1,
+   "risk_fact_loss": 153,
+   "risk_knows_neither_2x": 176,
+   "knows_neither": 285,
+   "pct_knows_neither": 2.33,
+   "unmeasured_bengali_speakers": 25,
+   "top_languages": [
+    "Urdu",
+    "Mandarin Chinese",
+    "Cantonese"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Urdu",
+     "speakers": 220,
+     "messages_at_risk": 40
+    },
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 415,
+     "messages_at_risk": 34
+    },
+    {
+     "language": "Cantonese",
+     "speakers": 175,
+     "messages_at_risk": 22
+    }
+   ],
+   "rank": 24,
+   "rank_fact_loss": 24,
+   "rank_knows_neither_2x": 25
+  },
+  {
+   "name": "Central Erin Mills MN",
+   "residents": 6040,
+   "messages_at_risk": 169,
+   "messages_at_risk_per_1000": 28.0,
+   "risk_fact_loss": 140,
+   "risk_knows_neither_2x": 177,
+   "knows_neither": 280,
+   "pct_knows_neither": 4.64,
+   "unmeasured_bengali_speakers": 35,
+   "top_languages": [
+    "Arabic",
+    "Urdu",
+    "Tamil"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Arabic",
+     "speakers": 365,
+     "messages_at_risk": 31
+    },
+    {
+     "language": "Urdu",
+     "speakers": 165,
+     "messages_at_risk": 30
+    },
+    {
+     "language": "Tamil",
+     "speakers": 115,
+     "messages_at_risk": 24
+    }
+   ],
+   "rank": 25,
+   "rank_fact_loss": 26,
+   "rank_knows_neither_2x": 24
+  },
+  {
+   "name": "Streetsville",
+   "residents": 10610,
+   "messages_at_risk": 153,
+   "messages_at_risk_per_1000": 14.4,
+   "risk_fact_loss": 141,
+   "risk_knows_neither_2x": 156,
+   "knows_neither": 225,
+   "pct_knows_neither": 2.12,
+   "unmeasured_bengali_speakers": 0,
+   "top_languages": [
+    "Urdu",
+    "Portuguese",
+    "Mandarin Chinese"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Urdu",
+     "speakers": 140,
+     "messages_at_risk": 25
+    },
+    {
+     "language": "Portuguese",
+     "speakers": 210,
+     "messages_at_risk": 22
+    },
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 210,
+     "messages_at_risk": 17
+    }
+   ],
+   "rank": 26,
+   "rank_fact_loss": 25,
+   "rank_knows_neither_2x": 26
+  },
+  {
+   "name": "Sheridan CN",
+   "residents": 3265,
+   "messages_at_risk": 113,
+   "messages_at_risk_per_1000": 34.6,
+   "risk_fact_loss": 49,
+   "risk_knows_neither_2x": 118,
+   "knows_neither": 135,
+   "pct_knows_neither": 4.13,
+   "unmeasured_bengali_speakers": 0,
+   "top_languages": [
+    "Urdu",
+    "Arabic",
+    "Tagalog"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Urdu",
+     "speakers": 465,
+     "messages_at_risk": 84
+    },
+    {
+     "language": "Arabic",
+     "speakers": 165,
+     "messages_at_risk": 14
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 75,
+     "messages_at_risk": 9
+    }
+   ],
+   "rank": 27,
+   "rank_fact_loss": 32,
+   "rank_knows_neither_2x": 27
+  },
+  {
+   "name": "Mineola",
+   "residents": 9845,
+   "messages_at_risk": 94,
+   "messages_at_risk_per_1000": 9.5,
+   "risk_fact_loss": 115,
+   "risk_knows_neither_2x": 96,
+   "knows_neither": 185,
+   "pct_knows_neither": 1.88,
+   "unmeasured_bengali_speakers": 0,
+   "top_languages": [
+    "Polish",
+    "Punjabi",
+    "Mandarin Chinese"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Polish",
+     "speakers": 310,
+     "messages_at_risk": 21
+    },
+    {
+     "language": "Punjabi",
+     "speakers": 70,
+     "messages_at_risk": 18
+    },
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 170,
+     "messages_at_risk": 14
+    }
+   ],
+   "rank": 28,
+   "rank_fact_loss": 27,
+   "rank_knows_neither_2x": 28
+  },
+  {
+   "name": "South Common CN",
+   "residents": 4880,
+   "messages_at_risk": 90,
+   "messages_at_risk_per_1000": 18.5,
+   "risk_fact_loss": 79,
+   "risk_knows_neither_2x": 95,
+   "knows_neither": 230,
+   "pct_knows_neither": 4.71,
+   "unmeasured_bengali_speakers": 0,
+   "top_languages": [
+    "Urdu",
+    "Tagalog",
+    "Arabic"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Urdu",
+     "speakers": 145,
+     "messages_at_risk": 26
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 205,
+     "messages_at_risk": 24
+    },
+    {
+     "language": "Arabic",
+     "speakers": 155,
+     "messages_at_risk": 13
+    }
+   ],
+   "rank": 29,
+   "rank_fact_loss": 29,
+   "rank_knows_neither_2x": 29
+  },
+  {
+   "name": "Cooksville (East)",
+   "residents": 8405,
+   "messages_at_risk": 89,
+   "messages_at_risk_per_1000": 10.5,
+   "risk_fact_loss": 112,
+   "risk_knows_neither_2x": 90,
+   "knows_neither": 180,
+   "pct_knows_neither": 2.14,
+   "unmeasured_bengali_speakers": 50,
+   "top_languages": [
+    "Polish",
+    "Portuguese",
+    "Tagalog"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Polish",
+     "speakers": 265,
+     "messages_at_risk": 18
+    },
+    {
+     "language": "Portuguese",
+     "speakers": 155,
+     "messages_at_risk": 16
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 75,
+     "messages_at_risk": 9
+    }
+   ],
+   "rank": 30,
+   "rank_fact_loss": 28,
+   "rank_knows_neither_2x": 30
+  },
+  {
+   "name": "Rathwood-Applewood CN",
+   "residents": 3350,
+   "messages_at_risk": 60,
+   "messages_at_risk_per_1000": 17.8,
+   "risk_fact_loss": 70,
+   "risk_knows_neither_2x": 63,
+   "knows_neither": 180,
+   "pct_knows_neither": 5.37,
+   "unmeasured_bengali_speakers": 45,
+   "top_languages": [
+    "Urdu",
+    "Polish",
+    "Spanish"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Urdu",
+     "speakers": 120,
+     "messages_at_risk": 22
+    },
+    {
+     "language": "Polish",
+     "speakers": 150,
+     "messages_at_risk": 10
+    },
+    {
+     "language": "Spanish",
+     "speakers": 150,
+     "messages_at_risk": 9
+    }
+   ],
+   "rank": 31,
+   "rank_fact_loss": 30,
+   "rank_knows_neither_2x": 31
+  },
+  {
+   "name": "Malton CN",
+   "residents": 2670,
+   "messages_at_risk": 54,
+   "messages_at_risk_per_1000": 20.1,
+   "risk_fact_loss": 38,
+   "risk_knows_neither_2x": 55,
+   "knows_neither": 60,
+   "pct_knows_neither": 2.25,
+   "unmeasured_bengali_speakers": 0,
+   "top_languages": [
+    "Punjabi",
+    "Urdu",
+    "Tagalog"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Punjabi",
+     "speakers": 60,
+     "messages_at_risk": 16
+    },
+    {
+     "language": "Urdu",
+     "speakers": 80,
+     "messages_at_risk": 14
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 100,
+     "messages_at_risk": 12
+    }
+   ],
+   "rank": 32,
+   "rank_fact_loss": 34,
+   "rank_knows_neither_2x": 32
+  },
+  {
+   "name": "Meadowvale CN",
+   "residents": 2855,
+   "messages_at_risk": 52,
+   "messages_at_risk_per_1000": 18.3,
+   "risk_fact_loss": 43,
+   "risk_knows_neither_2x": 53,
+   "knows_neither": 60,
+   "pct_knows_neither": 2.1,
+   "unmeasured_bengali_speakers": 0,
+   "top_languages": [
+    "Urdu",
+    "Tamil",
+    "Arabic"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Urdu",
+     "speakers": 90,
+     "messages_at_risk": 16
+    },
+    {
+     "language": "Tamil",
+     "speakers": 75,
+     "messages_at_risk": 16
+    },
+    {
+     "language": "Arabic",
+     "speakers": 70,
+     "messages_at_risk": 6
+    }
+   ],
+   "rank": 33,
+   "rank_fact_loss": 33,
+   "rank_knows_neither_2x": 33
+  },
+  {
+   "name": "Port Credit CN",
+   "residents": 4945,
+   "messages_at_risk": 35,
+   "messages_at_risk_per_1000": 7.1,
+   "risk_fact_loss": 50,
+   "risk_knows_neither_2x": 36,
+   "knows_neither": 120,
+   "pct_knows_neither": 2.43,
+   "unmeasured_bengali_speakers": 0,
+   "top_languages": [
+    "Spanish",
+    "Urdu",
+    "Polish"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Spanish",
+     "speakers": 150,
+     "messages_at_risk": 9
+    },
+    {
+     "language": "Urdu",
+     "speakers": 40,
+     "messages_at_risk": 7
+    },
+    {
+     "language": "Polish",
+     "speakers": 85,
+     "messages_at_risk": 6
+    }
+   ],
+   "rank": 34,
+   "rank_fact_loss": 31,
+   "rank_knows_neither_2x": 34
+  },
+  {
+   "name": "Port Credit (West)",
+   "residents": 3300,
+   "messages_at_risk": 21,
+   "messages_at_risk_per_1000": 6.5,
+   "risk_fact_loss": 36,
+   "risk_knows_neither_2x": 22,
+   "knows_neither": 60,
+   "pct_knows_neither": 1.82,
+   "unmeasured_bengali_speakers": 0,
+   "top_languages": [
+    "Polish",
+    "Hindi",
+    "Spanish"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Polish",
+     "speakers": 100,
+     "messages_at_risk": 7
+    },
+    {
+     "language": "Hindi",
+     "speakers": 45,
+     "messages_at_risk": 6
+    },
+    {
+     "language": "Spanish",
+     "speakers": 40,
+     "messages_at_risk": 2
+    }
+   ],
+   "rank": 35,
+   "rank_fact_loss": 35,
+   "rank_knows_neither_2x": 35
+  },
+  {
+   "name": "Streetsville CN",
+   "residents": 1320,
+   "messages_at_risk": 15,
+   "messages_at_risk_per_1000": 11.3,
+   "risk_fact_loss": 15,
+   "risk_knows_neither_2x": 16,
+   "knows_neither": 55,
+   "pct_knows_neither": 4.17,
+   "unmeasured_bengali_speakers": 0,
+   "top_languages": [
+    "Urdu",
+    "Arabic",
+    "Cantonese"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Urdu",
+     "speakers": 25,
+     "messages_at_risk": 4
+    },
+    {
+     "language": "Arabic",
+     "speakers": 30,
+     "messages_at_risk": 3
+    },
+    {
+     "language": "Cantonese",
+     "speakers": 15,
+     "messages_at_risk": 2
+    }
+   ],
+   "rank": 36,
+   "rank_fact_loss": 37,
+   "rank_knows_neither_2x": 36
+  },
+  {
+   "name": "Clarkson Village CN",
+   "residents": 2350,
+   "messages_at_risk": 11,
+   "messages_at_risk_per_1000": 4.6,
+   "risk_fact_loss": 16,
+   "risk_knows_neither_2x": 11,
+   "knows_neither": 30,
+   "pct_knows_neither": 1.28,
+   "unmeasured_bengali_speakers": 15,
+   "top_languages": [
+    "Arabic",
+    "Mandarin Chinese",
+    "Spanish"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Arabic",
+     "speakers": 50,
+     "messages_at_risk": 4
+    },
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 25,
+     "messages_at_risk": 2
+    },
+    {
+     "language": "Spanish",
+     "speakers": 30,
+     "messages_at_risk": 2
+    }
+   ],
+   "rank": 37,
+   "rank_fact_loss": 36,
+   "rank_knows_neither_2x": 37
+  },
+  {
+   "name": "Port Credit (East)",
+   "residents": 2420,
+   "messages_at_risk": 8,
+   "messages_at_risk_per_1000": 3.3,
+   "risk_fact_loss": 10,
+   "risk_knows_neither_2x": 8,
+   "knows_neither": 30,
+   "pct_knows_neither": 1.24,
+   "unmeasured_bengali_speakers": 0,
+   "top_languages": [
+    "Mandarin Chinese",
+    "Cantonese",
+    "Tagalog"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 35,
+     "messages_at_risk": 3
+    },
+    {
+     "language": "Cantonese",
+     "speakers": 15,
+     "messages_at_risk": 2
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 15,
+     "messages_at_risk": 2
+    }
+   ],
+   "rank": 38,
+   "rank_fact_loss": 39,
+   "rank_knows_neither_2x": 38
+  },
+  {
+   "name": "Dixie EA",
+   "residents": 945,
+   "messages_at_risk": 7,
+   "messages_at_risk_per_1000": 6.9,
+   "risk_fact_loss": 11,
+   "risk_knows_neither_2x": 7,
+   "knows_neither": 60,
+   "pct_knows_neither": 6.35,
+   "unmeasured_bengali_speakers": 0,
+   "top_languages": [
+    "Spanish",
+    "Polish",
+    "Cantonese"
+   ],
+   "top_languages_detail": [
+    {
+     "language": "Spanish",
+     "speakers": 35,
+     "messages_at_risk": 2
+    },
+    {
+     "language": "Polish",
+     "speakers": 30,
+     "messages_at_risk": 2
+    },
+    {
+     "language": "Cantonese",
+     "speakers": 10,
+     "messages_at_risk": 1
+    }
+   ],
+   "rank": 39,
+   "rank_fact_loss": 38,
+   "rank_knows_neither_2x": 39
+  }
+ ]
+}

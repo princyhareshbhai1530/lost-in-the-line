@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "En muchos casos, inscribirse en un programa de estudios en el extranjero durante un año sabático puede, en efecto, incrementar las posibilidades de acceder a la educación superior una vez se regresa al país de origen.",
+ "english": "In many cases, enrolling in a study abroad program during a gap year can, in fact, increase the chances of accessing higher education once returning to the home country.",
+ "clip": "es_419_1519",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

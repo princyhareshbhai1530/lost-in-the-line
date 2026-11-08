@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "女性朋友也應該明白，文化差異可能會導致某些她們視為騷擾的情況，被人跟蹤、手臂被人抓住等狀況並不少見。",
+ "english": "Female friends should also understand that cultural differences may lead to certain situations that they regard as harassment, and situations such as being followed or having one's arm grabbed are not uncommon.",
+ "clip": "yue_hant_hk_1632",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

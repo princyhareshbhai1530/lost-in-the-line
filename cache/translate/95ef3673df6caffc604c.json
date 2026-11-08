@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "हालांकि जंगल का अर्थ केवल मैंग्रोव दलदल नहीं है। वे कुछ अंतिम शक्तिशाली जंगलों में से हैं जो कभी गंगा पठार को cover करते थे।",
+ "english": "However jungle does not mean only mangrove swamps. They are among some of the last mighty forests that once covered the Ganges plateau.",
+ "clip": "hi_in_1641",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

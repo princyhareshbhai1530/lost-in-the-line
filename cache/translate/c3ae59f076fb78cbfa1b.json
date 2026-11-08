@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "वे गुण जो किसी उप-संस्कृति को अलग बनाते हैं, जैसे कि भाषा, सौंदर्य, धर्म, राजनीति, यौन, भूगोल या कई सारे कारकों का मिश्रण हो सकते हैं.",
+ "english": "Those qualities that make a subculture distinct, such as language, aesthetics, religion, politics, sex, geography, or can be a mixture of several factors.",
+ "clip": "hi_in_1589",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

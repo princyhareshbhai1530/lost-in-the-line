@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "随着时间的推移，新的种群开始适应新的环境，它们开始变得与其他种群越来越不相似了。",
+ "english": "Over time, as the new population begins to adapt to the new environment, they begin to become less and less similar to other populations.",
+ "clip": "cmn_hans_cn_1585",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

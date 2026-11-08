@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਗੈਪ ਦੇ ਸਾਲ ਦੀ ਯੋਜਨਾ ਬਣਾਉਣ ਵਾਲੇ ਲੋਕਾਂ ਲਈ ਇੱਕ ਹੋਰ ਵਧੇਰੇ ਪ੍ਰਸਿੱਧ ਵਿਕਲਪ ਹੈ ਸੈਰ-ਸਪਾਟਾ ਕਰਨਾ ਅਤੇ ਸਿੱਖਣਾ।",
+ "english": "Another more popular option for people planning a gap year is traveling and learning.",
+ "clip": "pa_in_1651",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

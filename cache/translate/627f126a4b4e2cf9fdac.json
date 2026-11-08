@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "மற்ற இடங்களில் கிடைக்கும் மிக விரிவான தகவல்களோடு ஒப்பிடுகையில், வழங்கப்படும் பார்வைகள் வழக்கமாக மேலோட்டமாக, பொதுவாக மற்றும் மிகவும் எளிதாக்கப்பட்டதாக இருக்கும்.",
+ "english": "Compared to the more detailed information available elsewhere, the views presented are usually superficial, general, and very simplified.",
+ "clip": "ta_in_1647",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

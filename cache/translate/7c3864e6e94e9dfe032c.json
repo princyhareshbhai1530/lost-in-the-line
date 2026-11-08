@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "અમુક અહેવાલો મૃત્યુના આંકડાને આઠ તરીકે રજૂ કરે છે અને સત્તાવાર અહેવાલો પ્રમાણે 30 જેટલા ઈજા પામ્યા હતા તેની પુષ્ટિ કરે છે, પરંતુ અંતિમ આંકડાઓ હજુ સુધી જાણવા મળ્યા નથી.",
+ "english": "Some reports present the death toll as eight and official reports confirm that as many as 30 were injured, but the final figures are not yet known.",
+ "clip": "gu_in_1629",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

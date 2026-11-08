@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "કારે તેને અસર કરી ત્યારે 3 લોકો ઘરની અંદર હતા તેમ છતાં, તેમાંથી કોઈને ઇજા પહોંચી ન હતી.",
+ "english": "Even though 3 people were inside the house when the car hit it, none of them were injured.",
+ "clip": "gu_in_1598",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

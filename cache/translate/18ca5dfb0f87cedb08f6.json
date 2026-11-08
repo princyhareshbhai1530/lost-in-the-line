@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "புராதன ரோமானியர்களின் உணவுகளில் , ஐரோப்பாவிற்கு ஆசியாவிலிருந்தோ அமெரிக்காவிலிருந்தோ பல நூற்றாண்டுகள் பின்னர் வந்த உணவுகள் இடம் பெற்றிருக்க முடியாது.",
+ "english": "In ancient Roman diets, foods that came to Europe from Asia or America many centuries later could not have been included.",
+ "clip": "ta_in_1627",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "قال ميلر عندما طلب منه إبداء رأيه: \"يتحدث مايك كثيرًا أثناء جلسة الاستماع، كنت أستعد ولذا لم أسمع حقًا ما كان يقوله\".",
+ "english": "Miller said when asked for his opinion: \"Mike talks a lot during the hearing, I was preparing so I didn't really hear what he was saying.\"",
+ "clip": "ar_eg_1644",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

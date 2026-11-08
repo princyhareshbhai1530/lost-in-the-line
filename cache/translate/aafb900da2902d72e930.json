@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Sinusubukan pa rin nilang alamin kung gaano talaga kalawak ang banggaan at kung paano maaapektuhan ang Earth.",
+ "english": "They are still trying to find out how widespread the collision really was and how Earth will be affected.",
+ "clip": "fil_ph_1551",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

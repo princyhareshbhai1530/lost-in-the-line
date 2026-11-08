@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਮੈਨੂੰ ਨਹੀਂ ਪਤਾ ਕਿ ਉਹ ਅੰਮ੍ਰਿਤਗੜ੍ਹ ਆ ਸਹਾਰਾ ਚੰਨ ਪਰ ਕੇਂਦਰੀ ਅਮਰੀਕਾ ਤੋਂ ਵਿਦੇਸ਼ੀ ਸ਼ੋਅ ਵਾਲਾ ਜਾਤ ਸਮਾਨ ਡਿਊਟੀ ਮੁਕਤ ਹੁੰਦਾ ਸੀ।",
+ "english": "I don't know if that was Amritgarh or Sahara Moon, but foreign show caste goods from Central America used to be duty-free.",
+ "clip": "pa_in_1654",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 42
+}

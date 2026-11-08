@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "與其他地方能取得的詳細資訊相比，他們所提供的觀點常較粗略、籠統且過於簡化。",
+ "english": "Compared with the detailed information available elsewhere, the viewpoints they provide are often rougher, more generalized, and oversimplified.",
+ "clip": "yue_hant_hk_1647",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

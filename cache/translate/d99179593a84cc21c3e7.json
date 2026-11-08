@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Ewan ko kung alam mo ito o hindi pero karamihan sa mga produktong mula sa Gitnang Amerika ay nakarating sa bansang ito ng hindi binuwisan.",
+ "english": "I don't know whether you know this or not, but most of the products from Central America reached this country without being taxed.",
+ "clip": "fil_ph_1654",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

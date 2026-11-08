@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "کرسمس عیسائیت کے لیے اہم ترین چھٹیوں میں سے ایک ہے، اور اسے حضرت عیسٰی کی سالگرہ کے طور پر منایا جاتا ہے۔",
+ "english": "Christmas is one of the most important holidays for Christianity, and it is celebrated as the birthday of Jesus Christ.",
+ "clip": "ur_pk_1553",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

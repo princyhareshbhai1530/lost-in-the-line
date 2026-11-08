@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "मैंने नहीं पता कि तो 19 साल का था शायद नहीं पर केंद्रीय अमेरिका तो विदेशी शव वाला जातक समान ड्यूटी में था तो",
+ "english": "I did not know whether then was 19 years old maybe not but from Central America foreign corpse person goods were on duty then",
+ "clip": "pa_in_1654",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

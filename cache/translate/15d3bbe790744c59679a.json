@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "現場活動的例子包含打獵、釣魚、攝影、賞鳥，以及造訪公園與研習生態系統的相關資訊。",
+ "english": "Examples of on-site activities include hunting, fishing, photography, birdwatching, as well as visiting parks and studying information related to ecosystems.",
+ "clip": "yue_hant_hk_1600",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

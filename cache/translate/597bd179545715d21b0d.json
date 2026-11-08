@@ -1,0 +1,9 @@
+{
+ "model": "gemini-2.5-flash",
+ "language": "Punjabi",
+ "source_text": "ਤੁਸੀਂ ਹਨੇਰੇ ਵਿੱਚ ਪਿਰਾਮਿਡ ਦੇਖ ਸਕਦੇ ਹੋ ਅਤੇ ਪ੍ਰਦਰਸ਼ਨ ਸ਼ੁਰੂ ਹੋਣ ਤੋਂ ਪਹਿਲਾਂ ਤੁਸੀਂ ਉਹਨਾਂ ਨੂੰ ਛੁੱਪ ਹਾਲਤ ਵਿੱਚ ਦੇਖ ਸਕਦੇ ਹੋ।",
+ "english": "You can see the pyramids in the dark and before the show starts, you can see them in a hidden state.",
+ "clip": "pa_in_1537",
+ "source": "heard",
+ "batched": true
+}

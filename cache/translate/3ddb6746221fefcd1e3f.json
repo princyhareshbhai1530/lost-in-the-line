@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "As mulheres devem entender que diferenças culturais podem ocasionar atos que elas considerariam como assédio, e não é incomum serem seguidas, agarradas pelo braço, etc.",
+ "english": "Women must understand that cultural differences can cause acts that they would consider harassment, and it is not uncommon to be followed, grabbed by the arm, etc.",
+ "clip": "pt_br_1632",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

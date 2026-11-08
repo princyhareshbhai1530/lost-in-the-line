@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Bạn có thể nhìn thấy các kim tự tháp trong bóng tối và bạn có thể ngắm nhìn chúng trong tĩnh lặng trước khi buổi trình diễn bắt đầu.",
+ "english": "You can see the pyramids in the dark and you can view them in silence before the show begins.",
+ "clip": "vi_vn_1537",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

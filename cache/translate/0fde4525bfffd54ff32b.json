@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "Aquilo não pareceu fazer sentido para mim; certamente não foi justo.",
+ "english": "That didn't seem to make sense to me; it was certainly not fair.",
+ "clip": "pt_br_1577",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

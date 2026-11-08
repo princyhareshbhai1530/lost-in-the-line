@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "Al pasar el tiempo, a medida que la incipiente población se va adaptando al nuevo entorno, comienza a asemejarse cada vez menos a la otra población.",
+ "english": "As time passes, as the budding population adapts to the new environment, it begins to resemble the other population less and less.",
+ "clip": "es_419_1585",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

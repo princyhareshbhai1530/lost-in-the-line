@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "अंतरिक्ष में उपग्रह को call मिलता है और फिर इसे वापस नीचे उसी समय परावर्तित करता है।",
+ "english": "The satellite in space receives the call and then reflects it back down at that very moment.",
+ "clip": "hi_in_1521",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

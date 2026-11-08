@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "அந்த நோயாளி சில எபோலா வைரஸ் வழக்குகள் நிகழ்ந்த நைஜீரியாவிற்குச் சென்றார்.",
+ "english": "That patient went to Nigeria, where some Ebola virus cases occurred.",
+ "clip": "ta_in_1543",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

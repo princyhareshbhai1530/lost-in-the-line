@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Pacjent przebywał w Nigerii, gdzie odnotowano kilka przypadków wirusa Ebola.",
+ "english": "The patient had stayed in Nigeria, where several cases of the Ebola virus were recorded.",
+ "clip": "pl_pl_1543",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Khi bạn gọi ai đó cách xa hàng ngàn dặm, bạn đang sử dụng vệ tinh.",
+ "english": "When you call someone thousands of miles away, you are using a satellite.",
+ "clip": "vi_vn_1548",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

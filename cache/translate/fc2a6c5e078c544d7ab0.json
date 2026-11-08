@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "كما يبدأ هذا التقرير بدعوة لإجراء نقاش مفتوح، وتشكيل اتفاق جماعي في الرأي في الولايات المتحدة بشأن السياسة تجاه الشرق الأوسط.",
+ "english": "This report also begins with a call to hold an open debate, and to build a consensus of opinion in the United States regarding policy toward the Middle East.",
+ "clip": "ar_eg_1569",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

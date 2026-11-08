@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "عند اتصالك بشخص ما على بعد آلاف الأميال، فإنك تستخدم قمر صناعياً.",
+ "english": "When you call someone thousands of miles away, you use a satellite.",
+ "clip": "ar_eg_1548",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

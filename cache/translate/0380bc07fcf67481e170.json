@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "全副武裝的鎮暴警察很快就進入院子，並利用催淚瓦斯把犯人逼到死角。",
+ "english": "Fully armed riot police quickly entered the courtyard and used tear gas to corner the prisoners.",
+ "clip": "yue_hant_hk_1511",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

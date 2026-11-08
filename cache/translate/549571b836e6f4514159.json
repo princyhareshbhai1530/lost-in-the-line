@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "Assim que você consegue sair da corrente, nadar de volta não é mais difícil do que seria usualmente.",
+ "english": "As soon as you manage to get out of the current, swimming back is no harder than it usually would be.",
+ "clip": "pt_br_1560",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

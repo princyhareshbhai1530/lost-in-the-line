@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "ارمند ورسی نے کہا میں نے اپنی بہن اور اس کے دوست کو کھو دیا۔ میرے راستے میں ویل چیئرس پر دو معذور افراد تھے۔ لوگ بس اچھلتے ہوئے انہیں دھکا دے رہے تھے۔",
+ "english": "Armand Versace said I lost my sister and her friend. In my path were two disabled people in wheelchairs. People were just jumping and pushing them.",
+ "clip": "ur_pk_1608",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

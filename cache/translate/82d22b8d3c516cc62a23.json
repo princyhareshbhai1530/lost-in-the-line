@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "بہت سے معاملوں میں بیرون ملک میں گیپ سال والے کورس میں اندراج سے دراصل اپنے گھریلو میں واپس اعلی تعلیم میں داخلہ کے مواقع بڑھ جاتے ہیں۔",
+ "english": "In many cases, enrolling in a gap year course abroad actually increases the chances of admission back into higher education at home.",
+ "clip": "ur_pk_1519",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "படிப்புக்கு இடையில் இடைவேளை எடுத்துத் திட்டமிடுபவர்களுக்கு அதிகரித்து வரும் ஒரு பிரபலமான தேர்வு, பயணத்துக்கொண்டு படிப்பதாகும்.",
+ "english": "An increasingly popular choice for those planning to take a break between studies is traveling and studying.",
+ "clip": "ta_in_1651",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

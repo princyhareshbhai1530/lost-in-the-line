@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "Alguns relatórios dizem que o número oficial de mortos foi oito, e outros confirmam que até 30 ficaram feridas; mas os números finais ainda não são conhecidos.",
+ "english": "Some reports say the official death toll was eight, and others confirm that up to 30 were injured; but the final numbers are not yet known.",
+ "clip": "pt_br_1629",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

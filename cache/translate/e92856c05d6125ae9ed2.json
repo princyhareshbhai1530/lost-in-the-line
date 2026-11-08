@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "حالما تسبح خارج التيار ستكون السباحة في العودة لا تقل سهولة عن المعتاد.",
+ "english": "Once you swim out of the current, swimming back will be no less easy than usual.",
+ "clip": "ar_eg_1560",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

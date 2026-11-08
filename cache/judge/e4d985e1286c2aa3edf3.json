@@ -1,0 +1,10 @@
+{
+ "label": "minor",
+ "score": 75,
+ "reason": "'Threw canisters' describes mechanism rather than 'cornered with tear gas'.",
+ "model": "gemini-3.8-flash",
+ "prompt_version": 2,
+ "settings": "tlminimal",
+ "batched": true,
+ "batch_size": 250
+}

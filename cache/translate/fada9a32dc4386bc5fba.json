@@ -1,0 +1,9 @@
+{
+ "model": "gemini-2.5-flash",
+ "language": "Arabic",
+ "source_text": "في باحة الكنيسة، توجد تماثيل رخامية بديعة للحمام فوق بعض المقابر.",
+ "english": "In the churchyard, there are beautiful marble statues of doves above some graves.",
+ "clip": "ar_eg_1555",
+ "source": "true",
+ "batched": true
+}

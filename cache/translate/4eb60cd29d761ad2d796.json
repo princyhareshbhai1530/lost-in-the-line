@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "ما زالوا يحاولون تحديد حجم التصادم وكيف ستتأثر الأرض.",
+ "english": "They are still trying to determine the scale of the collision and how Earth will be affected.",
+ "clip": "ar_eg_1551",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

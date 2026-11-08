@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "கலாச்சார வேறுபாடுகள், துன்புறுத்தல் என்று கருதப்படலாம் என்பதை பெண்கள் புரிந்து கொள்ள வேண்டும் மற்றும் நம்மை பின்தொடர்தல், கையைப் பிடித்தல் போன்றவை வழக்கத்திற்கு மாறானவை அல்ல.",
+ "english": "Women must understand that cultural differences may be considered harassment, and following us, grabbing our hand, etc. are not unusual.",
+ "clip": "ta_in_1632",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

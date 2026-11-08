@@ -1,0 +1,9 @@
+{
+ "model": "gemini-2.5-flash",
+ "language": "Tagalog",
+ "source_text": "Tatanggapin ng satellite sa kalawakan ang tawag at halos agad-agad itong ibinabalik pababa.",
+ "english": "The satellite in space will receive the call and almost immediately sends it back down.",
+ "clip": "fil_ph_1521",
+ "source": "true",
+ "batched": true
+}

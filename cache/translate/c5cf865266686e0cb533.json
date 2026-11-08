@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "Perdi minha irmã e a amiga dela, e no meu caminho havia duas pessoas deficientes em cadeiras de rodas, pessoas pulando e empurrando elas\", disse Armand Versace.",
+ "english": "I lost my sister and her friend, and in my path were two disabled people in wheelchairs, people jumping and pushing them,\" said Armand Versace.",
+ "clip": "pt_br_1608",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

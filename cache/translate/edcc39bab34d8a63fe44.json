@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "जैसे ही तुम धारे से निकल आओगे वैसे ही तैराकी हस्पे मामूली आसान नहीं हो जाएगी।",
+ "english": "As soon as you emerge from the current, swimming will not become as easy as usual.",
+ "clip": "ur_pk_1560",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

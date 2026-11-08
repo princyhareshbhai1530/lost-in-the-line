@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "大象和长颈鹿这些动物往往会接近车子，因此标准装备能让你看得更清楚。",
+ "english": "Animals such as elephants and giraffes tend to approach vehicles, so standard gear allows you to see more clearly.",
+ "clip": "yue_hant_hk_1594",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 110
+}

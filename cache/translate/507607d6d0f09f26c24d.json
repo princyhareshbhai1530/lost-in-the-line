@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Malugod na sinang-ayunan ng Presidente ng US na si George W. Bush ang pahayag.",
+ "english": "US President George W. Bush welcomed the statement.",
+ "clip": "fil_ph_1622",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "„Zgubiłem siostrę i jej koleżankę, a po drodze minąłem dwie niepełnosprawne osoby na wózkach, które przeskakiwali i popychali ludzie” – powiedział Armand Versace.",
+ "english": "“I lost my sister and her friend, and along the way I passed two disabled people in wheelchairs, whom people were jumping over and pushing,” said Armand Versace.",
+ "clip": "pl_pl_1608",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

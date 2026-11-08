@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "پھر بھی وسطی امریکی ممالک میں ہمارے اسی فیصد سازو سامان پر ٹیرف کے ذریعے ٹیکس لگایا جاتا تھا۔ ہم تم سے نمٹ لیں گے۔",
+ "english": "Yet eighty percent of our equipment in Central American countries was taxed through tariffs. We will deal with you.",
+ "clip": "ur_pk_1566",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

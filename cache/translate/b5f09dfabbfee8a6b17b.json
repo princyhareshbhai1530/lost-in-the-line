@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "રજૂ કરવામાં આવેલા અભિપ્રાયો અન્ય જગ્યાએ ઉપલબ્ધ વધુ વિગતવાર માહિતીની સરખામણીમાં ઘણી વાર સામાન્ય અને વધુ સરળ હોય છે.",
+ "english": "The opinions presented are often general and simpler compared to the more detailed information available elsewhere.",
+ "clip": "gu_in_1647",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

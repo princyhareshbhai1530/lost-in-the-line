@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "વિજ્ઞાન હવે સૂચવે છે કે આ વિશાળ કાર્બન અર્થતંત્રએ તેની એક સ્થિર સ્થિતિમાંથી જૈવક્ષેત્રને વિખેરી નાખ્યું છે, જેણે છેલ્લાં વિસ લાખ વર્ષોથી માનવ વિકાસને ટેકો આપ્યો છે.",
+ "english": "Science now suggests that this vast carbon economy has disrupted the biosphere from one of its stable states, which has supported human development for the past twenty lakh years.",
+ "clip": "gu_in_1616",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,6 @@
+{
+ "label": "same",
+ "score": 100,
+ "reason": "Identical meaning and wording.",
+ "model": "gemini-2.5-flash"
+}

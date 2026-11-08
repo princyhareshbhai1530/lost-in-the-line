@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "تتضمن الأمثلة على الأنشطة التي يمكن القيام بها في الموقع الصيد، وصيد الأسماك، والتصوير، ومشاهدة الطيور، وزيارة الحدائق، ودراسة المعلومات عن النظام البيئي.",
+ "english": "Examples of on-site activities include hunting, fishing, photography, birdwatching, visiting parks, and studying information about the ecosystem.",
+ "clip": "ar_eg_1600",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

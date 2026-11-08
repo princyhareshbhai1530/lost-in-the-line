@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "موسم سرما حیرت انگیز طور پر ٹھنڈا ہوسکتا ہے: درجہ حرارت کبھی کبھار منجمد پوائنٹ سے نیچے جاتی ہے، لیکن ہوا اور نمی تھرما میٹر پر نظر آنے والی ٹھنڈ سے موسم کو کہیں زیادہ سرد بنا دیتی ہے۔",
+ "english": "Winter can be surprisingly cold: the temperature rarely drops below freezing point, but the wind and humidity make the weather much colder than the cold visible on the thermometer.",
+ "clip": "ur_pk_1574",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

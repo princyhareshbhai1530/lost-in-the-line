@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "对于那些计划怎么度过空档年的人来说，游学成为越来越受欢迎的选择。",
+ "english": "For those planning how to spend a gap year, study tours have become an increasingly popular choice.",
+ "clip": "cmn_hans_cn_1651",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

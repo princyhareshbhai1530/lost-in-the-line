@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Nakatagda na itong putulin sa Mantes, ngunit nailigtas matapos ang madaliang pagpapasya ng korte.",
+ "english": "It was scheduled to be cut down on Mantes, but was saved after an urgent court decision.",
+ "clip": "fil_ph_1530",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

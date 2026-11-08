@@ -1,0 +1,618 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lost in the Line</title>
+<meta name="description" content="A multilingual 311 request can sound understood while losing the one fact staff need. We measured it in 14 languages.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0b0d0a; --bg2:#10130e; --card:#151912; --card2:#1c2118; --line:#2a3024; --line2:#3a4232;
+  --ink:#f2f4ee; --ink2:#bdc4b2; --muted:#848b7a;
+  --accent:#b4e33d; --accent-ink:#10160a; --accent-dim:rgba(180,227,61,.12);
+  --ok:#3fcf8e; --ok-dim:rgba(63,207,142,.14); --bad:#ff5d5d; --bad-dim:rgba(255,93,93,.14);
+  --warn:#ffb547; --warn-dim:rgba(255,181,71,.14); --na:#8a9183; --na-dim:rgba(138,145,131,.14);
+  --serif:"Lora",Georgia,serif; --sans:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+h1,h2,h3{font-family:var(--serif);margin:0;line-height:1.15;letter-spacing:-.01em}
+button{font:inherit;color:inherit;cursor:pointer}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+.ico{width:1.05em;height:1.05em;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;vertical-align:-.17em;flex:none}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:8px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+nav.top{position:sticky;top:0;z-index:40;background:rgba(11,13,10,.86);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav.top .wrap{display:flex;align-items:center;gap:12px;min-height:60px}
+.brand{font-family:var(--serif);font-weight:700;font-size:19px;display:flex;gap:9px;align-items:center;white-space:nowrap}
+.brand i{width:9px;height:9px;border-radius:50%;background:var(--accent)}
+.tabs{display:flex;gap:2px;margin-left:auto;overflow-x:auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tabs button{border:0;background:none;color:var(--ink2);font-weight:600;font-size:14px;padding:8px 12px;border-radius:999px;white-space:nowrap}
+.tabs button b{font-family:var(--serif);color:var(--muted);margin-right:5px}
+.tabs button[aria-selected="true"]{background:var(--card2);color:var(--ink);box-shadow:inset 0 0 0 1px var(--line2)}
+.tabs button[aria-selected="true"] b{color:var(--accent)}
+.methods-btn{border:1px solid var(--line2);background:none;color:var(--ink);font-weight:700;font-size:14px;padding:8px 12px;border-radius:10px;display:flex;gap:6px;align-items:center;white-space:nowrap}
+
+.hero{padding:44px 0 8px}
+.kick{font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.hero h1{font-size:clamp(30px,4.6vw,54px);margin-top:12px;max-width:1000px}
+.hero h1 em{font-style:italic;color:var(--accent)}
+.hero p{color:var(--ink2);font-size:clamp(16px,1.6vw,19px);max-width:820px;margin:14px 0 0}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:22px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px}
+.kpi .v{font-family:var(--serif);font-size:30px;font-weight:700;line-height:1.05}
+.kpi .v small{font-size:.55em;color:var(--muted)}
+.kpi .l{font-size:13px;color:var(--ink2);margin-top:6px}
+.kpi .ci{font-size:12px;color:var(--muted)}
+
+main{padding:26px 0 70px}
+section.screen{display:none}
+section.screen.on{display:block;animation:fade .25s ease}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.sh{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;margin-bottom:18px}
+.sh .n{font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.sh h2{font-size:clamp(26px,3.2vw,38px);margin-top:6px}
+.sh p{color:var(--ink2);margin:8px 0 0;max-width:720px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:20px}
+.eyebrow{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.muted{color:var(--muted)} .small{font-size:13px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.grid32{display:grid;grid-template-columns:1.35fr 1fr;gap:16px}
+.btn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line2);background:var(--card2);padding:10px 15px;border-radius:12px;font-weight:700;font-size:14px;transition:border-color .15s,background .15s}
+.btn:hover{border-color:var(--ink2)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn.danger{border-color:var(--bad);color:var(--bad)}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.btn[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:800;padding:4px 10px;border-radius:999px;letter-spacing:.02em}
+.s-ok{color:var(--ok);background:var(--ok-dim)} .s-bad{color:var(--bad);background:var(--bad-dim)}
+.s-warn{color:var(--warn);background:var(--warn-dim)} .s-na{color:var(--na);background:var(--na-dim)}
+.s-live{color:var(--accent-ink);background:var(--accent)} .s-replay{color:var(--ink);background:var(--card2);box-shadow:inset 0 0 0 1px var(--line2)}
+.note{font-size:12px;color:var(--muted);font-style:italic}
+
+/* screen 1 */
+.consent{display:flex;gap:10px;align-items:flex-start;padding:12px 14px;border:1px solid var(--line);border-radius:14px;background:var(--bg2);font-size:14px;color:var(--ink2)}
+.consent input{width:20px;height:20px;accent-color:var(--accent);flex:none;margin-top:2px}
+.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:14px 0}
+.cardpick{text-align:left;border:1px solid var(--line);background:var(--card);border-radius:14px;padding:12px}
+.cardpick[aria-pressed="true"]{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.cardpick .nat{font-family:var(--serif);font-size:20px;font-weight:600}
+.cardpick .en{font-size:12px;color:var(--ink2)}
+.sentence{font-size:22px;line-height:1.7;font-family:var(--serif);margin:6px 0 10px}
+.sentence.rtl{direction:rtl;text-align:right}
+.rec{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.recdot{width:12px;height:12px;border-radius:50%;background:var(--bad);animation:blink 1s infinite}
+@keyframes blink{50%{opacity:.25}}
+.status-line{font-size:14px;color:var(--ink2);min-height:22px}
+.status-line.err{color:var(--bad)}
+.trace{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:14px}
+.tc{background:var(--bg2);border:1px solid var(--line);border-radius:16px;padding:14px;min-height:170px}
+.tc .k{font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:8px;display:flex;gap:6px;align-items:center}
+.tc .big{font-family:var(--serif);font-size:20px;font-weight:700}
+.tc .txt{font-size:15px;word-wrap:break-word}
+.tc .txt.native{font-size:17px;line-height:1.7}
+.tc .ref{font-size:13px;color:var(--ink2);margin-top:10px;padding-top:10px;border-top:1px dashed var(--line2)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{display:inline-flex;align-items:center;gap:5px;font-size:13px;font-weight:700;padding:4px 10px;border-radius:999px}
+.receipt{margin-top:16px;border:1px solid var(--line2);border-radius:18px;background:linear-gradient(180deg,var(--card2),var(--card));padding:18px}
+.receipt .rows{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:12px}
+.receipt .m{background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.receipt .m .v{font-family:var(--serif);font-size:24px;font-weight:700}
+.receipt .m .c{font-size:12px;color:var(--muted)}
+.receipt .m .l{font-size:12px;color:var(--ink2)}
+
+/* screen 2 */
+.matrix{display:grid;grid-template-columns:110px 1fr 1fr;grid-template-rows:auto 1fr 1fr;gap:10px}
+.mx-h{font-size:12px;font-weight:800;color:var(--ink2);display:flex;align-items:flex-end;justify-content:center;text-align:center;padding:4px}
+.mx-v{font-size:12px;font-weight:800;color:var(--ink2);display:flex;align-items:center;justify-content:flex-end;text-align:right;padding-right:6px}
+.cell{border:1px solid var(--line2);border-radius:16px;padding:16px;text-align:left;background:var(--bg2);transition:transform .15s,border-color .15s;min-height:132px}
+.cell:hover{transform:translateY(-2px)}
+.cell .cn{font-family:var(--serif);font-size:40px;font-weight:700;line-height:1}
+.cell .cp{font-size:14px;color:var(--ink2)}
+.cell .ct{font-weight:800;margin-top:8px;display:flex;gap:6px;align-items:center}
+.cell .cd{font-size:12px;color:var(--muted);margin-top:2px}
+.cell.fc{border:2px solid var(--bad);background:linear-gradient(180deg,rgba(255,93,93,.16),var(--bg2));box-shadow:0 18px 50px -30px var(--bad)}
+.cell.fc .cn{color:var(--bad)}
+.cell[aria-pressed="true"]{outline:3px solid var(--accent);outline-offset:2px}
+.bars{display:grid;grid-template-columns:130px 1fr 92px;gap:8px 12px;align-items:center;font-size:13px}
+.bars .nm{text-align:right;font-weight:600}
+.bars .tr{position:relative;height:16px;background:var(--bg2);border-radius:5px}
+.bars .fill{position:absolute;left:0;top:0;bottom:0;border-radius:5px;background:var(--bad)}
+.bars .ci{position:absolute;top:50%;height:2px;background:var(--ink);opacity:.85}
+.bars .ci::before,.bars .ci::after{content:"";position:absolute;top:-4px;width:2px;height:10px;background:var(--ink)}
+.bars .ci::before{left:0}.bars .ci::after{right:0}
+.bars .v{font-size:12px;color:var(--ink2)}
+.stack{display:flex;height:16px;border-radius:5px;overflow:hidden;background:var(--bg2)}
+.stack span{display:block;height:100%}
+.st-sv{background:var(--ok)} .st-asr{background:var(--bad)} .st-tb{background:var(--warn)} .st-cd{background:var(--na)}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:var(--ink2);margin:8px 0}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{display:inline-block;width:12px;height:10px;border-radius:2px}
+.ex{border:1px solid var(--line);border-radius:14px;padding:14px;background:var(--bg2);margin-top:10px}
+.ex .hd{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center}
+.ex .row{display:grid;grid-template-columns:150px 1fr;gap:10px;font-size:14px;margin-top:8px}
+.ex .row .k{color:var(--muted);font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding-top:2px}
+.ex mark{background:var(--bad-dim);color:#ffc7c7;border-radius:4px;padding:0 3px;box-shadow:inset 0 -2px 0 var(--bad)}
+.exnav{display:flex;gap:8px;align-items:center;margin-top:10px}
+
+/* screen 3 */
+.side{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}
+.path{border:1px solid var(--line);border-radius:16px;padding:14px;background:var(--bg2)}
+.path h3{font-family:var(--sans);font-size:14px;font-weight:800;display:flex;gap:8px;align-items:center;margin-bottom:8px}
+.path .row{margin-top:10px}
+.path .row .k{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.path .row .t{font-size:15px;margin-top:2px;word-wrap:break-word}
+.path .row .t.native{font-size:17px;line-height:1.7}
+.slope{width:100%;height:auto;display:block}
+.readback{border-left:3px solid var(--accent);padding:10px 14px;background:var(--accent-dim);border-radius:0 12px 12px 0;font-family:var(--serif);font-size:18px;margin-top:10px}
+iframe.agent{width:100%;height:320px;border:1px dashed var(--line2);border-radius:14px;background:var(--bg2)}
+
+/* screen 4 */
+.lb{display:grid;grid-template-columns:34px 1fr 1.3fr 80px;gap:8px 12px;align-items:center;font-size:14px}
+.lb .rk{font-family:var(--serif);font-weight:700;color:var(--muted);text-align:right}
+.lb .nm b{display:block}
+.lb .nm small{color:var(--muted);font-size:12px}
+.lb .tr{position:relative;height:14px;background:var(--bg2);border-radius:4px;overflow:hidden}
+.lb .tr i{position:absolute;left:0;top:0;bottom:0;background:linear-gradient(90deg,var(--warn),var(--bad));border-radius:4px}
+.lb .v{font-size:12px;color:var(--ink2);text-align:right}
+.cov{height:4px;background:var(--bg2);border-radius:2px;margin-top:4px;overflow:hidden}
+.cov i{display:block;height:100%;background:var(--na)}
+
+/* methods drawer */
+.drawer{position:fixed;inset:0;z-index:60;display:none}
+.drawer.open{display:block}
+.drawer .scrim{position:absolute;inset:0;background:rgba(0,0,0,.55)}
+.drawer .body{position:absolute;right:0;top:0;bottom:0;width:min(560px,100%);background:var(--bg2);border-left:1px solid var(--line2);overflow:auto;padding:24px}
+.drawer h3{font-size:24px}
+.drawer h4{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:22px 0 6px}
+.drawer ul{margin:0;padding-left:18px;color:var(--ink2);font-size:14px}
+.drawer li{margin-bottom:6px}
+.drawer code{font-size:12px;background:var(--card2);padding:1px 5px;border-radius:5px}
+footer{border-top:1px solid var(--line);padding:24px 0 40px;color:var(--muted);font-size:13px}
+
+@media (max-width:980px){
+  .kpis{grid-template-columns:1fr 1fr}
+  .cards{grid-template-columns:repeat(3,1fr)}
+  .trace{grid-template-columns:1fr 1fr}
+  .receipt .rows{grid-template-columns:repeat(3,1fr)}
+  .grid2,.grid32,.side{grid-template-columns:1fr}
+}
+@media (max-width:560px){
+  .kpis,.trace{grid-template-columns:1fr}
+  .cards{grid-template-columns:1fr 1fr}
+  .receipt .rows{grid-template-columns:1fr 1fr}
+  .matrix{grid-template-columns:70px 1fr 1fr}
+  .cell{padding:12px;min-height:110px}.cell .cn{font-size:30px}
+  .bars{grid-template-columns:90px 1fr 70px}
+  .lb{grid-template-columns:26px 1fr 1fr 62px}
+  .ex .row{grid-template-columns:1fr}
+  .brand span{display:none}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<nav class="top" aria-label="Screens">
+  <div class="wrap">
+    <div class="brand"><i aria-hidden="true"></i><span>Lost in the Line</span></div>
+    <div class="tabs" role="tablist">
+      <button role="tab" data-s="play" aria-selected="true"><b>1</b>Play the Line</button>
+      <button role="tab" data-s="matrix" aria-selected="false"><b>2</b>False-Comfort Matrix</button>
+      <button role="tab" data-s="lab" aria-selected="false"><b>3</b>Power-Up Lab</button>
+      <button role="tab" data-s="screen" aria-selected="false"><b>4</b>Mississauga</button>
+    </div>
+    <button class="methods-btn" id="openMethods" aria-haspopup="dialog"><svg class="ico"><use href="#i-book"/></svg>Methods</button>
+  </div>
+</nav>
+
+<header class="hero wrap">
+  <div class="kick">Sheridan Datathon 2026 · Mississauga 311</div>
+  <h1>A multilingual request can <em>sound understood</em> while losing the one fact staff need.</h1>
+  <p id="heroLine"></p>
+  <div class="kpis" id="kpis"></div>
+</header>
+
+<main class="wrap">
+  <!-- SCREEN 1 -->
+  <section class="screen on" id="play" role="tabpanel" aria-label="Play the Line">
+    <div class="sh"><div><div class="n">Screen 1 · Play the Line</div><h2>Read a sentence aloud. See what staff would receive.</h2>
+      <p>Pick a card and read it in its language. The trace shows the detected language, what the ear heard, the English staff receive beside the human reference, and each critical fact.</p></div>
+      <span class="pill s-replay" id="modeBadge"><svg class="ico"><use href="#i-replay"/></svg>REPLAY</span></div>
+    <label class="consent"><input type="checkbox" id="consent"><span><b>I agree to be recorded for this demo.</b> The audio is sent once to ElevenLabs Scribe and Google Gemini for this trace and is not stored. Only the text trace is kept.</span></label>
+    <div class="cards" id="cards"></div>
+    <div class="panel">
+      <div class="eyebrow" id="cardMeta"></div>
+      <div class="sentence" id="sentence" dir="auto"></div>
+      <div class="rec">
+        <button class="btn primary" id="recBtn"><svg class="ico"><use href="#i-mic"/></svg>Record (up to 20 s)</button>
+        <button class="btn" id="replayBtn"><svg class="ico"><use href="#i-replay"/></svg>Replay verified example</button>
+        <audio id="replayAudio" controls preload="none" style="height:36px;max-width:260px"></audio>
+      </div>
+      <div class="status-line" id="recStatus" role="status" aria-live="polite"></div>
+      <div class="note">One live trace, not population evidence.</div>
+      <div class="trace" id="trace"></div>
+      <div class="receipt" id="receipt"></div>
+    </div>
+  </section>
+
+  <!-- SCREEN 2 -->
+  <section class="screen" id="matrix" role="tabpanel" aria-label="False-Comfort Matrix">
+    <div class="sh"><div><div class="n">Screen 2 · The headline</div><h2>False-Comfort Matrix</h2>
+      <p id="mxIntro"></p></div></div>
+    <div class="grid32">
+      <div class="panel">
+        <div class="matrix" id="mx"></div>
+        <p class="small muted" id="sensNote" style="margin:14px 0 0"></p>
+      </div>
+      <div class="panel">
+        <div class="eyebrow">Where the false-comfort facts were lost</div>
+        <div id="fcState" style="margin-top:10px"></div>
+        <div class="eyebrow" style="margin-top:18px">Which fact was lost</div>
+        <div id="fcTypes" class="small" style="margin-top:6px;color:var(--ink2)"></div>
+      </div>
+    </div>
+    <div class="panel" style="margin-top:16px" id="exPanel"></div>
+    <div class="grid2" style="margin-top:16px">
+      <div class="panel"><div class="eyebrow">False-comfort rate by language, with 95% intervals</div>
+        <p class="small muted" style="margin:6px 0 12px">Clips that passed the meaning check but lost a fact, out of clips with at least one fact (n per language is in each Benchmark receipt). Intervals are wide: do not rank languages by small differences.</p>
+        <div class="bars" id="fcBars"></div></div>
+      <div class="panel"><div class="eyebrow">Four-state fact labels per language (clips with facts)</div>
+        <div class="legend"><span><i class="st-sv"></i>Survived</span><span><i class="st-asr"></i>ASR-associated break</span><span><i class="st-tb"></i>Translation-baseline break</span><span><i class="st-cd"></i>Compensation or discordant</span></div>
+        <div class="bars" id="stateBars"></div></div>
+    </div>
+  </section>
+
+  <!-- SCREEN 3 -->
+  <section class="screen" id="lab" role="tabpanel" aria-label="Power-Up Decision Lab">
+    <div class="sh"><div><div class="n">Screen 3 · Power-Up Decision Lab</div><h2>Tell the ear the language first. Then read the facts back.</h2>
+      <p id="labIntro"></p></div></div>
+    <div class="panel">
+      <div style="display:flex;gap:8px;flex-wrap:wrap" id="labLangs"></div>
+      <div class="grid2" style="margin-top:14px">
+        <div><div class="eyebrow">Paired change, same audio (auto-detect vs language supplied)</div><div id="slopes"></div></div>
+        <div><div class="eyebrow">Example</div><div class="exnav" id="labNav"></div><div id="labEx"></div></div>
+      </div>
+    </div>
+    <div class="grid2" style="margin-top:16px">
+      <div class="panel"><div class="eyebrow">Would confirmation have fired?</div><div id="rbSummary"></div><div id="rbEx"></div></div>
+      <div class="panel"><div class="eyebrow">Confirm-back agent and callbacks</div>
+        <p class="small muted" style="margin:6px 0 10px">The team's ElevenLabs agent reads the facts back to the caller. It is a demo of the proposal, not evidence.</p>
+        <iframe class="agent" src="agent_embed.html" title="ElevenLabs confirm-back agent"></iframe>
+        <div id="callbacks" style="margin-top:12px"></div></div>
+    </div>
+  </section>
+
+  <!-- SCREEN 4 -->
+  <section class="screen" id="screen" role="tabpanel" aria-label="Mississauga screening">
+    <div class="sh"><div><div class="n">Screen 4 · Mississauga</div><h2>Benchmark-weighted language exposure (screening, not a forecast)</h2>
+      <p id="scIntro"></p></div></div>
+    <div class="panel"><div class="lb" id="lb"></div></div>
+  </section>
+</main>
+
+<footer><div class="wrap" id="foot"></div></footer>
+
+<div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+  <div class="scrim" data-close></div>
+  <div class="body">
+    <div style="display:flex;justify-content:space-between;align-items:center"><h3 id="mTitle">Methods</h3><button class="btn" data-close aria-label="Close methods"><svg class="ico"><use href="#i-x"/></svg>Close</button></div>
+    <div id="methods"></div>
+  </div>
+</div>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 24 24"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></symbol>
+  <symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></symbol>
+  <symbol id="i-minus" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/></symbol>
+  <symbol id="i-mic" viewBox="0 0 24 24"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><path d="M12 19v3"/></symbol>
+  <symbol id="i-stop" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"/></symbol>
+  <symbol id="i-replay" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></symbol>
+  <symbol id="i-ear" viewBox="0 0 24 24"><path d="M6 8.5a6.5 6.5 0 1 1 13 0c0 6-6 6-6 10a3.5 3.5 0 1 1-7 0"/><path d="M15 8.5a2.5 2.5 0 0 0-5 0v1a2 2 0 1 1 0 4"/></symbol>
+  <symbol id="i-lang" viewBox="0 0 24 24"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/></symbol>
+  <symbol id="i-desk" viewBox="0 0 24 24"><path d="M3 22h18"/><path d="M6 18v-7"/><path d="M10 18v-7"/><path d="M14 18v-7"/><path d="M18 18v-7"/><path d="M12 2 20 7H4z"/></symbol>
+  <symbol id="i-key" viewBox="0 0 24 24"><circle cx="7.5" cy="15.5" r="5.5"/><path d="m21 2-9.6 9.6"/><path d="m15.5 7.5 3 3L22 7l-3-3"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><polygon points="6 3 20 12 6 21 6 3"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+</svg>
+
+<script src="data/app_data.js"></script>
+<script>
+(function(){
+"use strict";
+var D = window.APP_DATA;
+var $ = function(s){ return document.querySelector(s); };
+var $$ = function(s){ return Array.prototype.slice.call(document.querySelectorAll(s)); };
+if (!D) { document.body.insertAdjacentHTML("afterbegin", '<div style="background:#ff5d5d;color:#fff;padding:10px;text-align:center;font-weight:700">app/data/app_data.js is missing. Run: py run_pipeline.py evidence</div>'); return; }
+var esc = function(s){ return String(s==null?"":s).replace(/[&<>"]/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]; }); };
+var P = "[pending]";
+var pct = function(x,d){ return x==null ? P : (100*x).toFixed(d==null?0:d) + "%"; };
+var num = function(x){ return x==null ? P : Math.round(x).toLocaleString("en-CA"); };
+var ciTxt = function(c,d){ return c && c[0]!=null ? "95% CI " + pct(c[0],d) + " to " + pct(c[1],d) : "interval " + P; };
+var icon = function(id){ return '<svg class="ico" aria-hidden="true"><use href="#i-'+id+'"/></svg>'; };
+var LANGS = {}; D.languages.forEach(function(l){ LANGS[l.language] = l; });
+var LNAME = {hin:"Hindi",hi:"Hindi",urd:"Urdu",ur:"Urdu",pan:"Punjabi",pa:"Punjabi",zho:"Chinese",zh:"Chinese",yue:"Cantonese",jpn:"Japanese",bul:"Bulgarian",eng:"English",en:"English",tam:"Tamil",ta:"Tamil",spa:"Spanish",es:"Spanish",guj:"Gujarati",gu:"Gujarati",ara:"Arabic",ar:"Arabic",fil:"Tagalog",tl:"Tagalog",tgl:"Tagalog",pol:"Polish",pl:"Polish",vie:"Vietnamese",vi:"Vietnamese",por:"Portuguese",pt:"Portuguese",cmn:"Mandarin"};
+var langName = function(c){ return LNAME[(c||"").toLowerCase()] || (c ? c : "unknown"); };
+var FTYPE = {number:"number", date_time:"date or time", negation:"negation", name_place:"name or place"};
+var STATUS = {
+  survived:["s-ok","check","survived"], changed:["s-bad","x","changed"], missing:["s-bad","minus","missing"],
+  uncertain:["s-warn","help","uncertain (fuzzy match)"], unavailable:["s-na","minus","unavailable"]
+};
+var chip = function(text, st){ var s = STATUS[st] || STATUS.unavailable; return '<span class="chip '+s[0]+'">'+icon(s[1])+esc(text)+' <span style="font-weight:600;opacity:.85">'+s[2]+'</span></span>'; };
+
+/* ---------- tabs + drawer ---------- */
+function show(id){
+  $$(".tabs button").forEach(function(b){ b.setAttribute("aria-selected", b.dataset.s===id); });
+  $$("section.screen").forEach(function(s){ s.classList.toggle("on", s.id===id); });
+  try{ history.replaceState(null,"","#"+id); }catch(e){}
+}
+$$(".tabs button").forEach(function(b){ b.onclick = function(){ show(b.dataset.s); }; });
+if (/^#(play|matrix|lab|screen)$/.test(location.hash)) show(location.hash.slice(1));
+var drawer = $("#drawer"), lastFocus = null;
+$("#openMethods").onclick = function(){ lastFocus = document.activeElement; drawer.classList.add("open"); drawer.querySelector("[data-close].btn").focus(); };
+$$("[data-close]").forEach(function(el){ el.onclick = function(){ drawer.classList.remove("open"); if (lastFocus) lastFocus.focus(); }; });
+document.addEventListener("keydown", function(e){ if (e.key==="Escape" && drawer.classList.contains("open")) { drawer.classList.remove("open"); if (lastFocus) lastFocus.focus(); } });
+
+/* ---------- hero ---------- */
+var MX = D.matrix, O = MX.overall, nF = MX.n_clips, fcr = MX.false_comfort_rate || {};
+$("#heroLine").innerHTML = "The address, the date, the number, or the word <b>not</b>. Across <b>"+num(nF)+"</b> fact-bearing recordings in 14 languages, <b>"+num(O.false_comfort)+"</b> looked fine on meaning but lost a critical fact.";
+var home = D.languages.filter(function(l){ return !l.baseline; });
+var worstDet = home.slice().sort(function(a,b){ return (a.detect_accuracy==null?1:a.detect_accuracy)-(b.detect_accuracy==null?1:b.detect_accuracy); })[0];
+var worstScr = home.slice().sort(function(a,b){ return (a.script_accuracy==null?1:a.script_accuracy)-(b.script_accuracy==null?1:b.script_accuracy); })[0];
+$("#kpis").innerHTML = [
+  ['<span style="color:var(--bad)">'+num(O.false_comfort)+'</span><small> / '+num(nF)+'</small>', "looked fine on meaning but lost a critical fact", ciTxt([fcr.lo,fcr.hi],1)],
+  [pct(worstDet.detect_accuracy), worstDet.language+" calls given the right language label ("+esc(worstDet.top_confusion||"")+")", ciTxt(worstDet.detect_ci)],
+  [pct(worstScr.script_accuracy), worstScr.language+" calls written in the right script", ciTxt(worstScr.script_ci)],
+  [num(D.context_311.calls_per_business_day), "calls a business day to Mississauga 311", D.context_311.source]
+].map(function(k){ return '<div class="kpi"><div class="v">'+k[0]+'</div><div class="l">'+esc(k[1])+'</div><div class="ci">'+esc(k[2])+'</div></div>'; }).join("");
+
+/* ---------- screen 1: Play the Line ---------- */
+var CARDS = D.cards.slice(), cur = null;
+var SERVED = location.protocol === "http:" || location.protocol === "https:";
+function setMode(m){ var b = $("#modeBadge"); b.className = "pill " + (m==="LIVE" ? "s-live" : "s-replay"); b.innerHTML = icon(m==="LIVE"?"mic":"replay") + m; }
+function status(msg, err){ var s = $("#recStatus"); s.textContent = msg||""; s.classList.toggle("err", !!err); }
+function renderCards(){
+  $("#cards").innerHTML = CARDS.map(function(c,i){ return '<button class="cardpick" aria-pressed="'+(i===0)+'" data-i="'+i+'"><div class="nat" dir="auto">'+esc(c.native_name)+'</div><div class="en">'+esc(c.language)+' · '+c.facts.length+' critical fact'+(c.facts.length===1?"":"s")+'</div></button>'; }).join("");
+  $$("#cards .cardpick").forEach(function(b){ b.onclick = function(){ $$("#cards .cardpick").forEach(function(x){ x.setAttribute("aria-pressed", x===b); }); pick(CARDS[+b.dataset.i]); }; });
+}
+function pick(c){
+  cur = c;
+  $("#cardMeta").textContent = c.language + " · FLEURS sentence " + c.fleurs_id + " · read it in " + c.language;
+  var s = $("#sentence"); s.textContent = c.source_text; s.classList.toggle("rtl", c.iso === "ur" || c.iso === "ar");
+  $("#trace").innerHTML = ""; renderReceipt(c.language); status("");
+  var a = $("#replayAudio"); a.src = c.replay.audio;
+}
+function renderTrace(t){
+  setMode(t.mode);
+  var langOk = t.lang_correct, scriptOk = t.script_ok;
+  var langPill = langOk ? '<span class="pill s-ok">'+icon("check")+'match</span>' : '<span class="pill s-bad">'+icon("x")+'mismatch</span>';
+  var scriptPill = scriptOk==null ? '<span class="pill s-na">'+icon("minus")+'script not checked</span>' : scriptOk ? '<span class="pill s-ok">'+icon("check")+'script correct</span>' : '<span class="pill s-bad">'+icon("x")+'wrong script</span>';
+  var surv = t.facts.filter(function(f){ return f.status==="survived"; }).length;
+  $("#trace").innerHTML =
+    '<div class="tc"><div class="k">'+icon("key")+'Expected vs detected language</div><div class="big">'+esc(langName(t.expected_lang))+' <span class="muted" style="font-size:15px">expected</span></div><div class="big" style="margin-top:4px">'+esc(langName(t.detected_lang))+' <span class="muted" style="font-size:15px">detected</span></div><div style="margin-top:10px;display:flex;gap:6px;flex-wrap:wrap">'+langPill+scriptPill+'</div></div>' +
+    '<div class="tc"><div class="k">'+icon("ear")+'What Scribe heard</div><div class="txt native" dir="auto">'+esc(t.asr_text||"(nothing)")+'</div>'+(t.cer!=null?'<div class="small muted" style="margin-top:8px">Character error rate '+(+t.cer).toFixed(2)+'</div>':'')+'</div>' +
+    '<div class="tc"><div class="k">'+icon("desk")+'What staff receive in English</div><div class="txt">'+esc(t.english||"(no translation)")+'</div><div class="ref"><b>Human English reference:</b> '+esc(t.english_ref)+'</div></div>' +
+    '<div class="tc"><div class="k">'+icon("alert")+'Critical facts · '+surv+' of '+t.facts.length+' survived</div><div class="chips">'+(t.facts.length ? t.facts.map(function(f){ return chip(f.text+" ("+FTYPE[f.type]+")", f.status); }).join("") : '<span class="muted small">No critical facts in this sentence.</span>')+'</div>' +
+      '<div class="small muted" style="margin-top:10px">'+esc(t.mode==="LIVE" ? "Live: your recording, processed now." : "Replay: "+(t.source||"verified example"))+'</div></div>';
+  renderReceipt(t.language);
+}
+function renderReceipt(lang){
+  var L = LANGS[lang]; if (!L) { $("#receipt").innerHTML = ""; return; }
+  var m = function(v, c, label){ return '<div class="m"><div class="v">'+v+'</div><div class="c">'+esc(c)+'</div><div class="l">'+esc(label)+'</div></div>'; };
+  $("#receipt").innerHTML = '<div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:baseline"><div><div class="eyebrow">Benchmark receipt · '+esc(lang)+'</div><h3 style="font-size:22px;margin-top:4px">Precomputed evidence from the benchmark</h3></div><span class="small muted">'+L.n_clips+' clips, '+L.n_with_facts+' with critical facts</span></div>' +
+    '<div class="rows">' + m(pct(L.detect_accuracy), ciTxt(L.detect_ci), "right language label" + (L.top_confusion ? " (confused with "+L.top_confusion+")" : "")) +
+    m(pct(L.script_accuracy), ciTxt(L.script_ci), "right script") +
+    m(L.cer_auto==null?P:(+L.cer_auto).toFixed(3), L.cer_auto_ci ? "95% CI "+(+L.cer_auto_ci[0]).toFixed(3)+" to "+(+L.cer_auto_ci[1]).toFixed(3) : "", "character error rate") +
+    m(pct(L.fact_survival_auto), ciTxt(L.fact_survival_ci), "critical facts survived end to end") +
+    m(pct(L.false_comfort_rate), ciTxt(L.false_comfort_ci), "false comfort (looked fine, lost a fact)") + '</div>' +
+    '<p class="small muted" style="margin:12px 0 0"><b>Limits:</b> '+esc(L.speaker_note)+(L.dialect_note?". "+esc(L.dialect_note):"")+'. Read speech from FLEURS, a best case. '+(L.baseline?"English is the baseline.":"")+'</p>';
+}
+$("#replayBtn").onclick = function(){
+  if (!cur) return;
+  stopRec();
+  var go = function(t){ renderTrace(t); status("Showing the verified replay for this card."); try{ var a=$("#replayAudio"); a.currentTime=0; var p=a.play(); if(p&&p.catch)p.catch(function(){}); }catch(e){} };
+  if (SERVED) {
+    fetchT("api/replay/"+encodeURIComponent(cur.card_id), {}, 6000).then(function(r){ if(!r.ok) throw 0; return r.json(); }).then(go).catch(function(){ go(cur.replay); });
+  } else go(cur.replay);
+};
+function fetchT(url, opts, ms){
+  var ctl = window.AbortController ? new AbortController() : null, t;
+  if (ctl) { opts.signal = ctl.signal; t = setTimeout(function(){ ctl.abort(); }, ms); }
+  var p = fetch(url, opts);
+  return p.finally ? p.finally(function(){ clearTimeout(t); }) : p;
+}
+var rec = null, chunks = [], recStart = 0, recTimer = null, recStream = null;
+function stopRec(){ if (rec && rec.state === "recording") { try{ rec.stop(); }catch(e){} } }
+function failToReplay(msg){ status(msg + " Showing the verified replay instead.", true); renderTrace(cur.replay); resetRecBtn(); }
+function resetRecBtn(){ var b = $("#recBtn"); b.disabled = false; b.className = "btn primary"; b.innerHTML = icon("mic")+"Record (up to 20 s)"; }
+$("#recBtn").onclick = function(){
+  if (!cur) return;
+  if (rec && rec.state === "recording") { stopRec(); return; }
+  if (!$("#consent").checked) { status("Tick the consent box first.", true); $("#consent").focus(); return; }
+  if (!SERVED) { failToReplay("Live mode needs the local server (py server/app.py)."); return; }
+  if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia || !window.MediaRecorder) { failToReplay("This browser cannot record audio."); return; }
+  navigator.mediaDevices.getUserMedia({audio:true}).then(function(stream){
+    recStream = stream; chunks = [];
+    try { rec = new MediaRecorder(stream); } catch(e) { stream.getTracks().forEach(function(t){ t.stop(); }); failToReplay("Recording is not supported here."); return; }
+    rec.ondataavailable = function(e){ if (e.data && e.data.size) chunks.push(e.data); };
+    rec.onstop = function(){
+      clearInterval(recTimer); recStream.getTracks().forEach(function(t){ t.stop(); });
+      var ms = Date.now() - recStart, blob = new Blob(chunks, {type: rec.mimeType || "audio/webm"});
+      if (!blob.size || ms < 700) { failToReplay("No audio was captured."); return; }
+      send(blob, ms);
+    };
+    rec.start(); recStart = Date.now();
+    var b = $("#recBtn"); b.className = "btn danger"; b.innerHTML = '<span class="recdot" aria-hidden="true"></span>Stop';
+    recTimer = setInterval(function(){ var s = (Date.now()-recStart)/1000; status("Recording "+s.toFixed(0)+" s of 20 s"); if (s >= 20) stopRec(); }, 250);
+  }).catch(function(){ failToReplay("Microphone permission was denied."); });
+};
+function send(blob, ms){
+  var b = $("#recBtn"); b.disabled = true; b.innerHTML = icon("ear")+"Processing";
+  status("Sending to the ear, then the translator. This can take up to 30 seconds.");
+  var fd = new FormData(); fd.append("audio", blob, "live.webm"); fd.append("card_id", cur.card_id); fd.append("consent", "true"); fd.append("duration_ms", String(ms));
+  fetchT("api/live", {method:"POST", body:fd}, 40000).then(function(r){ return r.json().then(function(j){ return {ok:r.ok, j:j}; }); })
+    .then(function(x){
+      if (!x.ok || x.j.error) { failToReplay("The live check did not finish ("+esc((x.j && (x.j.message||x.j.error))||"error")+")."); return; }
+      renderTrace(x.j); status("Live trace complete."); resetRecBtn();
+    }).catch(function(){ failToReplay("The live service is unavailable or did not answer in time."); });
+}
+renderCards(); if (CARDS.length) { pick(CARDS[0]); renderTrace(CARDS[0].replay); }
+
+/* ---------- screen 2: matrix ---------- */
+var thr = D.run_config.threshold;
+$("#mxIntro").innerHTML = "Meaning check passes when the AI judge says same or minor <b>and</b> embedding similarity is at least "+thr+". A clip keeps its facts when every critical fact (number, date, negation, name) is still in the English staff receive. Only the "+num(nF)+" clips with at least one fact are counted.";
+var CELLS = {
+  reassuring_agreement:{t:"Reassuring agreement", d:"Looks fine, facts kept", ic:"check", cls:"s-ok"},
+  false_comfort:{t:"False comfort", d:"Looks fine, a fact was lost", ic:"alert", cls:"s-bad"},
+  harmless_wording:{t:"Harmless wording", d:"Meaning check failed, facts kept", ic:"help", cls:"s-warn"},
+  broad_failure:{t:"Broad failure", d:"Meaning check failed, fact lost", ic:"x", cls:"s-bad"}
+};
+var selCell = "false_comfort", exIdx = 0;
+function renderMatrix(){
+  var c = function(k){ var n = O[k], C = CELLS[k];
+    return '<button class="cell '+(k==="false_comfort"?"fc":"")+'" data-k="'+k+'" aria-pressed="'+(selCell===k)+'"><div class="cn">'+num(n)+'</div><div class="cp">'+pct(n/nF,1)+' of '+num(nF)+'</div><div class="ct"><span class="pill '+C.cls+'">'+icon(C.ic)+esc(C.t)+'</span></div><div class="cd">'+esc(C.d)+'</div></button>'; };
+  $("#mx").innerHTML = '<div></div><div class="mx-h">Critical facts kept</div><div class="mx-h">A critical fact lost</div>' +
+    '<div class="mx-v">Meaning check passes</div>' + c("reassuring_agreement") + c("false_comfort") +
+    '<div class="mx-v">Meaning check fails</div>' + c("harmless_wording") + c("broad_failure");
+  $$("#mx .cell").forEach(function(b){ b.onclick = function(){ selCell = b.dataset.k; exIdx = 0; renderMatrix(); renderEx(); }; });
+}
+var sens = MX.sensitivity || {}, es = MX.embedding_spread || {};
+$("#sensNote").innerHTML = "Threshold sensitivity: false comfort is "+Object.keys(sens).map(function(t){ return "<b>"+num(sens[t].false_comfort)+"</b> at "+t; }).join(", ")+", and <b>"+num(O.false_comfort)+"</b> at "+thr+". Embedding similarity is compressed ("+pct(es["share_ge_0.90"],1)+" of clips at or above 0.90), so in practice the AI judge decides the meaning check. Metrics agreed in "+num(MX.metrics_agreed.n)+" of "+num(MX.metrics_agreed.of)+" clips.";
+var byState = MX.false_comfort_by_state || {};
+var tot = Object.keys(byState).reduce(function(s,k){ return s+byState[k]; },0) || 1;
+$("#fcState").innerHTML = [["asr_associated_break","ASR-associated break","the fact survived translation of the clean transcript but not of what Scribe heard","s-bad","ear"],["translation_baseline_break","Translation-baseline break","the fact was lost even from the clean transcript (translator or a loose answer key)","s-warn","lang"]].map(function(x){
+  var n = byState[x[0]]||0;
+  return '<div style="display:flex;gap:12px;align-items:center;margin:10px 0"><div style="font-family:var(--serif);font-size:34px;font-weight:700;min-width:56px;text-align:right">'+n+'</div><div><span class="pill '+x[3]+'">'+icon(x[4])+esc(x[1])+'</span><div class="small muted" style="margin-top:4px">'+esc(x[2])+'</div></div></div>';
+}).join("") + '<div class="stack" style="margin-top:8px" aria-hidden="true"><span class="st-asr" style="width:'+(100*(byState.asr_associated_break||0)/tot)+'%"></span><span class="st-tb" style="width:'+(100*(byState.translation_baseline_break||0)/tot)+'%"></span></div>' +
+  '<p class="small muted" style="margin:10px 0 0">Of '+num(tot)+' false-comfort clips. We report the incremental degradation after substituting the ASR transcript, not a causal share.</p>';
+var typeCount = {}; D.false_comfort_examples.forEach(function(e){ typeCount[e.failed_fact.type] = (typeCount[e.failed_fact.type]||0)+1; });
+$("#fcTypes").innerHTML = "First lost fact in false-comfort clips: " + Object.keys(FTYPE).map(function(k){ return "<b>"+(typeCount[k]||0)+"</b> "+FTYPE[k]; }).join(", ") + ". Ranked for review: negation, then number, date, name.";
+function examplesFor(k){ return k === "false_comfort" ? D.false_comfort_examples : ((D.cell_examples||{})[k] || []); }
+function hl(text, fact){ var t = esc(text); if (!fact || !fact.text) return t; var f = esc(fact.text); var re = new RegExp("(" + f.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "i"); return t.replace(re, "<mark>$1</mark>"); }
+function renderEx(){
+  var list = examplesFor(selCell), C = CELLS[selCell];
+  if (!list.length) { $("#exPanel").innerHTML = '<div class="eyebrow">'+esc(C.t)+'</div><p class="muted">No examples in this cell.</p>'; return; }
+  exIdx = (exIdx + list.length) % list.length;
+  var e = list[exIdx], f = e.failed_fact;
+  $("#exPanel").innerHTML = '<div class="ex" style="margin:0;border:0;padding:0;background:none"><div class="hd"><div><div class="eyebrow">'+esc(C.t)+' · example '+(exIdx+1)+' of '+list.length+'</div><h3 style="font-size:22px;margin-top:4px">'+esc(e.language)+(f?' · lost '+esc(FTYPE[f.type])+': <span style="color:var(--bad)">'+esc(f.text)+'</span>':'')+'</h3></div>' +
+    '<div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap"><audio controls preload="none" src="'+esc(e.audio)+'" style="height:34px"></audio><button class="btn" id="exPrev" aria-label="Previous example">Prev</button><button class="btn" id="exNext" aria-label="Next example">Next</button></div></div>' +
+    '<div class="row"><div class="k">Caller said</div><div dir="auto" style="font-size:16px">'+esc(e.source_text)+'</div></div>' +
+    '<div class="row"><div class="k">Scribe heard</div><div dir="auto" style="font-size:16px">'+esc(e.asr_text)+'</div></div>' +
+    '<div class="row"><div class="k">Human English</div><div>'+hl(e.english_ref, f)+'</div></div>' +
+    '<div class="row"><div class="k">Staff receive</div><div>'+esc(e.t2_text)+'</div></div>' +
+    '<div class="row"><div class="k">Signals</div><div>AI judge <b>'+esc(e.judge)+'</b> · embedding <b>'+(e.emb==null?P:(+e.emb).toFixed(2))+'</b>'+(e.state?' · state <b>'+esc(e.state.replace(/_/g," "))+'</b>':'')+(f && f.fuzzy?' · <span class="pill s-warn">'+icon("help")+'fuzzy name match involved</span>':'')+'</div></div></div>';
+  $("#exPrev").onclick = function(){ exIdx--; renderEx(); }; $("#exNext").onclick = function(){ exIdx++; renderEx(); };
+}
+renderMatrix(); renderEx();
+function ciBar(est, c, max){
+  var X = function(v){ return Math.max(0, Math.min(100, 100*v/max)); };
+  return '<div class="tr"><span class="fill" style="width:'+X(est||0)+'%"></span>' + (c && c[0]!=null ? '<span class="ci" style="left:'+X(c[0])+'%;width:'+Math.max(0.5, X(c[1])-X(c[0]))+'%"></span>' : '') + '</div>';
+}
+var fcRows = D.languages.slice().sort(function(a,b){ return (b.false_comfort_rate||0)-(a.false_comfort_rate||0); });
+var fcMax = Math.max(0.1, Math.max.apply(null, fcRows.map(function(l){ return (l.false_comfort_ci||[0,0])[1]||0; })));
+$("#fcBars").innerHTML = fcRows.map(function(l){ return '<div class="nm">'+esc(l.language)+(l.baseline?' <span class="muted">(baseline)</span>':'')+'</div>'+ciBar(l.false_comfort_rate, l.false_comfort_ci, fcMax)+'<div class="v">'+pct(l.false_comfort_rate)+' <span class="muted">'+(l.false_comfort_ci?pct(l.false_comfort_ci[0])+" to "+pct(l.false_comfort_ci[1]):"")+'</span></div>'; }).join("");
+$("#stateBars").innerHTML = D.languages.slice().sort(function(a,b){ return (a.states.survived/a.n_with_facts)-(b.states.survived/b.n_with_facts); }).map(function(l){
+  var s = l.states, n = l.n_with_facts || 1, w = function(v){ return (100*v/n)+"%"; };
+  return '<div class="nm">'+esc(l.language)+'</div><div class="stack" title="survived '+s.survived+', ASR-associated '+s.asr_associated_break+', translation-baseline '+s.translation_baseline_break+', compensation '+s.compensation_or_discordant+'"><span class="st-sv" style="width:'+w(s.survived)+'"></span><span class="st-asr" style="width:'+w(s.asr_associated_break)+'"></span><span class="st-tb" style="width:'+w(s.translation_baseline_break)+'"></span><span class="st-cd" style="width:'+w(s.compensation_or_discordant)+'"></span></div><div class="v">'+s.survived+' of '+n+' survived</div>';
+}).join("");
+
+/* ---------- screen 3: lab ---------- */
+var hintLangs = D.languages.filter(function(l){ return l.hint; }).map(function(l){ return l.language; });
+$("#labIntro").innerHTML = "We re-ran the same audio with the language supplied to Scribe, for "+esc(hintLangs.join(", "))+" ("+esc(D.powerup_selection||"")+"). Every change below is paired: the same "+((LANGS[hintLangs[0]]||{}).hint||{}).n+" clips per language, bootstrapped by sentence.";
+var labLang = hintLangs[0], labIdx = 0;
+function slope(label, a, b, ciD, fmt, better){
+  var W = 360, H = 76, y = function(v){ return 14 + (1 - v) * (H - 28); };
+  var good = better === "up" ? b >= a : b <= a;
+  return '<div style="margin-top:12px"><div class="small" style="display:flex;justify-content:space-between;gap:8px"><b>'+esc(label)+'</b><span class="muted">'+esc(ciD)+'</span></div>' +
+    '<svg class="slope" viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+esc(label)+' from '+fmt(a)+' to '+fmt(b)+'"><line x1="70" x2="290" y1="'+y(a)+'" y2="'+y(b)+'" stroke="'+(good?"var(--ok)":"var(--bad)")+'" stroke-width="3"/>' +
+    '<circle cx="70" cy="'+y(a)+'" r="6" fill="var(--na)"/><circle cx="290" cy="'+y(b)+'" r="6" fill="'+(good?"var(--ok)":"var(--bad)")+'"/>' +
+    '<text x="60" y="'+(y(a)+4)+'" text-anchor="end" font-size="13" fill="var(--ink)" font-weight="700">'+fmt(a)+'</text><text x="300" y="'+(y(b)+4)+'" font-size="13" fill="var(--ink)" font-weight="700">'+fmt(b)+'</text>' +
+    '<text x="70" y="'+(H-2)+'" text-anchor="middle" font-size="11" fill="var(--muted)">auto-detect</text><text x="290" y="'+(H-2)+'" text-anchor="middle" font-size="11" fill="var(--muted)">language supplied</text></svg></div>';
+}
+function renderLab(){
+  $("#labLangs").innerHTML = hintLangs.map(function(l){ return '<button class="btn" aria-pressed="'+(l===labLang)+'" data-l="'+esc(l)+'">'+esc(l)+'</button>'; }).join("");
+  $$("#labLangs .btn").forEach(function(b){ b.onclick = function(){ labLang = b.dataset.l; labIdx = 0; renderLab(); }; });
+  var h = LANGS[labLang].hint, pc = function(v){ return pct(v); }, c3 = function(v){ return v==null?P:(+v).toFixed(3); };
+  var dci = function(c, f){ return c && c[0]!=null ? "change 95% CI "+f(c[0])+" to "+f(c[1]) : ""; };
+  var pts = function(v){ return (v>=0?"+":"")+(100*v).toFixed(1)+" pts"; };
+  $("#slopes").innerHTML =
+    slope("Right language and script", h.detect_accuracy_auto, h.detect_accuracy, dci(h.delta_detect_ci, pts), pc, "up") +
+    slope("Critical facts survived", h.fact_survival_auto, h.fact_survival, dci(h.delta_fact_survival_ci, pts), pc, "up") +
+    slope("Character error rate", Math.min(1,h.cer_auto*2), Math.min(1,h.cer*2), dci(h.delta_cer_ci, function(v){ return (v>=0?"+":"")+(+v).toFixed(3); }), function(v){ return (v/2).toFixed(3); }, "down") +
+    '<p class="small muted">CER axis is doubled for visibility. Supplying the language removes wrong-language labels by construction; a wrong script can remain.</p>';
+  var list = D.powerup_examples.filter(function(e){ return e.language === labLang; });
+  if (!list.length) { $("#labEx").innerHTML = '<p class="muted">No changed examples for this language.</p>'; $("#labNav").innerHTML = ""; return; }
+  labIdx = (labIdx + list.length) % list.length;
+  var e = list[labIdx];
+  $("#labNav").innerHTML = '<audio controls preload="none" src="'+esc(e.audio)+'" style="height:34px;max-width:220px"></audio><button class="btn" id="lPrev">Prev</button><button class="btn" id="lNext">Next</button><span class="small muted">'+(labIdx+1)+' of '+list.length+'</span>';
+  $("#lPrev").onclick = function(){ labIdx--; renderLab(); }; $("#lNext").onclick = function(){ labIdx++; renderLab(); };
+  var path = function(title, ic, x){ return '<div class="path"><h3>'+icon(ic)+esc(title)+'</h3>' +
+    '<div class="row"><div class="k">Detected</div><div class="t">'+esc(langName(x.detected))+' '+(x.detect_ok?'<span class="pill s-ok">'+icon("check")+'correct</span>':'<span class="pill s-bad">'+icon("x")+'wrong</span>')+'</div></div>' +
+    '<div class="row"><div class="k">Transcript</div><div class="t native" dir="auto">'+esc(x.text)+'</div></div>' +
+    '<div class="row"><div class="k">English for staff</div><div class="t">'+esc(x.english)+'</div></div>' +
+    '<div class="row"><div class="k">Facts</div><div class="chips" style="margin-top:4px">'+(x.facts.length ? x.facts.map(function(f){ return chip(f.text, f.ok===true?"survived":f.ok===false?"missing":"unavailable"); }).join("") : '<span class="small muted">none in this sentence</span>')+'</div></div>' +
+    '<div class="row"><div class="k">CER</div><div class="t">'+(+x.cer).toFixed(3)+'</div></div></div>'; };
+  $("#labEx").innerHTML = '<div class="side">' + path("Auto-detect", "ear", e.auto) + path("Language supplied", "key", e.hint) + '</div><p class="small muted" style="margin:8px 0 0"><b>Human English:</b> '+esc(e.english_ref)+'</p>';
+}
+if (hintLangs.length) renderLab(); else $("#slopes").innerHTML = '<p class="muted">Language-supplied run '+P+'.</p>';
+var RB = D.readback || {};
+$("#rbSummary").innerHTML = '<div style="display:flex;gap:18px;flex-wrap:wrap;margin:10px 0"><div><div style="font-family:var(--serif);font-size:40px;font-weight:700;color:var(--accent);line-height:1">'+num(RB.potential_silent_failures_surfaced)+'</div><div class="small">'+esc(RB.label||"")+'</div></div>' +
+  '<div><div style="font-family:var(--serif);font-size:40px;font-weight:700;line-height:1">'+num(RB.clips_with_wrong_fact)+'</div><div class="small">clips where a critical fact was wrong in the English staff received</div></div></div>' +
+  '<p class="small muted" style="margin:0">A readback fires when the English contains a number, date, name or negation ('+num(RB.fires)+' of '+num(RB.clips_with_facts)+' fact-bearing clips). A failure counts as surfaced when the readback would show the caller a fact of the type that went wrong, so they could correct it. This is a chance to catch the error, not a fix.</p>';
+var rbList = RB.examples || [];
+$("#rbEx").innerHTML = rbList.slice(0, 3).map(function(e){
+  return '<div class="ex"><div class="hd"><b>'+esc(e.language)+'</b><audio controls preload="none" src="'+esc(e.audio)+'" style="height:30px;max-width:200px"></audio></div>' +
+    '<div class="readback">'+icon("phone")+' “'+esc(e.line)+'”</div>' +
+    '<div class="small" style="margin-top:8px;color:var(--ink2)">Lost: '+e.lost.map(function(l){ return '<span class="chip s-bad">'+icon("x")+esc(l.text)+' '+esc(l.kind)+'</span>'; }).join(" ")+'</div>' +
+    '<div class="small muted" style="margin-top:6px"><b>Human English:</b> '+esc(e.english_ref)+'</div></div>';
+}).join("");
+$("#callbacks").innerHTML = [["Urdu","assets/callback_urdu.mp3"],["Punjabi","assets/callback_punjabi.mp3"]].map(function(c){
+  return '<div style="display:flex;gap:10px;align-items:center;margin-top:8px;flex-wrap:wrap"><b style="min-width:70px">'+c[0]+' callback</b><audio controls preload="none" src="'+c[1]+'" style="height:32px" onerror="this.outerHTML=\'<span class=&quot;pill s-na&quot;>unavailable: add '+c[1]+'</span>\'"></audio></div>';
+}).join("");
+
+/* ---------- screen 4: screening ---------- */
+var SM = D.screening_meta || {}, NB = D.neighbourhoods || [];
+$("#scIntro").innerHTML = "For each neighbourhood: residents who speak a tested language most often at home, weighted by that language's measured critical-fact loss, per 1,000 residents. <b>Coverage</b> is the share of residents who speak one of the 13 tested languages; everyone else is outside this benchmark. "+esc(SM.census_note||"")+" "+esc(SM.bengali||"");
+var nbMax = Math.max.apply(null, NB.map(function(n){ return n.exposure_per_1000; })) || 1;
+$("#lb").innerHTML = '<div></div><div class="eyebrow">Neighbourhood</div><div class="eyebrow">Exposure per 1,000 residents (bar) · coverage (grey)</div><div class="eyebrow" style="text-align:right">Per 1,000</div>' +
+  NB.map(function(n, i){ return '<div class="rk">'+(i+1)+'</div><div class="nm"><b>'+esc(n.name)+'</b><small>'+esc((n.top_languages||[]).join(", "))+' · pop. '+num(n.population)+'</small></div>' +
+    '<div><div class="tr"><i style="width:'+(100*n.exposure_per_1000/nbMax)+'%"></i></div><div class="cov" title="coverage '+n.coverage_pct+'%"><i style="width:'+n.coverage_pct+'%"></i></div></div>' +
+    '<div class="v">'+(+n.exposure_per_1000).toFixed(1)+'<br><span class="muted">'+n.coverage_pct+'% covered</span></div>'; }).join("");
+
+/* ---------- methods + footer ---------- */
+var R = D.run_config, E = D.eval;
+var li = function(a){ return "<ul>" + a.map(function(x){ return "<li>"+x+"</li>"; }).join("") + "</ul>"; };
+$("#methods").innerHTML =
+  "<h4>Answer key</h4>" + li(["FLEURS: the same 40 sentences read by real speakers in 14 languages, "+num(R.n_clips)+" clips. The English reference for each clip is the English row with the same sentence id.",
+    "Critical facts are extracted from the English reference by fixed rules, no AI: numbers, dates and times, negation, names and places. "+num(nF)+" clips contain at least one; "+num(MX.n_without_facts)+" have none and are excluded from fact metrics."]) +
+  "<h4>Pipeline and models</h4>" + li(["Ear: <code>"+esc(R.scribe_model)+"</code>, language auto-detected (main condition). Language supplied: "+esc((R.hint_languages||[]).join(", "))+".",
+    "Translator and judge: <code>"+esc(R.gemini_model)+"</code>, temperature "+esc(R.temperature)+" ("+esc(R.thinking)+"). Temperature 0 is only mostly deterministic; every response is cached and reused.",
+    "Embeddings: <code>"+esc(R.embedding_model)+"</code>. Judge prompt version "+esc(R.judge_prompt_version)+". The same Gemini family translates and judges, a shared dependency we check with rules and humans.",
+    "Two translations per clip: T1 from the clean transcript, T2 from what Scribe heard. Each fact is labelled survived, ASR-associated break, translation-baseline break, or compensation. For meaning scores we report the incremental degradation after substituting the ASR transcript, not a causal share."]) +
+  "<h4>Scoring</h4>" + li(["Normalisation: "+esc(R.normalisation)+". CER is the cross-language ear metric.",
+    "Meaning check passes when the judge says same or minor and embedding similarity is at least "+esc(R.threshold)+" (declared before results; 0.80 and 0.90 reported as sensitivity).",
+    "Language detection accepts ISO 639-1 or 639-3 codes. Scribe labels Cantonese with the generic Chinese code; that is accepted, and Cantonese written in Simplified characters is counted as a script error.",
+    "The rules are conservative and were refined once after inspecting examples, each change unit-tested and each one reducing false alarms: double negatives, prefixed negation (unknown), 'one of' as a phrase, and lakh/crore numbers. Some name mismatches remain (for example an expanded acronym), so the false-comfort count is an upper-leaning estimate.",
+    "Names match exactly after normalisation, then by a labelled fuzzy match (token ratio at least 0.85). Negation is token-based; a double negative such as 'not uncommon' is treated as positive. South Asian number words (lakh, crore) are converted, so '20 lakh' matches 'two million'."]) +
+  "<h4>Uncertainty</h4>" + li(["Paired cluster bootstrap: resample sentences (fleurs_id) with replacement, "+esc((R.bootstrap||{}).reps)+" reps, seed "+esc((R.bootstrap||{}).seed)+". n is small per language (24 to 40), so intervals are wide and languages are not ranked by small differences.",
+    "AI judge vs embeddings: Spearman "+(E.judge_emb_corr==null?P:E.judge_emb_corr)+". Judge vs humans: "+esc(E.judge_human_agreement||P)+"; human vs human: "+esc(E.human_human_agreement||P)+"."]) +
+  "<h4>Limits</h4>" + li(["FLEURS is read speech, a best case. Real calls are noisier.",
+    "Dialects: FLEURS Portuguese is Brazilian, Spanish Latin American, Arabic Egyptian.",
+    "Single-sex samples: "+esc(D.languages.filter(function(l){ return /^Single/.test(l.speaker_note); }).map(function(l){ return l.language; }).join(", "))+". A language effect may partly be a speaker effect.",
+    "Bengali has no audio in the pack: unmeasured, not zero.",
+    "Census: "+esc(SM.census_note||"")+" Counts are rounded to 5.",
+    "Toronto 311 is used only as a list of request types (mixed channels), not as Mississauga demand. Mississauga 311 volumes are from 2017 to 2018.",
+    "The screening index is a benchmark weighting, not a forecast of failed calls."]);
+$("#foot").innerHTML = "Data: City of Mississauga Open Data (2021 Census, 311 call data), FLEURS (Google, CC BY 4.0). Models are evaluated, none trained. Numbers come from <code>app/data/app_data.json</code>, generated by the pipeline. API keys stay on the server.";
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "對於那些規劃空檔年的人，越來越熱門的選擇是去旅行和學習。",
+ "english": "For those planning a gap year, an increasingly popular option is to travel and study.",
+ "clip": "yue_hant_hk_1651",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

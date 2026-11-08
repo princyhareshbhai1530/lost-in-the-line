@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Ang mga unang kaso ng sakit na nangyari sa panahong ito ay naiulat noong huling bahagi ng Hulyo.",
+ "english": "The first cases of the disease that occurred during this period were reported in late July.",
+ "clip": "fil_ph_1587",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

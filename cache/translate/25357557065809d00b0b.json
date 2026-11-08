@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Vệ tinh trong không gian nhận cuộc gọi và sau đó phản lại xuống gần như tức thì.",
+ "english": "A satellite in space receives the call and then bounces it back down almost instantaneously.",
+ "clip": "vi_vn_1521",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "فوراً بعد، حفاظتی سامان سے لیس افسران یارڈ میں داخل ہوئے اور مکینوں کو ٹیئر گیس سے منتشر کیا۔",
+ "english": "Immediately after, officers equipped with riot gear entered the yard and dispersed the inmates with tear gas.",
+ "clip": "ur_pk_1511",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "他們仍在試著判斷撞擊的規模以及對地球的影響。",
+ "english": "They are still trying to determine the scale of the impact and its effects on the Earth.",
+ "clip": "yue_hant_hk_1551",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਮੇਰੇ ਲਈ ਇਸਦਾ ਕੋਈ ਮਤਲਬ ਨਹੀਂ ਸੀ; ਇਹ ਸਹੀ ਨਹੀਂ ਸੀ।",
+ "english": "To me it made no sense; it was not right.",
+ "clip": "pa_in_1577",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

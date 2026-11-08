@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "پھر بھی وسطی امریکہ امریکی ممالک میں ہمارے 80 فیصد ساز و سامان پر tariff کے ذریعے ٹیکس لگایا جاتا ہے، ہم تم سے نمٹ لیں گے۔",
+ "english": "Yet in Central America American countries 80 percent of our equipment is taxed through tariff, we will deal with you.",
+ "clip": "ur_pk_1566",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

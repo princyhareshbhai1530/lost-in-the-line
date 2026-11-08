@@ -1,0 +1,9 @@
+{
+ "model": "gemini-2.5-flash",
+ "language": "Punjabi",
+ "source_text": "ਕੁਝ ਤਿਉਹਾਰਾਂ ਵਿੱਚ ਨੌਜਵਾਲ ਬੱਚਿਆਂ ਵਾਲੇ ਪਰਿਵਾਰਾਂ ਲਈ ਵਿਸ਼ੇਸ਼ ਕੈਂਪਿੰਗ ਖੇਤਰ ਹੁੰਦੇ ਹਨ।",
+ "english": "Some festivals have special camping areas for families with young children.",
+ "clip": "pa_in_1528",
+ "source": "true",
+ "batched": true
+}

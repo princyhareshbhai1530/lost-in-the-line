@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Mùa đông có thể lạnh theo cái cách dễ gây hiểu lầm: nhiệt độ hiếm khi thấp mức cóng, nhưng gió và độ ẩm kết hợp với nhau tạo cảm giác lạnh hơn mức nhiệt độ hiển thị trên nhiệt kế.",
+ "english": "Winter can be deceptively cold: temperatures are rarely freezing, but the wind and humidity combine to make it feel colder than the temperature shown on the thermometer.",
+ "clip": "vi_vn_1574",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

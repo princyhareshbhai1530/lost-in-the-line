@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "不过这些森林不仅仅是红树林沼泽，里边还有一些巨大丛林的遗迹，这些丛林曾经长满了恒河平原。",
+ "english": "However, these forests are not just mangrove swamps, inside there are also remnants of the vast jungles that once covered the Ganges Plain.",
+ "clip": "cmn_hans_cn_1641",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

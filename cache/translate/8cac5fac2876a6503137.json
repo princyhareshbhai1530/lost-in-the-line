@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "अभी भी वे यह पता लगाने की कोशिश कर रहे हैं कि क्रैश कितना बड़ा था और धरती किस तरह से प्रभावित होगी.",
+ "english": "They are still trying to find out how big the crash was and how the Earth will be affected.",
+ "clip": "hi_in_1551",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "古羅馬的餐飲並不包含日後幾個世紀從美洲或亞洲傳入歐洲的食物。",
+ "english": "Ancient Roman dining did not include foods introduced to Europe from the Americas or Asia in later centuries.",
+ "clip": "yue_hant_hk_1627",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

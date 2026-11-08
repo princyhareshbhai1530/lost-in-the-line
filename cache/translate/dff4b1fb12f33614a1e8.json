@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Không chỉ có đầm lầy rừng ngập mặn, các khu rừng này còn bao gồm một số khu vực còn sót lại của những khu rừng hùng vĩ từng bao phủ đồng bằng Gangetic.",
+ "english": "Not only mangrove swamps, these forests also include some remaining areas of the magnificent forests that once covered the Gangetic plain.",
+ "clip": "vi_vn_1641",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

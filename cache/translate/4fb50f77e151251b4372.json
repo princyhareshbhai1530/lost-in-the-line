@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "பல பொதுவான அமைப்புகள் உதாரணமாக இந்த இயல்பு விகிதத்துக்குச் சமம் அல்லது கிட்டத்தட்ட அருகில் இருப்பது.",
+ "english": "Many common formats, for example, are equal to or almost close to this aspect ratio.",
+ "clip": "ta_in_1533",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

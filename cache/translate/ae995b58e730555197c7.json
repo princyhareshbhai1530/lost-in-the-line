@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "عيد الميلاد هو أحد أهم أعياد المسيحية، ويحتفل به كعيد ميلاد المسيح.",
+ "english": "Christmas is one of the most important holidays of Christianity, and it is celebrated as the birth of Christ.",
+ "clip": "ar_eg_1553",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

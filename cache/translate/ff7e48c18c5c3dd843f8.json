@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Policja poinformowała, że ciało znajdowało się tam około doby.",
+ "english": "The police reported that the body had been there for about 24 hours.",
+ "clip": "pl_pl_1656",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

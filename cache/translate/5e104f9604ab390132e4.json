@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "જ્યારે તમે તમારાથી હજાર માઇલ દૂર રહેતી વ્યક્તિને કોલ કરો ત્યારે તમે સેટેલાઇટનો ઉપયોગ કરો છો",
+ "english": "When you call a person living a thousand miles away from you, you use a satellite",
+ "clip": "gu_in_1548",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

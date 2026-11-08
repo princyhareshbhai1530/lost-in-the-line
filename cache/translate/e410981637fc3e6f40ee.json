@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਪੇਸ਼ ਕੀਤੇ ਵਿਚਾਰ ਹੋਰ ਥਾਵਾਂ 'ਤੇ ਉਪਲਬਧ ਵਿਸਤ੍ਰਿਤ ਜਾਣਕਾਰੀ ਦੇ ਮੁਕਾਬਲੇ ਅਕਸਰ ਸਰਸਰੀ, ਸਧਾਰਨ ਅਤੇ ਵੱਧ ਸੌਖਾਲੇ ਹੁੰਦੇ ਹਨ।",
+ "english": "The presented views are often superficial, simple, and overly simplistic compared to the detailed information available elsewhere.",
+ "clip": "pa_in_1647",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

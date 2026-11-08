@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਪੁਲਿਸ ਨੇ ਕਿਹਾ ਕਿ ਲੱਗਦਾ ਹੈ ਕਿ ਸਰੀਰ ਉੱਥੇ ਲਗਭਗ ਇੱਕ ਦਿਨ ਤੋਂ ਪਿਆ ਹੈ।",
+ "english": "Police said it seems the body has been lying there for about a day.",
+ "clip": "pa_in_1656",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "W tym sezonie pierwsze przypadki choroby zgłoszono pod koniec lipca.",
+ "english": "This season, the first cases of the disease were reported at the end of July.",
+ "clip": "pl_pl_1587",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

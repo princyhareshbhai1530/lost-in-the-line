@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Trong sân nhà thờ có những tác phẩm điêu khắc bằng đá cẩm thạch khá là độc đáo trên một số ngôi mộ.",
+ "english": "In the churchyard there are quite unique marble sculptures on some graves.",
+ "clip": "vi_vn_1555",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

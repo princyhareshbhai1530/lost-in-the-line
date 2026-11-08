@@ -1,0 +1,9 @@
+{
+ "model": "gemini-2.5-flash",
+ "language": "Punjabi",
+ "source_text": "ਪੁਲਾੜ ਵਿੱਚ ਮੌਜੂਦ ਉਪਗ੍ਰਿਹ ਕਾਲ ਪ੍ਰਾਪਤ ਕਰਦਾ ਹੈ ਅਤੇ ਇਸ ਨੂੰ ਤੁਰੰਤ ਹੇਠਾਂ ਵਾਪਸ ਭੇਜ ਦਿੰਦਾ ਹੈ।",
+ "english": "The satellite in space receives the call and immediately sends it back down.",
+ "clip": "pa_in_1521",
+ "source": "true",
+ "batched": true
+}

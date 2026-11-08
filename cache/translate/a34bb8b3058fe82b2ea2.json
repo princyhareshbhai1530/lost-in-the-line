@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "教堂墓地里，一些坟墓上方摆着有趣的大理石鸽子雕塑。",
+ "english": "In the church cemetery, there are interesting marble dove sculptures placed above some graves.",
+ "clip": "cmn_hans_cn_1555",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

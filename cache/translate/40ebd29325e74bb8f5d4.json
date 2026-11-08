@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "بالرغم من تواجد ثلاثة أشخاص داخل البيت عند اصطدام السيارة به، إلا أنه لم يصب أحدٌ منهم.",
+ "english": "Although there were three people inside the house when the car hit it, none of them was injured.",
+ "clip": "ar_eg_1598",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

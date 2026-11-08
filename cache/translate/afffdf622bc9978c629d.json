@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "قال أرماند فرساتشي:\"لقد فقدت أختي وصديقتها، وفي طريقي كان هناك شخصان قعيدان على كرسي متحرك، كان الناس يقفزون ويدفعونهم،\"",
+ "english": "Armand Versace said: \"I lost my sister and her friend, and on my way there were two wheelchair-bound people, people were jumping and pushing them,\"",
+ "clip": "ar_eg_1608",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

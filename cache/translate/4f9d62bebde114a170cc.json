@@ -1,0 +1,9 @@
+{
+ "model": "gemini-2.5-flash",
+ "language": "Urdu",
+ "source_text": "خلا میں موجود مصنوعی سیارہ پر کوئی جواب موصول ہوتا ہے اور پھر فوری طور پر وہ اسے نیچے زمیں پر بھیج دیتی ہے۔",
+ "english": "A response is received on the satellite in space, and then it immediately sends it down to earth.",
+ "clip": "ur_pk_1521",
+ "source": "true",
+ "batched": true
+}

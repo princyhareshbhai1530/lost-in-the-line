@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "சஃபாரிகள் ஆப்பிரிக்காவின் சிறந்த வகை சுற்றுப்பயணமாக இருக்கலாம், மேலும் பல பார்வையாளர்களின் சிறப்பம்சமாகவும் உள்ளது.",
+ "english": "Safaris may be Africa's best type of tour, and are also the highlight of many visitors.",
+ "clip": "ta_in_1638",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

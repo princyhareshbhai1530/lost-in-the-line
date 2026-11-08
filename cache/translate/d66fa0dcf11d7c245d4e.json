@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Amazonka jest również najszerszą rzeką na świecie, a miejscami jej szerokość wynosi blisko sześć mil.",
+ "english": "The Amazon is also the widest river in the world, and in places its width is nearly six miles.",
+ "clip": "pl_pl_1581",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

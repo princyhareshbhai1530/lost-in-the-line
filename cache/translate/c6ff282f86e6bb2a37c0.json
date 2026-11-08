@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Ipinalalagay ng ilang ulat ang opisyal na bilang ng mga nasawi sa walo, at kinumpirma ng mga opisyal na ulat na hanggang 30 ang nasugatan; nguni't ang mga huling bilang ay hindi pa napag-aalaman.",
+ "english": "Some reports put the official death toll at eight, and official reports confirmed that up to 30 were injured; but the final figures are not yet known.",
+ "clip": "fil_ph_1629",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

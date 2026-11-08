@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Ang mga pagmamasid sa mga hayop o safari ay marahil ang pinakamalaking pang-akit sa turismo sa Afrika at ang tampok para sa maraming bisita.",
+ "english": "Animal watching or safaris are perhaps the biggest tourist draw in Afrika and the highlight for many visitors.",
+ "clip": "fil_ph_1638",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

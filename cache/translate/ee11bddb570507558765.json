@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "خواتین کو یہ ادراک ہونا چاہیے کہ ثقافتی تفرق کا نتیجہ یہ نکل سکتا ہے کہ وہ کسی عام بات کو ہراسانی شمار کر بیٹھیں، کسی کا پیچھا کرنا، اس کو بازو سے پکڑنا وغیرہ کوئی خلاف ہے، کوئی معمول کے برخلاف بات نہیں ہے۔",
+ "english": "Women should realize that cultural discrimination can result in them mistaking an ordinary thing for harassment; following someone, grabbing them by the arm, etc., is contrary, is not out of the ordinary.",
+ "clip": "ur_pk_1632",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

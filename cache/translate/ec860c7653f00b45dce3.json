@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "ஆயிரக்கணக்கான மைல்கள் தொலைவில் உள்ள ஒருவரை நீங்கள் அழைக்கும்போது, நீங்கள் ஒரு செயற்கைக்கோளை உபயோகிக்கிறீர்கள்.",
+ "english": "When you call someone thousands of miles away, you use a satellite.",
+ "clip": "ta_in_1548",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

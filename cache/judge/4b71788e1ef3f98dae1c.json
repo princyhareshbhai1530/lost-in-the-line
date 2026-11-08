@@ -1,0 +1,10 @@
+{
+ "label": "unrelated",
+ "score": 0,
+ "reason": "Candidate is garbled nonsense.",
+ "model": "gemini-3.8-flash",
+ "prompt_version": 2,
+ "settings": "tlminimal",
+ "batched": true,
+ "batch_size": 250
+}

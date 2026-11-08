@@ -1,0 +1,7 @@
+{
+ "label": "changed",
+ "score": 35,
+ "reason": "'in silence' changed to 'in a hidden state', altering meaning significantly.",
+ "model": "gemini-2.5-flash",
+ "batched": true
+}

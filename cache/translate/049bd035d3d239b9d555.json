@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਪ੍ਰਾਚੀਨ ਰੋਮਨ ਭੋਜਨ ਵਿੱਚ ਬਾਅਦ ਦੀਆਂ ਸਦੀਆਂ ਵਿੱਚ ਅਮਰੀਕਾ ਜਾਂ ਏਸ਼ੀਆ ਤੋਂ ਯੂਰਪ ਆਏ ਭੋਜਨ ਸ਼ਾਮਿਲ ਨਹੀਂ ਕੀਤੇ ਜਾ ਸਕਦੇ ਸੀ।",
+ "english": "Ancient Roman food could not include food that came to Europe from the Americas or Asia in later centuries.",
+ "clip": "pa_in_1627",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

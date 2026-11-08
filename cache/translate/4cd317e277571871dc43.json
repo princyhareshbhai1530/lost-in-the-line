@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Obecnie nauka wskazuje, że ogromna gospodarka węglowa spowodowała wyparcie biosfery z jej stałego stanu, który przez dwa miliony lat wspierał ewolucję człowieka.",
+ "english": "Currently, science indicates that the massive carbon economy has displaced the biosphere from its stable state, which supported human evolution for two million years.",
+ "clip": "pl_pl_1616",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

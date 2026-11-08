@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "எங்கள் சரக்குகளில் ஒன்பது சதவிகிதம் மத்திய அமெரிக்க நாடுகளில் உள்ள கட்டணங்களுக்கு வரி விதிக்கப்பட்டது. நாங்கள் உங்களுக்கு அதை அளிக்கிறோம்.",
+ "english": "Nine percent of our goods were taxed with tariffs in Central American countries. We give you that.",
+ "clip": "ta_in_1566",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

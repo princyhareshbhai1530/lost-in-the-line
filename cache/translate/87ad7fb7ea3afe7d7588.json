@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Wśród osób, które planują roczną przerwę, opcje podróży i nauki cieszą się coraz większą popularnością.",
+ "english": "Among people planning a year-long break, travel and study options enjoy growing popularity.",
+ "clip": "pl_pl_1651",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

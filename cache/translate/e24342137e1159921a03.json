@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Theo lịch, cây này sẽ bị chặt vào thứ Ba nhưng rồi được giữ lại sau phán quyết khẩn cấp của tòa.",
+ "english": "According to schedule, this tree was to be cut down on Tuesday but was then preserved after an emergency court ruling.",
+ "clip": "vi_vn_1530",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

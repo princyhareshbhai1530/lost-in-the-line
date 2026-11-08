@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Tổng thống Mỹ George W. Bush nhiệt liệt hoan nghênh thông báo này.",
+ "english": "U.S. President George W. Bush warmly welcomed this announcement.",
+ "clip": "vi_vn_1622",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "அந்த உடல் அங்கேயே ஒருநாள் முழுவதும் இருந்ததாக போலீஸ் தரப்பில் கூறப்பட்டது.",
+ "english": "The police said that the body had been there for a whole day.",
+ "clip": "ta_in_1656",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

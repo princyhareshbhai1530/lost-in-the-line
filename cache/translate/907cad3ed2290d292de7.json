@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "جب ان سے اپنی رائے پوچھی گئی، تو ملر نے کہا، \"سماعت کے دوران مائیک بہت زیادہ بات کرتا ہے ... میں تیار ہو رہا تھا، اس لیے میں واقعی نہیں سن پایا کہ وہ کیا کہہ رہا تھا۔\"",
+ "english": "When asked his opinion, Miller said, \"Mike talks too much during the hearing... I was getting ready, so I couldn't really hear what he was saying.\"",
+ "clip": "ur_pk_1644",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

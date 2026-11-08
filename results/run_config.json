@@ -1,0 +1,109 @@
+{
+  "data_status": "REAL",
+  "n_clips": 560,
+  "n_hint_clips": 120,
+  "hint_languages": [
+    "Cantonese",
+    "Punjabi",
+    "Urdu"
+  ],
+  "scribe_model": "scribe_v2",
+  "gemini_model": "gemini-3.8-flash",
+  "embedding_model": "gemini-embedding-001",
+  "temperature": 0,
+  "thinking": "requested 'minimal'; the model rejected it, so it ran at its default thinking setting",
+  "threshold": 0.85,
+  "threshold_sensitivity": [
+    0.8,
+    0.9
+  ],
+  "bootstrap": {
+    "unit": "fleurs_id (sentence) cluster, paired",
+    "reps": 2000,
+    "seed": 42
+  },
+  "normalisation": "Unicode NFKC, lower-case, punctuation and symbols removed, whitespace collapsed; CER ignores spaces",
+  "judge_prompt_version": 2,
+  "judge_rubric": {
+    "same": 100,
+    "minor": 75,
+    "changed": 35,
+    "unrelated": 0
+  },
+  "prompts": {
+    "translate_single": "Translate the following {language} text into English. It is a message a resident said to a city phone line. Translate faithfully: keep every number, date and name. Output only the English translation, nothing else.\n\nText:\n{text}",
+    "translate_batch": "Translate each numbered item below into English. Each item gives its source language and the text. Each item is a separate message a resident said to a city phone line: translate every item independently, never use one item to fix another. Translate faithfully: keep every number, date and name; do not correct or complete the text. Respond with JSON only: a list of objects {{\"id\": <number>, \"english\": \"<translation>\"}}, one per item, same ids.\n\nItems:\n{items}",
+    "judge_single": "You are grading a translation for a city 311 phone line.\nREFERENCE is what the resident actually meant. CANDIDATE is what city staff would read.\nChoose exactly one label.\nLabels:\n- \"same\": staff would record the same facts and take the same action. Paraphrase, synonyms, different word\n  order, loose wording or a slightly different nuance still count as \"same\".\n- \"minor\": small loss that would not change what staff record or do (a dropped detail, adjective or tense).\n- \"changed\": a fact staff would record is wrong or missing (a number, date, place, person, object or the\n  action requested), so staff could act wrongly.\n- \"unrelated\": the candidate does not convey the reference message at all, or is empty.\nJudge meaning only; do not penalise grammar or style.\nRespond with JSON only: {{\"label\": \"same|minor|changed|unrelated\", \"reason\": \"<12 words max>\"}}\n\nREFERENCE: {ref}\nCANDIDATE: {cand}",
+    "judge_batch": "You are grading translations for a city 311 phone line.\nIn each numbered item, REFERENCE is what the resident actually meant and CANDIDATE is what city staff would read.\nGrade every item independently, using exactly one label per item.\nLabels:\n- \"same\": staff would record the same facts and take the same action. Paraphrase, synonyms, different word\n  order, loose wording or a slightly different nuance still count as \"same\".\n- \"minor\": small loss that would not change what staff record or do (a dropped detail, adjective or tense).\n- \"changed\": a fact staff would record is wrong or missing (a number, date, place, person, object or the\n  action requested), so staff could act wrongly.\n- \"unrelated\": the candidate does not convey the reference message at all, or is empty.\nJudge meaning only; do not penalise grammar or style.\nRespond with JSON only: a list of objects {{\"id\": <number>, \"label\": \"same|minor|changed|unrelated\", \"reason\": \"<12 words max>\"}}, one per item, same ids.\n\nItems:\n{items}"
+  },
+  "batch_sizes": {
+    "translate": 200,
+    "judge": 250,
+    "embed": 90
+  },
+  "english_reference": "en_us row with the same fleurs_id: raw_transcription for facts, transcription (normalised) for text",
+  "language_code_acceptance": {
+    "en": [
+      "en",
+      "eng"
+    ],
+    "ur": [
+      "ur",
+      "urd"
+    ],
+    "ar": [
+      "ar",
+      "ara",
+      "arz"
+    ],
+    "zh": [
+      "chi",
+      "cmn",
+      "zh",
+      "zho"
+    ],
+    "pa": [
+      "pa",
+      "pan"
+    ],
+    "pl": [
+      "pl",
+      "pol"
+    ],
+    "yue": [
+      "chi",
+      "yue",
+      "zh",
+      "zho"
+    ],
+    "tl": [
+      "fil",
+      "tgl",
+      "tl"
+    ],
+    "es": [
+      "es",
+      "spa"
+    ],
+    "ta": [
+      "ta",
+      "tam"
+    ],
+    "vi": [
+      "vi",
+      "vie"
+    ],
+    "hi": [
+      "hi",
+      "hin"
+    ],
+    "pt": [
+      "por",
+      "pt"
+    ],
+    "gu": [
+      "gu",
+      "guj"
+    ]
+  }
+}

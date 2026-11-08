@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Sau khi cuộc ẩu đả chấm dứt và người bị thương được đưa đến bệnh viện, khoảng 40 tù nhân khác vẫn ở lại sân và không chịu quay về phòng giam.",
+ "english": "After the brawl ended and the injured were taken to the hospital, about 40 other prisoners remained in the yard and refused to return to their cells.",
+ "clip": "vi_vn_1514",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

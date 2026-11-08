@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "针对幼幼同啲家庭，有些节庆会场，游会场会安排专属的露营区域。",
+ "english": "For families with young children, some festival venues, festival venues will arrange dedicated camping areas.",
+ "clip": "yue_hant_hk_1528",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 110
+}

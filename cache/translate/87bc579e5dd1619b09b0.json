@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "Es probable que los safaris sean el mayor atractivo turístico de África y la parte más memorable para muchos visitantes.",
+ "english": "Safaris are likely Africa's greatest tourist attraction and the most memorable part for many visitors.",
+ "clip": "es_419_1638",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

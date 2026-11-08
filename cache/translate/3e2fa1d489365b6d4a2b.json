@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "部分報導的官方死亡人數是八人，官方報導則證實多達 30 人受傷；但真正的人數仍不得而知。",
+ "english": "Some reports state the official death toll is eight, while official reports confirmed that as many as 30 people were injured; but the true number is still unknown.",
+ "clip": "yue_hant_hk_1629",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

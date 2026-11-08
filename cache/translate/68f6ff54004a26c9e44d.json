@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "太空的卫星接到电话后，几乎是立刻将其反射回去。",
+ "english": "After receiving the call, the satellite in space reflects it back almost immediately.",
+ "clip": "cmn_hans_cn_1521",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

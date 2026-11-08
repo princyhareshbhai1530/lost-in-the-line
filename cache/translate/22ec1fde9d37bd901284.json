@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "ذكرت بعض التقارير أن عدد الوفيات الرسمي بلغ ثمانية، وتؤكد التقارير الرسمية أن عدد الإصابات بلغ ثلاثين، ولكن الأعداد النهائية غير معروفة حتى الآن.",
+ "english": "Some reports stated that the official death toll reached eight, and official reports confirm that the number of injuries reached thirty, but the final numbers are not known yet.",
+ "clip": "ar_eg_1629",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

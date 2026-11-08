@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "Os pontos de vista apresentados são normalmente superficiais, gerais e simplificados em relação com as mais detalhadas informações disponíveis em outros lugares.",
+ "english": "The viewpoints presented are usually superficial, general, and simplified in relation to the more detailed information available elsewhere.",
+ "clip": "pt_br_1647",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

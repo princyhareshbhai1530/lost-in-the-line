@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "由于与大陆距离遥远，哺乳类动物没法划渡过海，使得巨型陆龟成加拉巴哥群岛的主要食草动物。",
+ "english": "Due to the long distance from the mainland, mammals were unable to paddle across the sea, making giant tortoises the main herbivores of the Galapagos Islands.",
+ "clip": "yue_hant_hk_1605",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 42
+}

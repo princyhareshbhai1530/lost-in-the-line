@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Tila hindi iyon nagkaroon ng kabuluhan para sa akin; tiyak na hindi iyon patas.",
+ "english": "It didn't seem to make sense to me; it certainly wasn't fair.",
+ "clip": "fil_ph_1577",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

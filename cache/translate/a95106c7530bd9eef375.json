@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "A alimentação na Roma antiga não incluía mantimentos originados da América e da Ásia para a Europa, assim como aconteceu nos séculos posteriores.",
+ "english": "Food in ancient Rome did not include groceries originating from the Americas and Asia to Europe, as happened in subsequent centuries.",
+ "clip": "pt_br_1627",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

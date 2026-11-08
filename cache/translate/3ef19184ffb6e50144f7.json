@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "Una vez que cesaron los enfrentamientos, luego de que se trasladaran al hospital a los heridos, cerca de cuarenta de los prisioneros restantes permanecieron en el patio resistiéndose a ir a sus celdas",
+ "english": "Once the clashes stopped, after the wounded were transferred to the hospital, about forty of the remaining prisoners stayed in the yard resisting going to their cells",
+ "clip": "es_419_1514",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,7 @@
+{
+ "label": "changed",
+ "score": 35,
+ "reason": "Satellite receives a 'response' instead of the 'call', altering communication flow.",
+ "model": "gemini-2.5-flash",
+ "batched": true
+}

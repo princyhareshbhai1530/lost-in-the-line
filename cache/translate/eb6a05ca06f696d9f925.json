@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "इस सीज़न में बीमारी के शुरुआती मामले जुलाई के आखिर में सामने आए थे.",
+ "english": "Early cases of the disease this season came to light in late July.",
+ "clip": "hi_in_1587",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

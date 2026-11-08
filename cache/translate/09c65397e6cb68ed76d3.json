@@ -1,0 +1,9 @@
+{
+ "model": "gemini-2.5-flash",
+ "language": "Urdu",
+ "source_text": "जब आप किसी ऐसी आदमी को call करते हैं जो हजारों मील दूर हो तो आप satellite का इस्तेमाल करते हैं।",
+ "english": "When you call such a person who is thousands of miles away, you use a satellite.",
+ "clip": "ur_pk_1548",
+ "source": "heard",
+ "batched": true
+}

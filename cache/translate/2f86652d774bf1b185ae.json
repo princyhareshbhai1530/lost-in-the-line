@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "伤员送往医院后，打斗停止。这时剩下的囚犯中约有 40 人留在庭院中，拒绝回去自己的牢房。",
+ "english": "After the injured were taken to the hospital, the fighting stopped. At this point, about 40 of the remaining prisoners stayed in the courtyard, refusing to return to their cells.",
+ "clip": "yue_hant_hk_1514",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 110
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "Quando você liga para alguém que está a milhares de quilômetros de distância, você está usando um satélite.",
+ "english": "When you call someone who is thousands of kilometers away, you are using a satellite.",
+ "clip": "pt_br_1548",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "سفاری غالباً افریقہ میں اعلیٰ پیمانے پر سیاحت لانے کا مرکز ہیں اور بہت سے دورہ کرنے والوں کے لیے نمایاں ہیں۔",
+ "english": "Safaris are probably the center of bringing high-scale tourism in Africa and are a highlight for many visitors.",
+ "clip": "ur_pk_1638",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

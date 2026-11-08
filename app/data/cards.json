@@ -1,0 +1,282 @@
+[
+ {
+  "card_id": "ur_1581",
+  "language": "Urdu",
+  "iso": "ur",
+  "native_name": "اردو",
+  "fleurs_id": "1581",
+  "source_text": "امیزن سطح زمین پر سب سے چوڑا دریا بھی ہے۔ کہیں کہیں اس کی چوڑائی چھ میل ہے۔",
+  "english_ref_raw": "The Amazon is also the widest river on Earth, at times six miles wide.",
+  "facts": [
+   {
+    "type": "number",
+    "text": "six",
+    "norm": "6"
+   },
+   {
+    "type": "name_place",
+    "text": "Amazon",
+    "norm": "amazon"
+   },
+   {
+    "type": "name_place",
+    "text": "Earth",
+    "norm": "earth"
+   }
+  ],
+  "replay": {
+   "mode": "REPLAY",
+   "source": "benchmark recording (FLEURS speaker, cached run)",
+   "clip_id": "ur_pk_1581",
+   "language": "Urdu",
+   "expected_lang": "ur",
+   "detected_lang": "hin",
+   "lang_correct": false,
+   "script_ok": false,
+   "asr_text": "अमेजन सतह जमीन पर सबसे चौड़ा दरिया भी है। कहीं-कहीं इसकी चौड़ाई छह मील है।",
+   "english": "The Amazon is also the widest river on the surface of the Earth. In some places its width is six miles.",
+   "english_ref": "The Amazon is also the widest river on Earth, at times six miles wide.",
+   "facts": [
+    {
+     "type": "number",
+     "text": "six",
+     "status": "survived"
+    },
+    {
+     "type": "name_place",
+     "text": "Amazon",
+     "status": "survived"
+    },
+    {
+     "type": "name_place",
+     "text": "Earth",
+     "status": "survived"
+    }
+   ],
+   "audio": "audio/ur_pk_1581.flac",
+   "cer": 1.0179
+  }
+ },
+ {
+  "card_id": "pa_1654",
+  "language": "Punjabi",
+  "iso": "pa",
+  "native_name": "ਪੰਜਾਬੀ",
+  "fleurs_id": "1654",
+  "source_text": "ਮੈਨੂੰ ਨਹੀਂ ਪਤਾ ਕਿ ਤੁਹਾਨੂੰ ਇਸ ਗੱਲ ਦਾ ਅਹਿਸਾਸ ਹੈ ਜਾਂ ਨਹੀਂ, ਪਰ ਕੇਂਦਰੀ ਅਮਰੀਕਾ ਤੋਂ ਇਸ ਦੇਸ਼ ਵਿੱਚ ਆਉਣ ਵਾਲਾ ਜ਼ਿਆਦਾਤਰ ਸਮਾਨ ਡਿਊਟੀ ਮੁਕਤ ਹੁੰਦਾ ਸੀ।",
+  "english_ref_raw": "I don't know if you realize it or not, but most of the goods from Central America came into this country duty-free.",
+  "facts": [
+   {
+    "type": "negation",
+    "text": "not, don't",
+    "norm": "neg"
+   },
+   {
+    "type": "name_place",
+    "text": "Central America",
+    "norm": "central america"
+   }
+  ],
+  "replay": {
+   "mode": "REPLAY",
+   "source": "benchmark recording (FLEURS speaker, cached run)",
+   "clip_id": "pa_in_1654",
+   "language": "Punjabi",
+   "expected_lang": "pa",
+   "detected_lang": "hin",
+   "lang_correct": false,
+   "script_ok": false,
+   "asr_text": "मैंने नहीं पता कि तो 19 साल का था शायद नहीं पर केंद्रीय अमेरिका तो विदेशी शव वाला जातक समान ड्यूटी में था तो",
+   "english": "I did not know whether then was 19 years old maybe not but from Central America foreign corpse person goods were on duty then",
+   "english_ref": "I don't know if you realize it or not, but most of the goods from Central America came into this country duty-free.",
+   "facts": [
+    {
+     "type": "negation",
+     "text": "not, don't",
+     "status": "survived"
+    },
+    {
+     "type": "name_place",
+     "text": "Central America",
+     "status": "survived"
+    }
+   ],
+   "audio": "audio/pa_in_1654.flac",
+   "cer": 1.0
+  }
+ },
+ {
+  "card_id": "hi_1629",
+  "language": "Hindi",
+  "iso": "hi",
+  "native_name": "हिन्दी",
+  "fleurs_id": "1629",
+  "source_text": "कुछ रिपोर्ट आधिकारिक मृत्यु दर आठ बताती हैं, और आधिकारिक रिपोर्टों से पुष्टि होती है कि 30 तक घायल हुए हैं; लेकिन अंतिम संख्या अभी तक ज्ञात नहीं हैं।",
+  "english_ref_raw": "Some reports put the official death toll at eight, and official reports confirm that up to 30 were injured; but final numbers are not yet known.",
+  "facts": [
+   {
+    "type": "number",
+    "text": "eight",
+    "norm": "8"
+   },
+   {
+    "type": "number",
+    "text": "30",
+    "norm": "30"
+   },
+   {
+    "type": "negation",
+    "text": "not",
+    "norm": "neg"
+   }
+  ],
+  "replay": {
+   "mode": "REPLAY",
+   "source": "benchmark recording (FLEURS speaker, cached run)",
+   "clip_id": "hi_in_1629",
+   "language": "Hindi",
+   "expected_lang": "hi",
+   "detected_lang": "hin",
+   "lang_correct": true,
+   "script_ok": true,
+   "asr_text": "कुछ report आधिकारिक मृत्यु दर आठ बताती हैं और आधिकारिक रिपोर्टों से पुष्टि होती है कि 30 तक घायल हुए हैं लेकिन अंतिम संख्या अभी तक ज्ञात नहीं है।",
+   "english": "Some reports put the official death toll at eight and official reports confirm that up to 30 have been injured but the final number is not yet known.",
+   "english_ref": "Some reports put the official death toll at eight, and official reports confirm that up to 30 were injured; but final numbers are not yet known.",
+   "facts": [
+    {
+     "type": "number",
+     "text": "eight",
+     "status": "survived"
+    },
+    {
+     "type": "number",
+     "text": "30",
+     "status": "survived"
+    },
+    {
+     "type": "negation",
+     "text": "not",
+     "status": "survived"
+    }
+   ],
+   "audio": "audio/hi_in_1629.flac",
+   "cer": 0.0678
+  }
+ },
+ {
+  "card_id": "ta_1629",
+  "language": "Tamil",
+  "iso": "ta",
+  "native_name": "தமிழ்",
+  "fleurs_id": "1629",
+  "source_text": "சில அதிகாரபூர்வ அறிக்கைகள், உயிரிழந்தவர்களின் எண்ணிக்கையை எட்டு என அறிவித்தன மற்றும் அதிகார பூர்வ அறிக்கைகள் சுமார் 30 நபர்கள் காயமடைந்துள்ளனர் என்பதை உறுதிப்படுத்துகின்றன; ஆனால், முடிவான எண்ணிக்கை இன்னும் தெரியவில்லை.",
+  "english_ref_raw": "Some reports put the official death toll at eight, and official reports confirm that up to 30 were injured; but final numbers are not yet known.",
+  "facts": [
+   {
+    "type": "number",
+    "text": "eight",
+    "norm": "8"
+   },
+   {
+    "type": "number",
+    "text": "30",
+    "norm": "30"
+   },
+   {
+    "type": "negation",
+    "text": "not",
+    "norm": "neg"
+   }
+  ],
+  "replay": {
+   "mode": "REPLAY",
+   "source": "benchmark recording (FLEURS speaker, cached run)",
+   "clip_id": "ta_in_1629",
+   "language": "Tamil",
+   "expected_lang": "ta",
+   "detected_lang": "tam",
+   "lang_correct": true,
+   "script_ok": true,
+   "asr_text": "சில அதிகாரப்பூர்வ அறிக்கைகள் உயிரிழந்தவர்களின் எண்ணிக்கையை எட்டு என அறிவித்தன மற்றும் அதிகாரப்பூர்வ அறிக்கைகள் சுமார் முப்பது நபர்கள் காயமடைந்துள்ளனர் என்பதை உறுதிப்படுத்தப்படுகின்றன. ஆனால் முடிவான எண்ணிக்கை இன்னும் தெரியவில்லை.",
+   "english": "Some official reports announced the death toll as eight and official reports confirm that about thirty people were injured. But the final count is not yet known.",
+   "english_ref": "Some reports put the official death toll at eight, and official reports confirm that up to 30 were injured; but final numbers are not yet known.",
+   "facts": [
+    {
+     "type": "number",
+     "text": "eight",
+     "status": "survived"
+    },
+    {
+     "type": "number",
+     "text": "30",
+     "status": "survived"
+    },
+    {
+     "type": "negation",
+     "text": "not",
+     "status": "survived"
+    }
+   ],
+   "audio": "audio/ta_in_1629.flac",
+   "cer": 0.0781
+  }
+ },
+ {
+  "card_id": "es_1629",
+  "language": "Spanish",
+  "iso": "es",
+  "native_name": "Español",
+  "fleurs_id": "1629",
+  "source_text": "Si bien existen informes que señalan que el número oficial de muertos es ocho y las autoridades han confirmado que cerca de 30 personas resultaron herida, aún se desconocen las cifras oficiales.",
+  "english_ref_raw": "Some reports put the official death toll at eight, and official reports confirm that up to 30 were injured; but final numbers are not yet known.",
+  "facts": [
+   {
+    "type": "number",
+    "text": "eight",
+    "norm": "8"
+   },
+   {
+    "type": "number",
+    "text": "30",
+    "norm": "30"
+   },
+   {
+    "type": "negation",
+    "text": "not",
+    "norm": "neg"
+   }
+  ],
+  "replay": {
+   "mode": "REPLAY",
+   "source": "benchmark recording (FLEURS speaker, cached run)",
+   "clip_id": "es_419_1629",
+   "language": "Spanish",
+   "expected_lang": "es",
+   "detected_lang": "spa",
+   "lang_correct": true,
+   "script_ok": true,
+   "asr_text": "Si bien existen informes que señalan que el número oficial de muertos es ocho y las autoridades han confirmado que cerca de treinta personas resultaron heridas, aún se desconocen las cifras oficiales",
+   "english": "Although there are reports indicating that the official death toll is eight and authorities have confirmed that about thirty people were injured, the official figures are still unknown",
+   "english_ref": "Some reports put the official death toll at eight, and official reports confirm that up to 30 were injured; but final numbers are not yet known.",
+   "facts": [
+    {
+     "type": "number",
+     "text": "eight",
+     "status": "survived"
+    },
+    {
+     "type": "number",
+     "text": "30",
+     "status": "survived"
+    },
+    {
+     "type": "negation",
+     "text": "not",
+     "status": "survived"
+    }
+   ],
+   "audio": "audio/es_419_1629.flac",
+   "cer": 0.0497
+  }
+ }
+]

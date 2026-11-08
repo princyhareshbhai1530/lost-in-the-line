@@ -1,0 +1,7 @@
+{
+ "label": "same",
+ "score": 100,
+ "reason": "Minor wording changes, hyphenation, core meaning preserved.",
+ "model": "gemini-2.5-flash",
+ "batched": true
+}

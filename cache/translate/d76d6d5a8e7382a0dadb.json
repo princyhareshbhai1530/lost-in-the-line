@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਟਿੱਪਣੀ ਦੀ ਮੰਗ ਕਰਨ ‘ਤੇ ਮਿੱਲਰ ਨੇ ਕਿਹਾ, \"ਮਾਈਕ ਸੁਣਨ ਵੇਲੇ ਬਹੁਤ ਗੱਲਾਂ ਕਰਦਾ ਹੈ...ਮੈਂ ਤਿਆਰ ਹੋ ਰਿਹਾ ਸੀ ਇਸਲਈ ਮੈਂ ਉਸਦੀ ਗੱਲ ਨਹੀਂ ਸੁਣ ਰਿਹਾ ਸੀ।\"",
+ "english": "When asked for comment, Miller said, \"Mike talks a lot while listening... I was getting ready so I wasn't listening to him.\"",
+ "clip": "pa_in_1644",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "જોકે જંગલો માત્ર મેંગ્રોવના સમૂહો નથી - તેમાં શક્તિશાળી જંગલોના કેટલાંક છેલ્લાં બાકી રહેલા સ્ટેન્ડ્સનો સમાવેશ થાય છે, જે ગંગેટિક મેદની પ્રદેશ પર છવાઈ ગયા હતા.",
+ "english": "However, forests are not just clusters of mangroves - they include some of the last remaining stands of mighty forests that had spread over the Gangetic plain region.",
+ "clip": "gu_in_1641",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

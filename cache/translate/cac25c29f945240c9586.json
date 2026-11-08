@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "Os primeiros casos da doença, nesta temporada, foram notificados no final de julho.",
+ "english": "The first cases of the disease, this season, were reported in late July.",
+ "clip": "pt_br_1587",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

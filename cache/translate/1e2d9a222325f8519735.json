@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "કેટલાક તહેવારોમાં નાના બાળકો ધરાવતા પરિવારો માટે ખાસ કેમ્પિંગ એરિયા હોય",
+ "english": "Some festivals have special camping areas for families with small children",
+ "clip": "gu_in_1528",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

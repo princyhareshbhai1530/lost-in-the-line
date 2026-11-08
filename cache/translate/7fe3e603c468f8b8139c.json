@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Kobiety powinny wiedzieć, że różnice kulturowe mogą spowodować zachowania, które uznają za molestowanie. Często mogą być śledzone, chwytane za ręce itp.",
+ "english": "Women should know that cultural differences may cause behaviors they consider harassment. They may often be followed, grabbed by the hands, etc.",
+ "clip": "pl_pl_1632",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Ang ilang hayop, gaya ng mga elepante at mga giraffe, ay nakahilig na lumapit nang malapitan sa mga kotse at ang panagkaraniwang kagamitan ay makapagbibigay-daan sa magandang panonood.",
+ "english": "Some animals, such as elephants and giraffes, tend to come close to cars and standard equipment will allow for good viewing.",
+ "clip": "fil_ph_1594",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

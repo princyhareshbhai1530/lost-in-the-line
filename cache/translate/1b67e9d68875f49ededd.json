@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "हज़ारों मील दूर किसी को कॉल करने के लिए, आप सैटेलाइट इस्तेमाल करते हैं.",
+ "english": "To call someone thousands of miles away, you use a satellite.",
+ "clip": "hi_in_1548",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

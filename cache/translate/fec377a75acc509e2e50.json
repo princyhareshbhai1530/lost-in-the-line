@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "समय के साथ जैसे-जैसे नई आबादी नए माहौल में ढलती जाती है, वह भी दूसरी आबादी की तरह अनदेखी करना शुरू कर देती है।",
+ "english": "Over time, as the new population adapts to the new environment, it also starts to ignore like the other population.",
+ "clip": "hi_in_1585",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

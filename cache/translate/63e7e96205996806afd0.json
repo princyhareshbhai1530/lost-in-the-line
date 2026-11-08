@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "原訂於周二砍伐，但因緊急法院裁決而獲救。",
+ "english": "Originally scheduled to be chopped down on Tuesday, but saved due to an emergency court ruling.",
+ "clip": "yue_hant_hk_1530",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

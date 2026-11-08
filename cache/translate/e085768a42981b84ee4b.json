@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Ang lalong sumisikat na opsyon sa pagbiyahe para sa mga nagpaplano ng pagitang-taon ay ang maglakbay at matuto.",
+ "english": "An increasingly popular travel option for gap-year planners is to travel and learn.",
+ "clip": "fil_ph_1651",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

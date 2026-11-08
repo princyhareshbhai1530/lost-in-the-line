@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "本季該疾病的首個案例是在七月底上報的。",
+ "english": "The first case of the disease this season was reported in late July.",
+ "clip": "yue_hant_hk_1587",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

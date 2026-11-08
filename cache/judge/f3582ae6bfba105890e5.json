@@ -1,0 +1,10 @@
+{
+ "label": "minor",
+ "score": 75,
+ "reason": "Slightly shifts plea for debate to requesting the US to conduct.",
+ "model": "gemini-3.8-flash",
+ "prompt_version": 2,
+ "settings": "tlminimal",
+ "batched": true,
+ "batch_size": 250
+}

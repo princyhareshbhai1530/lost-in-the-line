@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "Las mujeres deben darse cuenta de que las diferencias culturales pueden provocar lo que ellas consideran acoso y que no es poco común que sean seguidas, tomadas por el brazo, etcétera.",
+ "english": "Women must realize that cultural differences can cause what they consider harassment and that it is not uncommon to be followed, grabbed by the arm, et cetera.",
+ "clip": "es_419_1632",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

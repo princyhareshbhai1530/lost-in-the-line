@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "पुलिस ने कहा कि शव लगभग एक दिन पुराना है.",
+ "english": "Police said the body is about a day old.",
+ "clip": "hi_in_1656",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

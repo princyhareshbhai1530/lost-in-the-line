@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "Na maioria dos casos, se inscrever em um curso no exterior durante um ano sabático pode, de fato, aumentar suas chances de ingressar na educação superior no seu país de origem.",
+ "english": "In most cases, enrolling in a course abroad during a gap year can, in fact, increase your chances of entering higher education in your home country.",
+ "clip": "pt_br_1519",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

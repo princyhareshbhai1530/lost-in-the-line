@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "હાથીઓ અને જિરાફ જેવા કેટલાક પ્રાણીઓ લગભગ કાર ની નજીક આવી જવાનું વલણ દર્શાવે છે, આ સમયે માનક ઉપકરણો સારી રીતે જોવા દેવામાં સરળ બનાવશે .",
+ "english": "Some animals like elephants and giraffes show a tendency to come quite close to the car; at this time, standard equipment will make it easy to see well .",
+ "clip": "gu_in_1594",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

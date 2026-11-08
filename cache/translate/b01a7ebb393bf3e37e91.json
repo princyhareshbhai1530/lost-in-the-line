@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "Sin perjuicio de ello, los bosques no son solo manglares, sino que poseen algunos de los últimos árboles que quedan de las junglas imponentes que alguna vez cubrieron la llanura de Gangetic.",
+ "english": "Without prejudice to this, the forests are not just mangroves, but possess some of the last remaining trees of the imposing jungles that once covered the Gangetic plain.",
+ "clip": "es_419_1641",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

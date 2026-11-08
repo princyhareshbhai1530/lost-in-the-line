@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "Actualmente, los científicos sostienen que esta economía masiva del carbono ha privado a la biosfera de uno de sus estados regulares que ha contribuido con la evolución de la humanidad por los últimos dos millones de años.",
+ "english": "Currently, scientists maintain that this massive carbon economy has deprived the biosphere of one of its regular states that has contributed to human evolution over the last two million years.",
+ "clip": "es_419_1616",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

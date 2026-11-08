@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Giáng Sinh là một trong những ngày lễ quan trọng nhất của Thiên Chúa Giáo nhằm kỷ niệm ngày sinh của Chúa Jesus.",
+ "english": "Christmas is one of the most important Christian holidays to celebrate the birth of Jesus Christ.",
+ "clip": "vi_vn_1553",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

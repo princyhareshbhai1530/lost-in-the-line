@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "زخمیوں کو اسپتال منتقل کرنے کے بعد جب لڑائی بند ہو گئی تو باقی ماندہ تقریباً چالیس ساتھی یاڈ میں ہی رہے اور اپنے قیدخانے میں لوٹنے سے انکار کر دیا",
+ "english": "When the fight stopped after the injured were transferred to the hospital, the remaining approximately forty companions stayed in the yard and refused to return to their cell",
+ "clip": "ur_pk_1514",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

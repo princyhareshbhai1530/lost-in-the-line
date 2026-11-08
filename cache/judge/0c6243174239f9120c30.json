@@ -1,0 +1,7 @@
+{
+ "label": "changed",
+ "score": 35,
+ "reason": "'Inmates' changed to 'comrades', altering group description.",
+ "model": "gemini-2.5-flash",
+ "batched": true
+}

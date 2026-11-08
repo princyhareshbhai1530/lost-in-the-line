@@ -1,0 +1,1143 @@
+{
+ "meta": {
+  "name": "benchmark-weighted language exposure (screening, not a forecast)",
+  "formula": "E_n = sum_l(P_nl x R_l) / P_n; R_l = 1 - fact survival (auto-detect, end to end)",
+  "n_neighbourhoods": 39,
+  "excluded_zero_population": 17,
+  "census_note": "Columns are 'language spoken most often at home' (100% data). The legend does not state whether these are single responses; counts may not be unique people.",
+  "bengali": "No home-language audio in the pack: unmeasured, not zero."
+ },
+ "neighbourhoods": [
+  {
+   "name": "DT Cooksville",
+   "population": 9575,
+   "exposure_index": 0.017357,
+   "exposure_per_1000": 17.36,
+   "coverage_pct": 30.7,
+   "tested_speakers": 2935,
+   "unmeasured_bengali": 70,
+   "top_languages": [
+    "Arabic",
+    "Tamil",
+    "Tagalog"
+   ],
+   "top_detail": [
+    {
+     "language": "Arabic",
+     "speakers": 565
+    },
+    {
+     "language": "Tamil",
+     "speakers": 355
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 235
+    }
+   ],
+   "rank": 1
+  },
+  {
+   "name": "Fairview",
+   "population": 7215,
+   "exposure_index": 0.015444,
+   "exposure_per_1000": 15.44,
+   "coverage_pct": 31.1,
+   "tested_speakers": 2245,
+   "unmeasured_bengali": 30,
+   "top_languages": [
+    "Tagalog",
+    "Mandarin Chinese",
+    "Polish"
+   ],
+   "top_detail": [
+    {
+     "language": "Tagalog",
+     "speakers": 275
+    },
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 315
+    },
+    {
+     "language": "Polish",
+     "speakers": 250
+    }
+   ],
+   "rank": 2
+  },
+  {
+   "name": "Churchill Meadows",
+   "population": 48745,
+   "exposure_index": 0.015074,
+   "exposure_per_1000": 15.07,
+   "coverage_pct": 28.7,
+   "tested_speakers": 13980,
+   "unmeasured_bengali": 225,
+   "top_languages": [
+    "Arabic",
+    "Mandarin Chinese",
+    "Urdu"
+   ],
+   "top_detail": [
+    {
+     "language": "Arabic",
+     "speakers": 3930
+    },
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 1455
+    },
+    {
+     "language": "Urdu",
+     "speakers": 3755
+    }
+   ],
+   "rank": 3
+  },
+  {
+   "name": "DT Fairview",
+   "population": 16570,
+   "exposure_index": 0.014994,
+   "exposure_per_1000": 14.99,
+   "coverage_pct": 24.7,
+   "tested_speakers": 4090,
+   "unmeasured_bengali": 210,
+   "top_languages": [
+    "Arabic",
+    "Tagalog",
+    "Spanish"
+   ],
+   "top_detail": [
+    {
+     "language": "Arabic",
+     "speakers": 1050
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 490
+    },
+    {
+     "language": "Spanish",
+     "speakers": 475
+    }
+   ],
+   "rank": 4
+  },
+  {
+   "name": "DT Hospital",
+   "population": 12305,
+   "exposure_index": 0.014957,
+   "exposure_per_1000": 14.96,
+   "coverage_pct": 24.1,
+   "tested_speakers": 2970,
+   "unmeasured_bengali": 110,
+   "top_languages": [
+    "Tagalog",
+    "Arabic",
+    "Polish"
+   ],
+   "top_detail": [
+    {
+     "language": "Tagalog",
+     "speakers": 655
+    },
+    {
+     "language": "Arabic",
+     "speakers": 800
+    },
+    {
+     "language": "Polish",
+     "speakers": 310
+    }
+   ],
+   "rank": 5
+  },
+  {
+   "name": "DT Core",
+   "population": 34425,
+   "exposure_index": 0.014632,
+   "exposure_per_1000": 14.63,
+   "coverage_pct": 24.9,
+   "tested_speakers": 8570,
+   "unmeasured_bengali": 285,
+   "top_languages": [
+    "Arabic",
+    "Mandarin Chinese",
+    "Tamil"
+   ],
+   "top_detail": [
+    {
+     "language": "Arabic",
+     "speakers": 2260
+    },
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 1185
+    },
+    {
+     "language": "Tamil",
+     "speakers": 565
+    }
+   ],
+   "rank": 6
+  },
+  {
+   "name": "Creditview",
+   "population": 10070,
+   "exposure_index": 0.014222,
+   "exposure_per_1000": 14.22,
+   "coverage_pct": 27.3,
+   "tested_speakers": 2745,
+   "unmeasured_bengali": 0,
+   "top_languages": [
+    "Mandarin Chinese",
+    "Arabic",
+    "Tagalog"
+   ],
+   "top_detail": [
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 680
+    },
+    {
+     "language": "Arabic",
+     "speakers": 335
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 240
+    }
+   ],
+   "rank": 7
+  },
+  {
+   "name": "Central Erin Mills MN",
+   "population": 6040,
+   "exposure_index": 0.013955,
+   "exposure_per_1000": 13.95,
+   "coverage_pct": 23.3,
+   "tested_speakers": 1410,
+   "unmeasured_bengali": 35,
+   "top_languages": [
+    "Arabic",
+    "Mandarin Chinese",
+    "Tamil"
+   ],
+   "top_detail": [
+    {
+     "language": "Arabic",
+     "speakers": 365
+    },
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 215
+    },
+    {
+     "language": "Tamil",
+     "speakers": 115
+    }
+   ],
+   "rank": 8
+  },
+  {
+   "name": "East Credit",
+   "population": 63320,
+   "exposure_index": 0.013356,
+   "exposure_per_1000": 13.36,
+   "coverage_pct": 28.1,
+   "tested_speakers": 17820,
+   "unmeasured_bengali": 180,
+   "top_languages": [
+    "Mandarin Chinese",
+    "Arabic",
+    "Tagalog"
+   ],
+   "top_detail": [
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 2090
+    },
+    {
+     "language": "Arabic",
+     "speakers": 2025
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 1220
+    }
+   ],
+   "rank": 9
+  },
+  {
+   "name": "Central Erin Mills",
+   "population": 30250,
+   "exposure_index": 0.012987,
+   "exposure_per_1000": 12.99,
+   "coverage_pct": 24.3,
+   "tested_speakers": 7355,
+   "unmeasured_bengali": 50,
+   "top_languages": [
+    "Mandarin Chinese",
+    "Arabic",
+    "Cantonese"
+   ],
+   "top_detail": [
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 2480
+    },
+    {
+     "language": "Arabic",
+     "speakers": 1060
+    },
+    {
+     "language": "Cantonese",
+     "speakers": 1095
+    }
+   ],
+   "rank": 10
+  },
+  {
+   "name": "Cooksville (West)",
+   "population": 14665,
+   "exposure_index": 0.01294,
+   "exposure_per_1000": 12.94,
+   "coverage_pct": 23.4,
+   "tested_speakers": 3425,
+   "unmeasured_bengali": 25,
+   "top_languages": [
+    "Polish",
+    "Arabic",
+    "Tagalog"
+   ],
+   "top_detail": [
+    {
+     "language": "Polish",
+     "speakers": 745
+    },
+    {
+     "language": "Arabic",
+     "speakers": 470
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 280
+    }
+   ],
+   "rank": 11
+  },
+  {
+   "name": "Hurontario",
+   "population": 49755,
+   "exposure_index": 0.012918,
+   "exposure_per_1000": 12.92,
+   "coverage_pct": 26.6,
+   "tested_speakers": 13225,
+   "unmeasured_bengali": 170,
+   "top_languages": [
+    "Mandarin Chinese",
+    "Tamil",
+    "Tagalog"
+   ],
+   "top_detail": [
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 1880
+    },
+    {
+     "language": "Tamil",
+     "speakers": 925
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 910
+    }
+   ],
+   "rank": 12
+  },
+  {
+   "name": "Uptown MN",
+   "population": 10660,
+   "exposure_index": 0.012005,
+   "exposure_per_1000": 12.01,
+   "coverage_pct": 23.5,
+   "tested_speakers": 2500,
+   "unmeasured_bengali": 70,
+   "top_languages": [
+    "Arabic",
+    "Mandarin Chinese",
+    "Tagalog"
+   ],
+   "top_detail": [
+    {
+     "language": "Arabic",
+     "speakers": 550
+    },
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 250
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 155
+    }
+   ],
+   "rank": 13
+  },
+  {
+   "name": "Erindale",
+   "population": 22025,
+   "exposure_index": 0.011632,
+   "exposure_per_1000": 11.63,
+   "coverage_pct": 22.4,
+   "tested_speakers": 4925,
+   "unmeasured_bengali": 65,
+   "top_languages": [
+    "Mandarin Chinese",
+    "Tagalog",
+    "Polish"
+   ],
+   "top_detail": [
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 1105
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 425
+    },
+    {
+     "language": "Polish",
+     "speakers": 635
+    }
+   ],
+   "rank": 14
+  },
+  {
+   "name": "Mississauga Valleys",
+   "population": 12595,
+   "exposure_index": 0.01121,
+   "exposure_per_1000": 11.21,
+   "coverage_pct": 20.1,
+   "tested_speakers": 2530,
+   "unmeasured_bengali": 25,
+   "top_languages": [
+    "Polish",
+    "Tagalog",
+    "Spanish"
+   ],
+   "top_detail": [
+    {
+     "language": "Polish",
+     "speakers": 635
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 285
+    },
+    {
+     "language": "Spanish",
+     "speakers": 345
+    }
+   ],
+   "rank": 15
+  },
+  {
+   "name": "Sheridan CN",
+   "population": 3265,
+   "exposure_index": 0.01072,
+   "exposure_per_1000": 10.72,
+   "coverage_pct": 23.7,
+   "tested_speakers": 775,
+   "unmeasured_bengali": 0,
+   "top_languages": [
+    "Arabic",
+    "Urdu",
+    "Tagalog"
+   ],
+   "top_detail": [
+    {
+     "language": "Arabic",
+     "speakers": 165
+    },
+    {
+     "language": "Urdu",
+     "speakers": 465
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 75
+    }
+   ],
+   "rank": 16
+  },
+  {
+   "name": "Meadowvale Village",
+   "population": 31240,
+   "exposure_index": 0.010586,
+   "exposure_per_1000": 10.59,
+   "coverage_pct": 24.1,
+   "tested_speakers": 7525,
+   "unmeasured_bengali": 55,
+   "top_languages": [
+    "Tamil",
+    "Tagalog",
+    "Spanish"
+   ],
+   "top_detail": [
+    {
+     "language": "Tamil",
+     "speakers": 720
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 420
+    },
+    {
+     "language": "Spanish",
+     "speakers": 530
+    }
+   ],
+   "rank": 17
+  },
+  {
+   "name": "South Common CN",
+   "population": 4880,
+   "exposure_index": 0.010148,
+   "exposure_per_1000": 10.15,
+   "coverage_pct": 16.1,
+   "tested_speakers": 785,
+   "unmeasured_bengali": 0,
+   "top_languages": [
+    "Tagalog",
+    "Arabic",
+    "Mandarin Chinese"
+   ],
+   "top_detail": [
+    {
+     "language": "Tagalog",
+     "speakers": 205
+    },
+    {
+     "language": "Arabic",
+     "speakers": 155
+    },
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 85
+    }
+   ],
+   "rank": 18
+  },
+  {
+   "name": "Malton",
+   "population": 35250,
+   "exposure_index": 0.010054,
+   "exposure_per_1000": 10.05,
+   "coverage_pct": 31.1,
+   "tested_speakers": 10950,
+   "unmeasured_bengali": 210,
+   "top_languages": [
+    "Punjabi",
+    "Hindi",
+    "Gujarati"
+   ],
+   "top_detail": [
+    {
+     "language": "Punjabi",
+     "speakers": 7145
+    },
+    {
+     "language": "Hindi",
+     "speakers": 840
+    },
+    {
+     "language": "Gujarati",
+     "speakers": 770
+    }
+   ],
+   "rank": 19
+  },
+  {
+   "name": "Applewood",
+   "population": 35490,
+   "exposure_index": 0.009748,
+   "exposure_per_1000": 9.75,
+   "coverage_pct": 19.4,
+   "tested_speakers": 6900,
+   "unmeasured_bengali": 155,
+   "top_languages": [
+    "Polish",
+    "Tagalog",
+    "Arabic"
+   ],
+   "top_detail": [
+    {
+     "language": "Polish",
+     "speakers": 1295
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 625
+    },
+    {
+     "language": "Arabic",
+     "speakers": 650
+    }
+   ],
+   "rank": 20
+  },
+  {
+   "name": "Rathwood-Applewood CN",
+   "population": 3350,
+   "exposure_index": 0.009595,
+   "exposure_per_1000": 9.59,
+   "coverage_pct": 18.2,
+   "tested_speakers": 610,
+   "unmeasured_bengali": 45,
+   "top_languages": [
+    "Spanish",
+    "Polish",
+    "Arabic"
+   ],
+   "top_detail": [
+    {
+     "language": "Spanish",
+     "speakers": 150
+    },
+    {
+     "language": "Polish",
+     "speakers": 150
+    },
+    {
+     "language": "Arabic",
+     "speakers": 65
+    }
+   ],
+   "rank": 21
+  },
+  {
+   "name": "Meadowvale CN",
+   "population": 2855,
+   "exposure_index": 0.009132,
+   "exposure_per_1000": 9.13,
+   "coverage_pct": 14.0,
+   "tested_speakers": 400,
+   "unmeasured_bengali": 0,
+   "top_languages": [
+    "Tamil",
+    "Arabic",
+    "Spanish"
+   ],
+   "top_detail": [
+    {
+     "language": "Tamil",
+     "speakers": 75
+    },
+    {
+     "language": "Arabic",
+     "speakers": 70
+    },
+    {
+     "language": "Spanish",
+     "speakers": 65
+    }
+   ],
+   "rank": 22
+  },
+  {
+   "name": "Rathwood",
+   "population": 24865,
+   "exposure_index": 0.008886,
+   "exposure_per_1000": 8.89,
+   "coverage_pct": 16.8,
+   "tested_speakers": 4165,
+   "unmeasured_bengali": 15,
+   "top_languages": [
+    "Polish",
+    "Spanish",
+    "Mandarin Chinese"
+   ],
+   "top_detail": [
+    {
+     "language": "Polish",
+     "speakers": 935
+    },
+    {
+     "language": "Spanish",
+     "speakers": 525
+    },
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 465
+    }
+   ],
+   "rank": 23
+  },
+  {
+   "name": "Lisgar",
+   "population": 31565,
+   "exposure_index": 0.008855,
+   "exposure_per_1000": 8.86,
+   "coverage_pct": 17.2,
+   "tested_speakers": 5430,
+   "unmeasured_bengali": 95,
+   "top_languages": [
+    "Arabic",
+    "Tagalog",
+    "Mandarin Chinese"
+   ],
+   "top_detail": [
+    {
+     "language": "Arabic",
+     "speakers": 810
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 490
+    },
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 520
+    }
+   ],
+   "rank": 24
+  },
+  {
+   "name": "Meadowvale",
+   "population": 35910,
+   "exposure_index": 0.007864,
+   "exposure_per_1000": 7.86,
+   "coverage_pct": 13.9,
+   "tested_speakers": 4980,
+   "unmeasured_bengali": 115,
+   "top_languages": [
+    "Spanish",
+    "Arabic",
+    "Tagalog"
+   ],
+   "top_detail": [
+    {
+     "language": "Spanish",
+     "speakers": 705
+    },
+    {
+     "language": "Arabic",
+     "speakers": 700
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 485
+    }
+   ],
+   "rank": 25
+  },
+  {
+   "name": "Erin Mills",
+   "population": 38320,
+   "exposure_index": 0.007434,
+   "exposure_per_1000": 7.43,
+   "coverage_pct": 14.2,
+   "tested_speakers": 5430,
+   "unmeasured_bengali": 105,
+   "top_languages": [
+    "Mandarin Chinese",
+    "Arabic",
+    "Polish"
+   ],
+   "top_detail": [
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 1075
+    },
+    {
+     "language": "Arabic",
+     "speakers": 740
+    },
+    {
+     "language": "Polish",
+     "speakers": 670
+    }
+   ],
+   "rank": 26
+  },
+  {
+   "name": "Malton CN",
+   "population": 2670,
+   "exposure_index": 0.007401,
+   "exposure_per_1000": 7.4,
+   "coverage_pct": 13.7,
+   "tested_speakers": 365,
+   "unmeasured_bengali": 0,
+   "top_languages": [
+    "Tagalog",
+    "Arabic",
+    "Polish"
+   ],
+   "top_detail": [
+    {
+     "language": "Tagalog",
+     "speakers": 100
+    },
+    {
+     "language": "Arabic",
+     "speakers": 40
+    },
+    {
+     "language": "Polish",
+     "speakers": 45
+    }
+   ],
+   "rank": 27
+  },
+  {
+   "name": "Sheridan",
+   "population": 12210,
+   "exposure_index": 0.007332,
+   "exposure_per_1000": 7.33,
+   "coverage_pct": 13.2,
+   "tested_speakers": 1615,
+   "unmeasured_bengali": 25,
+   "top_languages": [
+    "Mandarin Chinese",
+    "Tagalog",
+    "Arabic"
+   ],
+   "top_detail": [
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 415
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 165
+    },
+    {
+     "language": "Arabic",
+     "speakers": 210
+    }
+   ],
+   "rank": 28
+  },
+  {
+   "name": "Streetsville",
+   "population": 10610,
+   "exposure_index": 0.006979,
+   "exposure_per_1000": 6.98,
+   "coverage_pct": 12.9,
+   "tested_speakers": 1370,
+   "unmeasured_bengali": 0,
+   "top_languages": [
+    "Mandarin Chinese",
+    "Spanish",
+    "Portuguese"
+   ],
+   "top_detail": [
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 210
+    },
+    {
+     "language": "Spanish",
+     "speakers": 180
+    },
+    {
+     "language": "Portuguese",
+     "speakers": 210
+    }
+   ],
+   "rank": 29
+  },
+  {
+   "name": "Clarkson - Lorne Park",
+   "population": 36350,
+   "exposure_index": 0.006209,
+   "exposure_per_1000": 6.21,
+   "coverage_pct": 10.9,
+   "tested_speakers": 3965,
+   "unmeasured_bengali": 35,
+   "top_languages": [
+    "Mandarin Chinese",
+    "Tagalog",
+    "Polish"
+   ],
+   "top_detail": [
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 810
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 405
+    },
+    {
+     "language": "Polish",
+     "speakers": 735
+    }
+   ],
+   "rank": 30
+  },
+  {
+   "name": "Cooksville (East)",
+   "population": 8405,
+   "exposure_index": 0.005807,
+   "exposure_per_1000": 5.81,
+   "coverage_pct": 12.0,
+   "tested_speakers": 1005,
+   "unmeasured_bengali": 50,
+   "top_languages": [
+    "Polish",
+    "Portuguese",
+    "Tagalog"
+   ],
+   "top_detail": [
+    {
+     "language": "Polish",
+     "speakers": 265
+    },
+    {
+     "language": "Portuguese",
+     "speakers": 155
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 75
+    }
+   ],
+   "rank": 31
+  },
+  {
+   "name": "Streetsville CN",
+   "population": 1320,
+   "exposure_index": 0.005592,
+   "exposure_per_1000": 5.59,
+   "coverage_pct": 11.0,
+   "tested_speakers": 145,
+   "unmeasured_bengali": 0,
+   "top_languages": [
+    "Arabic",
+    "Spanish",
+    "Polish"
+   ],
+   "top_detail": [
+    {
+     "language": "Arabic",
+     "speakers": 30
+    },
+    {
+     "language": "Spanish",
+     "speakers": 30
+    },
+    {
+     "language": "Polish",
+     "speakers": 25
+    }
+   ],
+   "rank": 32
+  },
+  {
+   "name": "Mineola",
+   "population": 9845,
+   "exposure_index": 0.005163,
+   "exposure_per_1000": 5.16,
+   "coverage_pct": 9.5,
+   "tested_speakers": 935,
+   "unmeasured_bengali": 0,
+   "top_languages": [
+    "Polish",
+    "Mandarin Chinese",
+    "Spanish"
+   ],
+   "top_detail": [
+    {
+     "language": "Polish",
+     "speakers": 310
+    },
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 170
+    },
+    {
+     "language": "Spanish",
+     "speakers": 85
+    }
+   ],
+   "rank": 33
+  },
+  {
+   "name": "Port Credit CN",
+   "population": 4945,
+   "exposure_index": 0.005152,
+   "exposure_per_1000": 5.15,
+   "coverage_pct": 8.3,
+   "tested_speakers": 410,
+   "unmeasured_bengali": 0,
+   "top_languages": [
+    "Spanish",
+    "Polish",
+    "Tagalog"
+   ],
+   "top_detail": [
+    {
+     "language": "Spanish",
+     "speakers": 150
+    },
+    {
+     "language": "Polish",
+     "speakers": 85
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 35
+    }
+   ],
+   "rank": 34
+  },
+  {
+   "name": "Lakeview",
+   "population": 21960,
+   "exposure_index": 0.004478,
+   "exposure_per_1000": 4.48,
+   "coverage_pct": 8.7,
+   "tested_speakers": 1905,
+   "unmeasured_bengali": 45,
+   "top_languages": [
+    "Polish",
+    "Portuguese",
+    "Mandarin Chinese"
+   ],
+   "top_detail": [
+    {
+     "language": "Polish",
+     "speakers": 515
+    },
+    {
+     "language": "Portuguese",
+     "speakers": 405
+    },
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 195
+    }
+   ],
+   "rank": 35
+  },
+  {
+   "name": "Dixie EA",
+   "population": 945,
+   "exposure_index": 0.004409,
+   "exposure_per_1000": 4.41,
+   "coverage_pct": 10.6,
+   "tested_speakers": 100,
+   "unmeasured_bengali": 0,
+   "top_languages": [
+    "Spanish",
+    "Polish",
+    "Cantonese"
+   ],
+   "top_detail": [
+    {
+     "language": "Spanish",
+     "speakers": 35
+    },
+    {
+     "language": "Polish",
+     "speakers": 30
+    },
+    {
+     "language": "Cantonese",
+     "speakers": 10
+    }
+   ],
+   "rank": 36
+  },
+  {
+   "name": "Port Credit (West)",
+   "population": 3300,
+   "exposure_index": 0.004221,
+   "exposure_per_1000": 4.22,
+   "coverage_pct": 7.4,
+   "tested_speakers": 245,
+   "unmeasured_bengali": 0,
+   "top_languages": [
+    "Polish",
+    "Spanish",
+    "Hindi"
+   ],
+   "top_detail": [
+    {
+     "language": "Polish",
+     "speakers": 100
+    },
+    {
+     "language": "Spanish",
+     "speakers": 40
+    },
+    {
+     "language": "Hindi",
+     "speakers": 45
+    }
+   ],
+   "rank": 37
+  },
+  {
+   "name": "Clarkson Village CN",
+   "population": 2350,
+   "exposure_index": 0.003901,
+   "exposure_per_1000": 3.9,
+   "coverage_pct": 6.0,
+   "tested_speakers": 140,
+   "unmeasured_bengali": 15,
+   "top_languages": [
+    "Arabic",
+    "Spanish",
+    "Mandarin Chinese"
+   ],
+   "top_detail": [
+    {
+     "language": "Arabic",
+     "speakers": 50
+    },
+    {
+     "language": "Spanish",
+     "speakers": 30
+    },
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 25
+    }
+   ],
+   "rank": 38
+  },
+  {
+   "name": "Port Credit (East)",
+   "population": 2420,
+   "exposure_index": 0.002509,
+   "exposure_per_1000": 2.51,
+   "coverage_pct": 3.7,
+   "tested_speakers": 90,
+   "unmeasured_bengali": 0,
+   "top_languages": [
+    "Mandarin Chinese",
+    "Spanish",
+    "Tagalog"
+   ],
+   "top_detail": [
+    {
+     "language": "Mandarin Chinese",
+     "speakers": 35
+    },
+    {
+     "language": "Spanish",
+     "speakers": 25
+    },
+    {
+     "language": "Tagalog",
+     "speakers": 15
+    }
+   ],
+   "rank": 39
+  }
+ ]
+}

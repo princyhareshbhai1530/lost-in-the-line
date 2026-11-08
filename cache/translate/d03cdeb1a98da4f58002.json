@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Ang mga pananaw na inilalahad ay madalas na mababaw, panlahat at napakapayak kumpara sa mga mas detalyadong impormasyon na makukuha sa ibang lugar.",
+ "english": "The views presented are often superficial, generalized, and very simple compared to the more detailed information available elsewhere.",
+ "clip": "fil_ph_1647",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

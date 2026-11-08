@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Ang mga pagkain ng sinaunang Roman ay maaaring hindi nagkaroon ng mga pagkain nagtungo sa Europa mula sa Amerika o mula sa Asya sa kalaulan mga siglo.",
+ "english": "Ancient Roman foods may not have included foods that came to Europe from the Americas or from Asia in later centuries.",
+ "clip": "fil_ph_1627",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "En la oscuridad, se pueden ver las pirámides y contemplarlas en silencio antes de que empiece el espectáculo.",
+ "english": "In the dark, one can see the pyramids and contemplate them in silence before the show begins.",
+ "clip": "es_419_1537",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

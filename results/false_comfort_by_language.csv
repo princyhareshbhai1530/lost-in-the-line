@@ -1,0 +1,15 @@
+language,n_clips,n_with_facts,reassuring_agreement,false_comfort,harmless_wording,broad_failure,false_comfort_rate,fc_lo,fc_hi
+Arabic,40,23,19,3,1,0,0.1304,0.0,0.2609
+Cantonese,40,23,19,0,3,1,0.0,0.0,0.0
+English,40,23,23,0,0,0,0.0,0.0,0.0
+Gujarati,40,23,19,2,2,0,0.087,0.0,0.2174
+Hindi,40,23,19,0,2,2,0.0,0.0,0.0
+Mandarin Chinese,40,23,18,3,2,0,0.1304,0.0,0.2609
+Polish,40,23,20,2,1,0,0.087,0.0,0.2174
+Portuguese,40,23,21,2,0,0,0.087,0.0,0.2174
+Punjabi,40,23,18,0,4,1,0.0,0.0,0.0
+Spanish,40,23,20,3,0,0,0.1304,0.0,0.2609
+Tagalog,40,23,17,2,2,2,0.087,0.0,0.2174
+Tamil,40,23,16,3,3,1,0.1304,0.0,0.2609
+Urdu,40,23,19,0,3,1,0.0,0.0,0.0
+Vietnamese,40,23,23,0,0,0,0.0,0.0,0.0

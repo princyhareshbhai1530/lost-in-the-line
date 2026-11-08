@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "好多時候，參加國外的空檔年課程，其實能提升你回國後接受高等教育的機會。",
+ "english": "A lot of times, participating in a gap year course abroad can actually improve your chances of receiving higher education after returning home.",
+ "clip": "yue_hant_hk_1519",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 42
+}

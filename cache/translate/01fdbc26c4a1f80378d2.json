@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Amazon cũng là con sông rộng nhất trên trái đất, có những thời điểm nó rộng những sáu dặm.",
+ "english": "The Amazon is also the widest river on Earth, at times reaching as much as six miles wide.",
+ "clip": "vi_vn_1581",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

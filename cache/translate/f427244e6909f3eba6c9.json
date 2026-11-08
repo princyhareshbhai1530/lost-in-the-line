@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "मुझे नहीं पता आपने इस पर ध्यान दिया है कि नहीं लेकिन Central America से इस देश में आए ज्यादातर product पर tax नहीं लगाया जाता",
+ "english": "I don't know whether you have noticed this or not but most products that came to this country from Central America are not taxed",
+ "clip": "hi_in_1654",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

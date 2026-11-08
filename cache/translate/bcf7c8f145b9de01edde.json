@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "يعد السفر والتعلم خياراً أكثر شيوعاً لأولئك الذين يخططون لسنة الاستراحة.",
+ "english": "Traveling and learning is a more popular option for those planning a gap year.",
+ "clip": "ar_eg_1651",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

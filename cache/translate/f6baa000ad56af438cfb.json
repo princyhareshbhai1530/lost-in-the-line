@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Odległość od kontynentu była tak duża, że ssaki nie były w stanie się tam przedostać, przez co żółw olbrzymi stał się podstawowym gatunkiem żyjącym na Galapagos.",
+ "english": "The distance from the continent was so great that mammals were unable to reach it, making the giant tortoise the primary species living on the Galapagos.",
+ "clip": "pl_pl_1605",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

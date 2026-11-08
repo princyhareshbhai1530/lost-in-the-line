@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Przedstawione opinie są często powierzchowne, ogólne i zbyt uproszczone, w porównaniu z innymi dostępnymi informacjami.",
+ "english": "The presented opinions are often superficial, general, and oversimplified compared to other available information.",
+ "clip": "pl_pl_1647",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

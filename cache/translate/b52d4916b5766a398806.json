@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਅਸੀਂ ਵਾਤਾਵਰਣ ਨਾਲ ਵਧੇਰੇ ਇੱਕ ਮਿੱਕ ਹੋ ਕੇ ਜਿਉਣਾ ਸ਼ੁਰੂ ਕਰ ਸਕਦੇ ਹਾਂ, ਅਸੀਂ ਵਾਤਾਵਰਣ ਬਚਾਉਣ ਸੰਬੰਧੀ ਕਿਸੇ ਲਹਿਰ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋ ਸਕਦੇ ਹਾਂ, ਅਤੇ ਭਵਿੱਖ ਦੀਆਂ ਮੁਸ਼ਕਲਾਂ ਨੂੰ ਘਟਾਉਣ ਲਈ ਕੁੱਝ ਹੱਦ ਤੱਕ ਸਰਗਰਮ ਕਾਰਜਕਰਤਾ ਵੀ ਬਣ ਸਕਦੇ ਹਾਂ।",
+ "english": "We can start living more in harmony with the environment, we can join some movement related to saving the environment, and we can also become active activists to some extent to reduce future hardships.",
+ "clip": "pa_in_1635",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

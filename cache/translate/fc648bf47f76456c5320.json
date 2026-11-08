@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Połączenie trafia do satelity w przestrzeni kosmicznej, po czym niemal natychmiast odbija go z powrotem.",
+ "english": "The call goes to a satellite in outer space, which then bounces it back almost immediately.",
+ "clip": "pl_pl_1521",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

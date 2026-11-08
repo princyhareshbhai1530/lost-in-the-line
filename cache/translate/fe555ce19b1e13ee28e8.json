@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "हालांकि तीन लोग घर के अंदर थे फिर भी जब कार टकराई तब किसी को भी चोट नहीं आई",
+ "english": "Although three people were inside the house, still no one was hurt when the car crashed",
+ "clip": "hi_in_1598",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

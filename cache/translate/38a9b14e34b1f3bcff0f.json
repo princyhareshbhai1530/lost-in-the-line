@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "Aún intentan establecer cuán importante fue el impacto y de qué modo afectará al planeta.",
+ "english": "They are still trying to establish how significant the impact was and in what way it will affect the planet.",
+ "clip": "es_419_1551",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

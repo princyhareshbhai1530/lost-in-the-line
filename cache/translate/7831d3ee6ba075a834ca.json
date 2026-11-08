@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Możemy zacząć prowadzić życie w sposób bardziej przyjazny dla środowiska. Możemy przyłączyć się do ruchu ekologicznego, a nawet możemy wziąć na siebie rolę aktywistów, aby w pewnym stopniu przyczynić się do ograniczenia skali cierpienia w przyszłości.",
+ "english": "We can start leading a life in a more environmentally friendly way. We can join the environmental movement, and we can even take on the role of activists to contribute to some extent to reducing the scale of suffering in the future.",
+ "clip": "pl_pl_1635",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

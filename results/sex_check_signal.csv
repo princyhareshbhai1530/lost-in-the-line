@@ -1,0 +1,6 @@
+lang_config,language,gender,n,total_loss,total_lo,total_hi,cer,cer_lo,cer_hi,single_sex_language
+en_us,English,female,4,0.0,0.0,0.0,0.0,0.0,0.0,False
+en_us,English,male,6,0.0,0.0,0.0,0.0014,0.0,0.0042,False
+fil_ph,Tagalog,male,10,0.065,0.0,0.195,0.0147,0.0026,0.0282,True
+pa_in,Punjabi,female,10,0.14,0.025,0.28,0.0364,0.0172,0.0586,True
+ur_pk,Urdu,female,10,0.285,0.09,0.48,0.3462,0.0595,0.6443,True

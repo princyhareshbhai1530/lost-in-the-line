@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Vì xa cách với lục địa nên các loài thú có vú không thể đến được đây, khiến cho rùa biển khổng lồ trở thành loài động vật ăn cỏ chính ở Galapagos.",
+ "english": "Due to the distance from the mainland, mammals could not reach here, making giant tortoises the primary herbivores in the Galapagos.",
+ "clip": "vi_vn_1605",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

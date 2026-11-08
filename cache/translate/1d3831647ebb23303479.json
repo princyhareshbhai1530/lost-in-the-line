@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "El satélite en el espacio recibe la llamada y luego la refleja de vuelta casi de forma instantánea.",
+ "english": "The satellite in space receives the call and then reflects it back almost instantaneously.",
+ "clip": "es_419_1521",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

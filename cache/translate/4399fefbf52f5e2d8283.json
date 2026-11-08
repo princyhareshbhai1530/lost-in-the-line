@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "آپ احرام کو تاریخی میں دیکھ سکتے ہیں اور ان کو شو شروع ہونے سے پہلے کے سکون میں بھی دیکھ سکتے ہیں۔",
+ "english": "You can see the Ihram in the historical and also see them in the tranquility before the show begins.",
+ "clip": "ur_pk_1537",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "Podemos comenzar a llevar una vida más amigable con el planeta, formar parte de movimientos ambientalistas o, incluso, podemos volvernos activistas y luchar para aminorar, en alguna medida, el sufrimiento futuro.",
+ "english": "We can start leading a more planet-friendly life, be part of environmental movements or, even, we can become activists and fight to lessen, to some extent, future suffering.",
+ "clip": "es_419_1635",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

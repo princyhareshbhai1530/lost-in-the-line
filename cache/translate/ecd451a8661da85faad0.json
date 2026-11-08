@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Kiedy po przywiezieniu rannych do szpitala walki ustały, około 40 pozostałych więźniów zostało na dziedzińcu, nie zgadzając się na powrót do własnych cel.",
+ "english": "When the fighting ceased after the injured were taken to the hospital, about 40 remaining prisoners stayed in the courtyard, refusing to return to their cells.",
+ "clip": "pl_pl_1514",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

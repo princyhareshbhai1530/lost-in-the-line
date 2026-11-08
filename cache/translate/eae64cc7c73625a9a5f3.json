@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "“我姐姐和她的朋友不见了，路上有两个残疾人坐着轮椅，有人跳过去帮他们推轮椅”，阿尔芒·范思哲说道。",
+ "english": "\"My sister and her friend went missing, on the road there were two disabled people in wheelchairs, someone jumped over to help them push the wheelchairs,\" Armand Versace said.",
+ "clip": "cmn_hans_cn_1608",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

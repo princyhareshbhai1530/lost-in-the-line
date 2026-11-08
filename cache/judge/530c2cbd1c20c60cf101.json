@@ -1,0 +1,7 @@
+{
+ "label": "minor",
+ "score": 75,
+ "reason": "'Other' adjective dropped, but core meaning preserved.",
+ "model": "gemini-2.5-flash",
+ "batched": true
+}

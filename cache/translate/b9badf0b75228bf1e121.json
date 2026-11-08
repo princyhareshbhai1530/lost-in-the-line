@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "A pesar de que había tres personas en el interior de la vivienda en el momento del impacto del automóvil, ninguna de ellas sufrió lesiones.",
+ "english": "Despite three people being inside the house at the time of the car's impact, none of them suffered injuries.",
+ "clip": "es_419_1598",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

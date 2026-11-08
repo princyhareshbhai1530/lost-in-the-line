@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Gdy dzwonisz do osoby, która jest tysiące mil od ciebie, używasz satelity.",
+ "english": "When you call a person who is thousands of miles away from you, you use a satellite.",
+ "clip": "pl_pl_1548",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

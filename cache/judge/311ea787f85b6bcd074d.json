@@ -1,0 +1,7 @@
+{
+ "label": "changed",
+ "score": 35,
+ "reason": "'Thousands of miles' changed to 'a thousand miles' is a factual distance error.",
+ "model": "gemini-2.5-flash",
+ "batched": true
+}

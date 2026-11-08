@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Sinabi ng pulisya na mukhang mga isang araw nang naroon ang katawan",
+ "english": "The police said that the body appeared to have been there for about a day",
+ "clip": "fil_ph_1656",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

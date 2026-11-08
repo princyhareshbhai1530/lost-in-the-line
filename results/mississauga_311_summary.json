@@ -1,0 +1,32 @@
+{
+  "source": "City of Mississauga Open Data, 311 Citizen Contact Centre Call Data 2017, 2018",
+  "business_days": 501,
+  "date_range": [
+    "2017-01-03",
+    "2018-12-31"
+  ],
+  "calls_offered_per_day_mean": 1006.3,
+  "calls_offered_per_day_median": 980.0,
+  "calls_answered_per_day_mean": 929.9,
+  "handle_time_sec_mean_of_days": 205.9,
+  "handle_time_sec_call_weighted": 205.9,
+  "calls_offered_per_year_est": 251572,
+  "by_year": {
+    "2017": {
+      "days": 250,
+      "calls_per_day": 1001.9,
+      "handle_time_sec": 201.2
+    },
+    "2018": {
+      "days": 251,
+      "calls_per_day": 1010.7,
+      "handle_time_sec": 210.6
+    }
+  },
+  "cleaning_actions": {
+    "dropped": 64,
+    "repaired": 4,
+    "flagged": 0
+  },
+  "note": "250 business days/yr assumed for the annual estimate. 2017-2018 data; current volumes unknown."
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "许多常见格式（比方 APS 先进摄影系统格式）都等同或接近这个长宽比。",
+ "english": "Many common formats (such as the APS Advanced Photo System format) are equivalent or close to this aspect ratio.",
+ "clip": "yue_hant_hk_1533",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 110
+}

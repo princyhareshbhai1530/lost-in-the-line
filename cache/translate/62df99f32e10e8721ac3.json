@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "تساوي أو تقارب العديد من الصيغ الشائعة مجموعة صيغ نظام الصور المتقدم، على سبيل المثال، نسبة العرض إلى الارتفاع هذه.",
+ "english": "Many common formats, the Advanced Photo System format group, for example, equal or approximate this aspect ratio.",
+ "clip": "ar_eg_1533",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

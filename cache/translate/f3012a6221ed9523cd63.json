@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Người bệnh cũng đã từng tới Nigeria, nơi một số ca mắc bệnh Ebola xảy ra.",
+ "english": "The patient had also traveled to Nigeria, where some cases of Ebola occurred.",
+ "clip": "vi_vn_1543",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

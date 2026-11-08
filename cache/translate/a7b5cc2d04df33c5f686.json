@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "当被要求发表看法时，米勒说：“迈克在听证会上说了很多……我当时正在做准备，所以没听清他在说什么。”",
+ "english": "When asked for his views, Miller said: \"Mike talked a lot at the hearing... I was preparing at the time, so I didn't hear clearly what he was saying.\"",
+ "clip": "cmn_hans_cn_1644",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

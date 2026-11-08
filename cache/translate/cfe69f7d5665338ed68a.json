@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "7 月下旬报告了本季节的第一批病例。",
+ "english": "In late July, the first batch of cases for this season was reported.",
+ "clip": "cmn_hans_cn_1587",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

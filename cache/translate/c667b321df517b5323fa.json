@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "ટિપ્પણી કરવા કહેવામાં આવ્યું ત્યારે મિલરે કહ્યું, માઇકને સંભાળવામાં બહુ વાર લાગે છે. હું તૈયાર થઈ રહ્યો હતો તેથી તે શું કહી રહ્યો હતો તે હું નહોતો સાંભળી રહ્યો.",
+ "english": "When asked to comment, Miller said, Mike takes a long time to handle. I was getting ready so I was not listening to what he was saying.",
+ "clip": "gu_in_1644",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "ઘાયલોને દવાખાને લઈ જવાયા પછી જ્યારે લડાઈ બંધ થઈ ત્યારે બાકી રહેલા લગભગ 40 સહનિવાસીઓ યાર્ડમાં રહ્યા અને તેમણે તેમની કોટડીઓમાં પાછા ફરવાનું નકાર્યું.",
+ "english": "When the fighting stopped after the injured were taken to the hospital, about 40 remaining inmates stayed in the yard and refused to return to their cells.",
+ "clip": "gu_in_1514",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

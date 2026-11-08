@@ -1,0 +1,9 @@
+{
+ "language_code": "yue",
+ "language_probability": 1.0,
+ "text": "雖然車輛撞到房屋時有三人正在屋內，但無人受傷。",
+ "transcription_id": "ftBAVMWaRAoLonpDAeSn",
+ "audio_duration_secs": 5.1,
+ "model": "scribe_v2",
+ "language_given": "yue"
+}

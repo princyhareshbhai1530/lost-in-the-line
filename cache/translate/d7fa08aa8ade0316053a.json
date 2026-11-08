@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "Además, el Amazonas es el río más ancho del planeta, en algunos puntos con una amplitud de hasta seis millas.",
+ "english": "In addition, the Amazon is the widest river on the planet, in some spots with a width of up to six miles.",
+ "clip": "es_419_1581",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

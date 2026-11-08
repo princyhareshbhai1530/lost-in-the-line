@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Các ví dụ về hoạt động tại chỗ bao gồm săn bắn, câu cá, chụp ảnh, ngắm chim, và thăm quan công viên và nghiên cứu thông tin về hệ sinh thái.",
+ "english": "Examples of on-site activities include hunting, fishing, photography, birdwatching, and visiting parks and studying information about the ecosystem.",
+ "clip": "vi_vn_1600",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

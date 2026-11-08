@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "按照原计划，他将在周二被砍倒，但在法庭紧急裁决后幸免于难。",
+ "english": "According to the original plan, he was to be chopped down on Tuesday, but escaped death after an emergency court ruling.",
+ "clip": "cmn_hans_cn_1530",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

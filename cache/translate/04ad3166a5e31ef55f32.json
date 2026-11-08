@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "பல பொதுவான அமைப்புகள் (உதாரணமாக ஏபிஎஸ் வகை அமைப்புகள்) இந்த இயல்பு விகிதத்திற்கு சமம் அல்லது கிட்டத்தட்ட அருகிலிருப்பது.",
+ "english": "Many common formats (for example, APS type formats) are equal to or almost close to this aspect ratio.",
+ "clip": "ta_in_1533",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Một số báo cáo cho biết số người chết là tám và các báo cáo chính thức xác nhận rằng có tới 30 người bị thương; nhưng con số cuối cùng vẫn chưa rõ.",
+ "english": "Some reports stated the death toll was eight and official reports confirmed that up to 30 people were injured; but the final number is still unknown.",
+ "clip": "vi_vn_1629",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Dużo powszechnych formatów (np. grupa formatów APS) jest jednakowych albo znacznie przypominają ten współczynnik proporcji.",
+ "english": "Many common formats (e.g. the APS group of formats) are identical or closely resemble this aspect ratio.",
+ "clip": "pl_pl_1533",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

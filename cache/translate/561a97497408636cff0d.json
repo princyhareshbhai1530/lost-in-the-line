@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "कई मामलों में, विदेश में किसी एक साल के गैप वाले कोर्स में दाखिला लेने से, असल में आपको अपने देश में उच्च शिक्षा वाले किसी कोर्स में दाखिला लेने की संभावना बढ़ जाती है.",
+ "english": "In many cases, enrolling in a course with a one-year gap abroad actually increases the chances of you getting admission into a higher education course in your country.",
+ "clip": "hi_in_1519",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,9 @@
+{
+ "model": "gemini-2.5-flash",
+ "language": "Tagalog",
+ "source_text": "'Di nagtagal, ang mga pulis na nasasangkapan ng mga kagamitang panlaban sa riot ay pumasok sa bakuran at sinukol ang mga bilanggo gamit ang tear gas.",
+ "english": "Not long after, the police equipped with riot control gear entered the yard and cornered the prisoners using tear gas.",
+ "clip": "fil_ph_1511",
+ "source": "heard",
+ "batched": true
+}

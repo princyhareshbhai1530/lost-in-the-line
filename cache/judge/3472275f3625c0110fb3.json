@@ -1,0 +1,10 @@
+{
+ "label": "minor",
+ "score": 75,
+ "reason": "'Is about a day old' changes 'been there for about a day'.",
+ "model": "gemini-3.8-flash",
+ "prompt_version": 2,
+ "settings": "tlminimal",
+ "batched": true,
+ "batch_size": 250
+}

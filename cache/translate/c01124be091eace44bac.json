@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਸਮਾਂ ਬੀਤਣ ‘ਤੇ ਜਦੋਂ ਨਵੀਂ ਆਬਾਦੀ ਆਪਣੇ ਨਵੇਂ ਵਾਤਾਵਰਣ ਅਨੁਸਾਰ ਢਲਣ ਲੱਗਦੀ ਹੈ, ਉਦੋਂ ਉਹ ਹੌਲੀ ਹੌਲੀ ਦੂਜੀ ਆਬਾਦੀ ਨਾਲੋਂ ਘੱਟ ਸਮਾਨ ਦਿਖਾਈ ਦੇਣ ਲੱਗਦੇ ਹਨ।",
+ "english": "Over time, as the new population adapts to its new environment, they gradually begin to look less similar than the other population.",
+ "clip": "pa_in_1585",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 42
+}

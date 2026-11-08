@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Sinusubukan pa rin nilang alamin kung gaano katagal kalawak, talaga kalawak ang banggaan at kung paano maaapektuhan ng Earth.",
+ "english": "They are still trying to find out how long wide, really wide the collision was and how it will be affected by Earth.",
+ "clip": "fil_ph_1551",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

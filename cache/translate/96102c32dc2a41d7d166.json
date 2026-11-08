@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "圣诞节是基督教最重要的节日之一，是为了庆祝基督诞辰而设立的。",
+ "english": "Christmas is one of the most important holidays in Christianity, established to celebrate the birth of Christ.",
+ "clip": "cmn_hans_cn_1553",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

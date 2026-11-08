@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "Podemos começar a viver de maneira mais amigável com o ambiente. Podemos nos juntar ao movimento ambiental e podemos até ser ativistas para reduzirmos o sofrimento futuro em algum grau",
+ "english": "We can start living in a more environmentally friendly way. We can join the environmental movement and we can even be activists to reduce future suffering to some degree",
+ "clip": "pt_br_1635",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

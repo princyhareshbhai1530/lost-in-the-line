@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "जब इनसे अपनी राय पूछी गई तो मिलर ने कहा, \"संवाद के दौरान माइक बहुत ज़्यादा बात करता है। मैं तैयार हो रहा था इसलिए मैं वाकई नहीं सुन पाया कि वह क्या कह रहा था।\"",
+ "english": "When asked their opinion, Miller said, \"Mike talks too much during the dialogue. I was getting ready, so I couldn't really hear what he was saying.\"",
+ "clip": "ur_pk_1644",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

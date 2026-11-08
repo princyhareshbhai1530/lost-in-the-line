@@ -1,0 +1,9 @@
+{
+ "model": "gemini-2.5-flash",
+ "language": "Tagalog",
+ "source_text": "Kapag tumawag ka sa isang taong libo-libong milya ang layo, gumagamit ka ng satellite.",
+ "english": "When you call a person thousands of miles away, you use a satellite.",
+ "clip": "fil_ph_1548",
+ "source": "true",
+ "batched": true
+}

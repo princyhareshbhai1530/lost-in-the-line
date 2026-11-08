@@ -1,0 +1,40 @@
+name,residents,messages_at_risk,messages_at_risk_per_1000,risk_fact_loss,risk_knows_neither_2x,knows_neither,pct_knows_neither,unmeasured_bengali_speakers,top_languages,rank,rank_fact_loss,rank_knows_neither_2x
+East Credit,63320,2429,38.4,1480,2525,2500,3.95,180,Urdu; Punjabi; Cantonese,1,1,1
+Malton,35250,2385,67.6,842,2507,1805,5.12,210,Punjabi; Urdu; Hindi,2,5,2
+Churchill Meadows,48745,1770,36.3,1126,1821,1390,2.85,225,Urdu; Arabic; Tamil,3,3,3
+Hurontario,49755,1647,33.1,1186,1723,2285,4.59,170,Urdu; Punjabi; Cantonese,4,2,4
+Meadowvale Village,31240,1168,37.4,663,1203,935,2.99,55,Punjabi; Urdu; Tamil,5,7,5
+DT Core,34425,1012,29.4,848,1046,1160,3.37,285,Arabic; Urdu; Hindi,6,4,6
+Central Erin Mills,30250,862,28.5,600,894,1140,3.77,50,Mandarin Chinese; Urdu; Cantonese,7,8,7
+Applewood,35490,730,20.6,704,761,1485,4.18,155,Urdu; Tamil; Polish,8,6,8
+Lisgar,31565,716,22.7,487,732,700,2.22,95,Urdu; Punjabi; Arabic,9,11,9
+Erin Mills,38320,620,16.2,519,632,775,2.02,105,Urdu; Punjabi; Mandarin Chinese,10,9,10
+Meadowvale,35910,577,16.1,517,587,590,1.64,115,Urdu; Tamil; Arabic,11,10,11
+Erindale,22025,544,24.7,473,566,895,4.06,65,Urdu; Mandarin Chinese; Punjabi,12,13,12
+DT Fairview,16570,465,28.1,429,485,715,4.32,210,Arabic; Urdu; Tagalog,13,15,13
+Clarkson - Lorne Park,36350,420,11.6,431,427,565,1.55,35,Urdu; Mandarin Chinese; Punjabi,14,14,15
+Rathwood,24865,418,16.8,474,434,940,3.78,15,Polish; Punjabi; Portuguese,15,12,14
+Cooksville (West),14665,366,25.0,396,386,790,5.39,25,Polish; Portuguese; Arabic,16,16,16
+DT Cooksville,9575,359,37.5,310,379,515,5.38,70,Urdu; Tamil; Arabic,17,18,17
+DT Hospital,12305,335,27.2,315,352,635,5.16,110,Urdu; Tagalog; Arabic,18,17,18
+Uptown MN,10660,302,28.3,220,315,435,4.08,70,Urdu; Arabic; Hindi,19,22,19
+Creditview,10070,289,28.7,240,304,525,5.21,0,Mandarin Chinese; Cantonese; Punjabi,20,20,20
+Fairview,7215,269,37.3,213,283,385,5.34,30,Punjabi; Cantonese; Tagalog,21,23,21
+Mississauga Valleys,12595,251,19.9,294,261,500,3.97,25,Urdu; Polish; Tagalog,22,19,22
+Lakeview,21960,175,8.0,224,179,465,2.12,45,Portuguese; Polish; Mandarin Chinese,23,21,23
+Sheridan,12210,172,14.1,153,176,285,2.33,25,Urdu; Mandarin Chinese; Cantonese,24,24,25
+Central Erin Mills MN,6040,169,28.0,140,177,280,4.64,35,Arabic; Urdu; Tamil,25,26,24
+Streetsville,10610,153,14.4,141,156,225,2.12,0,Urdu; Portuguese; Mandarin Chinese,26,25,26
+Sheridan CN,3265,113,34.6,49,118,135,4.13,0,Urdu; Arabic; Tagalog,27,32,27
+Mineola,9845,94,9.5,115,96,185,1.88,0,Polish; Punjabi; Mandarin Chinese,28,27,28
+South Common CN,4880,90,18.5,79,95,230,4.71,0,Urdu; Tagalog; Arabic,29,29,29
+Cooksville (East),8405,89,10.5,112,90,180,2.14,50,Polish; Portuguese; Tagalog,30,28,30
+Rathwood-Applewood CN,3350,60,17.8,70,63,180,5.37,45,Urdu; Polish; Spanish,31,30,31
+Malton CN,2670,54,20.1,38,55,60,2.25,0,Punjabi; Urdu; Tagalog,32,34,32
+Meadowvale CN,2855,52,18.3,43,53,60,2.1,0,Urdu; Tamil; Arabic,33,33,33
+Port Credit CN,4945,35,7.1,50,36,120,2.43,0,Spanish; Urdu; Polish,34,31,34
+Port Credit (West),3300,21,6.5,36,22,60,1.82,0,Polish; Hindi; Spanish,35,35,35
+Streetsville CN,1320,15,11.3,15,16,55,4.17,0,Urdu; Arabic; Cantonese,36,37,36
+Clarkson Village CN,2350,11,4.6,16,11,30,1.28,15,Arabic; Mandarin Chinese; Spanish,37,36,37
+Port Credit (East),2420,8,3.3,10,8,30,1.24,0,Mandarin Chinese; Cantonese; Tagalog,38,39,38
+Dixie EA,945,7,6.9,11,7,60,6.35,0,Spanish; Polish; Cantonese,39,38,39

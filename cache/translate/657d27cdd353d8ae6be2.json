@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "விண்வெளியில் உள்ள செயற்கைக்கோள் பூமியிலிருந்து அழைப்பைப் பெறுகிறது. பின்னர் அழைப்புக்கு ஏற்றார் போல் உடனடியாக கீழே பிரதிபலிக்கிறது.",
+ "english": "A satellite in space receives the call from Earth. Then it immediately reflects it down according to the call.",
+ "clip": "ta_in_1521",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Bản báo cáo mở đầu bằng lời biện hộ cho cuộc tranh luận mở và tạo lập sự đồng thuận của Hoa Kỳ về chính sách đối với Trung Đông.",
+ "english": "The report opens with a plea for open debate and consensus-building in the United States regarding policy toward the Middle East.",
+ "clip": "vi_vn_1569",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Nhiều định dạng phổ biến (ví dụ, tập định dạng APS) tương đương hoặc gần xấp xỉ tỷ lệ khung hình này.",
+ "english": "Many common formats (for example, the APS format set) are equivalent or roughly approximate to this aspect ratio.",
+ "clip": "vi_vn_1533",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

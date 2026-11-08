@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਔਰਤਾਂ ਨੂੰ ਇਹ ਸਮਝਣਾ ਚਾਹੀਦਾ ਹੈ ਕਿ ਸੱਭਿਆਚਾਰਾਂ ਵਿੱਚ ਵਖਰੇਵਿਆਂ ਦੇ ਨਤੀਜੇ ਵਜੋਂ ਉਹਨਾਂ ਨੂੰ ਕਈ ਚੀਜ਼ਾਂ ਪਰੇਸ਼ਾਨ ਕਰ ਸਕਦੀਆਂ ਹਨ ਅਤੇ ਪਿੱਛਾ ਕੀਤੇ ਜਾਣਾ ਅਤੇ ਬਾਂਹ ਤੋਂ ਘੁੱਟ ਲੈਣਾ ਆਦਿ ਨੂੰ ਆਮ ਨਹੀਂ ਮੰਨਿਆ ਜਾਂਦਾ।",
+ "english": "Women should understand that as a result of differences in cultures many things can trouble them, and being followed and grabbed by the arm etc. are not considered normal.",
+ "clip": "pa_in_1632",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

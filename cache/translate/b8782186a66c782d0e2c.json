@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "ઓન સાઇટ પ્રવૃત્તિઓના ઉદાહરણોમાં શિકાર, માછીમારી, ફોટોગ્રાફી, પક્ષીઓનું નિરીક્ષણ, ઉદ્યાનોની મુલાકાત લેવા અને ઇકોસિસ્ટમ વિશેની માહિતીનો અભ્યાસ સામેલ",
+ "english": "Examples of on-site activities include hunting, fishing, photography, bird watching, visiting parks, and studying information about the ecosystem",
+ "clip": "gu_in_1600",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "Amazon ਧਰਤੀ ਦੀ ਸਭ ਤੋਂ ਚੌੜੀ ਨਦੀ ਵੀ ਹੈ। ਇਹ 6 ਮੀਲ ਤੱਕ ਚੌੜੀ ਹੈ।",
+ "english": "Amazon is also the widest river on Earth. It is up to 6 miles wide.",
+ "clip": "pa_in_1581",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

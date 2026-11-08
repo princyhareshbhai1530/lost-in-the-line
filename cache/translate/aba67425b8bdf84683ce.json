@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "ان لوگوں کے لیے جو سال بھر کا وقفہ کرنے کا منصوبہ کر رہے ہیں، ایک تیزی کے ساتھ بڑھتا ہوا زیادہ مقبول آپریشن",
+ "english": "For those who are planning to take a year-long break, a rapidly growing more popular operation",
+ "clip": "ur_pk_1651",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

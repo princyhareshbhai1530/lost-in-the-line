@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "துணை கலாச்சாரத்தை நிர்ணயிக்க முயல்வுகள் மொழி, தோற்றம், மதம், அரசியல், பாலினம், புவியமைப்பு அல்லது பல கூற்றுக்களின் கலவைகளாக தனிமைப்படுத்தப் தனிப்படுத்தப்படுபவை.",
+ "english": "The attempts to define a subculture are distinguished isolated as combinations of language, appearance, religion, politics, gender, geography, or multiple statements.",
+ "clip": "ta_in_1589",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

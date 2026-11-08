@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "Não sei se você nota isso ou não, mas uma grande parte das mercadorias da América Central veio para este país sem pagar impostos.",
+ "english": "I don't know if you notice this or not, but a large portion of Central American goods came into this country duty-free.",
+ "clip": "pt_br_1654",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

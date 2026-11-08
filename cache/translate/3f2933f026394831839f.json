@@ -1,0 +1,9 @@
+{
+ "model": "gemini-2.5-flash",
+ "language": "Punjabi",
+ "source_text": "ਜਲਦੀ ਹੀ, ਦੰਗੇ ਗੀਅਰ ਨਾਲ ਲੈਸ ਅਧਿਕਾਰੀ ਵਿਹੜੇ ਵਿੱਚ ਦਾਖਲ ਹੋਏ ਅਤੇ ਕੈਦੀਆਂ 'ਤੇ ਅਥੱਰੂ ਗੈਸ ਦੇ ਗੋਲੇ ਸੁੱਟ ਦਿੱਤੇ।",
+ "english": "Soon, officers equipped with riot gear entered the yard and threw tear gas shells at the prisoners.",
+ "clip": "pa_in_1511",
+ "source": "true",
+ "batched": true
+}

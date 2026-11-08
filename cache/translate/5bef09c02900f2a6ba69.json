@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "Mas as florestas não contam só com os pântanos de mangue. Elas têm algumas das últimas grandes selvas que já cobriram a superfície gangética restantes",
+ "english": "But the forests do not only have the mangrove swamps. They have some of the last remaining large jungles that once covered the Gangetic plain",
+ "clip": "pt_br_1641",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

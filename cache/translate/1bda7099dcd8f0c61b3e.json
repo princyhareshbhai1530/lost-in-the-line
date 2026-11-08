@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Dapat na mapagtanto ng mga babae na ang pagkakaiba-iba sa kultura ay maaaring magresulta sa kung ano ang maituturing nilang panliligalig at pangkaraniwan na ang masundan, mahawakan sa braso, atbp.",
+ "english": "Women should realize that cultural differences can result in what they consider harassment, and being followed, touched on the arm, etc. is common.",
+ "clip": "fil_ph_1632",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

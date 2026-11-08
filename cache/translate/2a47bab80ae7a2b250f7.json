@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "此報告開頭先請求美國針對中東政策進行公開辯論，並形成共識。",
+ "english": "This report begins by requesting that the United States conduct an open debate on Middle East policy and form a consensus.",
+ "clip": "yue_hant_hk_1569",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 42
+}

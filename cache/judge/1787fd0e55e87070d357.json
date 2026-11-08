@@ -1,0 +1,8 @@
+{
+ "label": "same",
+ "score": 100,
+ "reason": "Meaning is preserved; synonyms and slight tense variation.",
+ "model": "gemini-2.5-flash",
+ "prompt_version": 2,
+ "batched": true
+}

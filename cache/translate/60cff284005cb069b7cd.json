@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "美国总统乔治·沃克·布什对这一公告表示支持。",
+ "english": "US President George Walker Bush expressed support for this announcement.",
+ "clip": "cmn_hans_cn_1622",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

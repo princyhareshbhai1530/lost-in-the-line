@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Boże Narodzenie, upamiętniające przyjście Jezusa na świat, jest jednym z najważniejszych świąt chrześcijańskich.",
+ "english": "Christmas, commemorating the arrival of Jesus into the world, is one of the most important Christian holidays.",
+ "clip": "pl_pl_1553",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

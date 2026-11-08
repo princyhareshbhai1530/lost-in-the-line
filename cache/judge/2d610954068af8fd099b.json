@@ -1,0 +1,7 @@
+{
+ "label": "changed",
+ "score": 35,
+ "reason": "'Many' to 'most' and 'can improve' to 'improves' alters certainty.",
+ "model": "gemini-2.5-flash",
+ "batched": true
+}

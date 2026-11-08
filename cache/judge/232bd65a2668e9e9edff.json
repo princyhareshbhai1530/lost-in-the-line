@@ -1,0 +1,7 @@
+{
+ "label": "changed",
+ "score": 35,
+ "reason": "Action changed ('cut down' vs 'cut off') and detail changed (time vs place).",
+ "model": "gemini-2.5-flash",
+ "batched": true
+}

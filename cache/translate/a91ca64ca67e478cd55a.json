@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "雖然車輛撞到房屋時有三人正在屋內，但無人受傷。",
+ "english": "Although three people were inside the house when the vehicle crashed into it, no one was injured.",
+ "clip": "yue_hant_hk_1598",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

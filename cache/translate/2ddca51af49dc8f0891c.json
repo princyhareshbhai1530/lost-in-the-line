@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "அது எனக்குப் புரியவில்லை; அது நியாயமானதாக இல்லை.",
+ "english": "I don't understand that; it was not fair.",
+ "clip": "ta_in_1577",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

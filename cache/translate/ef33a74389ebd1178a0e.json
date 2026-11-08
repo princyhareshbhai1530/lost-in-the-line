@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਇਸ ਸੀਜ਼ਨ ਬਿਮਾਰੀ ਦੇ ਪਹਿਲੇ ਮਾਮਲਿਆਂ ਦਾ ਜੁਲਾਈ ਦੇ ਅੰਤ ਤੱਕ ਪਤਾ ਲਗਾਇਆ ਗਿਆ।",
+ "english": "This season the first cases of the disease were detected by the end of July.",
+ "clip": "pa_in_1587",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

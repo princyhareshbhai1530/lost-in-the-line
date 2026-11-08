@@ -1,0 +1,7 @@
+{
+ "label": "minor",
+ "score": 75,
+ "reason": "'Such a person' is slightly awkward but doesn't change the core meaning.",
+ "model": "gemini-2.5-flash",
+ "batched": true
+}

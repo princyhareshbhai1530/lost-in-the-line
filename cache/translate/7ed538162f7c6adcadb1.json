@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਚਰਚ ਦੇ ਪਰਿਸਰ ਵਿੱਚ ਕੁਝ ਕਬਰਾਂ ਉੱਤੇ ਕੁਝ ਕਬੂਤਰਾਂ ਦੀਆਂ ਦਿਲਚਸਪ ਸੰਗਮਰਮਰ ਦੀਆਂ ਮੂਰਤੀਆਂ ਹਨ।",
+ "english": "In the church courtyard, there are interesting marble statues of some doves on some graves.",
+ "clip": "pa_in_1555",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

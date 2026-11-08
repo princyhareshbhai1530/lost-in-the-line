@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "کچھ فیسٹیول میں فیملی والوں اور چھوٹے بچوں کے قیام کی خصوصی جگہیں ہوتی ہیں۔",
+ "english": "Some festivals have special areas for families and young children to stay.",
+ "clip": "ur_pk_1528",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 42
+}

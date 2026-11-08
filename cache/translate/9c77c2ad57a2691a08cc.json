@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "伤员被送至到医院后，打斗平息下来。剩下的约四十名囚犯留在院子里，拒绝回牢房。",
+ "english": "After the wounded were sent to the hospital, the fighting subsided. The remaining about forty prisoners stayed in the yard, refusing to return to their cells.",
+ "clip": "cmn_hans_cn_1514",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

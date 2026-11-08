@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "வேட்டையாடுதல், மீன்பிடித்தல், புகைப்படம் எடுத்தல், பறவைகளைப் பார்த்தல் மற்றும் பூங்காக்களைப் பார்வையிடுதல் மற்றும் சுற்றுச்சூழல் பற்றிய தகவல்களைப் படித்தல் ஆகியவை On-site நடவடிக்கைகளுக்கு எடுத்துக்காட்டுகளாகும்.",
+ "english": "Hunting, fishing, photography, birdwatching, and visiting parks and reading information about the environment are examples of On-site activities.",
+ "clip": "ta_in_1600",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

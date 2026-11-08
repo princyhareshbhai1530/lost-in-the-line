@@ -1,0 +1,599 @@
+{
+ "threshold": 0.85,
+ "n_clips": 560,
+ "n_with_facts": 322,
+ "n_without_facts": 238,
+ "matrix": {
+  "reassuring_agreement": {
+   "n": 271,
+   "pct": 84.2
+  },
+  "false_comfort": {
+   "n": 20,
+   "pct": 6.2
+  },
+  "harmless_wording": {
+   "n": 23,
+   "pct": 7.1
+  },
+  "broad_failure": {
+   "n": 8,
+   "pct": 2.5
+  },
+  "n_clips": 322
+ },
+ "matrix_home_languages": {
+  "reassuring_agreement": {
+   "n": 248,
+   "pct": 82.9
+  },
+  "false_comfort": {
+   "n": 20,
+   "pct": 6.7
+  },
+  "harmless_wording": {
+   "n": 23,
+   "pct": 7.7
+  },
+  "broad_failure": {
+   "n": 8,
+   "pct": 2.7
+  },
+  "n_clips": 299
+ },
+ "sensitivity": {
+  "0.80": {
+   "reassuring_agreement": {
+    "n": 271,
+    "pct": 84.2
+   },
+   "false_comfort": {
+    "n": 20,
+    "pct": 6.2
+   },
+   "harmless_wording": {
+    "n": 23,
+    "pct": 7.1
+   },
+   "broad_failure": {
+    "n": 8,
+    "pct": 2.5
+   },
+   "n_clips": 322
+  },
+  "0.90": {
+   "reassuring_agreement": {
+    "n": 271,
+    "pct": 84.2
+   },
+   "false_comfort": {
+    "n": 20,
+    "pct": 6.2
+   },
+   "harmless_wording": {
+    "n": 23,
+    "pct": 7.1
+   },
+   "broad_failure": {
+    "n": 8,
+    "pct": 2.5
+   },
+   "n_clips": 322
+  }
+ },
+ "false_comfort_rate": {
+  "est": 0.0621,
+  "lo": 0.028,
+  "hi": 0.0963,
+  "n": 322,
+  "n_clusters": 23
+ },
+ "fact_loss_given_semantic_pass": {
+  "est": 0.0687,
+  "lo": 0.0328,
+  "hi": 0.1054,
+  "n": 291,
+  "n_clusters": 23
+ },
+ "metrics_agreed": {
+  "n": 279,
+  "of": 322
+ },
+ "detection_stratified": {
+  "detect_correct": {
+   "n_clips": 487,
+   "n_with_facts": 281,
+   "cer": {
+    "est": 0.0257,
+    "lo": 0.0208,
+    "hi": 0.0313,
+    "n": 487,
+    "n_clusters": 40
+   },
+   "fact_survival": {
+    "est": 0.9476,
+    "lo": 0.9259,
+    "hi": 0.9691,
+    "n": 281,
+    "n_clusters": 23
+   },
+   "semantic_pass": {
+    "est": 0.9097,
+    "lo": 0.8778,
+    "hi": 0.9376,
+    "n": 487,
+    "n_clusters": 40
+   }
+  },
+  "detect_incorrect": {
+   "n_clips": 33,
+   "n_with_facts": 18,
+   "cer": {
+    "est": 0.5428,
+    "lo": 0.4327,
+    "hi": 0.6418,
+    "n": 33,
+    "n_clusters": 29
+   },
+   "fact_survival": {
+    "est": 0.9677,
+    "lo": 0.9211,
+    "hi": 1.0,
+    "n": 18,
+    "n_clusters": 16
+   },
+   "semantic_pass": {
+    "est": 0.8182,
+    "lo": 0.6667,
+    "hi": 0.9412,
+    "n": 33,
+    "n_clusters": 29
+   }
+  }
+ },
+ "detect_accuracy_home": {
+  "est": 0.9788,
+  "lo": 0.9654,
+  "hi": 0.9904,
+  "n": 520,
+  "n_clusters": 40
+ },
+ "script_accuracy_home": {
+  "est": 0.9404,
+  "lo": 0.9269,
+  "hi": 0.9538,
+  "n": 520,
+  "n_clusters": 40
+ },
+ "examples": [
+  {
+   "clip_id": "pt_br_1581",
+   "language": "Portuguese",
+   "audio_path": "audio/pt_br/pt_br_1581.flac",
+   "source_text": "O Amazonas também é o rio mais largo da Terra, às vezes com quase 10 km de largura.",
+   "asr_text": "O Amazonas também é o rio mais largo da Terra, às vezes com quase dez quilômetros de largura.",
+   "english_ref": "The Amazon is also the widest river on Earth, at times six miles wide.",
+   "t1_text": "The Amazon is also the widest river on Earth, sometimes nearly 10 km wide.",
+   "t2_text": "The Amazon is also the widest river on Earth, sometimes nearly ten kilometers wide.",
+   "failed_fact": {
+    "type": "number",
+    "text": "six",
+    "in_t1": false,
+    "fuzzy": false
+   },
+   "state": "translation_baseline_break",
+   "judge": "same",
+   "emb": 0.9447,
+   "detected_lang": "por",
+   "lang_correct": true
+  },
+  {
+   "clip_id": "gu_in_1608",
+   "language": "Gujarati",
+   "audio_path": "audio/gu_in/gu_in_1608.flac",
+   "source_text": "\"હું મારી બહેન અને તેની સખીને ગુમાવી બેઠો અને મારા રસ્તામાં બે અપંગ વ્યક્તિઓ વ્હીલચૅરમાં બેઠેલી હતી, લોકો કૂદીને જતા હતા અને તેમને ધક્કો મારતા હતાં,\"\" આર્મન્ડ વર્સાચીએ કહ્યું.\"",
+   "asr_text": "\"હું મારી બહેન અને તેની સખીને ગુમાવી બેઠો અને મારા રસ્તામાં બે અપંગ વ્યક્તિઓ wheel chair માં બેઠેલી હતી. લોકો કૂદીને જતા હતા અને એમને ધક્કો મારતા હતા,\" આ મંડ વર્ચાસીએ કહ્યું.",
+   "english_ref": "I lost my sister and her friend, and on my way there were two disabled people in wheelchairs, people just jumping over and pushing them,\" Armand Versace said.",
+   "t1_text": "\"\"I lost my sister and her friend and in my path two disabled persons were sitting in wheelchairs, people were jumping over and pushing them,\"\" Armand Versace said.\"",
+   "t2_text": "\"I lost my sister and her friend and in my path two disabled persons were sitting in wheel chairs. People were jumping over and pushing them,\" A Mand Varchasi said.",
+   "failed_fact": {
+    "type": "name_place",
+    "text": "Armand Versace",
+    "in_t1": true,
+    "fuzzy": false
+   },
+   "state": "asr_associated_break",
+   "judge": "minor",
+   "emb": 0.966,
+   "detected_lang": "guj",
+   "lang_correct": true
+  },
+  {
+   "clip_id": "fil_ph_1638",
+   "language": "Tagalog",
+   "audio_path": "audio/fil_ph/fil_ph_1638.flac",
+   "source_text": "Ang mga pagmamasid sa mga hayop o safari ay marahil ang pinakamalaking pang-akit sa turismo sa Aprika at ang tampok para sa maraming bisita.",
+   "asr_text": "Ang mga pagmamasid sa mga hayop o safari ay marahil ang pinakamalaking pang-akit sa turismo sa Afrika at ang tampok para sa maraming bisita.",
+   "english_ref": "Safaris are perhaps the greatest tourism draw in Africa and the highlight for many visitors.",
+   "t1_text": "Animal watching or safaris are perhaps the biggest tourist draw in Africa and the highlight for many visitors.",
+   "t2_text": "Animal watching or safaris are perhaps the biggest tourist draw in Afrika and the highlight for many visitors.",
+   "failed_fact": {
+    "type": "name_place",
+    "text": "Africa",
+    "in_t1": true,
+    "fuzzy": false
+   },
+   "state": "asr_associated_break",
+   "judge": "same",
+   "emb": 0.9582,
+   "detected_lang": "fil",
+   "lang_correct": true
+  },
+  {
+   "clip_id": "ta_in_1533",
+   "language": "Tamil",
+   "audio_path": "audio/ta_in/ta_in_1533.flac",
+   "source_text": "பல பொதுவான அமைப்புகள் (உதாரணமாக ஏபிஎஸ் வகை அமைப்புகள்) இந்த இயல்பு விகிதத்திற்கு சமம் அல்லது கிட்டத்தட்ட அருகிலிருப்பது.",
+   "asr_text": "பல பொதுவான அமைப்புகள் உதாரணமாக இந்த இயல்பு விகிதத்துக்குச் சமம் அல்லது கிட்டத்தட்ட அருகில் இருப்பது.",
+   "english_ref": "Many common formats (APS family of formats, for example) are equal to or closely approximate this aspect ratio.",
+   "t1_text": "Many common formats (for example, APS type formats) are equal to or almost close to this aspect ratio.",
+   "t2_text": "Many common formats, for example, are equal to or almost close to this aspect ratio.",
+   "failed_fact": {
+    "type": "name_place",
+    "text": "APS",
+    "in_t1": true,
+    "fuzzy": false
+   },
+   "state": "asr_associated_break",
+   "judge": "minor",
+   "emb": 0.9708,
+   "detected_lang": "tam",
+   "lang_correct": true
+  },
+  {
+   "clip_id": "ar_eg_1533",
+   "language": "Arabic",
+   "audio_path": "audio/ar_eg/ar_eg_1533.flac",
+   "source_text": "تساوي أو تقارب العديد من الصيغ الشائعة (مجموعة صيغ نظام الصور المتقدم، على سبيل المثال) نسبةَ العرض إلى الارتفاع هذه.",
+   "asr_text": "تساوي أو تقارب العديد من الصيغ الشائعة مجموعة صيغ نظام الصور المتقدم، على سبيل المثال، نسبة العرض إلى الارتفاع هذه.",
+   "english_ref": "Many common formats (APS family of formats, for example) are equal to or closely approximate this aspect ratio.",
+   "t1_text": "Many common formats (the Advanced Photo System format group, for example) equal or approximate this aspect ratio.",
+   "t2_text": "Many common formats, the Advanced Photo System format group, for example, equal or approximate this aspect ratio.",
+   "failed_fact": {
+    "type": "name_place",
+    "text": "APS",
+    "in_t1": false,
+    "fuzzy": false
+   },
+   "state": "translation_baseline_break",
+   "judge": "same",
+   "emb": 0.9714,
+   "detected_lang": "ara",
+   "lang_correct": true
+  },
+  {
+   "clip_id": "ar_eg_1553",
+   "language": "Arabic",
+   "audio_path": "audio/ar_eg/ar_eg_1553.flac",
+   "source_text": "عيد الميلاد هو أحد أهم أعياد المسيحية، ويُحتفَل به كعيد ميلاد المسيح.",
+   "asr_text": "عيد الميلاد هو أحد أهم أعياد المسيحية، ويحتفل به كعيد ميلاد المسيح.",
+   "english_ref": "Christmas is one of the most important holidays of Christianity, and is celebrated as the birthday of Jesus.",
+   "t1_text": "Christmas is one of the most important holidays of Christianity, and it is celebrated as the birth of Christ.",
+   "t2_text": "Christmas is one of the most important holidays of Christianity, and it is celebrated as the birth of Christ.",
+   "failed_fact": {
+    "type": "name_place",
+    "text": "Jesus",
+    "in_t1": false,
+    "fuzzy": false
+   },
+   "state": "translation_baseline_break",
+   "judge": "same",
+   "emb": 0.9876,
+   "detected_lang": "ara",
+   "lang_correct": true
+  },
+  {
+   "clip_id": "ar_eg_1641",
+   "language": "Arabic",
+   "audio_path": "audio/ar_eg/ar_eg_1641.flac",
+   "source_text": "ولكن الغابات ليست مجرد مستنقعات لأشجار المانجروف؛ فبها بعضٌ من آخر الشواهد القائمة على الأدغال الكثيفة التي غطت في يومٍ ما سهل نهر الغانج.",
+   "asr_text": "ولكن الغابات ليست مجرد مستنقعات لأشجار المانغروف، فبها بعض من آخر الشواهد القائمة على الأدغال الكثيفة التي غطت في يوم ما سهل نهر الغانج.",
+   "english_ref": "The forests aren't just mangrove swamps though — they include some of the last remaining stands of the mighty jungles which once covered the Gangetic plain.",
+   "t1_text": "But the forests are not just mangrove swamps; they contain some of the last surviving evidence of the dense jungles that once covered the Ganges plain.",
+   "t2_text": "But the forests are not just mangrove swamps, they contain some of the last surviving evidence of the dense jungles that once covered the Ganges plain.",
+   "failed_fact": {
+    "type": "name_place",
+    "text": "Gangetic",
+    "in_t1": false,
+    "fuzzy": false
+   },
+   "state": "translation_baseline_break",
+   "judge": "minor",
+   "emb": 0.9679,
+   "detected_lang": "ara",
+   "lang_correct": true
+  },
+  {
+   "clip_id": "gu_in_1569",
+   "language": "Gujarati",
+   "audio_path": "audio/gu_in/gu_in_1569.flac",
+   "source_text": "અહેવાલ જાહેર ચર્ચા અને યુએસ ની મધ્ય પૂર્વીય દેશો સાથેની નીતિઓ રચવા માટે સર્વ સંમતિની દરખાસ્ત સાથે ખૂલે છે.",
+   "asr_text": "અહેવાલ જાહેર ચર્ચા અને યુએસની મધ્ય પૂર્વીય દેશો સાથેની નીતિઓ રચવા માટે સર્વસંમતિની દરખાસ્ત સાથે ખુલે છે.",
+   "english_ref": "The Report opens with plea for open debate and the formation of a consensus in the United States about the policy towards the Middle East.",
+   "t1_text": "The report opens with a proposal for public debate and consensus to formulate US policies with Middle Eastern countries.",
+   "t2_text": "The report opens with a proposal for public debate and consensus to formulate US policies with Middle Eastern countries.",
+   "failed_fact": {
+    "type": "name_place",
+    "text": "United States",
+    "in_t1": false,
+    "fuzzy": false
+   },
+   "state": "translation_baseline_break",
+   "judge": "minor",
+   "emb": 0.971,
+   "detected_lang": "guj",
+   "lang_correct": true
+  },
+  {
+   "clip_id": "cmn_hans_cn_1553",
+   "language": "Mandarin Chinese",
+   "audio_path": "audio/cmn_hans_cn/cmn_hans_cn_1553.flac",
+   "source_text": "圣诞节是基督教最重要的节日之一，是为了庆祝基督诞辰而设立的。",
+   "asr_text": "圣诞节是基督教最重要的节日之一，是为了庆祝基督诞辰而设-设立的。",
+   "english_ref": "Christmas is one of the most important holidays of Christianity, and is celebrated as the birthday of Jesus.",
+   "t1_text": "Christmas is one of the most important holidays in Christianity, established to celebrate the birth of Christ.",
+   "t2_text": "Christmas is one of the most important holidays in Christianity, established to celebrate the birth of Christ.",
+   "failed_fact": {
+    "type": "name_place",
+    "text": "Jesus",
+    "in_t1": false,
+    "fuzzy": false
+   },
+   "state": "translation_baseline_break",
+   "judge": "same",
+   "emb": 0.9783,
+   "detected_lang": "zho",
+   "lang_correct": true
+  },
+  {
+   "clip_id": "cmn_hans_cn_1622",
+   "language": "Mandarin Chinese",
+   "audio_path": "audio/cmn_hans_cn/cmn_hans_cn_1622.flac",
+   "source_text": "美国总统乔治·沃克·布什对这一公告表示支持。",
+   "asr_text": "美国总统乔治·沃克·布什对这一公告表示支持。",
+   "english_ref": "U.S. President George W. Bush welcomed the announcement.",
+   "t1_text": "US President George Walker Bush expressed support for this announcement.",
+   "t2_text": "US President George Walker Bush expressed support for this announcement.",
+   "failed_fact": {
+    "type": "name_place",
+    "text": "US President George Bush",
+    "in_t1": false,
+    "fuzzy": false
+   },
+   "state": "translation_baseline_break",
+   "judge": "same",
+   "emb": 0.9531,
+   "detected_lang": "zho",
+   "lang_correct": true
+  },
+  {
+   "clip_id": "cmn_hans_cn_1641",
+   "language": "Mandarin Chinese",
+   "audio_path": "audio/cmn_hans_cn/cmn_hans_cn_1641.flac",
+   "source_text": "不过，这些森林不仅仅是红树林沼泽，里面还有一些巨大丛林的遗迹，这些丛林曾经长满了恒河平原。",
+   "asr_text": "不过这些森林不仅仅是红树林沼泽，里边还有一些巨大丛林的遗迹，这些丛林曾经长满了恒河平原。",
+   "english_ref": "The forests aren't just mangrove swamps though — they include some of the last remaining stands of the mighty jungles which once covered the Gangetic plain.",
+   "t1_text": "However, these forests are not just mangrove swamps; inside there are also remnants of the vast jungles that once covered the Ganges Plain.",
+   "t2_text": "However, these forests are not just mangrove swamps, inside there are also remnants of the vast jungles that once covered the Ganges Plain.",
+   "failed_fact": {
+    "type": "name_place",
+    "text": "Gangetic",
+    "in_t1": false,
+    "fuzzy": false
+   },
+   "state": "translation_baseline_break",
+   "judge": "same",
+   "emb": 0.96,
+   "detected_lang": "zho",
+   "lang_correct": true
+  },
+  {
+   "clip_id": "pl_pl_1581",
+   "language": "Polish",
+   "audio_path": "audio/pl_pl/pl_pl_1581.flac",
+   "source_text": "Amazonka jest również najszerszą rzeką na świecie, a miejscami jej szerokość wynosi blisko 6 mil.",
+   "asr_text": "Amazonka jest również najszerszą rzeką na świecie, a miejscami jej szerokość wynosi blisko sześć mil.",
+   "english_ref": "The Amazon is also the widest river on Earth, at times six miles wide.",
+   "t1_text": "The Amazon is also the widest river in the world, and in places its width is nearly 6 miles.",
+   "t2_text": "The Amazon is also the widest river in the world, and in places its width is nearly six miles.",
+   "failed_fact": {
+    "type": "name_place",
+    "text": "Earth",
+    "in_t1": false,
+    "fuzzy": false
+   },
+   "state": "translation_baseline_break",
+   "judge": "minor",
+   "emb": 0.98,
+   "detected_lang": "pol",
+   "lang_correct": true
+  },
+  {
+   "clip_id": "pl_pl_1627",
+   "language": "Polish",
+   "audio_path": "audio/pl_pl/pl_pl_1627.flac",
+   "source_text": "Potrawy w starożytnym Rzymie nie mogły zawierać składników, które trafiły do Europy z Ameryki lub Azji w późniejszych wiekach.",
+   "asr_text": "Potrawy w starożytnym Rzymie nie mogły zawierać składników, które trafiły do Europy z Ameryki lub Azji w późniejszych wiekach.",
+   "english_ref": "Ancient Roman meals couldn't have included foods that came to Europe from America or from Asia in later centuries.",
+   "t1_text": "Dishes in ancient Rome could not contain ingredients that came to Europe from the Americas or Asia in later centuries.",
+   "t2_text": "Dishes in ancient Rome could not contain ingredients that came to Europe from the Americas or Asia in later centuries.",
+   "failed_fact": {
+    "type": "name_place",
+    "text": "Roman",
+    "in_t1": false,
+    "fuzzy": false
+   },
+   "state": "translation_baseline_break",
+   "judge": "same",
+   "emb": 0.9747,
+   "detected_lang": "pol",
+   "lang_correct": true
+  },
+  {
+   "clip_id": "pt_br_1627",
+   "language": "Portuguese",
+   "audio_path": "audio/pt_br/pt_br_1627.flac",
+   "source_text": "A alimentação na Roma antiga não incluía mantimentos originados da América e da Ásia para a Europa, assim como aconteceu nos séculos posteriores.",
+   "asr_text": "A alimentação na Roma Antiga não incluía mantimentos originados da América e da Ásia para a Europa, assim como aconteceu nos séculos posteriores.",
+   "english_ref": "Ancient Roman meals couldn't have included foods that came to Europe from America or from Asia in later centuries.",
+   "t1_text": "Food in ancient Rome did not include groceries originating from the Americas and Asia to Europe, as happened in subsequent centuries.",
+   "t2_text": "Food in Ancient Rome did not include groceries originating from the Americas and Asia to Europe, as happened in subsequent centuries.",
+   "failed_fact": {
+    "type": "name_place",
+    "text": "Roman",
+    "in_t1": false,
+    "fuzzy": false
+   },
+   "state": "translation_baseline_break",
+   "judge": "same",
+   "emb": 0.9629,
+   "detected_lang": "por",
+   "lang_correct": true
+  },
+  {
+   "clip_id": "es_419_1551",
+   "language": "Spanish",
+   "audio_path": "audio/es_419/es_419_1551.flac",
+   "source_text": "Aún intentan establecer cuán importante fue el impacto y de qué modo afectará al planeta.",
+   "asr_text": "Aún intentan establecer cuán importante fue el impacto y de qué modo afectará al planeta",
+   "english_ref": "They are still trying to determine just how large the crash was and how the Earth will be affected.",
+   "t1_text": "They are still trying to establish how significant the impact was and in what way it will affect the planet.",
+   "t2_text": "They are still trying to establish how significant the impact was and in what way it will affect the planet",
+   "failed_fact": {
+    "type": "name_place",
+    "text": "Earth",
+    "in_t1": false,
+    "fuzzy": false
+   },
+   "state": "translation_baseline_break",
+   "judge": "same",
+   "emb": 0.9661,
+   "detected_lang": "spa",
+   "lang_correct": true
+  },
+  {
+   "clip_id": "es_419_1581",
+   "language": "Spanish",
+   "audio_path": "audio/es_419/es_419_1581.flac",
+   "source_text": "Además, el Amazonas es el río más ancho del planeta, en algunos puntos con una amplitud de hasta seis millas.",
+   "asr_text": "Además, el Amazonas es el río más ancho del planeta, en algunos puntos con una amplitud de hasta seis millas.",
+   "english_ref": "The Amazon is also the widest river on Earth, at times six miles wide.",
+   "t1_text": "In addition, the Amazon is the widest river on the planet, in some spots with a width of up to six miles.",
+   "t2_text": "In addition, the Amazon is the widest river on the planet, in some spots with a width of up to six miles.",
+   "failed_fact": {
+    "type": "name_place",
+    "text": "Earth",
+    "in_t1": false,
+    "fuzzy": false
+   },
+   "state": "translation_baseline_break",
+   "judge": "same",
+   "emb": 0.9731,
+   "detected_lang": "spa",
+   "lang_correct": true
+  },
+  {
+   "clip_id": "es_419_1622",
+   "language": "Spanish",
+   "audio_path": "audio/es_419/es_419_1622.flac",
+   "source_text": "George W. Bush, presidente de los Estados Unidos, recibió con gusto el anuncio.",
+   "asr_text": "George W. Bush, presidente de los Estados Unidos, recibió con gusto el anuncio",
+   "english_ref": "U.S. President George W. Bush welcomed the announcement.",
+   "t1_text": "George W. Bush, president of the United States, welcomed the announcement.",
+   "t2_text": "George W. Bush, president of the United States, welcomed the announcement",
+   "failed_fact": {
+    "type": "name_place",
+    "text": "US President George Bush",
+    "in_t1": false,
+    "fuzzy": false
+   },
+   "state": "translation_baseline_break",
+   "judge": "same",
+   "emb": 0.9935,
+   "detected_lang": "spa",
+   "lang_correct": true
+  },
+  {
+   "clip_id": "fil_ph_1581",
+   "language": "Tagalog",
+   "audio_path": "audio/fil_ph/fil_ph_1581.flac",
+   "source_text": "Pinakamalawak na ilog din sa Mundo ang Amazon, na kung minsan ay anim na milya ang lawak.",
+   "asr_text": "Pinakamalawak na ilog din sa mundo ang Amazon, na kung minsan ay anim na milya ang lawak.",
+   "english_ref": "The Amazon is also the widest river on Earth, at times six miles wide.",
+   "t1_text": "The Amazon is also the widest river in the World, which is sometimes six miles wide.",
+   "t2_text": "The Amazon is also the widest river in the world, which is sometimes six miles wide.",
+   "failed_fact": {
+    "type": "name_place",
+    "text": "Earth",
+    "in_t1": false,
+    "fuzzy": false
+   },
+   "state": "translation_baseline_break",
+   "judge": "same",
+   "emb": 0.9852,
+   "detected_lang": "fil",
+   "lang_correct": true
+  },
+  {
+   "clip_id": "ta_in_1553",
+   "language": "Tamil",
+   "audio_path": "audio/ta_in/ta_in_1553.flac",
+   "source_text": "கிறிஸ்துமஸ் என்பது கிறிஸ்துவர்களின் மிக முக்கிய விடுமுறை நாளாகும், இது யேசுநாதரின் பிறந்த நாளாக கொண்டாடப்படுகிறது.",
+   "asr_text": "கிறிஸ்துமஸ் என்பது கிறிஸ்துவமார்களின் மிக முக்கிய விடுமுறை நாளாகும். இது ஏசுநாதரின் பிறந்த நாளாக கொண்டாடப்படுகிறது.",
+   "english_ref": "Christmas is one of the most important holidays of Christianity, and is celebrated as the birthday of Jesus.",
+   "t1_text": "Christmas is the most important holiday for Christians, it is celebrated as the birthday of Jesus Christ.",
+   "t2_text": "Christmas is the most important holiday for Christians. It is celebrated as the birthday of Jesus Christ.",
+   "failed_fact": {
+    "type": "name_place",
+    "text": "Christianity",
+    "in_t1": false,
+    "fuzzy": false
+   },
+   "state": "translation_baseline_break",
+   "judge": "minor",
+   "emb": 0.9857,
+   "detected_lang": "tam",
+   "lang_correct": true
+  },
+  {
+   "clip_id": "ta_in_1641",
+   "language": "Tamil",
+   "audio_path": "audio/ta_in/ta_in_1641.flac",
+   "source_text": "அந்தக் காடுகள் வெறும் சதுப்பு நிலக் காடுகள் மட்டுமல்ல, அவற்றில் ஒரு காலத்தில் கங்கை நதி சமவெளியில் இருந்த அடர்ந்த காடுகளின் ஒரு இறுதியாக நிற்கும் ஒரு பகுதியும் உள்ளது.",
+   "asr_text": "அந்தக் காடுகள் வெறும் சதுப்பு நிலக் காடுகள் மட்டுமல்ல. அவற்றில் ஒரு காலத்தில் கங்கை நதி சமவெளியில் இருந்த அடர்ந்த காடுகளின் ஒரு இறுதியாக நிற்கும் ஒரு பகுதியும் உள்ளது.",
+   "english_ref": "The forests aren't just mangrove swamps though — they include some of the last remaining stands of the mighty jungles which once covered the Gangetic plain.",
+   "t1_text": "Those forests are not just mangrove swamps, they also contain a final standing part of the dense forests that once existed on the Ganges River plain.",
+   "t2_text": "Those forests are not just mangrove swamps. They also contain a final standing part of the dense forests that once existed on the Ganges River plain.",
+   "failed_fact": {
+    "type": "name_place",
+    "text": "Gangetic",
+    "in_t1": false,
+    "fuzzy": false
+   },
+   "state": "translation_baseline_break",
+   "judge": "same",
+   "emb": 0.9641,
+   "detected_lang": "tam",
+   "lang_correct": true
+  }
+ ],
+ "embedding_spread": {
+  "share_ge_0.90": 0.9938,
+  "min": 0.8446
+ },
+ "false_comfort_by_state": {
+  "translation_baseline_break": 17,
+  "asr_associated_break": 3
+ },
+ "definition": "false_comfort_rate = clips where the meaning signal passed but a critical fact was lost / clips with at least one fact"
+}

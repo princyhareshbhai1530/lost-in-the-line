@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "美国总统乔治·W·布希对此宣告事項表示支持。",
+ "english": "U.S. President George W. Bush expressed support for this declaration matter.",
+ "clip": "yue_hant_hk_1622",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 42
+}

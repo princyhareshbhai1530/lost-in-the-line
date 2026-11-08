@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Tám mươi phần trăm hàng hóa của chúng ta bị đánh thuế thông qua thuế xuất nhập khẩu tại các nước Trung Mỹ. chúng tôi đối xử với bạn.",
+ "english": "Eighty percent of our goods are taxed through import-export tariffs in Central American countries. we treat you.",
+ "clip": "vi_vn_1566",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

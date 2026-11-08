@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "તરત જ રમખાણ સમયે પહેરાતા સાધનોથી સજ્જ અધિકારીઓએ પ્રાંગણમાં પ્રવેશ કર્યો અને કેદીઓ પર અશ્રુ વાયુનો મારો કરીને ખૂણામાં ધકેલી દીધા.",
+ "english": "Immediately officers equipped with gear worn during riots entered the courtyard and cornered the prisoners by firing tear gas at them.",
+ "clip": "gu_in_1511",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

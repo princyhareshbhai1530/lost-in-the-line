@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "لم يبدُ لي ذلك منطقياً؛ بالتأكيد لم يكن عادلاً.",
+ "english": "That didn't make sense to me; it certainly wasn't fair.",
+ "clip": "ar_eg_1577",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

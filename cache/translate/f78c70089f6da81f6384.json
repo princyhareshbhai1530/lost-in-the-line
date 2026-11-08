@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "مجھے معلوم نہیں آیا آپ نے محسوس کیا یا نہیں، اس ملک میں سینٹرل امریکہ سے آئی زیادہ تر اشیاء ڈیوٹی فری ہیں۔",
+ "english": "I don't know whether you noticed or not, most goods coming to this country from Central America are duty-free.",
+ "clip": "ur_pk_1654",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

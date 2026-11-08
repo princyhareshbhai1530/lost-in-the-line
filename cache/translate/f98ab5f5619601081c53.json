@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "செவ்வாயன்று அது குறைக்கப்பட இருந்தது, ஆனால் ஒரு அவசர நீதிமன்ற தீர்ப்பிற்குப் பின்னர் காப்பாற்றப்பட்டது.",
+ "english": "It was scheduled to be cut down on Tuesday, but was saved after an emergency court ruling.",
+ "clip": "ta_in_1530",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

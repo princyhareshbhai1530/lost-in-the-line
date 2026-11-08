@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "Los puntos de vista que se presentan suelen ser superficiales, genéricos y demasiado simplificados en comparación con la información más detallada disponible en otros sitios",
+ "english": "The viewpoints presented are usually superficial, generic, and oversimplified compared to the more detailed information available on other sites",
+ "clip": "es_419_1647",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

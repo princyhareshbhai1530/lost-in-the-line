@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "A ciência aponta hoje que essa economia baseada no carbono deslocou a biosfera do estado estável que havia permitido a evolução humana ao longo dos últimos dois milhões de anos.",
+ "english": "Science today points out that this carbon-based economy displaced the biosphere from the stable state that had enabled human evolution over the course of the last two million years.",
+ "clip": "pt_br_1616",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

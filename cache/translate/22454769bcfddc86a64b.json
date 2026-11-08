@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "हम पर्यावरण के साथ ज्यादा दोस्ताना तरीके से रहना शुरू कर सकते हैं। इसके लिए पर्यावरण आंदोलन में शामिल हो सकते हैं और हम भविष्य को कुछ हद तक कष्ट से बचाने के लिए पर्यावरण कार्यकर्ता भी बन सकते हैं।",
+ "english": "We can start living in a more environment-friendly way. For this we can join the environmental movement and we can also become environmental activists to save the future from some degree of suffering.",
+ "clip": "hi_in_1635",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

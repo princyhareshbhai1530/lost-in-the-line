@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tagalog",
+ "source_text": "Sa bakuran ng simbahan, mayroong mga kawili-wiling marmol na eskultura ng mga kalapati sa ibabaw ng ilang puntod.",
+ "english": "In the churchyard, there are interesting marble sculptures of doves on top of some graves.",
+ "clip": "fil_ph_1555",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

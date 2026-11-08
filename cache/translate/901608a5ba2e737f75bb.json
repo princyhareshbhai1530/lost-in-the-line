@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Vietnamese",
+ "source_text": "Các yếu tố xác định văn hóa vùng miền khác biệt nhau có thể là ngôn ngữ, thẩm mỹ, tôn giáo, chính trị, tình dục, địa lý hoặc sự kết hợp của các yếu tố này.",
+ "english": "The factors defining distinct regional cultures can be language, aesthetics, religion, politics, sexuality, geography, or a combination of these factors.",
+ "clip": "vi_vn_1589",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

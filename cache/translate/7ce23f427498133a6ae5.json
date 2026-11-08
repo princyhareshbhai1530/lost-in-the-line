@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "我不知道你有没有意识到，从中美洲进口到这个国家的大部分货物都是免关税的。",
+ "english": "I don't know if you realize it, but most goods imported into this country from Central America are tariff-free.",
+ "clip": "cmn_hans_cn_1654",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "\"હું મારી બહેન અને તેની સખીને ગુમાવી બેઠો અને મારા રસ્તામાં બે અપંગ વ્યક્તિઓ વ્હીલચૅરમાં બેઠેલી હતી, લોકો કૂદીને જતા હતા અને તેમને ધક્કો મારતા હતાં,\"\" આર્મન્ડ વર્સાચીએ કહ્યું.\"",
+ "english": "\"\"I lost my sister and her friend and in my path two disabled persons were sitting in wheelchairs, people were jumping over and pushing them,\"\" Armand Versace said.\"",
+ "clip": "gu_in_1608",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

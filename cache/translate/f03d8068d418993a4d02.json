@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "सर्दी का मौसम भ्रामक तौर से ठंडा हो सकता है: तापमान शायद ही कभी बर्फीला हो, लेकिन हवा और नमी के गठबंधन से थर्मामीटर के तापमान से अधिक ठंड महसूस हो सकती है।",
+ "english": "The winter season can be deceptively cold: the temperature is rarely freezing, but the combination of wind and moisture can make it feel colder than the thermometer's temperature.",
+ "clip": "hi_in_1574",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,7 @@
+{
+ "label": "minor",
+ "score": 75,
+ "reason": "Missing comma before 'almost instantly'.",
+ "model": "gemini-2.5-flash",
+ "batched": true
+}

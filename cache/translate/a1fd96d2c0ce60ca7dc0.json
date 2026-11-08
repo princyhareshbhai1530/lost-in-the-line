@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "该报告开篇呼吁美国就中东政策展开公开辩论并形成共识。",
+ "english": "The report opens with a call for the United States to launch an open debate and form a consensus on Middle East policy.",
+ "clip": "cmn_hans_cn_1569",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

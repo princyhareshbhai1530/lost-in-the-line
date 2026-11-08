@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "ખ્રિસ્તી ધર્મ માટે નાતાલ એ સૌથી મહત્વપૂર્ણ રાજાઓમાંની એક છે, અને એ ઈસુનો જન્મદિવસ તરીકે ઉજવવામાં આવે છે.",
+ "english": "For Christianity, Christmas is one of the most important kings, and it is celebrated as Jesus' birthday.",
+ "clip": "gu_in_1553",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Hindi",
+ "source_text": "सफ़ारी शायद अफ्रीका में सबसे बड़े पर्यटन केंद्र हैं और ये कई आगंतुकों को आकर्षित करते है.",
+ "english": "Safaris are perhaps the biggest tourism centers in Africa and they attract many visitors.",
+ "clip": "hi_in_1638",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

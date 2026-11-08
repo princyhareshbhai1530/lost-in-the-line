@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Przykładowe zajęcia na miejscu to polowanie, wędkarstwo, fotografia, obserwacja ptaków, a także wizyty w parkach i zbieranie informacji o ekosystemie.",
+ "english": "Example on-site activities are hunting, fishing, photography, bird watching, as well as visits to parks and collecting information about the ecosystem.",
+ "clip": "pl_pl_1600",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

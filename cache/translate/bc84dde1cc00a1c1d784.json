@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "ربما تكون الصفات التي تحدد تميز ثقافة فرعية هي لغوية أو جمالية أو دينية أو سياسية أو جنسية أو جغرافية أو مجموعة من العوامل.",
+ "english": "The qualities that define the uniqueness of a subculture may be linguistic or aesthetic or religious or political or sexual or geographic or a combination of factors.",
+ "clip": "ar_eg_1589",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

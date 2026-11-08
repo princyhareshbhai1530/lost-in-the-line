@@ -1,0 +1,9 @@
+{
+ "model": "gemini-2.5-flash",
+ "language": "Tagalog",
+ "source_text": "Nakatakda na itong putulin sa Martes, ngunit nailigtas matapos ang madaliang pagpapasya sa korte.",
+ "english": "It was scheduled to be cut off on Tuesday, but was saved after an urgent court decision.",
+ "clip": "fil_ph_1530",
+ "source": "true",
+ "batched": true
+}

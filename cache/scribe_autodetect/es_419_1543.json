@@ -1,0 +1,9 @@
+{
+ "language_code": "spa",
+ "language_probability": 0.9679197072982788,
+ "text": "El paciente había estado en Nigeria, donde hubo algunos casos de ébola",
+ "transcription_id": "GpvIrzEpdIobcByAGuJ6",
+ "audio_duration_secs": 6.54,
+ "model": "scribe_v2",
+ "language_given": null
+}

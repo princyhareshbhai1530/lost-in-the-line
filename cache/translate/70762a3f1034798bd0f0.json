@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "આ મોસમમાં રોગનો પ્રથમ કિસ્સો જૂલાઈના અંતમાં નોંધાયો હતો.",
+ "english": "The first case of the disease this season was recorded in late July.",
+ "clip": "gu_in_1587",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

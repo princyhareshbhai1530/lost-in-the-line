@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Gujarati",
+ "source_text": "દર્દી નાઈજીરિયામાં રહ્યો હતો, જ્યાં ઇબોલા વાયરસના થોડા કિસ્સાઓ ઉદભવ્યા હતા.",
+ "english": "The patient had stayed in Nigeria, where a few cases of Ebola virus had emerged.",
+ "clip": "gu_in_1543",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Mandarin Chinese",
+ "source_text": "很快，配备了防爆装备的警察进入了院子，并用催泪瓦斯将囚犯逼得走投无路。",
+ "english": "Soon, police equipped with riot gear entered the yard and cornered the prisoners with tear gas.",
+ "clip": "cmn_hans_cn_1511",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

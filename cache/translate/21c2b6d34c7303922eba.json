@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Tamil",
+ "source_text": "இந்த மாபெரும் கார்பன் பொருளாதாரம் கடந்த இரண்டு மில்லியன் ஆண்டுகளாக மனிதப் பரிணாமத்தை ஆதரித்த அதன் நிலையான நிலைகளில் ஒன்றில் இருந்து உயிர்கோளத்தை விலக்கிவிட்டது என்பதை விஞ்ஞானம் இப்போது சுட்டிக்காட்டுகிறது.",
+ "english": "Science now points out that this massive carbon economy has displaced the biosphere from one of its stable states that supported human evolution over the past two million years.",
+ "clip": "ta_in_1616",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਰਿਪੋਰਟ ਖੁੱਲ੍ਹੀ ਬਹਿਸ ਅਤੇ ਸੰਯੁਕਤ ਰਾਸ਼ਟਰ ਵਿੱਚ ਮੱਧ ਪੂਰਬ ਪ੍ਰਤੀ ਨੀਤੀ ਲਈ ਸਹਿਮਤੀ ਨਿਰਮਾਣ ਦੀ ਅਪੀਲ ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ।",
+ "english": "The report begins with an appeal for open debate and consensus building toward Middle East policy in the United Nations.",
+ "clip": "pa_in_1569",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

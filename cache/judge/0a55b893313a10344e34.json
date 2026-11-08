@@ -1,0 +1,10 @@
+{
+ "label": "minor",
+ "score": 75,
+ "reason": "First cases translated as first report of illness.",
+ "model": "gemini-3.8-flash",
+ "prompt_version": 2,
+ "settings": "tlminimal",
+ "batched": true,
+ "batch_size": 250
+}

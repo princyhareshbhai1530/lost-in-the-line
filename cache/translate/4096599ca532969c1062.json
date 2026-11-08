@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Portuguese",
+ "source_text": "Muitos formatos comuns (a família APS de formatos, por exemplo) são iguais ou se aproximam muito dessa proporção.",
+ "english": "Many common formats (the APS family of formats, for example) are equal to or come very close to this aspect ratio.",
+ "clip": "pt_br_1533",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

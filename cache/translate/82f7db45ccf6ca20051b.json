@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "جیسے ہی تم دھارے سے نکل آؤگے ویسے ہی تیراکی حسبِ معمول آسان نہیں ہو جائے گی۔",
+ "english": "As soon as you emerge from the current, swimming will not become as easy as usual.",
+ "clip": "ur_pk_1560",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

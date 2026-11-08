@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Chwilę później funkcjonariusze w rynsztunku bojowym wkroczyli na dziedziniec i okrążyli więźniów, używając przy tym gazu łzawiącego.",
+ "english": "A moment later, officers in riot gear entered the courtyard and surrounded the prisoners, using tear gas in the process.",
+ "clip": "pl_pl_1511",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

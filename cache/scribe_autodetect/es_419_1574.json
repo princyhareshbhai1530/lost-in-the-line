@@ -1,0 +1,9 @@
+{
+ "language_code": "spa",
+ "language_probability": 0.989510715007782,
+ "text": "El frío invernal puede ser engañoso. Si bien es muy raro que las temperaturas sean inferiores al punto de congelación, el viento y la humedad interactúan para s-- hacer que se perciba más frío del que señala el termómetro.",
+ "transcription_id": "dacYZKhlu8asOfIWHGFI",
+ "audio_duration_secs": 15.0,
+ "model": "scribe_v2",
+ "language_given": null
+}

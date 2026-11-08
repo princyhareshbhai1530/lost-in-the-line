@@ -1,0 +1,9 @@
+{
+ "language_code": "yue",
+ "language_probability": 1.0,
+ "text": "太空中的人造卫星接收到讯号，并在瞬间将讯号反射回地球。",
+ "transcription_id": "TpPPWl2Gb4KkjpYDm6aj",
+ "audio_duration_secs": 11.64,
+ "model": "scribe_v2",
+ "language_given": "yue"
+}

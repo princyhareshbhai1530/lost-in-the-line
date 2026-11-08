@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Punjabi",
+ "source_text": "ਮਹਾਂਦੀਪ ਤੋਂ ਲੰਬੀ ਦੂਰੀ ਹੋਣ ਦੇ ਕਾਰਨ, ਹੰਧਾਰੀ ਜੀਵ ਯਾਤਰਾ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ ਸਨ। ਇਸ ਯਾਤਰਾ ਨੇ ਗਿਆਲਾ ਪਹੇਰੇ ਵਿੱਚ ਮੁੱਖ ਤੌਰ 'ਤੇ ਚਰਣ ਵਾਲੇ ਜਾਨਵਰਾਂ ਨੂੰ ਬਹੁਤ ਸੁਸਤ ਬਣਾ ਦਿੱਤਾ।",
+ "english": "Due to the long distance from the continent, mammals were unable to travel. This journey made the mainly grazing animals in Galapagos very sluggish.",
+ "clip": "pa_in_1605",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 42
+}

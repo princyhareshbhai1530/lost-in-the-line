@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Cantonese",
+ "source_text": "在教堂的院落中，一些墓碑上有一些有趣的鴿子大理石雕像。",
+ "english": "In the church courtyard, some tombstones feature interesting marble statues of doves.",
+ "clip": "yue_hant_hk_1555",
+ "source": "true",
+ "batched": true,
+ "batch_size": 110
+}

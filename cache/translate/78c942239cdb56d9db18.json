@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Arabic",
+ "source_text": "بمرور الوقت بينما يبدأ السكان الجدد في التكيف مع بيئتهم الجديدة، يقل تشابههم مع السكان الآخرين تدريجيًا.",
+ "english": "Over time as the new population begins to adapt to their new environment, they gradually become less similar to the other populations.",
+ "clip": "ar_eg_1585",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 200
+}

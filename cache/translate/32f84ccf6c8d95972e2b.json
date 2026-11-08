@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Spanish",
+ "source_text": "Su tala se había programado para el día martes, pero fue salvado después de un fallo judicial de emergencia.",
+ "english": "Its felling had been scheduled for Tuesday, but it was saved after an emergency court ruling.",
+ "clip": "es_419_1530",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

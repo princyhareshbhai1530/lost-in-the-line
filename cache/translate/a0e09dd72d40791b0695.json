@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Polish",
+ "source_text": "Amerykański prezydent George W. Bush wyraził zadowolenie w związku z tym oświadczeniem.",
+ "english": "American President George W. Bush expressed satisfaction in connection with this statement.",
+ "clip": "pl_pl_1622",
+ "source": "true",
+ "batched": true,
+ "batch_size": 200
+}

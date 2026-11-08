@@ -1,0 +1,11 @@
+{
+ "model": "gemini-3.8-flash",
+ "settings": "tlminimal",
+ "language": "Urdu",
+ "source_text": "قدیم یونان کی دسترخوان پر وہ غذائیں شامل ہو نہیں سکتی تھیں جو بعد کے صدیوں میں امریکہ سے یورپ میں یا ایشیا سے آئیں۔",
+ "english": "The dining table of ancient Greece could not include those foods that came from the Americas to Europe or from Asia in later centuries.",
+ "clip": "ur_pk_1627",
+ "source": "heard",
+ "batched": true,
+ "batch_size": 42
+}
